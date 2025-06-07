@@ -1,0 +1,214 @@
+.tabs {
+  display: flex;
+  font-size: var(--font-size-button-sm);
+  width: 100%;
+}
+
+.tabs.vertical {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--unit-10);
+}
+
+.tabs.horizontal {
+  flex-direction: column;
+  gap: var(--unit-6);
+}
+
+.tabs.vertical .menu {
+  display: flex;
+  flex-direction: column;
+  border-right: calc(var(--unit-1) / 2) solid var(--border-subdued);
+  width: 25%;
+}
+
+.tabs.vertical .menu.full-border {
+  border: calc(var(--unit-1) / 2) solid var(--border-subdued);
+  padding: var(--unit-3);
+  gap: var(--unit-3);
+  border-radius: var(--unit-2);
+  height: fit-content;
+}
+
+.tabs.vertical .content {
+  width: 75%;
+}
+
+.tabs .menu {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.tabs .menu .active-line {
+  position: absolute;
+  background-color: var(--action-hovered);
+}
+
+.tabs.horizontal .menu .active-line {
+  bottom: 0;
+  height: var(--unit-1);
+}
+
+.tabs.vertical .menu .active-line {
+  right: 0;
+  width: var(--unit-1);
+}
+
+.tabs .menu .item {
+  display: flex;
+  padding: var(--unit-5);
+  text-decoration: none;
+  color: var(--text-default);
+  gap: var(--unit-3);
+  border-radius: var(--unit-2);
+}
+
+.tabs .menu .item .medsos {
+  width: var(--unit-11);
+  height: var(--unit-11);
+  border-radius: var(--rounded-full);
+  background-color: var(--surface-subdued);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.tabs .menu .item .medsos img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.tabs .menu .item:hover {
+  color: var(--action-hovered);
+  background: var(--surface-subdued);
+}
+
+.tabs.vertical .menu .item.active {
+  color: var(--text-inverse);
+  font-weight: var(--font-weight-bold);
+  background-color: var(--blue-60);
+}
+
+.tabs.vertical .menu .item.active .medsos,
+.tabs.vertical .menu .item:hover .medsos {
+  background-color: var(--white);
+}
+
+.tabs.horizontal .menu .item.active {
+  color: var(--action-hovered);
+  font-weight: var(--font-weight-bold);
+}
+
+.tabs .content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--unit-4);
+}
+
+.tabs .content .item {
+  display: none;
+}
+
+.tabs.horizontal .menu {
+  display: flex;
+  flex-direction: row;
+  border-bottom: calc(var(--unit-1) / 2) solid var(--border-subdued);
+}
+
+.tabs.horizontal.full .menu .item {
+  justify-content: center;
+  width: 100%;
+}
+
+.tabs .menu .icon:before {
+  color: inherit;
+  position: relative;
+  top: var(--unit-1);
+}
+
+.tabs .menu {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.tabs .menu::-webkit-scrollbar {
+  display: none;
+}
+
+.tabs .scroll-indicator {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: var(--unit-10);
+  background: linear-gradient(
+    to right,
+    var(--white) 50%,
+    var(--transparent) 100%
+  );
+  pointer-events: none;
+  z-index: 1;
+  transform: scaleX(0);
+}
+.tabs .scroll-indicator:before {
+  content: "";
+  transform: scaleX(5);
+  position: absolute;
+  color: var(--text-subdued);
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  align-items: center;
+  height: inherit;
+  width: var(--unit-7);
+  font-family: var(--font-family-icons);
+  font-size: var(--unit-6);
+  font-weight: var(--font-weight-regular);
+  overflow: hidden;
+  margin: calc(var(--unit-1) * -1);
+  padding: var(--unit-1);
+}
+.tabs .scroll-left {
+  transform-origin: left;
+  left: calc(var(--site-padding) * -1);
+}
+.tabs .scroll-right {
+  transform-origin: right;
+  right: calc(var(--site-padding) * -1);
+  background: linear-gradient(
+    to left,
+    var(--white) 50%,
+    var(--transparent) 100%
+  );
+}
+.tabs .scroll-left:before {
+  content: "keyboard_arrow_left";
+  left: 0;
+}
+.tabs .scroll-right:before {
+  content: "keyboard_arrow_right";
+  right: 0;
+}
+.tabs .scroll-left.shown {
+  transform: scaleX(1);
+}
+.tabs .scroll-right.shown {
+  transform: scaleX(1);
+}
+.tabs .scroll-left.shown:before {
+  transform: scaleX(1);
+}
+.tabs .scroll-right.shown:before {
+  transform: scaleX(1);
+}
+.social-embed {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+iframe,
+blockquote {
+  width: 100%;
+}

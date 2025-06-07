@@ -1,0 +1,17 @@
+/* BREAKPOINT MOBILE */
+@media (max-width: 768px) {
+  .section,
+  .container {
+    padding-top: var(--unit-9);
+    padding-bottom: var(--unit-9);
+  }
+  .container.hero {
+    height: 100%;
+  }
+  .container.hero .wrapper {
+    flex-direction: column;
+  }
+  .container.hero .wrapper div {
+    width: 100% !important;
+  }
+}

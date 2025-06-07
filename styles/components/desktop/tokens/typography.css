@@ -1,0 +1,193 @@
+.helper {
+  font-family: var(--font-family-helper) !important;
+  font-size: var(--font-size-helper) !important;
+  line-height: var(--line-height-helper) !important;
+  font-weight: var(--font-weight-helper) !important;
+}
+.body-sm {
+  font-family: var(--font-family-body-sm) !important;
+  font-size: var(--font-size-body-sm) !important;
+  line-height: var(--line-height-body-sm) !important;
+  font-weight: var(--font-weight-body-sm) !important;
+}
+.body {
+  font-family: var(--font-family-body) !important;
+  font-size: var(--font-size-body) !important;
+  line-height: var(--line-height-body) !important;
+  font-weight: var(--font-weight-body) !important;
+}
+.body-lg {
+  font-family: var(--font-family-body-lg) !important;
+  font-size: var(--font-size-body-lg) !important;
+  line-height: var(--line-height-body-lg) !important;
+  font-weight: var(--font-weight-body-lg) !important;
+}
+.action {
+  font-family: var(--font-family-action) !important;
+  font-size: var(--font-size-action) !important;
+  line-height: var(--line-height-action) !important;
+  font-weight: var(--font-weight-action) !important;
+}
+.subheading {
+  font-family: var(--font-family-subheading) !important;
+  font-size: var(--font-size-subheading) !important;
+  line-height: var(--line-height-subheading) !important;
+  font-weight: var(--font-weight-subheading) !important;
+  letter-spacing: 0.5px !important;
+  text-transform: uppercase !important;
+}
+.heading-sm {
+  font-family: var(--font-family-heading-sm) !important;
+  font-size: var(--font-size-heading-sm) !important;
+  line-height: var(--line-height-heading-sm) !important;
+  font-weight: var(--font-weight-heading-sm) !important;
+}
+.heading-md {
+  font-family: var(--font-family-heading-md) !important;
+  font-size: var(--font-size-heading-md) !important;
+  line-height: var(--line-height-heading-md) !important;
+  font-weight: var(--font-weight-heading-md) !important;
+}
+.heading-lg {
+  font-family: var(--font-family-heading-lg) !important;
+  font-size: var(--font-size-heading-lg) !important;
+  line-height: var(--line-height-heading-lg) !important;
+  font-weight: var(--font-weight-heading-lg) !important;
+}
+.eyebrow-sm {
+  font-family: var(--font-family-eyebrow-sm) !important;
+  font-size: var(--font-size-eyebrow-sm) !important;
+  line-height: var(--line-height-eyebrow-sm) !important;
+  font-weight: var(--font-weight-eyebrow-sm) !important;
+}
+.eyebrow-md {
+  font-family: var(--font-family-eyebrow-md) !important;
+  font-size: var(--font-size-eyebrow-md) !important;
+  line-height: var(--line-height-eyebrow-md) !important;
+  font-weight: var(--font-weight-eyebrow-md) !important;
+}
+.eyebrow-lg {
+  font-family: var(--font-family-eyebrow-lg) !important;
+  font-size: var(--font-size-eyebrow-lg) !important;
+  line-height: var(--line-height-eyebrow-lg) !important;
+  font-weight: var(--font-weight-eyebrow-lg) !important;
+}
+.display-sm {
+  font-family: var(--font-family-display-sm) !important;
+  font-size: var(--font-size-display-sm) !important;
+  line-height: var(--line-height-display-sm) !important;
+  font-weight: var(--font-weight-display-sm) !important;
+}
+.display-md {
+  font-family: var(--font-family-display-md) !important;
+  font-size: var(--font-size-display-md) !important;
+  line-height: var(--line-height-display-md) !important;
+  font-weight: var(--font-weight-display-md) !important;
+}
+.display-lg {
+  font-family: var(--font-family-display-lg) !important;
+  font-size: var(--font-size-display-lg) !important;
+  line-height: var(--line-height-display-lg) !important;
+  font-weight: var(--font-weight-display-lg) !important;
+}
+.headline-xs {
+  font-family: var(--font-family-headline-xs) !important;
+  font-size: var(--font-size-headline-xs) !important;
+  line-height: var(--line-height-headline-xs) !important;
+  font-weight: var(--font-weight-headline-xs) !important;
+}
+.headline-sm {
+  font-family: var(--font-family-headline-sm) !important;
+  font-size: var(--font-size-headline-sm) !important;
+  line-height: var(--line-height-headline-sm) !important;
+  font-weight: var(--font-weight-headline-sm) !important;
+}
+.headline-md {
+  font-family: var(--font-family-headline-md) !important;
+  font-size: var(--font-size-headline-md) !important;
+  line-height: var(--line-height-headline-md) !important;
+  font-weight: var(--font-weight-headline-md) !important;
+}
+.headline-lg {
+  font-family: var(--font-family-headline-lg) !important;
+  font-size: var(--font-size-headline-lg) !important;
+  line-height: var(--line-height-headline-lg) !important;
+  font-weight: var(--font-weight-headline-lg) !important;
+}
+
+.helper.bold {
+  font-weight: var(--font-weight-bold-helper) !important;
+}
+.body-sm.bold {
+  font-weight: var(--font-weight-bold-body-sm) !important;
+}
+.body.bold {
+  font-weight: var(--font-weight-bold-body) !important;
+}
+.body-lg.bold {
+  font-weight: var(--font-weight-bold-body-lg) !important;
+}
+.action.bold {
+  font-weight: var(--font-weight-bold-action) !important;
+}
+.subheading.bold {
+  font-weight: var(--font-weight-bold-subheading) !important;
+}
+.heading-sm.bold {
+  font-weight: var(--font-weight-bold-heading-sm) !important;
+}
+.heading-md.bold {
+  font-weight: var(--font-weight-bold-heading-md) !important;
+}
+.heading-lg.bold {
+  font-weight: var(--font-weight-bold-heading-lg) !important;
+}
+.eyebrow-sm.bold {
+  font-weight: var(--font-weight-bold-eyebrow-sm) !important;
+}
+.eyebrow-md.bold {
+  font-weight: var(--font-weight-bold-eyebrow-md) !important;
+}
+.eyebrow-lg.bold {
+  font-weight: var(--font-weight-bold-eyebrow-lg) !important;
+}
+.display-sm.bold {
+  font-weight: var(--font-weight-bold-display-sm) !important;
+}
+.display-md.bold {
+  font-weight: var(--font-weight-bold-display-md) !important;
+}
+.display-lg.bold {
+  font-weight: var(--font-weight-bold-display-lg) !important;
+}
+.headline-xs.bold {
+  font-weight: var(--font-weight-bold-headline-xs) !important;
+}
+.headline-sm.bold {
+  font-weight: var(--font-weight-bold-headline-sm) !important;
+}
+.headline-md.bold {
+  font-weight: var(--font-weight-bold-headline-md) !important;
+}
+.headline-lg.bold {
+  font-weight: var(--font-weight-bold-headline-lg) !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+.text-center {
+  text-align: center !important;
+}
+.text-right {
+  text-align: right !important;
+}
+.text-justify {
+  text-align: justify !important;
+}
+.text-start {
+  text-align: start !important;
+}
+.text-end {
+  text-align: end !important;
+}

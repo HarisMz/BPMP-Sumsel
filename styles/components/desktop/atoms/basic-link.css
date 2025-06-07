@@ -1,0 +1,38 @@
+.link {
+	color: var(--interactive-default);
+	text-decoration-line: underline;
+    padding: var(--unit-1);
+    margin: calc(var(--unit-1) * -1);
+}
+
+.link:hover {
+	text-decoration-line: none;
+}
+
+.link:focus {
+	outline: var(--unit-1) solid var(--interactive-focused);
+	outline-offset: var(--unit-0);
+	border-radius: var(--rounded-4);
+}
+
+.link:disabled, .link.disabled {
+	color: var(--text-disabled) !important;
+	text-decoration-line: none !important;
+	pointer-events: none;
+}
+
+.link.secondary {
+	color: var(--text-default);
+}
+
+.link.inverse {
+	color: var(--text-inverse);
+}
+
+.link.noline {
+	text-decoration-line: none;
+}
+
+.noline:hover {
+	text-decoration-line: underline;
+}

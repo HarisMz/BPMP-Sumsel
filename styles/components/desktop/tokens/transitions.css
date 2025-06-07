@@ -1,0 +1,157 @@
+input, textarea {
+	transition: all var(--transition-medium) ease;
+}
+.button, button,
+button.stepper-button:before {
+	transition: all var(--transition-medium) ease;
+}
+.list, .list-item {
+	transition: all var(--transition-fast) ease;
+}
+
+.header .menu > .item,
+.header .menu > .item.dropdown:after,
+.header .menu > .item > a {
+    color: var(--text-default);
+	text-decoration: none;
+	transition: all var(--transition-fast) ease;
+}
+header,
+.header {
+	transition: all var(--transition-medium) ease;
+}
+.header .menu {
+	transition: top var(--transition-medium) ease, max-height var(--transition-medium) ease;
+}
+.header .logo {
+	transition: all var(--transition-fast) ease;
+}
+.header .mobile-menu,
+.header .mobile-menu.open {
+	transition: all var(--transition-medium) ease;
+}
+.header .menu .item.dropdown > .dropdown-wrapper,
+.header .menu .item.dropdown > .dropdown-wrapper .dropdown-wrapper {
+	transition: all var(--transition-fast) ease;
+}
+.header .menu .list-item.dropdown {
+	transition: all var(--transition-fast) ease;
+}
+
+.select,
+.select * {
+	transition: all var(--transition-medium) ease;
+}
+.select .selector {
+	transition: all var(--transition-medium) ease, border-radius 0s var(--transition-medium);
+}
+.select.open .selector {
+	transition: all var(--transition-medium) ease, border-radius 0s;
+}
+.select .options {
+	transition: none;
+}
+.select .option {
+	transition: all var(--transition-fast) ease;
+}
+
+.checkbox,
+.checkbox .mark,
+.checkbox .mark:after,
+.radio,
+.radio .mark,
+.radio .mark:after,
+.switch,
+.switch .mark,
+.switch .mark:before,
+.switch .mark:after {
+	transition: all var(--transition-medium) ease;
+}
+
+.overlay .wrapper .dialog,
+.overlay .wrapper .popup {
+	transition: all var(--transition-fast) ease;
+}
+.overlay .wrapper .dialog.open,
+.overlay .wrapper .popup.open {
+	transition: all var(--transition-fast) ease var(--transition-fast);
+}
+.overlay .wrapper .dialog #close:after,
+.overlay .wrapper .popup #close:after {
+	transition: all var(--transition-fast) ease;
+}
+
+.banner {
+	transition: transform var(--transition-medium) ease;
+}
+
+.tabs .menu .item {
+	transition: all var(--transition-medium) ease;
+}
+.tabs .menu .active-line {
+	transition: all var(--transition-medium) ease;
+}
+
+.toast {
+	transition: transform var(--transition-medium) ease, margin var(--transition-medium) ease;
+}
+
+.toast .close:hover,
+.toast .close:hover:before {
+	transition: all var(--transition-fast) ease;
+}
+
+.expander-trigger:after {
+	transition: all var(--transition-medium) ease;
+}
+.expander-content {
+    transition: height var(--transition-medium) ease, max-height var(--transition-medium) ease;
+}
+.open .expander-content:after {
+    transition: all 0s ease;
+}
+.expander-content:after {
+    transition: all 0s ease var(--transition-medium);
+}
+
+.fab,
+.fab * {
+	transition:
+		transform var(--transition-medium) ease,
+		background var(--transition-medium) ease,
+		color var(--transition-medium) ease,
+		opacity var(--transition-medium) ease,
+		visibility var(--transition-medium) ease,
+		border var(--transition-medium) ease;
+}
+
+.tooltip-text #tooltip-close {
+	transition: all var(--transition-medium) ease;
+}
+
+.collapsible-header {
+    transition: all var(--transition-fast) ease;
+}
+.collapsible-header:after {
+    transition: all var(--transition-medium) ease;
+}
+
+.carousel .carousel-nav:before {
+    transition: all var(--transition-medium) ease;
+}
+
+.carousel .carousel-dot {
+    transition: all var(--transition-medium) ease;
+}
+
+.card {
+    transition: box-shadow var(--transition-medium) ease, filter var(--transition-medium) ease, transform var(--transition-medium) ease;
+}
+.avatar {
+    transition: all var(--transition-medium) ease;
+}
+
+.tabs .scroll-indicator,
+.tabs .scroll-indicator:before {
+    transition: transform var(--transition-medium) ease;
+}

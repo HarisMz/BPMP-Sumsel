@@ -1,0 +1,15 @@
+/* BREAKPOINT MOBILE */
+@media (max-width: 768px) {
+
+.datatable-wrapper .datatable-footer {
+    flex-direction: column;
+    align-items: center;
+}
+.datatable-wrapper .datatable-footer .info {
+    flex-direction: column;
+}
+.datatable-wrapper .datatable-footer .lengthmenu {
+    width: 100%;
+}
+
+}

@@ -1,0 +1,8 @@
+/* BREAKPOINT MOBILE */
+@media (max-width: 768px) {
+
+.toast {
+	width: 100%;
+}
+
+}

@@ -1,0 +1,135 @@
+.select {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.select select {
+	display: flex;
+	font-size: var(--font-size-body);
+	font-family: var(--font-family-body);
+	line-height: var(--line-height-body);
+	font-weight: var(--font-weight-body);
+	border-radius: var(--rounded-8);
+	padding: var(--unit-4) var(--unit-10) var(--unit-4) var(--unit-5);
+	appearance: none;
+	width: 100%;
+	background: var(--surface-default);
+	border: 1px solid var(--border-default);
+}
+
+.select .selector {
+	display: flex;
+	font-size: var(--font-size-body);
+	font-family: var(--font-family-body);
+	line-height: var(--line-height-body);
+	font-weight: var(--font-weight-body);
+	border: 1px solid var(--border-default);
+	border-radius: var(--rounded-8);
+	padding: var(--unit-4) var(--unit-10) var(--unit-4) var(--unit-5);
+	appearance: none;
+	width: 100%;
+	background: var(--surface-default);
+}
+
+.small select, .small .selector {
+	padding: var(--unit-3) var(--unit-10) var(--unit-3) var(--unit-5);
+}
+
+.select.open .selector {
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+}
+
+.select select:hover, .select .selector:hover {
+	border: 1px solid var(--border-hovered);
+	cursor: pointer;
+}
+
+.select select:focus, .select .selector:active {
+	box-shadow: 0 0 0 2px var(--interactive-focused);
+	border-color: var(--interactive-focused);
+	border-radius: var(--rounded-8);
+	outline: none;
+}
+
+
+.select:after {
+    content: 'arrow_drop_down';
+    position: absolute;
+	right: 12px;
+	display: flex;
+    justify-content: center;
+    height: var(--unit-6);
+    width: var(--unit-6);
+    margin-top: calc(var(--unit-2) * -1);
+    color: var(--icon-default);
+    font-family: var(--font-family-icons);
+    font-size: var(--font-size-button-md);
+    font-weight: var(--font-weight-regular);
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.select[data-icon]:after {
+	content: attr(data-icon);
+}
+
+.select.disabled .selector,
+.select.disabled select[disabled] {
+	color: var(--text-disabled);
+	background: var(--surface-disabled);
+	border-radius: var(--rounded-8);
+	pointer-events: none;
+	user-select: none;
+    border-color: var(--border-disabled);
+    opacity: 1;
+}
+.select.disabled:after {
+	color: var(--text-disabled);
+}
+
+.error .select {
+	background-color: var(--surface-critical-subdued);
+}
+
+.error .select select, .error .select .selector {
+	border: 1px solid var(--border-critical);
+}
+
+.select .options {
+	position: absolute;
+	display: none;
+	top: 100%;
+	font-size: 100%;
+	border: 1px solid var(--border-default);
+	background-color: var(--surface-default);
+	border-top: none;
+	border-radius: var(--rounded-8);
+	width: 100%;
+	box-shadow: var(--elevation-8);
+	border-top: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	z-index: 1;
+}
+
+.select .options .option {
+	padding: var(--unit-3) var(--unit-4);
+}
+.select .options .option.selected {
+	background-color: var(--interactive-default);
+	color: var(--text-inverse);
+}
+.select .options .option.disabled,
+.select .options .option.disabled:hover {
+	background-color: var(--interactive-disabled);
+	color: var(--text-inverse);
+}
+.select .options .option:hover {
+	background-color: var(--interactive-hovered);
+	color: var(--text-inverse);
+}

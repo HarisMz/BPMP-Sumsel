@@ -1,0 +1,13 @@
+/* BREAKPOINT MOBILE */
+@media (max-width: 768px) {
+
+.overlay .wrapper .dialog {
+	min-width: unset;
+    max-width: unset;
+}
+.overlay .wrapper .dialog.medium,
+.overlay .wrapper .dialog.large {
+    width: 100%;
+}
+
+}

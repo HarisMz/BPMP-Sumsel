@@ -1,0 +1,78 @@
+input {
+	padding: var(--unit-4) var(--unit-5);
+	border-radius: var(--rounded-8);
+	border: 1px solid var(--border-default);
+	color: var(--text-default);
+	background: var(--surface-default);
+}
+.small input {
+	padding: var(--unit-3) var(--unit-5);
+}
+input:hover {
+	border-color: var(--border-hovered);
+}
+input:disabled,
+.input.disabled input {
+	border-color: var(--border-disabled);
+	background: var(--surface-disabled);
+	color: var(--text-disabled);
+	pointer-events: none;
+}
+input:invalid,
+.input.error input,
+.input.invalid input {
+	border-color: var(--border-critical);
+	background: var(--surface-critical-subdued);
+}
+input:active {
+	border-color: var(--border-pressed);
+}
+input:focus, input:focus-visible {
+	border-color: var(--interactive-focused);
+	box-shadow: 0 0 0 2px var(--interactive-focused);
+	outline: none;
+}
+
+.input {
+	width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.input input {
+	width: 100%;
+}
+
+.input[data-icon]:before {
+	content: attr(data-icon);
+	display: flex;
+	position: absolute;
+	justify-content: center;
+	align-items: center;
+    height: var(--unit-8);
+    width: var(--unit-10);
+	color: var(--border-high);
+	font-family: var(--font-family-icons);
+    font-size: var(--unit-6);
+	font-variation-settings: var(--font-variation-settings);
+}
+
+.input[data-icon] input,
+.input[data-icon].left input {
+	padding-right: var(--unit-5);
+	padding-left: var(--unit-10);
+}
+
+.input[data-icon].right input {
+	padding-right: var(--unit-10);
+	padding-left: var(--unit-5);
+}
+
+.input[data-icon],
+.input[data-icon].left {
+	justify-content: flex-start;
+}
+
+.input[data-icon].right {
+	justify-content: flex-end;
+}

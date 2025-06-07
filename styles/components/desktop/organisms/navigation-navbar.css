@@ -1,0 +1,370 @@
+/*LOGO DEFINE*/
+.header .logo {
+  background-image: var(--site-logo);
+}
+.header.is-sticky .logo {
+  background-image: var(--site-logo);
+}
+.header.opaque .logo {
+  background-image: var(--site-logo);
+}
+
+.header {
+  height: var(--site-header);
+  overflow: visible;
+  position: fixed;
+  box-shadow: var(--elevation-0);
+  padding-top: var(--unit-0);
+  padding-bottom: var(--unit-0);
+  z-index: 9999;
+}
+.header.is-sticky,
+.header.opaque.is-sticky {
+  backdrop-filter: blur(var(--unit-4));
+  background: var(--white-0-75);
+  /* box-shadow: var(--elevation-6); */
+}
+.header.opaque {
+  position: fixed;
+  background: var(--surface-default);
+  box-shadow: var(--elevation-3);
+}
+.header ~ main {
+  padding-top: 128px;
+  min-height: 100dvh;
+}
+.header.opaque ~ main {
+  padding-top: var(--site-header);
+}
+.header:not(.opaque) ~ main .container:first-child .wrapper {
+  padding-top: var(--site-header);
+}
+.header .logo {
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+  max-height: calc(var(--site-header) - var(--unit-9));
+  max-width: 320px;
+}
+.header .menu > .item,
+.header .menu > .item.dropdown:after,
+.header .menu > .item:not(.button) > a {
+  color: var(--text-default);
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: var(--font-weight-bold);
+}
+.header.is-sticky .menu > .item.active,
+.header.is-sticky .menu > .item.active.dropdown:after,
+.header.is-sticky .menu > .item.active:not(.button) > a {
+  color: var(--text-informational);
+  font-weight: var(--font-weight-bold);
+}
+.header .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--unit-0);
+}
+.header .logo-wrapper {
+  justify-content: space-between;
+  align-items: center;
+  overflow: visible;
+  display: flex;
+  height: 100%;
+}
+.header .logo-wrapper .campaign-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: var(--unit-13);
+  gap: var(--unit-9);
+}
+.header .logo-wrapper .campaign-logo img {
+  height: var(--unit-10);
+}
+.header .menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header .menu > * + * {
+  margin-left: var(--spacing-6);
+}
+.header .menu .item {
+  padding: var(--unit-0);
+  list-style: none;
+  position: relative;
+  height: var(--unit-11);
+  display: flex;
+  align-items: center;
+  border-bottom: 4px solid transparent;
+  transition: all var(--transition-medium) ease;
+}
+.header .menu .item.active,
+.header .menu .item.active a {
+  font-weight: var(--font-weight-bold);
+}
+.header .menu .item.dropdown:after {
+  content: "keyboard_arrow_down";
+  display: inline-flex;
+  justify-content: center;
+  position: relative;
+  height: var(--unit-4);
+  width: var(--unit-5);
+  color: var(--text-default);
+  font-family: var(--font-family-icons);
+  font-size: var(--font-size-button-sm);
+  font-weight: var(--font-weight-regular);
+  overflow: hidden;
+  align-items: center;
+}
+.header .menu .item.dropdown > .dropdown-wrapper {
+  position: fixed; /* instead of absolute */
+  left: 0;
+  width: 100vw;
+  height: fit-content;
+  z-index: 9998; /* make sure it's above other elements */
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  top: var(--site-header);
+  display: flex;
+  backdrop-filter: blur(var(--unit-4));
+  background: var(--white-0-75);
+  box-shadow: var(--elevation-3);
+}
+.header .menu .item.inverted .dropdown-wrapper {
+  right: 0;
+}
+.header .menu .item.dropdown:hover > .dropdown-wrapper {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+  /* padding-top: var(--unit-4); */
+}
+.header .menu .item .list-item.dropdown {
+  position: relative;
+  justify-content: space-between;
+  color: var(--text-default);
+  padding: var(--unit-3) var(--unit-0) var(--unit-3) var(--unit-3);
+  gap: var(--unit-4);
+}
+.header .menu .item .list a {
+  padding: var(--unit-1);
+  text-wrap: balance;
+  width: max-content;
+}
+.header .menu li.current,
+.header .menu li a.current,
+.header .menu li.current:after,
+.header .menu li a.current:after {
+  color: var(--action-default) !important;
+  font-weight: var(--font-weight-bold) !important;
+}
+.header .menu .item .slim .list-item.dropdown {
+  padding: calc(var(--unit-3) + var(--unit-1)) var(--unit-0)
+    calc(var(--unit-3) + var(--unit-1)) var(--unit-4);
+}
+/* .header .menu .item.dropdown .dropdown-wrapper .list {
+} */
+.header .menu .item .list-item.dropdown:after {
+  content: "keyboard_arrow_right";
+  display: inline-flex;
+  justify-content: center;
+  position: relative;
+  height: var(--unit-6);
+  width: var(--unit-6);
+  color: var(--text-default);
+  font-family: var(--font-family-icons);
+  font-size: var(--font-size-button-sm);
+  font-weight: var(--font-weight-regular);
+  overflow: hidden;
+  align-items: center;
+}
+.header .menu .item .list-item.dropdown > .dropdown-wrapper {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  top: calc(var(--unit-3) * -1);
+  left: calc(100% - var(--unit-3));
+  padding-left: var(--unit-0);
+  width: max-content;
+}
+.header .menu .dropdown > .dropdown-wrapper .list-item {
+  min-width: unset;
+}
+.header .menu .item .slim .list-item.dropdown > .dropdown-wrapper {
+  top: 0;
+}
+.header .menu .item .list-item.dropdown:hover > .dropdown-wrapper {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+  left: 100%;
+}
+.header .menu .item.inverted .list-item.dropdown > .dropdown-wrapper {
+  padding-left: unset;
+  left: unset;
+  padding-right: var(--unit-0);
+  right: calc(100% - var(--unit-3));
+}
+.header .menu .item.inverted .list-item.dropdown:hover > .dropdown-wrapper {
+  right: 100%;
+}
+.header .menu .item.button a {
+  padding: var(--unit-3) var(--unit-5);
+  color: var(--white);
+  text-decoration: none;
+  border: none;
+}
+.header .mobile-menu {
+  height: var(--unit-8);
+  width: var(--unit-8);
+  position: relative;
+  display: none;
+  cursor: pointer;
+}
+.header .mobile-menu:before {
+  content: "menu";
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  height: var(--unit-8);
+  width: var(--unit-8);
+  color: var(--text-default);
+  font-family: var(--font-family-icons);
+  font-size: var(--font-size-display-md);
+  font-weight: var(--font-weight-regular);
+  overflow: hidden;
+  align-items: center;
+  cursor: pointer;
+  opacity: 1;
+  transform: rotate(0deg);
+  transition: inherit;
+}
+.header .mobile-menu:after {
+  content: "close";
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  height: var(--unit-8);
+  width: var(--unit-8);
+  color: var(--text-default);
+  font-family: var(--font-family-icons);
+  font-size: var(--font-size-display-md);
+  font-weight: var(--font-weight-regular);
+  overflow: hidden;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0;
+  transform: rotate(-90deg);
+  transition: inherit;
+}
+.header .mobile-menu.open:before {
+  opacity: 0;
+  transform: rotate(90deg);
+  transition: inherit;
+}
+.header .mobile-menu.open:after {
+  opacity: 1;
+  transform: rotate(0deg);
+  transition: inherit;
+}
+.header .menu .item:not(.button):hover > a,
+.header .menu .item:hover,
+.header .menu .item.dropdown:hover:after,
+.header.is-sticky .menu .item:not(.button):hover > a,
+.header.is-sticky .menu .item:hover,
+.header.is-sticky .menu .item.dropdown:hover:after {
+  color: var(--action-default);
+}
+.header .menu .item:hover {
+  border-bottom: 4px solid var(--action-default);
+}
+
+.footer {
+  padding-top: var(--unit-0);
+  padding-bottom: var(--unit-0);
+}
+footer .logo {
+  background-image: var(--site-logo-dark);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  min-height: calc(var(--site-header) - var(--unit-9));
+}
+footer .media {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  height: 32px;
+  width: 32px;
+  transition: all var(--transition-medium) ease;
+}
+footer .media:hover {
+  opacity: 0.7;
+}
+footer .media.facebook {
+  background-image: var(--site-facebook);
+}
+footer .media.instagram {
+  background-image: var(--site-instagram);
+}
+footer .media.x {
+  background-image: var(--site-x);
+}
+footer .media.youtube {
+  background-image: var(--site-youtube);
+}
+footer .media.tiktok {
+  background-image: var(--site-tiktok);
+}
+footer * {
+  color: var(--text-inverse-subdued) !important;
+  font-family: var(--font-family-body-sm);
+  font-size: var(--font-size-body-sm);
+  font-weight: var(--font-weight-body-sm);
+  line-height: var(--line-height-body-sm);
+  text-align: left;
+}
+footer .judul {
+  font-weight: var(--font-weight-extrabold);
+  color: var(--text-inverse) !important;
+}
+
+/* Desktop */
+.header .campaign-logo {
+  display: flex !important;
+}
+.header .logo-wrapper .menu {
+  display: none !important;
+}
+.header .wrapper > .menu {
+  display: flex !important;
+}
+.header .mobile-menu {
+  display: none !important;
+}
+
+/* Mobile */
+@media (max-width: 1240px) {
+  .header .campaign-logo {
+    display: none !important;
+  }
+  .header .logo-wrapper > .menu.is-mobile.open {
+    display: flex !important;
+  }
+  .header .wrapper > .menu {
+    display: none !important;
+  }
+  .header .mobile-menu {
+    display: block !important;
+  }
+}

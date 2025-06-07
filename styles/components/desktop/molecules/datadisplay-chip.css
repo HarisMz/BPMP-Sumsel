@@ -1,0 +1,91 @@
+.chip {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    padding: var(--unit-3) var(--unit-5);
+    border-radius: var(--unit-8);
+    font-weight: var(--font-weight-action);
+    font-family: var(--font-family-body);
+    font-size: var(--font-size-body);
+    line-height: var(--line-height-body);
+    background-color: var(--surface-default);
+    border: 1px solid var(--border-default);
+    color: var(--text-default);
+    text-decoration: none;
+    appearance: none;
+    outline: none;
+    transition: .3s cubic-bezier(.075, .82, .165, 1);
+    cursor: pointer;
+}
+.chip.small {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    padding: var(--unit-2) var(--unit-4);
+    border-radius: var(--unit-8);
+    font-weight: var(--font-weight-action);
+    font-family: var(--font-family-body-sm);
+    font-size: var(--font-size-body-sm);
+    line-height: var(--line-height-body-sm);
+    background-color: var(--surface-default);
+    border: 1px solid var(--border-default);
+    color: var(--text-default);
+    text-decoration: none;
+    appearance: none;
+    outline: none;
+    transition: .3s cubic-bezier(.075, .82, .165, 1);
+    cursor: pointer;
+}
+
+.chip[data-icon].right {
+    flex-direction: row-reverse;
+}
+
+.chip[data-icon]:before {
+    color: inherit;
+}
+
+.chip:hover {
+    background-color: var(--blue-5);;
+    border: 1px solid var(--action-hovered);
+    color: var(--action-hovered);
+    font-weight: var(--font-weight-action);
+}
+
+.chip:focus {
+    background-color: var(--surface-default);
+    border: 1px solid var(--border-high);
+    color: var(--text-default);
+    box-shadow: var(--shadow-white), var(--shadow-blue-50);
+}
+
+.chip:active, .chip.selected:active {
+    background-color: var(--blue-20);
+    border: 1px solid var(--action-hovered);
+    color: var(--action-hovered);
+    font-weight: var(--font-weight-action);
+}
+
+.chip:disabled, .chip.disabled {
+    background-color: var(--surface-disabled);
+    border: 1px solid var(--border-disabled);
+    color: var(--text-disabled);
+    cursor: not-allowed;
+}
+.chip:disabled.selected, .chip.disabled.selected {
+    background-color: var(--surface-pressed);
+    border: 1px solid var(--border-subdued);
+    color: var(--text-disabled);
+    cursor: not-allowed;
+}
+
+.chip.selected {
+    background-color: var(--blue-5);
+    border: 1px solid var(--action-default);
+    color: var(--action-default);
+    font-weight: var(--font-weight-action);
+}
+
+.chip.selected:focus {
+    box-shadow: var(--shadow-white),var(--shadow-blue-50);
+}

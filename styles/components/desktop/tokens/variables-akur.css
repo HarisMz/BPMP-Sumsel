@@ -1,0 +1,537 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  /*----------------------*/
+  /* COLORS */
+
+  /* Spectrum */
+  --black: #000000;
+  --white: #ffffff;
+
+  --gray-0: #fafafa;
+  --gray-5: #f5f5f5;
+  --gray-10: #efefef;
+  --gray-20: #d9dbdd;
+  --gray-30: #c9cbcf;
+  --gray-40: #b3b5b7;
+  --gray-50: #808489;
+  --gray-60: #65696c;
+  --gray-70: #53575a;
+  --gray-80: #45474a;
+  --gray-90: #2f3031;
+  --gray-100: #1e1f1f;
+
+  --red-0: #fffafa;
+  --red-5: #fef0f0;
+  --red-10: #ffe6e7;
+  --red-20: #facccf;
+  --red-30: #fbb7bc;
+  --red-40: #f7979f;
+  --red-50: #ed5362;
+  --red-60: #e02d38;
+  --red-70: #c82228;
+  --red-80: #af182c;
+  --red-90: #70111d;
+  --red-100: #3e0f15;
+
+  --pink-0: #fef6fa;
+  --pink-5: #feecf4;
+  --pink-10: #ffe1ef;
+  --pink-20: #fbc6e0;
+  --pink-30: #fab2d6;
+  --pink-40: #f692c6;
+  --pink-50: #ed4a97;
+  --pink-60: #d4307a;
+  --pink-70: #c41b63;
+  --pink-80: #b60c50;
+  --pink-90: #6e0d37;
+  --pink-100: #3e0e0e;
+
+  --purple-0: #fbfaff;
+  --purple-5: #f4f0fe;
+  --purple-10: #ebe6ff;
+  --purple-20: #ddd3fd;
+  --purple-30: #cfc1fb;
+  --purple-40: #bba7f6;
+  --purple-50: #906cef;
+  --purple-60: #7a47f0;
+  --purple-70: #6b2ff9;
+  --purple-80: #5723cf;
+  --purple-90: #382166;
+  --purple-100: #1e0f3d;
+
+  --blue-0: #f6fafe;
+  --blue-5: #ecf5fe;
+  --blue-10: #e1effe;
+  --blue-20: #cfe3fc;
+  --blue-30: #b1d1fb;
+  --blue-40: #91bcfd;
+  --blue-50: #4c8df6;
+  --blue-60: #2c70e5;
+  --blue-70: #0b5fef;
+  --blue-80: #054bcc;
+  --blue-90: #103178;
+  --blue-100: #0e1c39;
+
+  --cyan-0: #f6fcfe;
+  --cyan-5: #e7f6fe;
+  --cyan-10: #dcf3fe;
+  --cyan-20: #c0e8fc;
+  --cyan-30: #9ddcfb;
+  --cyan-40: #74cbfb;
+  --cyan-50: #3996ed;
+  --cyan-60: #1b7ada;
+  --cyan-70: #0468cc;
+  --cyan-80: #125096;
+  --cyan-90: #103763;
+  --cyan-100: #082126;
+
+  --teal-0: #f1fefe;
+  --teal-5: #defcfb;
+  --teal-10: #d2f9f8;
+  --teal-20: #b9eeee;
+  --teal-30: #98e5e7;
+  --teal-40: #6dd5d4;
+  --teal-50: #479ca1;
+  --teal-60: #347f7a;
+  --teal-70: #1e716b;
+  --teal-80: #165a57;
+  --teal-90: #0d4241;
+  --teal-100: #092524;
+
+  --green-0: #f1fef5;
+  --green-5: #e3fdeb;
+  --green-10: #cefde0;
+  --green-20: #bcf1d1;
+  --green-30: #a1e8be;
+  --green-40: #7bd3a1;
+  --green-50: #4ca375;
+  --green-60: #2e8a5c;
+  --green-70: #117e47;
+  --green-80: #04673a;
+  --green-90: #084a2d;
+  --green-100: #092519;
+
+  --orange-0: #fff9ee;
+  --orange-5: #ffeece;
+  --orange-10: #ffe0a5;
+  --orange-20: #ffd78a;
+  --orange-30: #fabf4b;
+  --orange-40: #eda62b;
+  --orange-50: #d99620;
+  --orange-60: #b57f21;
+  --orange-70: #976a1c;
+  --orange-80: #815b18;
+  --orange-90: #5f4212;
+  --orange-100: #432c06;
+
+  --yellow-0: #fffeee;
+  --yellow-5: #fffdce;
+  --yellow-10: #fffaad;
+  --yellow-20: #fff78a;
+  --yellow-30: #faf44b;
+  --yellow-40: #ede500;
+  --yellow-50: #d7d004;
+  --yellow-60: #beb804;
+  --yellow-70: #a5a003;
+  --yellow-80: #7d7903;
+  --yellow-90: #646002;
+  --yellow-100: #3a3900;
+
+  /* Text */
+  --text-default: var(--gray-90);
+  --text-subdued: var(--gray-60);
+  --text-disabled: var(--gray-50);
+  --text-inverse: var(--white);
+  --text-inverse-subdued: var(--gray-20);
+  --text-success: var(--green-60);
+  --text-success-darker: var(--green-80);
+  --text-critical: var(--red-60);
+  --text-critical-darker: var(--red-80);
+  --text-informational: var(--cyan-60);
+  --text-informational-darker: var(--cyan-80);
+  --text-warning: var(--orange-70);
+  --text-warning-darker: var(--orange-80);
+
+  /* Background */
+  --bg-default: var(--gray-5);
+
+  /* Surface */
+  --surface-default: var(--white);
+  --surface-subdued: var(--gray-5);
+  --surface-hovered: var(--gray-10);
+  --surface-disabled: var(--gray-10);
+  --surface-foreground: var(--gray-90);
+  --surface-pressed: var(--gray-20);
+
+  /* Surface Selected */
+  --surface-selected-default: var(--gray-10);
+  --surface-selected-hovered: var(--gray-30);
+
+  /* Surface Neutral */
+  --surface-neutral-default: var(--gray-20);
+  --surface-neutral-subdued: var(--gray-10);
+
+  /* Surface Success */
+  --surface-success-default: var(--green-30);
+  --surface-success-subdued: var(--green-5);
+  --surface-success-darker: var(--green-90);
+
+  /* Surface Critical */
+  --surface-critical-default: var(--red-10);
+  --surface-critical-subdued: var(--red-5);
+  --surface-critical-darker: var(--red-90);
+
+  /* Surface Informational */
+  --surface-informational-default: var(--cyan-30);
+  --surface-informational-subdued: var(--cyan-5);
+  --surface-informational-darker: var(--cyan-90);
+
+  /* Surface Warning */
+  --surface-warning-default: var(--orange-20);
+  --surface-warning-subdued: var(--orange-5);
+  --surface-warning-darker: var(--orange-90);
+
+  /* Interactive */
+  --interactive-default: var(--cyan-70);
+  --interactive-hovered: var(--cyan-80);
+  --interactive-focused: var(--cyan-50);
+  --interactive-disabled: var(--gray-30);
+  --interactive-foreground: var(--cyan-40);
+  --interactive-critical: var(--red-60);
+
+  /* Border */
+  --border-high: var(--gray-70);
+  --border-default: var(--gray-50);
+  --border-subdued: var(--gray-30);
+  --border-disabled: var(--gray-20);
+  --border-hovered: var(--gray-80);
+  --border-pressed: var(--gray-100);
+
+  --border-success: var(--green-50);
+  --border-critical: var(--red-60);
+  --border-informational: var(--cyan-50);
+  --border-warning: var(--orange-40);
+
+  /* Action */
+  --action-default: var(--cyan-70);
+  --action-hovered: var(--cyan-80);
+  --action-pressed: var(--cyan-90);
+  --action-disabled: var(--gray-30);
+
+  /* Action Neutral */
+  --action-neutral-default: var(--gray-90);
+  --action-neutral-hovered: var(--gray-100);
+  --action-neutral-pressed: var(--black);
+
+  /* Expressive */
+  --expressive-surface-dark-blue: var(--cyan-90);
+
+  /* Icon */
+  --icon-default: var(--gray-80);
+  --icon-subdued: var(--gray-50);
+  --icon-hovered: var(--gray-90);
+  --icon-pressed: var(--gray-100);
+  --icon-disabled: var(--gray-40);
+  --icon-inverse: var(--gray-5);
+  --icon-success: var(--green-50);
+  --icon-critical: var(--red-60);
+  --icon-informational: var(--cyan-80);
+  --icon-warning: var(--orange-50);
+
+  /* Base */
+  --base-primary: var(--cyan-70);
+  --base-success: var(--green-60);
+  --base-critical: var(--red-70);
+  --base-informational: var(--cyan-50);
+  --base-warning: var(--orange-30);
+
+  /* Overlay */
+  --overlay-default: var(--gray-100-70);
+
+  /*----------------------*/
+  /* TYPOGRAPHY */
+
+  /* Fonts */
+  --font-family-primary: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Open Sans", sans-serif;
+  --font-family-secondary: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Open Sans", sans-serif;
+  --font-family-icons: "Material Symbols Outlined";
+
+  --font-weight-light: 200;
+  --font-weight-regular: 400;
+  --font-weight-bold: 600;
+  --font-weight-extrabold: 800;
+
+  /* Font Size */
+  --font-size-helper: 0.75rem; /* 12px */
+  --font-size-body-sm: 0.875rem; /* 13px */
+  --font-size-body: 1rem; /* 15px */
+  --font-size-body-lg: 1.25rem; /* 20px */
+  --font-size-action: 1rem; /* 15px */
+  --font-size-subheading: 0.875rem; /* 13px */
+  --font-size-heading-sm: 1.0625rem; /* 16px */
+  --font-size-heading-md: 1.1875rem; /* 18px */
+  --font-size-heading-lg: 1.375rem; /* 22px */
+  --font-size-eyebrow-sm: 0.75rem; /* 12px */
+  --font-size-eyebrow-md: 1rem; /* 15px */
+  --font-size-eyebrow-lg: 1.25rem; /* 17px */
+  --font-size-display-sm: 1.5rem; /* 24px */
+  --font-size-display-md: 1.75rem; /* 28px */
+  --font-size-display-lg: 2rem; /* 32px */
+  --font-size-headline-xs: 2.625rem; /* 42px */
+  --font-size-headline-sm: 3.375rem; /* 54px */
+  --font-size-headline-md: 4rem; /* 64px */
+  --font-size-headline-lg: 5rem; /* 80px */
+
+  --font-size-button-sm: 1.0625rem; /* 16px */
+  --font-size-button-md: 1.25rem; /* 20px */
+  --font-size-button-lg: 1.25rem; /* 20px */
+  --font-size-icon-only: 1.5rem; /* 24px */
+
+  /* Font Weight */
+  --font-weight-helper: var(--font-weight-regular);
+  --font-weight-body-sm: var(--font-weight-regular);
+  --font-weight-body: var(--font-weight-regular);
+  --font-weight-body-lg: var(--font-weight-regular);
+  --font-weight-action: var(--font-weight-bold);
+  --font-weight-subheading: var(--font-weight-bold);
+  --font-weight-heading-sm: var(--font-weight-bold);
+  --font-weight-heading-md: var(--font-weight-bold);
+  --font-weight-heading-lg: var(--font-weight-bold);
+  --font-weight-eyebrow-sm: var(--font-weight-regular);
+  --font-weight-eyebrow-md: var(--font-weight-regular);
+  --font-weight-eyebrow-lg: var(--font-weight-regular);
+  --font-weight-display-sm: var(--font-weight-bold);
+  --font-weight-display-md: var(--font-weight-bold);
+  --font-weight-display-lg: var(--font-weight-bold);
+  --font-weight-headline-xs: var(--font-weight-bold);
+  --font-weight-headline-sm: var(--font-weight-bold);
+  --font-weight-headline-md: var(--font-weight-bold);
+  --font-weight-headline-lg: var(--font-weight-bold);
+
+  /* Font Weight Bold */
+  --font-weight-bold-helper: var(--font-weight-bold);
+  --font-weight-bold-body-sm: var(--font-weight-bold);
+  --font-weight-bold-body: var(--font-weight-bold);
+  --font-weight-bold-body-lg: var(--font-weight-bold);
+  --font-weight-bold-action: var(--font-weight-extrabold);
+  --font-weight-bold-subheading: var(--font-weight-extrabold);
+  --font-weight-bold-heading-sm: var(--font-weight-extrabold);
+  --font-weight-bold-heading-md: var(--font-weight-extrabold);
+  --font-weight-bold-heading-lg: var(--font-weight-extrabold);
+  --font-weight-bold-eyebrow-sm: var(--font-weight-bold);
+  --font-weight-bold-eyebrow-md: var(--font-weight-bold);
+  --font-weight-bold-eyebrow-lg: var(--font-weight-bold);
+  --font-weight-bold-display-sm: var(--font-weight-extrabold);
+  --font-weight-bold-display-md: var(--font-weight-extrabold);
+  --font-weight-bold-display-lg: var(--font-weight-extrabold);
+  --font-weight-bold-headline-xs: var(--font-weight-extrabold);
+  --font-weight-bold-headline-sm: var(--font-weight-extrabold);
+  --font-weight-bold-headline-md: var(--font-weight-extrabold);
+  --font-weight-bold-headline-lg: var(--font-weight-extrabold);
+
+  /* Line Height */
+  --line-height-helper: 1rem;
+  --line-height-body-sm: 1.25rem;
+  --line-height-body: 1.5rem;
+  --line-height-body-lg: 1.75rem;
+  --line-height-action: 1.5rem;
+  --line-height-subheading: 1rem;
+  --line-height-heading-sm: 1.375rem;
+  --line-height-heading-md: 1.5rem;
+  --line-height-heading-lg: 1.75rem;
+  --line-height-eyebrow-sm: 1rem;
+  --line-height-eyebrow-md: 1.5rem;
+  --line-height-eyebrow-lg: 1.5rem;
+  --line-height-display-sm: 1.75rem;
+  --line-height-display-md: 2.25rem;
+  --line-height-display-lg: 2.25rem;
+  --line-height-headline-xs: 3rem;
+  --line-height-headline-sm: 3.875rem;
+  --line-height-headline-md: 4.5rem;
+  --line-height-headline-lg: 5.5rem;
+
+  --line-height-button: 140%;
+
+  /* Font Family */
+  --font-family-helper: var(--font-family-secondary);
+  --font-family-body-sm: var(--font-family-secondary);
+  --font-family-body: var(--font-family-secondary);
+  --font-family-body-lg: var(--font-family-secondary);
+  --font-family-action: var(--font-family-secondary);
+  --font-family-subheading: var(--font-family-secondary);
+  --font-family-heading-sm: var(--font-family-primary);
+  --font-family-heading-md: var(--font-family-primary);
+  --font-family-heading-lg: var(--font-family-primary);
+  --font-family-eyebrow-sm: var(--font-family-secondary);
+  --font-family-eyebrow-md: var(--font-family-secondary);
+  --font-family-eyebrow-lg: var(--font-family-secondary);
+  --font-family-display-sm: var(--font-family-primary);
+  --font-family-display-md: var(--font-family-primary);
+  --font-family-display-lg: var(--font-family-primary);
+  --font-family-headline-xs: var(--font-family-primary);
+  --font-family-headline-sm: var(--font-family-primary);
+  --font-family-headline-md: var(--font-family-primary);
+  --font-family-headline-lg: var(--font-family-primary);
+
+  /*----------------------*/
+  /* UNITS */
+
+  --unit-0: 0;
+  --unit-1: 2px;
+  --unit-2: 4px;
+  --unit-3: 8px;
+  --unit-4: 12px;
+  --unit-5: 16px;
+  --unit-6: 20px;
+  --unit-7: 24px;
+  --unit-8: 28px;
+  --unit-9: 32px;
+  --unit-10: 40px;
+  --unit-11: 48px;
+  --unit-12: 64px;
+  --unit-13: 80px;
+  --unit-14: 96px;
+
+  /*----------------------*/
+  /* SPACINGS */
+
+  --spacing-0: var(--unit-0);
+  --spacing-1: var(--unit-1);
+  --spacing-2: var(--unit-2);
+  --spacing-3: var(--unit-3);
+  --spacing-4: var(--unit-4);
+  --spacing-5: var(--unit-5);
+  --spacing-6: var(--unit-6);
+  --spacing-7: var(--unit-7);
+  --spacing-8: var(--unit-8);
+  --spacing-9: var(--unit-9);
+  --spacing-10: var(--unit-10);
+  --spacing-11: var(--unit-11);
+  --spacing-12: var(--unit-12);
+  --spacing-13: var(--unit-13);
+  --spacing-14: var(--unit-14);
+
+  /*----------------------*/
+  /* ROUNDED */
+
+  --rounded-0: var(--unit-0);
+  --rounded-4: var(--unit-2);
+  --rounded-8: var(--unit-3);
+  --rounded-12: var(--unit-4);
+  --rounded-16: var(--unit-5);
+  --rounded-20: var(--unit-6);
+  --rounded-24: var(--unit-7);
+  --rounded-28: var(--unit-8);
+  --rounded-full: 625rem;
+
+  /*----------------------*/
+  /* SPINNER */
+
+  --spinner-border-sm: 3px;
+  --spinner-border-md: 4.5px;
+  --spinner-border-lg: 6px;
+  --spinner-sm: var(--unit-7);
+  --spinner-md: var(--unit-9);
+  --spinner-lg: calc(var(--unit-10) + var(--unit-2));
+
+  /*----------------------*/
+  /* ELEVATIONS */
+
+  --elevation-0: 0;
+  --elevation-1: 0px 1px 1px var(--black-0-8), 0px 2px 1px -1px var(--black-0-2),
+    0px 1px 3px var(--black-0-10);
+  --elevation-2: 0px 2px 2px var(--black-0-8), 0px 3px 1px -2px var(--black-0-2),
+    0px 1px 5px var(--black-0-10);
+  --elevation-3: 0px 4px 5px var(--black-0-8), 0px 1px 10px var(--black-0-2),
+    0px 2px 4px -1px var(--black-0-10);
+  --elevation-4: 0px 6px 10px var(--black-0-8), 0px 1px 18px var(--black-0-2),
+    0px 3px 5px -1px var(--black-0-10);
+  --elevation-5: 0px 8px 10px 1px var(--black-0-8),
+    0px 3px 14px 2px var(--black-0-2), 0px 5px 5px -3px var(--black-0-10);
+  --elevation-6: 0px 12px 17px 2px var(--black-0-8),
+    0px 5px 22px 4px var(--black-0-2), 0px 7px 8px -4px var(--black-0-10);
+  --elevation-7: 0px 16px 24px 2px var(--black-0-8),
+    0px 6px 30px 5px var(--black-0-2), 0px 8px 10px -5px var(--black-0-10);
+  --elevation-8: 0px 24px 38px 3px var(--black-0-8),
+    0px 9px 46px 8px var(--black-0-2), 0px 11px 15px -7px var(--black-0-10);
+
+  /*----------------------*/
+  /* COLORS WITH OPACITY AND SHADOWS */
+
+  --transparent: transparent;
+
+  --black-0-2: rgba(0, 0, 0, 0.02);
+  --black-0-5: rgba(0, 0, 0, 0.05);
+  --black-0-8: rgba(0, 0, 0, 0.08);
+  --black-0-10: rgba(0, 0, 0, 0.1);
+
+  --black-0-13: rgba(0, 0, 0, 0.13);
+  --black-0-25: rgba(0, 0, 0, 0.25);
+  --black-0-38: rgba(0, 0, 0, 0.38);
+  --black-0-50: rgba(0, 0, 0, 0.5);
+  --black-0-63: rgba(0, 0, 0, 0.63);
+  --black-0-75: rgba(0, 0, 0, 0.75);
+  --black-0-88: rgba(0, 0, 0, 0.88);
+
+  --white-0-13: rgba(255, 255, 255, 0.13);
+  --white-0-25: rgba(255, 255, 255, 0.25);
+  --white-0-38: rgba(255, 255, 255, 0.38);
+  --white-0-50: rgba(255, 255, 255, 0.5);
+  --white-0-63: rgba(255, 255, 255, 0.63);
+  --white-0-75: rgba(255, 255, 255, 0.75);
+  --white-0-88: rgba(255, 255, 255, 0.88);
+
+  --gray-50-25: rgba(128, 132, 137, 0.25);
+  --gray-50-75: rgba(128, 132, 137, 0.75);
+  --gray-100-70: rgba(30, 31, 31, 0.7);
+
+  --blue-70-25: rgba(4, 104, 204, 0.25);
+  --blue-70-75: rgba(4, 104, 204, 0.75);
+
+  --shadow-white: 0px 0px 0px 2px var(--white);
+  --shadow-blue-50: 0px 0px 0px 4px var(--cyan-50);
+  --shadow-black-5: 0px 2px 1px var(--black-0-5);
+  --shadow-black-25: 0px 0px 1px var(--black-0-25);
+
+  --shadow-focus: inset 0px 0px 0px 2px var(--cyan-70);
+
+  --switch-false-limit: calc(0% + (var(--unit-7) / 2));
+  --switch-true-limit: calc(100% - (var(--unit-7) / 2));
+
+  /*----------------------*/
+  /* ICONS */
+
+  --font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+
+  /*----------------------*/
+  /* TRANSITION SPEED */
+
+  --transition-slow: 0.45s;
+  --transition-medium: 0.3s;
+  --transition-fast: 0.15s;
+
+  /*----------------------*/
+  /* SUPERGRAPHIC COLOR */
+
+  --sg-color-1: var(--cyan-80);
+  --sg-color-2: var(--cyan-50);
+  --sg-color-3: var(--cyan-20);
+
+  /*----------------------*/
+  /* SITEWIDE VARIABLES */
+
+  --site-theme-color: var(--cyan-70);
+  --site-header: 128px;
+  --site-padding: var(--unit-6);
+  --site-banner: calc(var(--unit-14) * 5);
+  --site-logo: url("/assets/images/site-logo/site-logo.svg");
+  --site-logo-dark: url("/assets/images/site-logo/site-logo-dark.svg");
+  --site-facebook: url("/assets/images/sosmed/facebook.svg");
+  --site-instagram: url("/assets/images/sosmed/instagram.svg");
+  --site-x: url("/assets/images/sosmed/x.svg");
+  --site-youtube: url("/assets/images/sosmed/youtube.svg");
+  --site-tiktok: url("/assets/images/sosmed/tiktok.svg");
+}

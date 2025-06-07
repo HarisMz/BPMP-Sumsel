@@ -1,0 +1,169 @@
+.toast {
+	display: flex;
+	flex-direction: row;
+	border-radius: var(--rounded-12) ;
+	padding: var(--unit-4) calc(var(--unit-10) + var(--unit-1)) var(--unit-4) var(--unit-5);
+	color: var(--text-inverse);
+	background: var(--surface-foreground);
+	pointer-events: auto !important;
+	position: relative;
+    box-shadow: var(--elevation-7);
+    margin-bottom: var(--unit-4);
+    width: var(--site-toast);
+	transform: scale(0.8) translateY(calc(100% + var(--site-padding)));
+    height: auto;
+    overflow: hidden;
+    align-items: flex-start;
+    gap: var(--unit-4);
+}
+
+.toast.active {
+	transform: scale(1) translateY(0);
+}
+.toast.fading-out {
+    pointer-events: none;
+}
+
+.toast .content {
+	font-size: var(--font-size-body-sm);
+	font-weight: var(--font-weight-body-sm);
+	line-height: var(--line-height-body-sm);
+	display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    align-self: stretch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.toast .link-wrapper {
+	display: flex;
+	flex-direction: row;
+	gap: var(--unit-4);
+    position: relative;
+}
+
+.toast .link-wrapper .link {
+	font-size: var(--font-size-body-sm);
+	font-weight: var(--font-weight-bold	);
+	line-height: var(--line-height-body-sm);
+    display: flex;
+    align-items: center;
+    color: var(--interactive-foreground);
+    padding: 0;
+}
+
+.toast .toast-icon {
+    display: flex;
+    position: relative;
+    bottom: var(--unit-1);
+	overflow: hidden;
+    flex-shrink: 0;
+}
+.toast .toast-icon:before {
+	content: '';
+    display: flex;
+	position: relative;
+	overflow: hidden;
+    width: var(--unit-6);
+    height: var(--unit-6);
+    color: var(--text-inverse);
+    font-family: var(--font-family-icons);
+    font-size: var(--font-size-button-md);
+    font-weight: var(--font-weight-regular);
+}
+
+.toast .toast-icon[data-icon]:before {
+	content: attr(data-icon) !important;
+}
+
+.toast .close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: var(--unit-8);
+    width: var(--unit-8);
+    line-height: var(--line-height-body-sm);
+    position: absolute;
+    overflow: hidden;
+    right: calc(var(--unit-2) + var(--unit-1));
+    top: var(--unit-3);
+}
+
+.toast .close:before {
+	content: 'close';
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+	position: absolute;
+	overflow: hidden;
+    height: var(--unit-8);
+    width: var(--unit-8);
+    color: var(--text-inverse);
+    font-family: var(--font-family-icons);
+    font-size: var(--font-size-heading-sm);
+    font-weight: var(--font-weight-regular);
+    text-align: center;
+}
+.toast .close:hover {
+	cursor: pointer;
+}
+
+.toast .close:hover:before {
+    color: var(--text-inverse-subdued);
+}
+.toast .timeout-ring {
+	transform: rotate(-90deg);
+}
+.toast .timeout-ring__circle {
+	stroke-dasharray: 314;
+	stroke-dashoffset: 314;
+	transition: stroke-dashoffset 0s;
+}
+.toast .timeout-ring__circle.animate {
+	stroke-dashoffset: 0;
+	transition: stroke-dashoffset 20s linear 0.3s;
+}
+
+.toast-buffer {
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	padding: calc(var(--site-header) + var(--site-padding)) var(--site-padding) var(--site-padding) var(--site-padding);
+	pointer-events: none;
+	overflow: hidden;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.toast-buffer .toast:last-of-type {
+    margin-bottom: var(--unit-0);
+}
+
+.toast.success {
+	background: var(--surface-success-darker);
+}
+.toast.success .link-wrapper a {
+	color: var(--surface-success-default);
+}
+.toast.critical {
+	background: var(--surface-critical-darker);
+}
+.toast.critical .link-wrapper a {
+	color: var(--surface-critical-default);
+}
+.toast.informational {
+	background: var(--surface-informational-darker);
+}
+.toast.informational .link-wrapper a {
+	color: var(--surface-informational-default);
+}
+.toast.warning {
+	background: var(--surface-warning-darker);
+}
+.toast.warning .link-wrapper a {
+	color: var(--surface-warning-default);
+}

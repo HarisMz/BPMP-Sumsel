@@ -1,0 +1,68 @@
+/* BREAKPOINT MOBILE */
+@media (max-width: 768px) {
+
+:root {
+
+/*----------------------*/
+/* SITEWIDE VARIABLES */
+
+--site-header		:	var(--unit-12);
+--site-padding		:	var(--unit-6);
+--site-logo			:	url('/assets/images/site-logo/site-logo-mobile.svg');
+--site-logo-dark	:	url('/assets/images/site-logo/site-logo-mobile-dark.svg');
+
+/*----------------------*/
+/* TYPOGRAPHY */
+
+/* Font Size */
+--font-size-helper   : 0.75rem; /* 12px */
+--font-size-body-sm   : 0.875rem; /* 13px */
+--font-size-body   : 1rem; /* 15px */
+--font-size-body-lg   : 1.25rem; /* 20px */
+--font-size-action   : 1rem; /* 15px */
+--font-size-subheading  : 0.875rem; /* 13px */
+--font-size-heading-sm  : 1.0625rem; /* 16px */
+--font-size-heading-md  : 1.1875rem; /* 18px */
+--font-size-heading-lg  : 1.375rem; /* 22px */
+--font-size-eyebrow-sm  : 0.75rem; /* 12px */
+--font-size-eyebrow-md  : 1rem; /* 15px */
+--font-size-eyebrow-lg  : 1.25rem; /* 17px */
+--font-size-display-sm  : 1.5rem; /* 24px */
+--font-size-display-md  : 1.75rem; /* 28px */
+--font-size-display-lg  : 2rem; /* 32px */
+--font-size-headline-xs  : 1.625rem; /* 26px */
+--font-size-headline-sm  : 2rem; /* 32px */
+--font-size-headline-md  : 2.5rem; /* 40px */
+--font-size-headline-lg  : 3rem; /* 48px */
+
+--font-size-button-sm  : 1.0625rem; /* 16px */
+--font-size-button-md  : 1.25rem; /* 20px */
+--font-size-button-lg  : 1.25rem; /* 20px */
+--font-size-icon-only  : 1.5rem; /* 24px */
+
+/* Line Height */
+--line-height-helper   : 1rem;
+--line-height-body-sm   : 1.25rem;
+--line-height-body    : 1.5rem; 
+--line-height-body-lg   : 1.75rem;
+--line-height-action   : 1.5rem; 
+--line-height-subheading  : 1rem;
+--line-height-heading-sm  : 1.375rem;
+--line-height-heading-md  : 1.5rem;
+--line-height-heading-lg  : 1.75rem;
+--line-height-eyebrow-sm  : 1rem;
+--line-height-eyebrow-md  : 1.5rem; 
+--line-height-eyebrow-lg  : 1.5rem;
+--line-height-display-sm  : 1.75rem; 
+--line-height-display-md  : 2.25rem;
+--line-height-display-lg  : 2.25rem; 
+--line-height-headline-xs  : 2rem;
+--line-height-headline-sm  : 2.5rem;
+--line-height-headline-md  : 3rem;
+--line-height-headline-lg  : 3.5rem;
+
+--line-height-button   : 140%;
+
+}
+
+}

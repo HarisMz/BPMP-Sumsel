@@ -1,0 +1,85 @@
+.breadcrumb {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+.breadcrumb ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+}
+.breadcrumb .item {
+    text-decoration: none;
+    color: var(--text-disabled);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: var(--font-family-body-sm);
+    font-size: var(--font-size-body-sm);
+    line-height: var(--line-height-body-sm);
+    font-weight: var(--font-weight-body-sm);
+    list-style: none;
+}
+.breadcrumb a {
+    text-decoration: none;
+    color: inherit;
+    width: max-content;
+}
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+.breadcrumb .item:after {
+    content: 'keyboard_arrow_right';
+    position: relative;
+    width: var(--unit-7);
+    height: var(--unit-7);
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-subdued);
+    font-family: var(--font-family-icons);
+    font-size: var(--unit-6);
+    font-weight: var(--font-weight-regular);
+    margin: var(--unit-0) var(--unit-1);
+}
+.breadcrumb .item:last-child:after {
+    content: none;
+}
+.breadcrumb .item:last-child {
+    color: var(--text-default);
+    pointer-events: none;
+}
+.breadcrumb .item .bc-more:before {
+    content: 'more_horiz';
+    position: relative;
+    width: var(--unit-7);
+    height: var(--unit-7);
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-subdued);
+    font-family: var(--font-family-icons);
+    font-size: var(--unit-6);
+    font-weight: var(--font-weight-regular);
+    margin: var(--unit-0);
+    border-radius: var(--rounded-12);
+    cursor: pointer;
+}
+.breadcrumb .item .bc-more:hover:before {
+    background: var(--surface-hovered);
+}
+.breadcrumb .bc-more ~ .tooltip-text {
+    pointer-events: auto;
+}
+.breadcrumb .bc-more ~ .tooltip-text .list .list-item {
+    padding: var(--unit-2) var(--unit-3);
+    font-size: var(--font-size-body-sm);
+    font-weight: var(--font-weight-body-sm);
+    line-height: var(--line-height-body-sm);
+}

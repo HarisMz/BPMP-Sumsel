@@ -1,0 +1,133 @@
+.overlay .wrapper .dialog {
+    min-width: 400px;
+    width: fit-content;
+    min-height: 200px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: var(--surface-default);
+    border-radius: var(--rounded-16);
+    box-shadow: var(--elevation-7);
+    position: relative;
+}
+.overlay .wrapper .dialog {
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0.9);
+}
+.overlay .wrapper .dialog.open {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}
+.overlay .wrapper .dialog .dialog-header,
+.overlay .wrapper .dialog .dialog-body,
+.overlay .wrapper .dialog .dialog-footer {
+    display: flex;
+    padding: var(--unit-5) var(--unit-6);
+}
+
+.overlay .wrapper .dialog .dialog-header {
+    background: var(--bg-default);
+    border-bottom: calc(var(--unit-1) / 2) solid var(--border-disabled);
+    flex-direction: row;
+}
+.overlay .wrapper .dialog .dialog-header .dialog-title  {
+    font-weight: var(--font-weight-heading-md);
+    font-size: var(--font-size-heading-md);
+    line-height: var(--line-height-heading-md);
+    font-family: var(--font-family-heading-md);
+}
+.overlay .wrapper .dialog .dialog-header .dialog-subtitle  {
+    padding-top: var(--unit-2);
+    color: var(--text-subdued);
+    font-weight: var(--font-weight-body-sm);
+    font-size: var(--font-size-body-sm);
+    line-height: var(--line-height-body-sm);
+    font-family: var(--font-family-body-sm);
+}
+.overlay .wrapper .dialog .dialog-body {
+    display: block;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+.overlay .wrapper .dialog .dialog-body:first-child {
+    padding: var(--unit-5) var(--unit-12) var(--unit-5) var(--unit-6);
+}
+.overlay .wrapper .dialog .dialog-footer {
+    border-top: calc(var(--unit-1) / 2) solid var(--border-disabled);
+    gap: var(--unit-4);
+    justify-content: flex-end;
+}
+
+.overlay .wrapper .dialog.minimal .dialog-header {
+    background: none;
+    border: none;
+    padding-bottom: var(--unit-2);
+}
+.overlay .wrapper .dialog.minimal .dialog-header .dialog-title  {
+}
+.overlay .wrapper .dialog.minimal .dialog-header .dialog-subtitle  {
+}
+.overlay .wrapper .dialog.minimal .dialog-body {
+    padding-top: var(--unit-4);
+    padding-bottom: var(--unit-4);
+}
+.overlay .wrapper .dialog.minimal .dialog-footer {
+    background: none;
+    border: none;
+}
+.overlay .wrapper .dialog > #close,
+.overlay .wrapper .dialog .dialog-header #close {
+    width: var(--unit-6);
+    height: var(--unit-6);
+    line-height: var(--line-height-body);
+    cursor: pointer;
+}
+.overlay .wrapper .dialog > #close {
+    position: absolute;
+    top: var(--unit-5);
+    right: var(--unit-6);
+}
+.overlay .wrapper .dialog > #close:after,
+.overlay .wrapper .dialog .dialog-header #close:after {
+    content: 'close';
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    height: var(--unit-8);
+    width: var(--unit-8);
+    color: var(--text-default);
+    font-family: var(--font-family-icons);
+    font-size: var(--font-size-display-sm);
+    font-weight: var(--font-weight-regular);
+    overflow: hidden;
+    align-items: center;
+    margin: calc(var(--unit-2) * -1);
+    border-radius: var(--rounded-12);
+}
+.overlay .wrapper .dialog > #close:hover:after ,
+.overlay .wrapper .dialog .dialog-header #close:hover:after {
+    color: var(--white);
+    background: var(--red-60);
+}
+.overlay .wrapper .dialog .dialog-header div:first-child {
+    flex-grow: 1;
+}
+.overlay .wrapper .dialog.medium {
+    width: 50%;
+}
+.overlay .wrapper .dialog.large {
+    width: 75%;
+}
+.overlay .wrapper.fill .dialog.fill {
+    width: 100%;
+    height: 100%;
+}
+.overlay .wrapper.screen .dialog.screen {
+    width: 100%;
+    height: 100%;
+    min-width: unset;
+    max-width: unset;
+}

@@ -1,0 +1,233 @@
+.banner {
+	display: flex;
+	flex-direction: column;
+	border-radius: var(--rounded-12);
+	padding: var(--unit-4);
+	color: var(--text-default);
+	border: 1px solid var(--border-default);
+	background: var(--surface-subdued);
+	pointer-events: auto !important;
+	position: relative;
+    box-shadow: var(--elevation-7);
+    margin-bottom: var(--unit-4);
+    width: var(--site-banner);
+	transform: translateX(calc(100% + var(--site-padding)));
+    height: auto;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.banner.active {
+	transform: translateX(0);
+}
+
+.banner .banner-head {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	gap: var(--unit-4);
+}
+
+.banner .banner-head .title {
+	font-size: var(--font-size-heading-sm);
+	font-weight: var(--font-weight-heading-sm);
+	line-height: var(--line-height-heading-sm);
+}
+
+.banner .banner-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: var(--unit-4);
+}
+
+.banner .banner-body .action {
+	display: flex;
+	flex-direction: row;
+	margin-top: var(--unit-5);
+	gap: var(--unit-4);
+}
+.banner .banner-body .action .button {
+	line-height: var(--line-height-body-sm);
+}
+
+.banner .banner-body .action .link {
+	font-size: var(--font-size-body-sm);
+	font-weight: var(--font-weight-body-sm);
+	line-height: var(--line-height-body-sm);
+    display: flex;
+    align-items: center;
+}
+
+.banner .banner-body .description {
+	font-size: var(--font-size-body-sm);
+	font-weight: var(--font-weight-body-sm);
+	color: var(--text-subdued);
+	line-height: var(--line-height-body-sm);
+}
+
+.banner .banner-head .title:before {
+	content: '';
+	position: absolute;
+    left: var(--unit-0);
+    height: var(--unit-6);
+    width: var(--unit-6);
+    color: var(--text-default);
+    font-family: var(--font-family-icons);
+    font-size: var(--font-size-button-md);
+    font-weight: var(--font-weight-regular);
+}
+
+.banner .banner-head .title[data-icon]:before {
+	content: attr(data-icon) !important;
+}
+
+.banner .banner-head .close {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: var(--unit-6);
+    width: var(--unit-6);
+    line-height: var(--line-height-body-sm);
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+}
+
+.banner .banner-head .close:before {
+	content: 'close';
+	position: absolute;
+	overflow: hidden;
+    right: var(--unit-0);
+    height: var(--unit-6);
+    width: var(--unit-6);
+    color: var(--text-default);
+    font-family: var(--font-family-icons);
+    font-size: var(--font-size-button-md);
+    font-weight: var(--font-weight-regular);
+}
+
+.banner .banner-head .close:hover {
+	cursor: pointer;
+}
+
+.banner .banner-head .close:hover:before {
+    color: var(--icon-hovered);
+}
+
+.banner-buffer {
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding: calc(var(--site-header) + var(--site-padding)) var(--site-padding) var(--site-padding) var(--site-padding);
+	pointer-events: none;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.banner-buffer .banner:last-of-type {
+    margin-bottom: var(--unit-0);
+}
+
+.banner .banner-head .title[data-icon],
+.banner.success .banner-head .title,
+.banner.critical .banner-head .title,
+.banner.informational .banner-head .title,
+.banner.warning .banner-head .title {
+	padding-left: var(--unit-8);
+}
+
+.banner.success {
+	color: var(--text-success-darker);
+	border-color: var(--border-success);
+	background: var(--surface-success-subdued);
+}
+.banner.success .banner-body .description {
+	color: var(--text-success);
+}
+.banner.success .banner-body .action .button {
+	color: var(--text-success-darker);
+	border-color: var(--border-success);
+}
+.banner.success .banner-body .action .button:hover {
+	background: var(--surface-success-default);
+}
+.banner.success .banner-body .action .link {
+	color: var(--text-success-darker);
+}
+.banner.success .banner-head .title:before {
+	content: 'check_circle';
+	color: var(--text-success-darker);
+}
+
+.banner.critical {
+	color: var(--text-critical-darker);
+	border-color: var(--border-critical);
+	background: var(--surface-critical-subdued);
+}
+.banner.critical .banner-body .description {
+	color: var(--text-critical);
+}
+.banner.critical .banner-body .action .button {
+	color: var(--text-critical-darker);
+	border-color: var(--border-critical);
+}
+.banner.critical .banner-body .action .button:hover {
+	background: var(--surface-critical-default);
+}
+.banner.critical .banner-body .action .link {
+	color: var(--text-critical-darker);
+}
+.banner.critical .banner-head .title:before {
+	content: 'cancel';
+	color: var(--text-critical-darker);
+}
+
+.banner.informational {
+	color: var(--text-informational-darker);
+	border-color: var(--border-informational);
+	background: var(--surface-informational-subdued);
+}
+.banner.informational .banner-body .description {
+	color: var(--text-informational);
+}
+.banner.informational .banner-body .action .button {
+	color: var(--text-informational-darker);
+	border-color: var(--border-informational);
+}
+.banner.informational .banner-body .action .button:hover {
+	background: var(--surface-informational-default);
+}
+.banner.informational .banner-body .action .link {
+	color: var(--text-informational-darker);
+}
+.banner.informational .banner-head .title:before {
+	content: 'info';
+	color: var(--text-informational-darker);
+}
+
+.banner.warning {
+	color: var(--text-warning-darker);
+	border-color: var(--border-warning);
+	background: var(--surface-warning-subdued);
+}
+.banner.warning .banner-body .description {
+	color: var(--text-warning);
+}
+.banner.warning .banner-body .action .button {
+	color: var(--text-warning-darker);
+	border-color: var(--border-warning);
+}
+.banner.warning .banner-body .action .button:hover {
+	background: var(--surface-warning-default);
+}
+.banner.warning .banner-body .action .link {
+	color: var(--text-warning-darker);
+}
+.banner.warning .banner-head .title:before {
+	content: 'error';
+	color: var(--text-warning-darker);
+}

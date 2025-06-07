@@ -1,0 +1,9 @@
+/* BREAKPOINT MOBILE */
+@media (max-width: 768px) {
+
+.table-safewrap {
+    width: 100%;
+    overflow: auto;
+}
+
+}

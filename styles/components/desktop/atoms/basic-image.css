@@ -1,0 +1,49 @@
+.with-supergraphic .supergraphic {
+	width: 100%;
+	height: auto;
+	aspect-ratio: 9 / 8;
+    position: relative;
+    display: flex;
+    pointer-events: none;
+}
+.with-supergraphic .supergraphic .graphic {
+	width: 100%;
+	height: 100%;
+	position: relative;
+    display: flex;
+}
+.supergraphic .graphic .color-1 { fill: var(--sg-color-1); animation: 12s linear infinite color-1-anim; }
+.supergraphic .graphic .color-2 { fill: var(--sg-color-2); animation: 12s linear infinite color-2-anim; }
+.supergraphic .graphic .color-3 { fill: var(--sg-color-3); animation: 12s linear infinite color-3-anim; }
+
+.with-supergraphic .supergraphic .image {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+    display: flex;
+}
+.with-supergraphic .supergraphic .image img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.object-contain {
+	object-fit: contain;
+}
+.object-cover {
+	object-fit: cover;
+}
+.object-fill {
+	object-fit: fill;
+}
+.object-none {
+	object-fit: none;
+}
+.object-scale-down {
+	object-fit: scale-down;
+}
+
+.img-notfound {
+	min-height: 260px;
+	background-image: url(/assets/images/404.svg);
+}

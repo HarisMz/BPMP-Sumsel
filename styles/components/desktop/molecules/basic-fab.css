@@ -1,0 +1,108 @@
+.fab-buffer {
+    position: fixed;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-end;
+    pointer-events: none;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: var(--site-padding);
+    z-index: 9900;
+}
+.fab-buffer .fab {
+    margin-top: var(--unit-4);
+}
+
+.fab {
+    display: flex;
+    width: var(--unit-11);
+    height: var(--unit-11);
+    justify-content: center;
+    align-items: center;
+    color: var(--icon-default);
+    border-radius: var(--rounded-full);
+    background-color: var(--surface-default);
+    border: calc(var(--unit-1) / 2) solid var(--border-default);
+    box-shadow: var(--elevation-6);
+    cursor: pointer;
+    font-family: var(--font-family-icons);
+    font-size: var(--unit-7);
+    font-variation-settings: var(--font-variation-settings);
+    user-select: none;
+    overflow: hidden;
+    pointer-events: auto;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    flex-shrink: 0;
+}
+.fab#site-sst {
+    display: none;
+}
+.fab.hidden {
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(var(--unit-4));
+}
+
+.fab.small {
+    width: var(--unit-9);
+    height: var(--unit-9);
+    font-size: var(--unit-5);
+}
+
+.fab:focus {
+    box-shadow: var(--shadow-white), var(--shadow-blue-50);
+}
+
+.fab:hover {
+    background-color: var(--surface-hovered);
+    box-shadow: var(--elevation-7);
+}
+.fab:active {
+    background-color: var(--surface-pressed);
+    box-shadow: var(--elevation-3);
+}
+
+.fab.accent {
+    color: var(--icon-inverse);
+    background-color: var(--action-default);
+    border: none;
+}
+
+.fab.accent:hover {
+    background-color: var(--action-hovered);
+    box-shadow: var(--elevation-7);
+}
+.fab.accent:active {
+    background-color: var(--action-pressed);
+    box-shadow: var(--elevation-3);
+}
+
+.fab.disabled {
+    pointer-events: none;
+}
+.fab.disabled,
+.fab.disabled:hover,
+.fab.disabled:active {
+    color: var(--icon-disabled);
+    border-color: var(--border-disabled);
+    border-radius: var(--rounded-full);
+    background-color: var(--surface-disabled);
+}
+.fab.accent.disabled,
+.fab.accent.disabled:hover,
+.fab.accent.disabled:active {
+    color: var(--icon-disabled);
+    border-color: var(--border-disabled);
+    border-radius: var(--rounded-full);
+    background-color: var(--text-disabled);
+}
+
+.fab-buffer .tooltip-text {
+    margin-top: 12px;
+}

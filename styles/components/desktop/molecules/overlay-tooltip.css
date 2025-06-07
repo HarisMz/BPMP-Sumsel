@@ -1,0 +1,214 @@
+.tooltip {
+    /*position: relative;*/
+}
+.tooltip.click {
+    cursor: pointer;
+}
+
+.tooltip-text {
+	display: none;
+    justify-content: center;
+	color: var(--text-default);
+	background: var(--surface-default);
+	border-radius: var(--rounded-12);
+    border: calc(var(--unit-1) / 2) solid var(--border-default);
+	padding: var(--unit-3) var(--unit-4);
+    font-size: var(--font-size-body-sm);
+    font-family: var(--font-family-body-sm);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-body-sm);
+    text-align: left;
+    width: max-content;
+    max-width: calc(var(--unit-8) * 10);
+    position: absolute;
+    right: unset;
+    top: unset;
+    bottom: unset;
+    left: unset;
+    z-index: 9999;
+    box-shadow: var(--elevation-4);
+    pointer-events: none;
+    text-wrap: balance;
+}
+.tooltip-text .tooltip-arrow {
+    display: flex;
+    height: var(--unit-3);
+    width: var(--unit-3);
+    background: var(--surface-default);
+    overflow: hidden;
+    position: absolute;
+    transform: rotate(45deg);
+    box-sizing: content-box;
+    border: calc(var(--unit-1) / 2) solid;
+    border-color: var(--transparent) var(--border-default) var(--border-default) var(--transparent);
+}
+
+.tooltip-text #tooltip-close {
+    position: absolute;
+    top: calc((var(--unit-5) / 2) * -1);
+    right: calc((var(--unit-5) / 2) * -1);
+    width: var(--unit-6);
+    height: var(--unit-6);
+    border-radius: var(--rounded-full);
+    background: var(--border-high);
+    color: var(--text-inverse);
+    overflow: hidden;
+    user-select: none;
+    cursor: pointer;
+    box-shadow: var(--elevation-4);
+    opacity: 0;
+    visibility: hidden;
+}
+.tooltip-text #tooltip-close:hover {
+    background: var(--border-hovered);
+}
+.tooltip-text #tooltip-close:active {
+    background: var(--border-pressed);
+    box-shadow: var(--elevation-2);
+}
+.tooltip-text #tooltip-close:before {
+    content: 'close';
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    height: inherit;
+    font-family: var(--font-family-icons);
+    font-size: var(--unit-5);
+    font-weight: var(--font-weight-regular);
+}
+.tooltip-text:hover #tooltip-close {
+    opacity: 1;
+    visibility: visible;
+}
+
+.tooltip-text.success {
+    color: var(--text-success);
+    background: var(--surface-success-subdued);
+    border-color: var(--border-success);
+}
+.tooltip-text.success .tooltip-arrow {
+    background: var(--surface-success-subdued);
+    border-color: var(--transparent) var(--border-success) var(--border-success) var(--transparent);
+}
+
+.tooltip-text.critical {
+    color: var(--text-critical);
+    background: var(--surface-critical-subdued);
+    border-color: var(--border-critical);
+}
+.tooltip-text.critical .tooltip-arrow {
+    background: var(--surface-critical-subdued);
+    border-color: var(--transparent) var(--border-critical) var(--border-critical) var(--transparent);
+}
+
+.tooltip-text.informational {
+    color: var(--text-informational);
+    background: var(--surface-informational-subdued);
+    border-color: var(--border-informational);
+}
+.tooltip-text.informational .tooltip-arrow {
+    background: var(--surface-informational-subdued);
+    border-color: var(--transparent) var(--border-informational) var(--border-informational) var(--transparent);
+}
+
+.tooltip-text.warning {
+    color: var(--text-warning);
+    background: var(--surface-warning-subdued);
+    border-color: var(--border-warning);
+}
+.tooltip-text.warning .tooltip-arrow {
+    background: var(--surface-warning-subdued);
+    border-color: var(--transparent) var(--border-warning) var(--border-warning) var(--transparent);
+}
+
+.tooltip-text.dark {
+    color: var(--text-inverse);
+    background: var(--border-hovered);
+    border-color: var(--transparent);
+}
+.tooltip-text.dark .tooltip-arrow {
+    background: var(--border-hovered);
+    border-color: var(--transparent);
+}
+
+.tooltip-text.dark.success {
+    color: var(--text-inverse);
+    background: var(--surface-success-darker);
+    border-color: var(--transparent);
+}
+.tooltip-text.dark.success .tooltip-arrow {
+    background: var(--surface-success-darker);
+    border-color: var(--transparent);
+}
+
+.tooltip-text.dark.critical {
+    color: var(--text-inverse);
+    background: var(--surface-critical-darker);
+    border-color: var(--transparent);
+}
+.tooltip-text.dark.critical .tooltip-arrow {
+    background: var(--surface-critical-darker);
+    border-color: var(--transparent);
+}
+
+.tooltip-text.dark.informational {
+    color: var(--text-inverse);
+    background: var(--surface-informational-darker);
+    border-color: var(--transparent);
+}
+.tooltip-text.dark.informational .tooltip-arrow {
+    background: var(--surface-informational-darker);
+    border-color: var(--transparent);
+}
+
+.tooltip-text.dark.warning {
+    color: var(--text-inverse);
+    background: var(--surface-warning-darker);
+    border-color: var(--transparent);
+}
+.tooltip-text.dark.warning .tooltip-arrow {
+    background: var(--surface-warning-darker);
+    border-color: var(--transparent);
+}
+
+.tooltip-text.top-start .tooltip-arrow {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.tooltip-text.top .tooltip-arrow {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.tooltip-text.top-end .tooltip-arrow {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.tooltip-text.left-start .tooltip-arrow {
+    transform: translate(-50%, -50%) rotate(315deg);
+}
+.tooltip-text.left .tooltip-arrow {
+    transform: translate(-50%, -50%) rotate(315deg);
+}
+.tooltip-text.left-end .tooltip-arrow {
+    transform: translate(-50%, -50%) rotate(315deg);
+}
+
+.tooltip-text.right-start .tooltip-arrow {
+    transform: translate(-50%, -50%) rotate(135deg);
+}
+.tooltip-text.right .tooltip-arrow {
+    transform: translate(-50%, -50%) rotate(135deg);
+}
+.tooltip-text.right-end .tooltip-arrow {
+    transform: translate(-50%, -50%) rotate(135deg);
+}
+
+.tooltip-text.bottom-start .tooltip-arrow {
+    transform: translate(-50%, -50%) rotate(225deg);
+}
+.tooltip-text.bottom .tooltip-arrow {
+    transform: translate(-50%, -50%) rotate(225deg);
+}
+.tooltip-text.bottom-end .tooltip-arrow {
+    transform: translate(-50%, -50%) rotate(225deg);
+}

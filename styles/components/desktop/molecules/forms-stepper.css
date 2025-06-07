@@ -1,0 +1,136 @@
+input[type="number"] {
+	width: auto;
+	-moz-appearance: textfield;
+}
+input[type="number"].stepper {
+	width: calc(100% - var(--unit-10) + var(--unit-1));
+	border-radius: var(--unit-0);
+	text-align: center;
+    z-index: 9;
+}
+input[type="number"][disabled].stepper {
+	background: var(--surface-subdued);	
+    border: calc(var(--unit-1) / 2) solid var(--border-default);
+	color: var(--border-subdued);
+
+}
+input[type="number"].stepper::-webkit-outer-spin-button,
+input[type="number"].stepper::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.stepper-wrapper {
+	display: inline-flex;
+    width: 100%;
+}
+
+.stepper-wrapper:has(.stepper) .stepper-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: var(--rounded-8);
+	border: calc(var(--unit-1) / 2) solid var(--border-default);
+	width: calc(var(--unit-11) + var(--unit-1));
+	height: calc(var(--unit-11) + var(--unit-1));
+	background: var(--surface-subdued);
+	color: var(--transparent);
+	cursor: pointer;
+	overflow: hidden;
+    flex-shrink: 0;
+}
+.stepper-wrapper:has(.stepper) .stepper-button:hover {
+	background: var(--surface-neutral-subdued);
+}
+.stepper-wrapper:has(.stepper) .stepper-button:active {
+	background: var(--surface-neutral-default);
+}
+
+.stepper-wrapper.small:has(.stepper) .stepper-button {
+	width: calc(var(--unit-10) + var(--unit-1));
+	height: calc(var(--unit-10) + var(--unit-1));
+}
+
+.stepper-wrapper:has(.stepper) .stepper-button:before {
+    content: '';
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: var(--unit-10);
+    width: var(--unit-10);
+    color: var(--border-high);
+    font-family: var(--font-family-icons);
+    font-size: var(--unit-7);
+    font-variation-settings: var(--font-variation-settings);
+    overflow: hidden;
+}
+
+.stepper-wrapper:has(.stepper) .stepper-button#stepper-plus {
+	border-left: none;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.stepper-wrapper:has(.stepper) .stepper-button#stepper-plus:before {
+    content: 'add';
+}
+.stepper-wrapper:has(.stepper) .stepper-button#stepper-minus {
+	border-right: none;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.stepper-wrapper:has(.stepper) .stepper-button#stepper-minus:before {
+    content: 'remove';
+}
+
+.stepper-wrapper:has(.stepper.minimal) .stepper-button {
+	border: var(--unit-1) solid var(--border-high) !important;
+	border-radius: var(--rounded-full) !important;
+	background: var(--transparent);
+	width: calc(var(--unit-7) + var(--unit-1));
+	height: calc(var(--unit-7) + var(--unit-1));
+}
+.stepper-wrapper:has(.stepper.minimal) .stepper-button:before {
+    font-size: var(--unit-6);
+	width: calc(var(--unit-7) + var(--unit-1));
+	height: calc(var(--unit-7) + var(--unit-1));
+}
+.stepper-wrapper:has(.stepper.minimal) .stepper {
+    height: calc(var(--unit-7) + var(--unit-1));
+    background: var(--transparent);
+    border: none;
+    font-size: var(--font-size-heading-sm);
+    line-height: var(--line-height-heading-sm);
+    font-weight: var(--font-weight-bold);
+    padding: 0;
+    pointer-events: none;
+}
+
+.stepper-wrapper:has(.stepper.minimal) .stepper-button:hover {
+	background: var(--border-high);
+}
+.stepper-wrapper:has(.stepper.minimal) .stepper-button:active {
+	background: var(--border-pressed);
+	border-color: var(--border-pressed);
+}
+
+.stepper-wrapper:has(.stepper.minimal) .stepper-button:hover:before {
+	color: var(--text-inverse);
+}
+.stepper-wrapper:has(.stepper.minimal) .stepper-button:active:before {
+	color: var(--text-inverse-subdued);
+}
+
+.stepper-wrapper:has(.stepper) .stepper-button.disabled {
+	background: var(--surface-subdued) !important;
+}
+.stepper-wrapper:has(.stepper) .stepper-button.disabled:before {
+	color: var(--border-subdued) !important;
+}
+.stepper-wrapper:has(.stepper.minimal) .stepper-button.disabled {
+	background: var(--transparent) !important;
+	border: var(--unit-1) solid var(--border-subdued) !important;
+}
+.stepper-wrapper:has(.stepper.minimal) .stepper-button.disabled:before {
+	color: var(--border-subdued) !important;
+}

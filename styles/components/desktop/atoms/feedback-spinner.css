@@ -1,0 +1,32 @@
+.spinner.small {
+	width: var(--spinner-sm);
+	height: var(--spinner-sm);
+}
+.spinner.small:before {
+	border-width: var(--spinner-border-sm);
+}
+
+.spinner, .spinner.medium {
+	width: var(--spinner-md);
+	height: var(--spinner-md);
+	display: flex;
+}
+.spinner:before, .spinner.medium:before {
+	content: '';
+	border-width: var(--spinner-border-md);
+	border-style: solid;
+    border-radius: 50%;
+    border-color: var(--interactive-default) var(--border-disabled) var(--border-disabled) var(--border-disabled);
+	width: 100%;
+	height: auto;
+	aspect-ratio: 1 / 1;
+	animation: spin 1s linear infinite;
+}
+
+.spinner.large {
+	width: var(--spinner-lg);
+	height: var(--spinner-lg);
+}
+.spinner.large:before {
+	border-width: var(--spinner-border-lg);
+}

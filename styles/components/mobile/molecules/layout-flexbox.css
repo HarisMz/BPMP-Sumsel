@@ -1,0 +1,567 @@
+/* BREAKPOINT MOBILE */
+@media (max-width: 768px) {
+
+.flex-mobile {
+	display: flex;
+}
+.flex-1-mobile {
+	flex: 1 1 0% !important;
+}
+.flex-auto-mobile {
+	flex: 1 1 auto !important;
+}
+.flex-initial-mobile {
+	flex: 0 1 auto !important;
+}
+.flex-none-mobile {
+	flex: none !important;
+}
+
+.row-mobile {
+	flex-direction: row !important;
+}
+.row-reverse-mobile {
+	flex-direction: row-reverse !important;
+}
+
+.column-mobile {
+	flex-direction: column !important;
+}
+.column-reverse-mobile {
+	flex-direction: column-reverse !important;
+}
+
+.wrap-mobile {
+	flex-wrap: wrap !important;
+}
+.wrap-reverse-mobile {
+	flex-wrap: wrap-reverse !important;
+}
+.nowrap-mobile {
+	flex-wrap: nowrap !important;
+}
+
+.grow-mobile {
+	flex-grow: 1 !important;
+}
+.grow-0-mobile {
+	flex-grow: 0 !important;
+}
+
+.shrink-mobile {
+	flex-shrink: 1 !important;
+}
+.shrink-0-mobile {
+	flex-shrink: 0 !important;
+}
+
+.justify-normal-mobile {
+	justify-content: normal !important;
+}
+.justify-start-mobile {
+	justify-content: flex-start !important;
+}
+.justify-end-mobile {
+	justify-content: flex-end !important;
+}
+.justify-center-mobile {
+	justify-content: center !important;
+}
+.justify-between-mobile {
+	justify-content: space-between !important;
+}
+.justify-around-mobile {
+	justify-content: space-around !important;
+}
+.justify-evenly-mobile {
+	justify-content: space-evenly !important;
+}
+.justify-stretch-mobile {
+	justify-content: stretch !important;
+}
+
+.justify-items-start-mobile {
+	justify-items: start !important;
+}
+.justify-items-end-mobile {
+	justify-items: end !important;
+}
+.justify-items-center-mobile {
+	justify-items: center !important;
+}
+.justify-items-stretch-mobile {
+	justify-items: stretch !important;
+}
+
+
+.justify-self-auto-mobile {
+	justify-self: auto !important;
+}
+.justify-self-start-mobile {
+	justify-self: start !important;
+}
+.justify-self-end-mobile {
+	justify-self: end !important;
+}
+.justify-self-center-mobile {
+	justify-self: center !important;
+}
+.justify-self-stretch-mobile {
+	justify-self: stretch !important;
+}
+
+.content-normal-mobile {
+	align-content: normal !important;
+}
+.content-center-mobile {
+	align-content: center !important;
+}
+.content-start-mobile {
+	align-content: flex-start !important;
+}
+.content-end-mobile {
+	align-content: flex-end !important;
+}
+.content-between-mobile {
+	align-content: space-between !important;
+}
+.content-around-mobile {
+	align-content: space-around !important;
+}
+.content-evenly-mobile {
+	align-content: space-evenly !important;
+}
+.content-baseline-mobile {
+	align-content: baseline !important;
+}
+.content-stretch-mobile {
+	align-content: stretch !important;
+}
+
+.items-start-mobile {
+	align-items: flex-start !important;
+}
+.items-end-mobile {
+	align-items: flex-end !important;
+}
+.items-center-mobile {
+	align-items: center !important;
+}
+.items-baseline-mobile {
+	align-items: baseline !important;
+}
+.items-stretch-mobile {
+	align-items: stretch !important;
+}
+
+.self-auto-mobile {
+	align-self: auto !important;
+}
+.self-start-mobile {
+	align-self: flex-start !important;
+}
+.self-end-mobile {
+	align-self: flex-end !important;
+}
+.self-center-mobile {
+	align-self: center !important;
+}
+.self-stretch-mobile {
+	align-self: stretch !important;
+}
+.self-baseline-mobile {
+	align-self: baseline !important;
+}
+
+.place-content-center-mobile {
+	place-content: center !important;
+}
+.place-content-start-mobile {
+	place-content: start !important;
+}
+.place-content-end-mobile {
+	place-content: end !important;
+}
+.place-content-between-mobile {
+	place-content: space-between !important;
+}
+.place-content-around-mobile {
+	place-content: space-around !important;
+}
+.place-content-evenly-mobile {
+	place-content: space-evenly !important;
+}
+.place-content-baseline-mobile {
+	place-content: baseline !important;
+}
+.place-content-stretch-mobile {
+	place-content: stretch !important;
+}
+
+.place-items-start-mobile {
+	place-items: start !important;
+}
+.place-items-end-mobile {
+	place-items: end !important;
+}
+.place-items-center-mobile {
+	place-items: center !important;
+}
+.place-items-baseline-mobile {
+	place-items: baseline !important;
+}
+.place-items-stretch-mobile {
+	place-items: stretch !important;
+}
+
+.place-self-auto-mobile {
+	place-self: auto !important;
+}
+.place-self-start-mobile {
+	place-self: start !important;
+}
+.place-self-end-mobile {
+	place-self: end !important;
+}
+.place-self-center-mobile {
+	place-self: center !important;
+}
+.place-self-stretch-mobile {
+	place-self: stretch !important;
+}
+
+.width-0-mobile { width: 0 !important; }
+.width-1-mobile { width: 1% !important; }
+.width-2-mobile { width: 2% !important; }
+.width-3-mobile { width: 3% !important; }
+.width-4-mobile { width: 4% !important; }
+.width-5-mobile { width: 5% !important; }
+.width-6-mobile { width: 6% !important; }
+.width-7-mobile { width: 7% !important; }
+.width-8-mobile { width: 8% !important; }
+.width-9-mobile { width: 9% !important; }
+.width-10-mobile { width: 10% !important; }
+.width-11-mobile { width: 11% !important; }
+.width-12-mobile { width: 12% !important; }
+.width-13-mobile { width: 13% !important; }
+.width-14-mobile { width: 14% !important; }
+.width-15-mobile { width: 15% !important; }
+.width-16-mobile { width: 16% !important; }
+.width-17-mobile { width: 17% !important; }
+.width-18-mobile { width: 18% !important; }
+.width-19-mobile { width: 19% !important; }
+.width-20-mobile { width: 20% !important; }
+.width-21-mobile { width: 21% !important; }
+.width-22-mobile { width: 22% !important; }
+.width-23-mobile { width: 23% !important; }
+.width-24-mobile { width: 24% !important; }
+.width-25-mobile { width: 25% !important; }
+.width-26-mobile { width: 26% !important; }
+.width-27-mobile { width: 27% !important; }
+.width-28-mobile { width: 28% !important; }
+.width-29-mobile { width: 29% !important; }
+.width-30-mobile { width: 30% !important; }
+.width-31-mobile { width: 31% !important; }
+.width-32-mobile { width: 32% !important; }
+.width-33-mobile { width: 33% !important; }
+.width-34-mobile { width: 34% !important; }
+.width-35-mobile { width: 35% !important; }
+.width-36-mobile { width: 36% !important; }
+.width-37-mobile { width: 37% !important; }
+.width-38-mobile { width: 38% !important; }
+.width-39-mobile { width: 39% !important; }
+.width-40-mobile { width: 40% !important; }
+.width-41-mobile { width: 41% !important; }
+.width-42-mobile { width: 42% !important; }
+.width-43-mobile { width: 43% !important; }
+.width-44-mobile { width: 44% !important; }
+.width-45-mobile { width: 45% !important; }
+.width-46-mobile { width: 46% !important; }
+.width-47-mobile { width: 47% !important; }
+.width-48-mobile { width: 48% !important; }
+.width-49-mobile { width: 49% !important; }
+.width-50-mobile { width: 50% !important; }
+.width-51-mobile { width: 51% !important; }
+.width-52-mobile { width: 52% !important; }
+.width-53-mobile { width: 53% !important; }
+.width-54-mobile { width: 54% !important; }
+.width-55-mobile { width: 55% !important; }
+.width-56-mobile { width: 56% !important; }
+.width-57-mobile { width: 57% !important; }
+.width-58-mobile { width: 58% !important; }
+.width-59-mobile { width: 59% !important; }
+.width-60-mobile { width: 60% !important; }
+.width-61-mobile { width: 61% !important; }
+.width-62-mobile { width: 62% !important; }
+.width-63-mobile { width: 63% !important; }
+.width-64-mobile { width: 64% !important; }
+.width-65-mobile { width: 65% !important; }
+.width-66-mobile { width: 66% !important; }
+.width-67-mobile { width: 67% !important; }
+.width-68-mobile { width: 68% !important; }
+.width-69-mobile { width: 69% !important; }
+.width-70-mobile { width: 70% !important; }
+.width-71-mobile { width: 71% !important; }
+.width-72-mobile { width: 72% !important; }
+.width-73-mobile { width: 73% !important; }
+.width-74-mobile { width: 74% !important; }
+.width-75-mobile { width: 75% !important; }
+.width-76-mobile { width: 76% !important; }
+.width-77-mobile { width: 77% !important; }
+.width-78-mobile { width: 78% !important; }
+.width-79-mobile { width: 79% !important; }
+.width-80-mobile { width: 80% !important; }
+.width-81-mobile { width: 81% !important; }
+.width-82-mobile { width: 82% !important; }
+.width-83-mobile { width: 83% !important; }
+.width-84-mobile { width: 84% !important; }
+.width-85-mobile { width: 85% !important; }
+.width-86-mobile { width: 86% !important; }
+.width-87-mobile { width: 87% !important; }
+.width-88-mobile { width: 88% !important; }
+.width-89-mobile { width: 89% !important; }
+.width-90-mobile { width: 90% !important; }
+.width-91-mobile { width: 91% !important; }
+.width-92-mobile { width: 92% !important; }
+.width-93-mobile { width: 93% !important; }
+.width-94-mobile { width: 94% !important; }
+.width-95-mobile { width: 95% !important; }
+.width-96-mobile { width: 96% !important; }
+.width-97-mobile { width: 97% !important; }
+.width-98-mobile { width: 98% !important; }
+.width-99-mobile { width: 99% !important; }
+.width-100-mobile { width: 100% !important; }
+
+.width-auto-mobile { width: auto !important; }
+
+.quarter-mobile { width: 25% !important; }
+.half-mobile { width: 50% !important; }
+.three-quarters-mobile { width: 75% !important; }
+.full-mobile { width: 100% !important; }
+
+.height-0-mobile { height: 0 !important; }
+.height-1-mobile { height: 1% !important; }
+.height-2-mobile { height: 2% !important; }
+.height-3-mobile { height: 3% !important; }
+.height-4-mobile { height: 4% !important; }
+.height-5-mobile { height: 5% !important; }
+.height-6-mobile { height: 6% !important; }
+.height-7-mobile { height: 7% !important; }
+.height-8-mobile { height: 8% !important; }
+.height-9-mobile { height: 9% !important; }
+.height-10-mobile { height: 10% !important; }
+.height-11-mobile { height: 11% !important; }
+.height-12-mobile { height: 12% !important; }
+.height-13-mobile { height: 13% !important; }
+.height-14-mobile { height: 14% !important; }
+.height-15-mobile { height: 15% !important; }
+.height-16-mobile { height: 16% !important; }
+.height-17-mobile { height: 17% !important; }
+.height-18-mobile { height: 18% !important; }
+.height-19-mobile { height: 19% !important; }
+.height-20-mobile { height: 20% !important; }
+.height-21-mobile { height: 21% !important; }
+.height-22-mobile { height: 22% !important; }
+.height-23-mobile { height: 23% !important; }
+.height-24-mobile { height: 24% !important; }
+.height-25-mobile { height: 25% !important; }
+.height-26-mobile { height: 26% !important; }
+.height-27-mobile { height: 27% !important; }
+.height-28-mobile { height: 28% !important; }
+.height-29-mobile { height: 29% !important; }
+.height-30-mobile { height: 30% !important; }
+.height-31-mobile { height: 31% !important; }
+.height-32-mobile { height: 32% !important; }
+.height-33-mobile { height: 33% !important; }
+.height-34-mobile { height: 34% !important; }
+.height-35-mobile { height: 35% !important; }
+.height-36-mobile { height: 36% !important; }
+.height-37-mobile { height: 37% !important; }
+.height-38-mobile { height: 38% !important; }
+.height-39-mobile { height: 39% !important; }
+.height-40-mobile { height: 40% !important; }
+.height-41-mobile { height: 41% !important; }
+.height-42-mobile { height: 42% !important; }
+.height-43-mobile { height: 43% !important; }
+.height-44-mobile { height: 44% !important; }
+.height-45-mobile { height: 45% !important; }
+.height-46-mobile { height: 46% !important; }
+.height-47-mobile { height: 47% !important; }
+.height-48-mobile { height: 48% !important; }
+.height-49-mobile { height: 49% !important; }
+.height-50-mobile { height: 50% !important; }
+.height-51-mobile { height: 51% !important; }
+.height-52-mobile { height: 52% !important; }
+.height-53-mobile { height: 53% !important; }
+.height-54-mobile { height: 54% !important; }
+.height-55-mobile { height: 55% !important; }
+.height-56-mobile { height: 56% !important; }
+.height-57-mobile { height: 57% !important; }
+.height-58-mobile { height: 58% !important; }
+.height-59-mobile { height: 59% !important; }
+.height-60-mobile { height: 60% !important; }
+.height-61-mobile { height: 61% !important; }
+.height-62-mobile { height: 62% !important; }
+.height-63-mobile { height: 63% !important; }
+.height-64-mobile { height: 64% !important; }
+.height-65-mobile { height: 65% !important; }
+.height-66-mobile { height: 66% !important; }
+.height-67-mobile { height: 67% !important; }
+.height-68-mobile { height: 68% !important; }
+.height-69-mobile { height: 69% !important; }
+.height-70-mobile { height: 70% !important; }
+.height-71-mobile { height: 71% !important; }
+.height-72-mobile { height: 72% !important; }
+.height-73-mobile { height: 73% !important; }
+.height-74-mobile { height: 74% !important; }
+.height-75-mobile { height: 75% !important; }
+.height-76-mobile { height: 76% !important; }
+.height-77-mobile { height: 77% !important; }
+.height-78-mobile { height: 78% !important; }
+.height-79-mobile { height: 79% !important; }
+.height-80-mobile { height: 80% !important; }
+.height-81-mobile { height: 81% !important; }
+.height-82-mobile { height: 82% !important; }
+.height-83-mobile { height: 83% !important; }
+.height-84-mobile { height: 84% !important; }
+.height-85-mobile { height: 85% !important; }
+.height-86-mobile { height: 86% !important; }
+.height-87-mobile { height: 87% !important; }
+.height-88-mobile { height: 88% !important; }
+.height-89-mobile { height: 89% !important; }
+.height-90-mobile { height: 90% !important; }
+.height-91-mobile { height: 91% !important; }
+.height-92-mobile { height: 92% !important; }
+.height-93-mobile { height: 93% !important; }
+.height-94-mobile { height: 94% !important; }
+.height-95-mobile { height: 95% !important; }
+.height-96-mobile { height: 96% !important; }
+.height-97-mobile { height: 97% !important; }
+.height-98-mobile { height: 98% !important; }
+.height-99-mobile { height: 99% !important; }
+.height-100-mobile { height: 100% !important; }
+
+.height-auto-mobile { height: auto !important; }
+
+.height-quarter-mobile { height: 25% !important; }
+.height-half-mobile { height: 50% !important; }
+.height-three-quarters-mobile { height: 75% !important; }
+.height-full-mobile { height: 100% !important; }
+
+.height-0vh-mobile { height: 0dvh !important; }
+.height-1vh-mobile { height: 1dvh !important; }
+.height-2vh-mobile { height: 2dvh !important; }
+.height-3vh-mobile { height: 3dvh !important; }
+.height-4vh-mobile { height: 4dvh !important; }
+.height-5vh-mobile { height: 5dvh !important; }
+.height-6vh-mobile { height: 6dvh !important; }
+.height-7vh-mobile { height: 7dvh !important; }
+.height-8vh-mobile { height: 8dvh !important; }
+.height-9vh-mobile { height: 9dvh !important; }
+.height-10vh-mobile { height: 10dvh !important; }
+.height-11vh-mobile { height: 11dvh !important; }
+.height-12vh-mobile { height: 12dvh !important; }
+.height-13vh-mobile { height: 13dvh !important; }
+.height-14vh-mobile { height: 14dvh !important; }
+.height-15vh-mobile { height: 15dvh !important; }
+.height-16vh-mobile { height: 16dvh !important; }
+.height-17vh-mobile { height: 17dvh !important; }
+.height-18vh-mobile { height: 18dvh !important; }
+.height-19vh-mobile { height: 19dvh !important; }
+.height-20vh-mobile { height: 20dvh !important; }
+.height-21vh-mobile { height: 21dvh !important; }
+.height-22vh-mobile { height: 22dvh !important; }
+.height-23vh-mobile { height: 23dvh !important; }
+.height-24vh-mobile { height: 24dvh !important; }
+.height-25vh-mobile { height: 25dvh !important; }
+.height-26vh-mobile { height: 26dvh !important; }
+.height-27vh-mobile { height: 27dvh !important; }
+.height-28vh-mobile { height: 28dvh !important; }
+.height-29vh-mobile { height: 29dvh !important; }
+.height-30vh-mobile { height: 30dvh !important; }
+.height-31vh-mobile { height: 31dvh !important; }
+.height-32vh-mobile { height: 32dvh !important; }
+.height-33vh-mobile { height: 33dvh !important; }
+.height-34vh-mobile { height: 34dvh !important; }
+.height-35vh-mobile { height: 35dvh !important; }
+.height-36vh-mobile { height: 36dvh !important; }
+.height-37vh-mobile { height: 37dvh !important; }
+.height-38vh-mobile { height: 38dvh !important; }
+.height-39vh-mobile { height: 39dvh !important; }
+.height-40vh-mobile { height: 40dvh !important; }
+.height-41vh-mobile { height: 41dvh !important; }
+.height-42vh-mobile { height: 42dvh !important; }
+.height-43vh-mobile { height: 43dvh !important; }
+.height-44vh-mobile { height: 44dvh !important; }
+.height-45vh-mobile { height: 45dvh !important; }
+.height-46vh-mobile { height: 46dvh !important; }
+.height-47vh-mobile { height: 47dvh !important; }
+.height-48vh-mobile { height: 48dvh !important; }
+.height-49vh-mobile { height: 49dvh !important; }
+.height-50vh-mobile { height: 50dvh !important; }
+.height-51vh-mobile { height: 51dvh !important; }
+.height-52vh-mobile { height: 52dvh !important; }
+.height-53vh-mobile { height: 53dvh !important; }
+.height-54vh-mobile { height: 54dvh !important; }
+.height-55vh-mobile { height: 55dvh !important; }
+.height-56vh-mobile { height: 56dvh !important; }
+.height-57vh-mobile { height: 57dvh !important; }
+.height-58vh-mobile { height: 58dvh !important; }
+.height-59vh-mobile { height: 59dvh !important; }
+.height-60vh-mobile { height: 60dvh !important; }
+.height-61vh-mobile { height: 61dvh !important; }
+.height-62vh-mobile { height: 62dvh !important; }
+.height-63vh-mobile { height: 63dvh !important; }
+.height-64vh-mobile { height: 64dvh !important; }
+.height-65vh-mobile { height: 65dvh !important; }
+.height-66vh-mobile { height: 66dvh !important; }
+.height-67vh-mobile { height: 67dvh !important; }
+.height-68vh-mobile { height: 68dvh !important; }
+.height-69vh-mobile { height: 69dvh !important; }
+.height-70vh-mobile { height: 70dvh !important; }
+.height-71vh-mobile { height: 71dvh !important; }
+.height-72vh-mobile { height: 72dvh !important; }
+.height-73vh-mobile { height: 73dvh !important; }
+.height-74vh-mobile { height: 74dvh !important; }
+.height-75vh-mobile { height: 75dvh !important; }
+.height-76vh-mobile { height: 76dvh !important; }
+.height-77vh-mobile { height: 77dvh !important; }
+.height-78vh-mobile { height: 78dvh !important; }
+.height-79vh-mobile { height: 79dvh !important; }
+.height-80vh-mobile { height: 80dvh !important; }
+.height-81vh-mobile { height: 81dvh !important; }
+.height-82vh-mobile { height: 82dvh !important; }
+.height-83vh-mobile { height: 83dvh !important; }
+.height-84vh-mobile { height: 84dvh !important; }
+.height-85vh-mobile { height: 85dvh !important; }
+.height-86vh-mobile { height: 86dvh !important; }
+.height-87vh-mobile { height: 87dvh !important; }
+.height-88vh-mobile { height: 88dvh !important; }
+.height-89vh-mobile { height: 89dvh !important; }
+.height-90vh-mobile { height: 90dvh !important; }
+.height-91vh-mobile { height: 91dvh !important; }
+.height-92vh-mobile { height: 92dvh !important; }
+.height-93vh-mobile { height: 93dvh !important; }
+.height-94vh-mobile { height: 94dvh !important; }
+.height-95vh-mobile { height: 95dvh !important; }
+.height-96vh-mobile { height: 96dvh !important; }
+.height-97vh-mobile { height: 97dvh !important; }
+.height-98vh-mobile { height: 98dvh !important; }
+.height-99vh-mobile { height: 99dvh !important; }
+.height-100vh-mobile { height: 100dvh !important; }
+
+.ratio-1-1-mobile		{ 	aspect-ratio: 1 / 1 !important		;	}
+
+.ratio-3-2-mobile		{ 	aspect-ratio: 3 / 2 !important		;	}
+.ratio-4-3-mobile		{ 	aspect-ratio: 4 / 3 !important		;	}
+.ratio-5-4-mobile		{ 	aspect-ratio: 5 / 4 !important		;	}
+.ratio-16-9-mobile		{ 	aspect-ratio: 16 / 9 !important		;	}
+.ratio-16-10-mobile		{ 	aspect-ratio: 16 / 10 !important	;	}
+
+.ratio-2-3-mobile		{ 	aspect-ratio: 2 / 3 !important		;	}
+.ratio-3-4-mobile		{ 	aspect-ratio: 3 / 4 !important		;	}
+.ratio-4-5-mobile		{ 	aspect-ratio: 4 / 5 !important		;	}
+.ratio-9-16-mobile		{ 	aspect-ratio: 9 / 16 !important		;	}
+.ratio-10-16-mobile		{ 	aspect-ratio: 10 / 16 !important	;	}
+
+}

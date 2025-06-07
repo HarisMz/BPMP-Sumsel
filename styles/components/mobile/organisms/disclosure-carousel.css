@@ -1,0 +1,21 @@
+/* BREAKPOINT MOBILE */
+@media (max-width: 768px) {
+
+.carousel.full .carousel-item {
+    padding-top: var(--unit-10);
+    padding-bottom: var(--unit-10);
+    padding-left: calc(var(--site-padding) + var(--unit-3));
+    padding-right: calc(var(--site-padding) + var(--unit-3));
+}
+.carousel.full .carousel-item > .wrapper {
+    flex-direction: column-reverse;
+    gap: var(--unit-6);
+}
+.carousel.full .carousel-nav.prev:before {
+	left: calc(var(--unit-4)* -1);
+}
+.carousel.full .carousel-nav.next:before {
+    right: calc(var(--unit-4)* -1);
+}
+
+}

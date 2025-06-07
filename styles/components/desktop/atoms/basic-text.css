@@ -1,0 +1,28 @@
+.hero em {
+	font-weight: var(--font-weight-extrabold);
+	font-style: unset;
+}
+em {
+	color: var(--text-informational);
+	font-style: unset;
+}
+
+h1 {
+	font-family	: var(--font-family-headline-sm);
+	font-size	: var(--font-size-headline-sm); 
+	line-height	: var(--line-height-headline-sm);
+	font-weight	: var(--font-weight-headline-sm);
+}
+
+.text-wrap {
+	text-wrap: wrap;
+}
+.text-nowrap {
+	text-wrap: nowrap;
+}
+.text-balance {
+	text-wrap: balance;
+}
+.text-pretty {
+	text-wrap: pretty;
+}

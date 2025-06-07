@@ -1,0 +1,33 @@
+/* Separator X */
+.separator-0.horizontal,	.separator-none.horizontal 			{	margin-right: calc(var(--spacing-0) / 2);	padding-right: calc(var(--spacing-0) / 2);		border-right: 1px solid var(--border-default);	}
+.separator-1.horizontal,	.separator-smallest.horizontal 		{	margin-right: calc(var(--spacing-1) / 2);	padding-right: calc(var(--spacing-1) / 2);		border-right: 1px solid var(--border-default);	}
+.separator-2.horizontal,	.separator-extra-tight.horizontal 	{	margin-right: calc(var(--spacing-2) / 2);	padding-right: calc(var(--spacing-2) / 2);		border-right: 1px solid var(--border-default);	}
+.separator-3.horizontal,	.separator-tight.horizontal 		{	margin-right: calc(var(--spacing-3) / 2);	padding-right: calc(var(--spacing-3) / 2);		border-right: 1px solid var(--border-default);	}
+.separator-4.horizontal,	.separator-base-tight.horizontal 	{	margin-right: calc(var(--spacing-4) / 2);	padding-right: calc(var(--spacing-4) / 2);		border-right: 1px solid var(--border-default);	}
+.separator-5.horizontal,	.separator-base.horizontal 			{	margin-right: calc(var(--spacing-5) / 2);	padding-right: calc(var(--spacing-5) / 2);		border-right: 1px solid var(--border-default);	}
+.separator-6.horizontal,	.separator-loose.horizontal 		{	margin-right: calc(var(--spacing-6) / 2);	padding-right: calc(var(--spacing-6) / 2);		border-right: 1px solid var(--border-default);	}
+.separator-7.horizontal,	.separator-extra-loose.horizontal 	{	margin-right: calc(var(--spacing-7) / 2);	padding-right: calc(var(--spacing-7) / 2);		border-right: 1px solid var(--border-default);	}
+.separator-8.horizontal,	.separator-super-loose.horizontal 	{	margin-right: calc(var(--spacing-8) / 2);	padding-right: calc(var(--spacing-8) / 2);		border-right: 1px solid var(--border-default);	}
+.separator-9.horizontal											{	margin-right: calc(var(--spacing-9) / 2);	padding-right: calc(var(--spacing-9) / 2);		border-right: 1px solid var(--border-default);	}
+.separator-10.horizontal										{	margin-right: calc(var(--spacing-10) / 2);	padding-right: calc(var(--spacing-10) / 2);		border-right: 1px solid var(--border-default);	}
+.separator-11.horizontal										{	margin-right: calc(var(--spacing-11) / 2);	padding-right: calc(var(--spacing-11) / 2);		border-right: 1px solid var(--border-default);	}
+.separator-12.horizontal										{	margin-right: calc(var(--spacing-12) / 2);	padding-right: calc(var(--spacing-12) / 2);		border-right: 1px solid var(--border-default);	}
+.separator-13.horizontal										{	margin-right: calc(var(--spacing-13) / 2);	padding-right: calc(var(--spacing-13) / 2);		border-right: 1px solid var(--border-default);	}
+.separator-14.horizontal										{	margin-right: calc(var(--spacing-14) / 2);	padding-right: calc(var(--spacing-14) / 2);		border-right: 1px solid var(--border-default);	}
+
+/* Separator Y */
+.separator-0.vertical,	.separator-none.vertical 			{	margin-bottom: calc(var(--spacing-0) / 2);	padding-bottom: calc(var(--spacing-0) / 2);		border-bottom: 1px solid var(--border-default);	}
+.separator-1.vertical,	.separator-smallest.vertical 		{	margin-bottom: calc(var(--spacing-1) / 2);	padding-bottom: calc(var(--spacing-1) / 2);		border-bottom: 1px solid var(--border-default);	}
+.separator-2.vertical,	.separator-extra-tight.vertical 	{	margin-bottom: calc(var(--spacing-2) / 2);	padding-bottom: calc(var(--spacing-2) / 2);		border-bottom: 1px solid var(--border-default);	}
+.separator-3.vertical,	.separator-tight.vertical 			{	margin-bottom: calc(var(--spacing-3) / 2);	padding-bottom: calc(var(--spacing-3) / 2);		border-bottom: 1px solid var(--border-default);	}
+.separator-4.vertical,	.separator-base-tight.vertical 		{	margin-bottom: calc(var(--spacing-4) / 2);	padding-bottom: calc(var(--spacing-4) / 2);		border-bottom: 1px solid var(--border-default);	}
+.separator-5.vertical,	.separator-base.vertical 			{	margin-bottom: calc(var(--spacing-5) / 2);	padding-bottom: calc(var(--spacing-5) / 2);		border-bottom: 1px solid var(--border-default);	}
+.separator-6.vertical,	.separator-loose.vertical 			{	margin-bottom: calc(var(--spacing-6) / 2);	padding-bottom: calc(var(--spacing-6) / 2);		border-bottom: 1px solid var(--border-default);	}
+.separator-7.vertical,	.separator-extra-loose.vertical 	{	margin-bottom: calc(var(--spacing-7) / 2);	padding-bottom: calc(var(--spacing-7) / 2);		border-bottom: 1px solid var(--border-default);	}
+.separator-8.vertical,	.separator-super-loose.vertical 	{	margin-bottom: calc(var(--spacing-8) / 2);	padding-bottom: calc(var(--spacing-8) / 2);		border-bottom: 1px solid var(--border-default);	}
+.separator-9.vertical										{	margin-bottom: calc(var(--spacing-9) / 2);	padding-bottom: calc(var(--spacing-9) / 2);		border-bottom: 1px solid var(--border-default);	}
+.separator-10.vertical										{	margin-bottom: calc(var(--spacing-10) / 2); padding-bottom: calc(var(--spacing-10) / 2);	border-bottom: 1px solid var(--border-default);	}
+.separator-11.vertical										{	margin-bottom: calc(var(--spacing-11) / 2); padding-bottom: calc(var(--spacing-11) / 2);	border-bottom: 1px solid var(--border-default);	}
+.separator-12.vertical										{	margin-bottom: calc(var(--spacing-12) / 2); padding-bottom: calc(var(--spacing-12) / 2);	border-bottom: 1px solid var(--border-default);	}
+.separator-13.vertical										{	margin-bottom: calc(var(--spacing-13) / 2); padding-bottom: calc(var(--spacing-13) / 2);	border-bottom: 1px solid var(--border-default);	}
+.separator-14.vertical										{	margin-bottom: calc(var(--spacing-14) / 2); padding-bottom: calc(var(--spacing-14) / 2);	border-bottom: 1px solid var(--border-default);	}

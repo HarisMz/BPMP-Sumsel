@@ -1,0 +1,15 @@
+/* BREAKPOINT MOBILE */
+@media (max-width: 768px) {
+
+.banner {
+    width: 100%;
+}
+.banner-buffer {
+    left: 0;
+    right: 0;
+    max-width: unset;
+    width: 100%;
+    padding: calc(var(--site-header) + var(--site-padding)) var(--site-padding) var(--site-padding) var(--site-padding);
+}
+
+}

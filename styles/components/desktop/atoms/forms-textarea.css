@@ -1,0 +1,44 @@
+textarea {
+	padding: var(--unit-4) var(--unit-5);
+	border-radius: var(--rounded-8);
+	border: 1px solid var(--border-default);
+	color: var(--text-default);
+	background: var(--surface-default);
+}
+.small textarea {
+	padding: var(--unit-3) var(--unit-5);
+}
+textarea:hover {
+	border-color: var(--border-hovered);
+}
+textarea:disabled,
+.textarea.disabled textarea {
+	border-color: var(--border-disabled);
+	background: var(--surface-disabled);
+	color: var(--text-disabled);
+	pointer-events: none;
+}
+textarea:invalid,
+.textarea.error textarea,
+.textarea.invalid textarea {
+	border-color: var(--border-critical);
+	background: var(--surface-critical-subdued);
+}
+textarea:active {
+	border-color: var(--border-pressed);
+}
+textarea:focus, textarea:focus-visible {
+	border-color: var(--interactive-focused);
+	box-shadow: 0 0 0 2px var(--interactive-focused);
+	outline: none;
+}
+
+.textarea {
+	width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.textarea textarea {
+	width: 100%;
+}

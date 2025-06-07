@@ -1,0 +1,61 @@
+.expander .expander-content {
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    position: relative;
+}
+.expander .expander-content:after {
+    content: '...';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-left: 40px;
+    background: linear-gradient(to right, transparent, white 50%);
+    opacity: 1;
+}
+.expander .expander-content.noclamp:after {
+    content: '';
+}
+
+.expander.open .expander-content {
+    display: block !important;
+}
+.expander.open .expander-content:after {
+    opacity: 0;
+}
+
+.expander .expander-trigger {
+    display: flex;
+    flex-direction: row;
+    margin-top: var(--unit-3);
+    color: var(--text-default);
+    font-weight: var(--font-weight-bold);
+    gap: var(--unit-2);
+    cursor: pointer;
+}
+
+.expander .expander-trigger:hover {
+    text-decoration: none;
+}
+
+.expander .expander-trigger:after {
+    content: 'keyboard_arrow_down';
+    display: flex;
+    justify-content: center;
+    right: var(--unit-5);
+    height: var(--unit-6);
+    width: var(--unit-6);
+    color: var(--icon-default);
+    margin-top: calc(var(--unit-1)/2);
+    font-family: var(--font-family-icons);
+    font-size: var(--font-size-button-md);
+    font-weight: var(--font-weight-regular);
+    overflow: hidden;
+}
+
+.expander .expander-trigger:after {
+    transform-origin: center var(--unit-4);
+}
+
+.expander.open .expander-trigger:after {
+    transform: rotate(-180deg);
+}

@@ -1,0 +1,34 @@
+/* BREAKPOINT MOBILE */
+@media (max-width: 768px) {
+
+.tabs.vertical {
+	flex-direction: column;
+    gap: var(--unit-6);
+}
+.tabs.vertical .menu {
+	flex-direction: row;
+	border-right: unset;
+	border-bottom: calc(var(--unit-1) / 2) solid var(--border-subdued);
+	width: 100%;
+}
+.tabs.vertical .content {
+	width: 100%;
+}
+.tabs .menu {
+    margin: 0 calc(var(--site-padding)* -1);
+    width: 100vw !important;
+    overflow-x: auto;
+}
+.tabs .menu .item {
+	flex-shrink: 0;
+    padding: var(--unit-5) var(--site-padding);
+}
+.tabs.vertical .menu .active-line {
+    bottom: 0;
+    height: var(--unit-1);
+}
+.tabs.horizontal.full .menu .item {
+    width: unset;
+}
+
+}

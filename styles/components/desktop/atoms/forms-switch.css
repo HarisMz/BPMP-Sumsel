@@ -1,0 +1,139 @@
+.switch {
+	display: flex;
+	position: relative;
+	padding: var(--unit-2) var(--unit-0) var(--unit-2) calc(var(--unit-11) + var(--unit-4));
+	font-family: var(--font-family-body);
+	font-size: var(--font-size-body);
+	font-weight: var(--font-weight-body);
+	line-height: var(--line-height-body);
+	user-select: none;
+	color: var(--text-default);
+    align-items: center;
+}
+.switch .label {
+	cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+.switch .label .helper {
+	margin-top: var(--unit-0);
+}
+.switch input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: var(--unit-0);
+	width: var(--unit-0);
+}
+.switch .mark {
+	position: absolute;
+	left: var(--unit-0);
+    height: var(--unit-7);
+	width: calc(var(--unit-11) - var(--unit-1));
+	border: calc(var(--unit-1) / 2) solid var(--border-default);
+	background: var(--surface-subdued);
+	border-radius: var(--rounded-full);
+	display: flex;
+    align-items: center;
+	cursor: pointer;
+	box-sizing: content-box;
+    overflow: hidden;
+}
+.switch .mark:before {
+	content: "";
+	position: absolute;
+	display: flex;
+	opacity: 1;
+	width: calc(0% + (var(--unit-7) / 2));
+	height: var(--unit-7);
+    left: 0;
+    background: var(--action-default);
+}
+.switch input:checked ~  .mark:before {
+	width: calc(100% - (var(--unit-7) / 2));
+}
+.switch input:focus ~ .mark {
+	box-shadow: var(--shadow-white), var(--shadow-blue-50);
+}
+.switch:hover input ~ .mark {
+	background: var(--surface-selected-default);
+	border: calc(var(--unit-1) / 2) solid var(--gray-40);
+}
+.switch:hover input ~ .mark:before {
+	background: var(--action-hovered);
+}
+.switch:hover input ~ .mark:after {
+    color: var(--gray-40);
+    box-shadow: 0 0 0 1px var(--gray-40);
+}
+.switch input:checked ~ .mark {
+	background: var(--surface-default);
+	border: calc(var(--unit-1) / 2) solid var(--action-default);
+}
+.switch:hover input:checked ~ .mark {
+	background: var(--surface-subdued);
+	border: calc(var(--unit-1) / 2) solid var(--action-hovered);
+}
+.switch input:checked ~ .mark:after {
+	content: "check";
+    transform: rotate(0deg);
+    left: calc(100% - var(--unit-7));
+	background: var(--surface-default);
+    color: var(--action-default);
+    box-shadow: 0 0 0 1px var(--action-default);
+}
+.switch:hover input:checked ~ .mark:after {
+    color: var(--action-hovered);
+    box-shadow: 0 0 0 1px var(--action-hovered);
+}
+.switch .mark:after {
+	content: "close";
+	position: absolute;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	opacity: 1;
+	width: var(--unit-7);
+	height: var(--unit-7);
+    left: 0;
+    overflow: hidden;
+    background: var(--surface-default);
+	border-radius: var(--rounded-full);
+    font-family: var(--font-family-icons);
+    font-size: var(--font-size-action);
+    font-weight: var(--font-weight-bold);
+    box-shadow: 0 0 0 1px var(--border-default);
+    color: var(--border-default);
+    transform: rotate(-90deg);
+}
+.switch.right {
+	padding: var(--unit-2) calc(var(--unit-11) + var(--unit-4)) var(--unit-2) var(--unit-0);
+}
+.switch.right .mark {
+	left: unset;
+	right: var(--unit-0);
+}
+.switch input:disabled ~ .mark,
+.switch:hover input:disabled ~ .mark {
+	background: var(--surface-pressed);
+	border: calc(var(--unit-1) / 2) solid var(--action-disabled);
+}
+.switch input:disabled ~ .mark:before {
+	background: var(--surface-pressed);
+}
+.switch input:disabled ~ .mark:after {
+	color: var(--gray-40);
+    box-shadow: 0 0 0 1px var(--action-disabled);
+}
+.switch input:disabled ~ .mark:after {
+	color: var(--gray-40);
+    box-shadow: 0 0 0 1px var(--action-disabled);
+    background: var(--surface-disabled);
+}
+.switch input:disabled:checked ~ .mark:before {
+	background: var(--action-disabled);
+}
+.switch input:disabled:checked ~ .mark:after {
+	color: var(--gray-40);
+    box-shadow: 0 0 0 1px var(--action-disabled);
+}
