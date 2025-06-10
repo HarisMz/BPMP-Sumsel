@@ -101,6 +101,7 @@
   align-items: center;
   border-bottom: 4px solid transparent;
   transition: all var(--transition-medium) ease;
+  gap: var(--unit-3);
 }
 .header .menu .item.active,
 .header .menu .item.active a {

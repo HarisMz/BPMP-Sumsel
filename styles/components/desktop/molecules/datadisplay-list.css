@@ -75,6 +75,9 @@
 .list .list-item[data-icon] {
   gap: var(--unit-3);
 }
+.mega-menu .list .list-item[data-icon] {
+  gap: var(--unit-4);
+}
 .list.bold .list-item[data-icon] {
   gap: var(--unit-4);
 }
