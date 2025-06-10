@@ -21,10 +21,13 @@
   display: flex;
   flex-direction: row;
   border-radius: var(--unit-2);
-  align-items: start;
+  align-items: center;
   cursor: pointer;
   min-width: max-content;
   width: 100%;
+}
+.mega-menu .list .list-item {
+  align-items: start;
 }
 .list.surface.slim .list-item {
   border-radius: var(--unit-0);
@@ -87,14 +90,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: var(--unit-10);
-  width: var(--unit-10);
+  height: var(--unit-6);
+  width: var(--unit-6);
   font-family: var(--font-family-icons);
-  font-size: var(--unit-7);
+  font-size: var(--unit-6);
   font-weight: var(--font-weight-regular);
   overflow: hidden;
   flex-shrink: 0;
-  background: #cee3fc;
+}
+.mega-menu .list .list-item[data-icon]:before {
+  height: var(--unit-10);
+  width: var(--unit-10);
+  font-size: var(--unit-7);
+  background: #ECF5FE;
   border-radius: var(--unit-3);
 }
 .list.bold .list-item[data-icon]:before {

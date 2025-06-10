@@ -158,6 +158,9 @@
   line-height: var(--unit-6);
   gap: var(--unit-2);
 }
+.header.mega-menu .menu .item .list a {
+  padding: 0 var(--unit-1);
+}
 .header .menu li.current,
 .header .menu li a.current,
 .header .menu li.current:after,

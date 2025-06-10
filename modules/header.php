@@ -1,4 +1,4 @@
-<header class="header container surface-white">
+<header class="header mega-menu container surface-white">
     <nav class="wrapper">
         <div class="logo-wrapper">
             <a href="/" class="logo"></a>
