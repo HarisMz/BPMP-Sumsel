@@ -16,9 +16,9 @@ a:has(.card):hover .card,
   filter: brightness(1.1);
   transform: scale(1.02);
 }
-.card:has(.button) {
+/* .card:has(.button) {
   height: 108px;
-}
+} */
 a:has(.card):active .card,
 .card:not(.collapsible):has(a):active {
   box-shadow: var(--elevation-1);

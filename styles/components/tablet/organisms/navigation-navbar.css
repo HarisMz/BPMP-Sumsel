@@ -195,10 +195,13 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    line-height: var(--unit-6);
-    gap: var(--unit-2);
-    text-wrap: balance;
   }
+
+  /* .list .list-item[data-icon]:before {
+    height: var(--unit-10);
+    width: var(--unit-10);
+  } */
+
   .header ~ main {
     padding-top: var(--site-header);
   }

@@ -14,7 +14,7 @@
 <main>
     <section class="container hero">
         <div class="wrapper">
-            <div class="flex column">
+            <div class="flex column width-70">
                 <div class="carousel loop full dots">
                     <div class="carousel-inner">
                         <div class="carousel-item darken left flex justify-end pb-12" style="background-image: url('/assets/images/hero-1.png');">
@@ -95,7 +95,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex column justify-around gap-9 text-white surface-cyan-70 px-10 pt-12 pb-5 width-35" style="max-width: 512px;">
+            <div class="flex column justify-around gap-9 text-white surface-cyan-70 px-10 pt-12 pb-5" style="min-width: 512px;">
                 <div class="display-lg">
                     Pengumuman Terkini
                 </div>
@@ -183,11 +183,11 @@
 	            <div class="flex column text-balance gap-7">
 	                <h1 class="display-lg">Layanan Publik</h1>
 	            </div>
-	            <div class="grid grid-4 grid-2-tablet grid-1-mobile gap-7">
-                    <div class="card feature ratio-3-2">
-                        <div class="flex row gap-5 p-2 height-100">
-                            <img src="/assets/images/layanan-1.svg">
-                            <div class="flex column gap-3 text-left">
+	            <div class="grid grid-4 grid-2-tablet grid-2-mobile gap-7">
+                    <div class="card">
+                        <div class="flex row column-mobile gap-5 p-4 height-100 width-100">
+                            <img src="/assets/images/layanan-1.svg" class="height-full">
+                            <div class="flex column text-left gap-3">
                                 <h2 class="action bold text-balance">Pendampingan Daring /Luring</h2>
                                 <a href="#" class="button small" data-icon="visibility" target="_blank">
                                     Lihat Layanan
@@ -195,10 +195,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card feature ratio-3-2">
-                        <div class="flex row gap-5 p-2 height-100">
-                            <img src="/assets/images/layanan-2.svg">
-                            <div class="flex column gap-3 text-left">
+                    <div class="card">
+                        <div class="flex row column-mobile gap-5 p-4 height-100 width-100">
+                            <img src="/assets/images/layanan-2.svg" class="height-full">
+                            <div class="flex column text-left gap-3">
                                 <h2 class="action bold text-balance">Pengaduan Masyarakat</h2>
                                 <a href="#" class="button small" data-icon="visibility" target="_blank">
                                     Lihat Layanan
@@ -206,10 +206,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card feature ratio-3-2">
-                        <div class="flex row gap-5 p-2 height-100">
-                            <img src="/assets/images/layanan-3.svg">
-                            <div class="flex column gap-3 text-left">
+                    <div class="card">
+                        <div class="flex row column-mobile gap-5 p-4 height-100 width-100">
+                            <img src="/assets/images/layanan-3.svg" class="height-full">
+                            <div class="flex column text-left gap-3">
                                 <h2 class="action bold text-balance">Unit Layanan Terpadu (ULT)</h2>
                                 <a href="#" class="button small" data-icon="visibility" target="_blank">
                                     Lihat Layanan
@@ -217,10 +217,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card feature ratio-3-2">
-                        <div class="flex row gap-5 p-2 height-100">
-                            <img src="/assets/images/layanan-4.svg">
-                            <div class="flex column gap-3 text-left">
+                    <div class="card">
+                        <div class="flex row column-mobile gap-5 p-4 height-100 width-100">
+                            <img src="/assets/images/layanan-4.svg" class="height-full">
+                            <div class="flex column text-left gap-3">
                                 <h2 class="action bold text-balance">Peminjaman Fasilitas</h2>
                                 <a href="#" class="button small" data-icon="visibility" target="_blank">
                                     Lihat Layanan
@@ -236,19 +236,35 @@
     <section class="container bg-default pt-0 pb-14">
         <div class="wrapper" style="max-width: 1240px;">
             <div class="flex column justify-center items-center gap-10 gap-6-mobile" style="height: 207px;">
-                <div class="carousel loop arrow clear" data-carousel-visible="1" data-carousel-visible-mobile="1" data-sliding-span="1" data-peek="20">
+                <div class="carousel loop arrow clear hide-mobile" data-carousel-visible="1" data-carousel-visible-mobile="1" data-sliding-span="1" data-peek="20">
                     <div class="carousel-inner">
                         <div class="carousel-item">
-                            <img src="/assets/images/banner-1.png" alt="">
+                            <img src="/assets/images/banner-1.png" alt="Banner 1">
                         </div>
                         <div class="carousel-item">
-                            <img src="/assets/images/banner-2.png" alt="">
+                            <img src="/assets/images/banner-2.png" alt="Banner 2">
                         </div>
                         <div class="carousel-item">
-                            <img src="/assets/images/banner-3.png" alt="">
+                            <img src="/assets/images/banner-3.png" alt="Banner 3">
                         </div>
                         <div class="carousel-item">
-                            <img src="/assets/images/banner-4.png" alt="">
+                            <img src="/assets/images/banner-4.png" alt="Banner 4">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel loop arrow clear hide-desktop" data-carousel-visible="1" data-carousel-visible-mobile="1" data-sliding-span="1">
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <img src="/assets/images/banner-1.png" alt="Banner 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/images/banner-2.png" alt="Banner 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/images/banner-3.png" alt="Banner 3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/images/banner-4.png" alt="Banner 4">
                         </div>
                     </div>
                 </div>
@@ -338,7 +354,92 @@
             <img src="/assets/images/banner-ready.png" alt="Arahan Menteri Dikdasmen"">
             <div class="flex column gap-10">
                 <h1 class="display-lg text-center">Apa kata mereka tentang Layanan Kami?</h1>
-                <div class="carousel loop arrow" data-carousel-visible="3" data-carousel-visible-mobile="1" data-sliding-span="1">
+                <div class="carousel loop arrow hide-mobile" data-carousel-visible="3" data-carousel-visible-mobile="1" data-sliding-span="1">
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <div class="card story">
+                                <div class="details">
+                                    <div class="summary gap-5">
+                                        <div class="flex justify-start items-start">
+                                            <img src="assets/images/tanda-kutip.png" alt="Icon Tanda Kutip" style="height:20px;"></div>
+                                        <div class="title body-lg">
+                                            Pengalaman saya dengan BPMP Sumatera Selatan sangat baik. Stafnya membantu dan membimbing saya dengan baik. Saya merasa dihargai. Terima kasih atas pelayanannya!
+                                        </div>
+                                    </div>
+                                    <div class="meta">
+                                        <div class="avatar round medium" style="background-image: url(/assets/images/avatar.png);">
+                                        </div>
+                                        <div class="info">
+                                            <div class="authorname">
+                                                Budi Santoso
+                                            </div>
+                                            <div class="dateview">
+                                                <span class="institution">
+                                                    Sekolah Dasar Harapan Bangsa
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card story">
+                                <div class="details">
+                                    <div class="summary gap-5">
+                                        <div class="flex justify-start items-start">
+                                            <img src="assets/images/tanda-kutip.png" alt="Icon Tanda Kutip" style="height:20px;"></div>
+                                        <div class="title body-lg">
+                                            Pelayanan dari BPMP Sumatera Selatan sangat memuaskan. Mereka cepat dan profesional, melebihi harapan saya. Saya menghargai dedikasi mereka.
+                                        </div>
+                                    </div>
+                                    <div class="meta">
+                                        <div class="avatar round medium" style="background-image: url(/assets/images/avatar.png);">
+                                        </div>
+                                        <div class="info">
+                                            <div class="authorname">
+                                                Budi Santoso
+                                            </div>
+                                            <div class="dateview">
+                                                <span class="institution">
+                                                    Sekolah Dasar Harapan Bangsa
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card story">
+                                <div class="details">
+                                    <div class="summary gap-5">
+                                        <div class="flex justify-start items-start">
+                                            <img src="assets/images/tanda-kutip.png" alt="Icon Tanda Kutip" style="height:20px;"></div>
+                                        <div class="title body-lg">
+                                            BPMP Sumsel selalu berkomitmen memberikan pelayanan terbaik. Proses yang dilakukan cepat dan efisien, sehingga hasilnya pun menjadi optimal dan memuaskan.
+                                        </div>
+                                    </div>
+                                    <div class="meta">
+                                        <div class="avatar round medium" style="background-image: url(/assets/images/avatar.png);">
+                                        </div>
+                                        <div class="info">
+                                            <div class="authorname">
+                                                Budi Santoso
+                                            </div>
+                                            <div class="dateview">
+                                                <span class="institution">
+                                                    Sekolah Dasar Harapan Bangsa
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel loop arrow hide-desktop" data-carousel-visible="1" data-carousel-visible-mobile="1" data-sliding-span="1">
                     <div class="carousel-inner">
                         <div class="carousel-item">
                             <div class="card story">
@@ -432,9 +533,7 @@
             <div class="flex column justify-center items-center gap-10 gap-6-mobile">
 	            <div class="flex row justify-between items-center text-center gap-9 full">
 	                <h1 class="display-lg full-mobile">E-Pustaka</h1>
-	                <a href="#" class="button">
-                        Lihat Dokumen Lainnya
-                    </a>
+	                <a href="#" class="button hide-mobile">Lihat Dokumen Lainnya</a>
 	            </div>
 	            <div class="grid grid-4 grid-1-mobile gap-12">
 	            	<div class="flex column gap-7">
@@ -442,7 +541,7 @@
                             <img class="rounded-4" src="/assets/images/pustaka-1.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
                         </div>
                         <div class="flex column gap-4">
-                            <span class="badge critical width-30">
+                            <span class="badge critical">
                                 Panduan
                             </span>
                             <div class="heading-md">Panduan Pendidikan Literasi Finansial</div>
@@ -466,7 +565,7 @@
                             <img class="rounded-4" src="/assets/images/pustaka-2.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
                         </div>
                         <div class="flex column gap-4">
-                            <span class="badge critical width-30">
+                            <span class="badge critical">
                                 Panduan
                             </span>
                             <div class="heading-md">Panduan Penyelenggaraan Mata Pelajaran Pilihan</div>
@@ -490,7 +589,7 @@
                             <img class="rounded-4" src="/assets/images/pustaka-3.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
                         </div>
                         <div class="flex column gap-4">
-                            <span class="badge critical width-30">
+                            <span class="badge critical">
                                 Panduan
                             </span>
                             <div class="heading-md">Panduan Pemilihan Mata Pelajaran Pilihan</div>
@@ -514,7 +613,7 @@
                             <img class="rounded-4" src="/assets/images/pustaka-4.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
                         </div>
                         <div class="flex column gap-4">
-                            <span class="badge critical width-30">
+                            <span class="badge critical">
                                 Panduan
                             </span>
                             <div class="heading-md">Panduan Pendidikan Perubahan Iklim</div>
@@ -771,28 +870,31 @@
 
     <section class="container expressive-surface-dark-blue py-11">
         <div class="wrapper">
-            <div class="flex column column-mobile gap-14 gap-4-mobile text-inverse">
+            <div class="flex column column-mobile gap-14 gap-12-mobile text-inverse">
 	            <div class="flex column full-mobile gap-9">
 	                <h1 class="display-md text-center">Statistik Pendidikan Provinsi Sumatera Selatan</h1>
 	            </div>
 	            <div class="flex full-mobile gap-9">
-		            <div class="flex width-100 gap-11 justify-center">
-			            <div class="flex column gap-5 text-center width-20">
+		            <div class="flex width-100 gap-11 justify-center column-mobile items-center-mobile">
+			            <div class="flex column gap-5 text-center items-center-mobile width-20">
 			            	<p class="heading-lg">Guru</p>
 			            	<h2 class="headline-sm"><span class="number-increase" data-duration="2000">10.700</span></h2>
 						</div>
-                        <div class="separator-0 horizontal border-color-white"></div>
-			            <div class="flex column gap-5 text-center width-20">
+                        <div class="separator-0 horizontal border-color-white hide-mobile"></div>
+                        <div class="separator-0 vertical border-color-white hide-desktop full"></div>
+			            <div class="flex column gap-5 text-center items-center-mobile width-20">
 			            	<p class="heading-lg">Peserta Didik</p>
 			            	<h2 class="headline-sm"><span class="number-increase" data-duration="2000">25.900</span></h2>
 						</div>
-                        <div class="separator-0 horizontal border-color-white"></div>
-			            <div class="flex column gap-5 text-center width-20">
+                        <div class="separator-0 horizontal border-color-white hide-mobile"></div>
+                        <div class="separator-0 vertical border-color-white hide-desktop full"></div>
+			            <div class="flex column gap-5 text-center items-center-mobile width-20">
 			            	<p class="heading-lg">Satuan Pendidikan</p>
 			            	<h2 class="headline-sm"><span class="number-increase" data-duration="2000">1.500</span></h2>
 						</div>
-                        <div class="separator-0 horizontal border-color-white"></div>
-			            <div class="flex column gap-5 text-center width-20">
+                        <div class="separator-0 horizontal border-color-white hide-mobile"></div>
+                        <div class="separator-0 vertical border-color-white hide-desktop full"></div>
+			            <div class="flex column gap-5 text-center items-center-mobile width-20">
 			            	<p class="heading-lg">Rombongan Belajar</p>
 			            	<h2 class="headline-sm"><span class="number-increase" data-duration="2000">2.450</span></h2>
 						</div>

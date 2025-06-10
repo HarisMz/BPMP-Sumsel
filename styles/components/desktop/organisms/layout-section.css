@@ -68,9 +68,9 @@ section.hero .wrapper {
 main section:first-child .wrapper > div {
   gap: var(--unit-7);
 }
-section.hero .wrapper > div:has(.carousel) {
+/* section.hero .wrapper > div:has(.carousel) {
   width: 65%;
-}
+} */
 main section:first-child .wrapper div:not(.card) > h1,
 section.hero .wrapper div:not(.card) > h1 {
   font-family: var(--font-family-headline-sm);

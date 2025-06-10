@@ -1,0 +1,8 @@
+@media (max-width: 1240px) {
+  .container.hero .wrapper {
+    flex-direction: column;
+  }
+  .container.hero .wrapper > div {
+    min-width: 100% !important;
+  }
+}

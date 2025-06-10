@@ -155,6 +155,8 @@
   padding: var(--unit-1);
   text-wrap: balance;
   width: max-content;
+  line-height: var(--unit-6);
+  gap: var(--unit-2);
 }
 .header .menu li.current,
 .header .menu li a.current,

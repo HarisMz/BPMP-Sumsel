@@ -11,7 +11,17 @@
   .container.hero .wrapper {
     flex-direction: column;
   }
-  .container.hero .wrapper div {
+  .container.hero .wrapper > div {
     width: 100% !important;
+  }
+  .container.hero .carousel-dots {
+    bottom: var(--unit-9);
+  }
+  .container.hero .carousel-item .wrapper {
+    padding-top: calc(var(--unit-12) + var(--unit-13)) !important;
+  }
+  .container.hero .carousel-item .wrapper div > div {
+    flex-direction: column;
+    align-items: flex-start !important;
   }
 }
