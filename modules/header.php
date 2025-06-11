@@ -13,7 +13,7 @@
                             </div>
                             <ul class="grid grid-3 gap-7">
                                 <li class="list-item" data-icon="account_circle">
-                                    <a href="#" class="label">
+                                    <a href="/tentang-kami/profil" class="label">
                                         Profil
                                         <span class="helper">
                                             Lorem ipsum dolor sit amet consectetur.
@@ -21,7 +21,7 @@
                                     </a>
                                 </li>
                                 <li class="list-item" data-icon="support_agent">
-                                    <a href="#" class="label">
+                                    <a href="#" class="label">s
                                         Maklumat Pelayanan
                                         <span class="helper">
                                             Lorem ipsum dolor sit amet consectetur.
