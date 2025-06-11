@@ -111,11 +111,6 @@ function initCarousel() {
       const totalMargin = Math.abs(margin) * (visibleCount - 1);
       const hasCard = $carousel.hasClass("has-card");
 
-      console.log("=== FIXED WIDTH CALCULATION ===");
-      console.log("Using clientWidth:", carouselWidth);
-      console.log("Original outerWidth:", $carousel.outerWidth());
-      console.log("Difference:", $carousel.outerWidth() - carouselWidth);
-
       let itemWidth;
       if ($carousel.is("[data-peek]")) {
         const peekValue = parseInt($carousel.attr("data-peek"), 10) || 0;
@@ -124,15 +119,7 @@ function initCarousel() {
         $carouselInner.children(".carousel-item").css({
           width: `calc(${itemWidth}px - (${peekValue}/100 * ${itemWidth}px))`,
           "margin-right": `${Math.abs(margin)}px`,
-          "padding": '0'
-        });
-      } else if (hasCard) {
-        itemWidth = (carouselWidth - totalMargin) / visibleCount;
-        $carouselInner.children(".carousel-item").css({
-          // width: `calc(${itemWidth}px - var(--unit-5) - var(--unit-3))`,
-          // "margin-right": `${Math.abs(margin)}px`,
-          width: `calc(${itemWidth}px - 14px)`,
-          "margin-right": `${Math.abs(margin)}px`,
+          padding: "0",
         });
       } else {
         itemWidth = (carouselWidth - totalMargin) / visibleCount;
@@ -146,6 +133,37 @@ function initCarousel() {
 
       setPosition(currentIndex + (isLooping ? visibleCount : 0));
     }
+
+    // function updateItemWidthAndPosition() {
+    //   updateVisibleCount();
+
+    //   const carouselWidth = $carousel[0].clientWidth;
+    //   const totalMargin = Math.abs(margin) * (visibleCount - 1);
+    //   const hasCard = $carousel.hasClass("has-card");
+
+    //   // Hitung lebar item dalam persen
+    //   const totalContentWidth = carouselWidth - totalMargin;
+    //   let itemWidthPercent = 100 / visibleCount;
+
+    //   if ($carousel.is("[data-peek]")) {
+    //     const peekValue = parseInt($carousel.attr("data-peek"), 10) || 0;
+    //     const adjustedPercent = itemWidthPercent * (1 - peekValue / 100);
+    //     $carouselInner.children(".carousel-item").css({
+    //       width: `${adjustedPercent}%`,
+    //       "margin-right": `${(margin / carouselWidth) * 100}%`,
+    //       padding: "0",
+    //     });
+    //   } else {
+    //     $carouselInner.children(".carousel-item").css({
+    //       width: `${itemWidthPercent}%`,
+    //       "margin-right": `${(margin / carouselWidth) * 100}%`,
+    //     });
+    //   }
+
+    //   console.log("Item width (in %):", itemWidthPercent);
+
+    //   setPosition(currentIndex + (isLooping ? visibleCount : 0));
+    // }
 
     function setPosition(index) {
       const itemWidthPx =
@@ -176,20 +194,11 @@ function initCarousel() {
         '<a class="carousel-nav next" href="javascript:void(0);"></a>'
       );
 
-      if (
-        $carousel.is("[data-peek]") &&
-        !$carousel.parent().hasClass("carousel-wrapper")
-      ) {
-        $carousel.wrap('<div class="carousel-wrapper"></div>');
-      }
+      $carousel.wrap('<div class="carousel-wrapper"></div>');
 
       const $wrapper = $carousel.closest(".carousel-wrapper");
 
-      if ($wrapper.length) {
-        $wrapper.append($prevButton).append($nextButton);
-      } else {
-        $carousel.append($prevButton).append($nextButton);
-      }
+      $wrapper.append($prevButton).append($nextButton);
 
       $prevButton.on("click", () => slideToIndex("prev"));
       $nextButton.on("click", () => slideToIndex("next"));

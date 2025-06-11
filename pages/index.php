@@ -95,7 +95,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex column justify-around gap-9 text-white surface-cyan-70 px-10 pt-12 pb-5" style="min-width: 512px;">
+            <div class="flex column justify-around gap-9 text-white surface-cyan-70 px-10 pt-12 pb-5">
                 <div class="display-lg">
                     Pengumuman Terkini
                 </div>
@@ -236,23 +236,7 @@
     <section class="container bg-default pt-0 pb-14">
         <div class="wrapper" style="max-width: 1240px;">
             <div class="flex column justify-center items-center gap-10 gap-6-mobile" style="height: 207px;">
-                <div class="carousel loop arrow clear hide-mobile" data-carousel-visible="1" data-carousel-visible-mobile="1" data-sliding-span="1" data-peek="20">
-                    <div class="carousel-inner">
-                        <div class="carousel-item">
-                            <img src="/assets/images/banner-1.png" alt="Banner 1">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="/assets/images/banner-2.png" alt="Banner 2">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="/assets/images/banner-3.png" alt="Banner 3">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="/assets/images/banner-4.png" alt="Banner 4">
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel loop arrow clear hide-desktop" data-carousel-visible="1" data-carousel-visible-mobile="1" data-sliding-span="1">
+                <div class="carousel loop arrow clear" data-carousel-visible="1" data-carousel-visible-mobile="1" data-sliding-span="1" data-peek="20">
                     <div class="carousel-inner">
                         <div class="carousel-item">
                             <img src="/assets/images/banner-1.png" alt="Banner 1">
@@ -338,7 +322,7 @@
                     </div>
                     <div class="card feature text-balance text-left justify-end items-start ratio-3-2 p-7 darken bottom heading-md" style="background-image: url('/assets/images/program-8.png'); height: 300px;">
                         <div class="card-content">
-                            <h3 class="card-title heading-md">Penjaminan Mutu</h3>
+                            <h3 class="card-title heading-md">Penjaminan Mutu Pendidikan</h3>
                             <p class="card-description body">
                             Inisiatif ini memastikan standar kualitas pendidikan terpenuhi dan terus ditingkatkan melalui berbagai mekanisme kontrol dan evaluasi.
                             </p>
@@ -350,96 +334,11 @@
     </section>
 
     <section class="container bg-default">
-        <div class="wrapper column gap-14">
-            <img src="/assets/images/banner-ready.png" alt="Arahan Menteri Dikdasmen"">
+        <div class="wrapper column gap-14" style="max-width: 1240px;">
+            <img class="px-6" src="/assets/images/banner-ready.png" alt="Arahan Menteri Dikdasmen"">
             <div class="flex column gap-10">
                 <h1 class="display-lg text-center">Apa kata mereka tentang Layanan Kami?</h1>
-                <div class="carousel loop arrow hide-mobile" data-carousel-visible="3" data-carousel-visible-mobile="1" data-sliding-span="1">
-                    <div class="carousel-inner">
-                        <div class="carousel-item">
-                            <div class="card story">
-                                <div class="details">
-                                    <div class="summary gap-5">
-                                        <div class="flex justify-start items-start">
-                                            <img src="assets/images/tanda-kutip.png" alt="Icon Tanda Kutip" style="height:20px;"></div>
-                                        <div class="title body-lg">
-                                            Pengalaman saya dengan BPMP Sumatera Selatan sangat baik. Stafnya membantu dan membimbing saya dengan baik. Saya merasa dihargai. Terima kasih atas pelayanannya!
-                                        </div>
-                                    </div>
-                                    <div class="meta">
-                                        <div class="avatar round medium" style="background-image: url(/assets/images/avatar.png);">
-                                        </div>
-                                        <div class="info">
-                                            <div class="authorname">
-                                                Budi Santoso
-                                            </div>
-                                            <div class="dateview">
-                                                <span class="institution">
-                                                    Sekolah Dasar Harapan Bangsa
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card story">
-                                <div class="details">
-                                    <div class="summary gap-5">
-                                        <div class="flex justify-start items-start">
-                                            <img src="assets/images/tanda-kutip.png" alt="Icon Tanda Kutip" style="height:20px;"></div>
-                                        <div class="title body-lg">
-                                            Pelayanan dari BPMP Sumatera Selatan sangat memuaskan. Mereka cepat dan profesional, melebihi harapan saya. Saya menghargai dedikasi mereka.
-                                        </div>
-                                    </div>
-                                    <div class="meta">
-                                        <div class="avatar round medium" style="background-image: url(/assets/images/avatar.png);">
-                                        </div>
-                                        <div class="info">
-                                            <div class="authorname">
-                                                Budi Santoso
-                                            </div>
-                                            <div class="dateview">
-                                                <span class="institution">
-                                                    Sekolah Dasar Harapan Bangsa
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card story">
-                                <div class="details">
-                                    <div class="summary gap-5">
-                                        <div class="flex justify-start items-start">
-                                            <img src="assets/images/tanda-kutip.png" alt="Icon Tanda Kutip" style="height:20px;"></div>
-                                        <div class="title body-lg">
-                                            BPMP Sumsel selalu berkomitmen memberikan pelayanan terbaik. Proses yang dilakukan cepat dan efisien, sehingga hasilnya pun menjadi optimal dan memuaskan.
-                                        </div>
-                                    </div>
-                                    <div class="meta">
-                                        <div class="avatar round medium" style="background-image: url(/assets/images/avatar.png);">
-                                        </div>
-                                        <div class="info">
-                                            <div class="authorname">
-                                                Budi Santoso
-                                            </div>
-                                            <div class="dateview">
-                                                <span class="institution">
-                                                    Sekolah Dasar Harapan Bangsa
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel loop arrow hide-desktop" data-carousel-visible="1" data-carousel-visible-mobile="1" data-sliding-span="1">
+                <div class="carousel loop arrow" data-carousel-visible="3" data-carousel-visible-mobile="1" data-sliding-span="1">
                     <div class="carousel-inner">
                         <div class="carousel-item">
                             <div class="card story">
