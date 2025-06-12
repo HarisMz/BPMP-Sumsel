@@ -236,7 +236,7 @@
     <section class="container bg-default pt-0 pb-14">
         <div class="wrapper" style="max-width: 1240px;">
             <div class="flex column justify-center items-center gap-10 gap-6-mobile" style="height: 207px;">
-                <div class="carousel loop arrow clear" data-carousel-visible="1" data-carousel-visible-mobile="1" data-sliding-span="1" data-peek="20">
+                <div class="carousel loop arrow clear arrow-bordered" data-carousel-visible="1" data-carousel-visible-mobile="1" data-sliding-span="1" data-peek="20">
                     <div class="carousel-inner">
                         <div class="carousel-item">
                             <img src="/assets/images/banner-1.png" alt="Banner 1">
@@ -338,7 +338,7 @@
             <img class="px-6" src="/assets/images/banner-ready.png" alt="Arahan Menteri Dikdasmen"">
             <div class="flex column gap-10">
                 <h1 class="display-lg text-center">Apa kata mereka tentang Layanan Kami?</h1>
-                <div class="carousel loop arrow" data-carousel-visible="3" data-carousel-visible-mobile="1" data-sliding-span="1">
+                <div class="carousel loop arrow arrow-bordered" data-carousel-visible="3" data-carousel-visible-mobile="1" data-sliding-span="1">
                     <div class="carousel-inner">
                         <div class="carousel-item">
                             <div class="card story">

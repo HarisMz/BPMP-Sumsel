@@ -238,15 +238,16 @@
   max-width: 100vw;
 }
 .carousel.has-card {
-  /* width: calc(100% + (var(--unit-5) * 2)); */
-  width: 100%;
-  /* padding: var(--unit-6); */
-  /* margin: calc(var(--unit-6) * -1) var(--unit-0); */
+  width: calc(100% + (var(--unit-5) * 2));
+  padding: var(--unit-6);
+  margin: calc(var(--unit-6) * -1) var(--unit-0);
   align-self: center;
   height: 100%;
 }
-.carousel.has-card[data-peek] {
-  clip-path: inset(0 calc(var(--unit-7)) 0 0);
+.carousel.arrow-bordered {
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 /* Styles */

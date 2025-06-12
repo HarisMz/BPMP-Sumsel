@@ -134,37 +134,6 @@ function initCarousel() {
       setPosition(currentIndex + (isLooping ? visibleCount : 0));
     }
 
-    // function updateItemWidthAndPosition() {
-    //   updateVisibleCount();
-
-    //   const carouselWidth = $carousel[0].clientWidth;
-    //   const totalMargin = Math.abs(margin) * (visibleCount - 1);
-    //   const hasCard = $carousel.hasClass("has-card");
-
-    //   // Hitung lebar item dalam persen
-    //   const totalContentWidth = carouselWidth - totalMargin;
-    //   let itemWidthPercent = 100 / visibleCount;
-
-    //   if ($carousel.is("[data-peek]")) {
-    //     const peekValue = parseInt($carousel.attr("data-peek"), 10) || 0;
-    //     const adjustedPercent = itemWidthPercent * (1 - peekValue / 100);
-    //     $carouselInner.children(".carousel-item").css({
-    //       width: `${adjustedPercent}%`,
-    //       "margin-right": `${(margin / carouselWidth) * 100}%`,
-    //       padding: "0",
-    //     });
-    //   } else {
-    //     $carouselInner.children(".carousel-item").css({
-    //       width: `${itemWidthPercent}%`,
-    //       "margin-right": `${(margin / carouselWidth) * 100}%`,
-    //     });
-    //   }
-
-    //   console.log("Item width (in %):", itemWidthPercent);
-
-    //   setPosition(currentIndex + (isLooping ? visibleCount : 0));
-    // }
-
     function setPosition(index) {
       const itemWidthPx =
         $carouselInner.children(".carousel-item").outerWidth() + margin;
@@ -194,11 +163,13 @@ function initCarousel() {
         '<a class="carousel-nav next" href="javascript:void(0);"></a>'
       );
 
-      $carousel.wrap('<div class="carousel-wrapper"></div>');
-
-      const $wrapper = $carousel.closest(".carousel-wrapper");
-
-      $wrapper.append($prevButton).append($nextButton);
+      if ($carousel.hasClass("arrow-bordered")) {
+        $carousel.wrap('<div class="carousel-wrapper"></div>');
+        const $wrapper = $carousel.closest(".carousel-wrapper");
+        $wrapper.append($prevButton).append($nextButton);
+      } else {
+        $carousel.append($prevButton).append($nextButton);
+      }
 
       $prevButton.on("click", () => slideToIndex("prev"));
       $nextButton.on("click", () => slideToIndex("next"));

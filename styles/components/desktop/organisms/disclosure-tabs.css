@@ -85,7 +85,7 @@
   background: var(--surface-subdued);
 }
 
-.tabs.vertical .menu .item.active {
+.tabs.vertical .menu.full-border .item.active {
   color: var(--text-inverse);
   font-weight: var(--font-weight-bold);
   background-color: var(--blue-60);
@@ -96,6 +96,7 @@
   background-color: var(--white);
 }
 
+.tabs.vertical .menu .item.active,
 .tabs.horizontal .menu .item.active {
   color: var(--action-hovered);
   font-weight: var(--font-weight-bold);
