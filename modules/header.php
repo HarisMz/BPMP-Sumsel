@@ -37,7 +37,7 @@
                                     </a>
                                 </li>
                                 <li class="list-item" data-icon="assessment">
-                                    <a href="#" class="label">
+                                    <a href="/tentang-kami/kinerja-organisasi" class="label">
                                         Kinerja Organisasi
                                         <span class="helper">
                                             Lorem ipsum dolor sit amet consectetur.
