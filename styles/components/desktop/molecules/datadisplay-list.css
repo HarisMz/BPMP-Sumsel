@@ -105,7 +105,7 @@
   height: var(--unit-10);
   width: var(--unit-10);
   font-size: var(--unit-7);
-  background: #ECF5FE;
+  background: #ecf5fe;
   border-radius: var(--unit-3);
 }
 .list.bold .list-item[data-icon]:before {
@@ -202,4 +202,31 @@
 }
 .list.surface.bold.slim .list-item.selected {
   padding-right: var(--unit-4);
+}
+.connector {
+  position: relative;
+}
+.connector::before {
+  content: "";
+  position: absolute;
+  width: var(--connector-width, 1px);
+  height: var(--connector-height, 100%);
+  top: var(--connector-top, 0);
+  left: var(--connector-left, 50%);
+  background: var(--border-subdued);
+}
+.timeline-dot {
+  width: 12px;
+  height: 12px;
+  background-color: var(--gray-50);
+  border-radius: 50%;
+  margin-right: 15px;
+  position: relative;
+}
+.timeline-dot.connector::before {
+  top: 16px;
+  height: 132px;
+}
+.flex.items-center:last-child .timeline-dot::before {
+  display: none;
 }

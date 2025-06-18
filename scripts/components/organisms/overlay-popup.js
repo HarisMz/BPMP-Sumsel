@@ -18,11 +18,14 @@ function createPopup(options) {
     destroyDialog(150, function() {
         const {
             size = 'fit',
-            content = '',
             hasclose = true,
             persistent = false,
             blur = true
         } = options;
+
+        const content = options.template
+            ? document.querySelector(options.template).innerHTML
+            : options.content || '';
 
         const allowedSizes = ['fit', 'medium', 'large', 'fill', 'screen'];
         const popupSize = allowedSizes.includes(size) ? size : 'fit';

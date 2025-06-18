@@ -21,7 +21,7 @@
                                     </a>
                                 </li>
                                 <li class="list-item" data-icon="support_agent">
-                                    <a href="#" class="label">s
+                                    <a href="/tentang-kami/maklumat-pelayanan" class="label">s
                                         Maklumat Pelayanan
                                         <span class="helper">
                                             Lorem ipsum dolor sit amet consectetur.
