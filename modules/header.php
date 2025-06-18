@@ -53,7 +53,7 @@
                                     </a>
                                 </li>
                                 <li class="list-item" data-icon="business">
-                                    <a href="#" class="label">
+                                    <a href="/tentang-kami/sarana-prasarana" class="label">
                                         Fasilitas Sarana dan Prasana
                                         <span class="helper">
                                             Lorem ipsum dolor sit amet consectetur.

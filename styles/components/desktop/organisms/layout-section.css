@@ -93,10 +93,12 @@ main .container:first-child {
 
 /* Styles */
 
-section.darken * {
+section.darken *,
+section.light-dark {
   color: var(--white);
 }
-section.darken:before {
+section.darken:before,
+section.light-dark:before {
   content: "";
   position: absolute;
   top: 0;
@@ -137,6 +139,15 @@ section.darken.left:before {
     rgba(0, 0, 0, 0.4662) 46%,
     rgba(0, 0, 0, 0.84) 100%
   );
+}
+
+section.light-dark.top:before {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 41.29%,
+    rgba(38, 38, 38, 0.7) 100.41%
+  );
+  background-blend-mode: multiply;
 }
 
 .video-bg {
