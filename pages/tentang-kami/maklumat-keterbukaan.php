@@ -26,12 +26,12 @@
                     </li>
                     <li class="item">
                         <a href="#">
-                            Maklumat Pelayanan
+                            Maklumat Keterbukaan Infomasi Publik
                         </a>
                     </li>
                 </ul>
             </nav>
-            <div class="display-lg text-inverse">Maklumat Pelayanan</div>
+            <div class="display-lg text-inverse">Maklumat Keterbukaan Infomasi Publik</div>
         </div>
     </section>
     <section class="container py-0 surface-subdued">
@@ -40,17 +40,16 @@
                 <div class="flex column gap-11 width-70">
                     <div class="flex column gap-6 px-12 py-9 items-center surface-blue-5 rounded-12">
                         <img src="/assets/images/site-logo/logo-maklumat.svg" alt="Logo Maklumat" style="width: 270px;">
-                        <div class="flex column text-center text-balance gap-3">
-                            <div class="display-md">Maklumat Pelayanan</div>
-                            <span class="body">Dengan ini, kami menyatakan sanggup menyelenggarakan pelayanan sesuai dengan standar pelayanan yang telah di tetapkan dan apabila tidak menepati janji ini, kami siap menerima sanksi sesuai dengan peraturan perundangan-undangan berlaku.</span>
+                        <div class="flex column text-center gap-3">
+                            <div class="display-md">Maklumat Keterbukaan Infomasi Publik</div>
                             <span class="body">
-                                Indralaya, 2 Januari 2025<br>
-                                Kepala BPMP Provinsi Sumatera Selatan,
+                                Menyadari bahwa informasi merupakan kebutuhan dan hak setiap orang serta modal untuk kemajuan bangsa, dan keterbukaan informasi publik merupakan salah satu komponen utama untuk mewujudkan tata kelola kepemerintahan yang transparan dan akuntabel, maka Balai Penjaminan Mutu Pendidikan (BPMP) Provinsi Sumatera Selatan akan selalu berupaya memberikan layanan terbaik kepada masyarakat dan berkomitmen untuk:<br>
+                                <b>Memberikan layanan Keterbukaan Informasi Publik sesuai dengan Undang-Undang No. 14 Tahun 2008 secara Akurat, Transparan, dan Kredibel</b>
                             </span>
                             <div>
                                 <span class="body">
-                                    <b>Aria Ahmad Mangunwibawa, S.Psi., M.Si.</b><br>
-                                    NIP 19751125 200501 1 002
+                                    Kepala BPMP Provinsi Sumatera Selatan,<br>
+                                    <b>Aria Ahmad Mangunwibawa, S.Psi., M.Si.</b>
                                 </span>
                             </div>
                         </div>

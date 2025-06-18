@@ -29,7 +29,7 @@
                                     </a>
                                 </li>
                                 <li class="list-item" data-icon="visibility">
-                                    <a href="#" class="label">
+                                    <a href="/tentang-kami/maklumat-keterbukaan" class="label">
                                         Maklumat Keterbukaan Informasi Publik
                                         <span class="helper">
                                             Lorem ipsum dolor sit amet consectetur.
