@@ -41,7 +41,7 @@
     </section>
     <section class="container py-0 surface-subdued">
         <div class="wrapper my-10 p-9 surface-default rounded-16">
-            <div class="tabs vertical p-9">
+            <div class="tabs one-page vertical p-9">
                 <div class="menu">
                     <a href="#" class="item action" id="tab-menu-1">
                         Manajemen Perubahan
@@ -111,7 +111,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="separator-13 vertical border-color-disabled"></div>
+                    </div>
+                    <div class="separator-13 vertical border-color-disabled"></div>
+                    <div class="item" id="tab-content-2">
                         <div class="flex column gap-4">
                             <div class="flex gap-5 items-center">
                                 <div class="flex justify-center items-center surface-purple-50 rounded-8 shrink-0" style="height: 60px; width: 60px;">
@@ -155,7 +157,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="separator-13 vertical border-color-disabled"></div>
+                    </div>
+                    <div class="separator-13 vertical border-color-disabled">
+                    <div class="item" id="tab-content-3">
                         <div class="flex column gap-4">
                             <div class="flex gap-5 items-center">
                                 <div class="flex justify-center items-center surface-cyan-50 rounded-8 shrink-0" style="height: 60px; width: 60px;">
@@ -187,7 +191,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="separator-13 vertical border-color-disabled"></div>
+                    </div>
+                    <div class="separator-13 vertical border-color-disabled"></div>
+                    <div class="item" id="tab-content-4">
                         <div class="flex column gap-4">
                             <div class="flex gap-5 items-center">
                                 <div class="flex justify-center items-center surface-green-50 rounded-8 shrink-0" style="height: 60px; width: 60px;">
@@ -227,7 +233,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="separator-13 vertical border-color-disabled"></div>
+                    </div>
+                    <div class="separator-13 vertical border-color-disabled"></div>
+                    <div class="item" id="tab-content-5">
                         <div class="flex column gap-4">
                             <div class="flex gap-5 items-center">
                                 <div class="flex justify-center items-center surface-orange-40 rounded-8 shrink-0" style="height: 60px; width: 60px;">
@@ -267,7 +275,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="separator-13 vertical border-color-disabled"></div>
+                    </div>
+                    <div class="separator-13 vertical border-color-disabled"></div>
+                    <div class="item" id="tab-content-6">
                         <div class="flex column gap-4">
                             <div class="flex gap-5 items-center">
                                 <div class="flex justify-center items-center surface-yellow-50 rounded-8 shrink-0" style="height: 60px; width: 60px;">
@@ -303,21 +313,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="item" id="tab-content-2">
-
-                    </div>
-                    <div class="item" id="tab-content-3">
-
-                    </div>
-                    <div class="item" id="tab-content-4">
-                    
-                    </div>
-                    <div class="item" id="tab-content-5">
-                                    
-                    </div>
-                    <div class="item" id="tab-content-6">
-                                    
                     </div>
                 </div>
             </div>
