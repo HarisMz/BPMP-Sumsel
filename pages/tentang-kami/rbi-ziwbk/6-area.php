@@ -158,7 +158,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="separator-13 vertical border-color-disabled">
+                    <div class="separator-13 vertical border-color-disabled"></div>
                     <div class="item" id="tab-content-3">
                         <div class="flex column gap-4">
                             <div class="flex gap-5 items-center">
