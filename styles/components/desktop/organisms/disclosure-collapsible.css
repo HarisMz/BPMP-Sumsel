@@ -1,141 +1,165 @@
 .collapsible {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
 }
 
 .collapsible.list {
-    border-radius: var(--unit-0);
-    border-bottom: 1px solid var(--border-subdued);
+  border-radius: var(--unit-0);
+  border-bottom: 1px solid var(--border-subdued);
 }
 
 .collapsible.card:only-child {
-    border-radius: var(--unit-4) !important;
-    border: 1px solid var(--border-subdued) !important;
+  border-radius: var(--unit-4) !important;
+  border: 1px solid var(--border-subdued) !important;
 }
 
 .collapsible.card {
-    border-radius: var(--unit-4);
-    margin-top: var(--unit-5);
-    border: 1px solid var(--border-subdued);
-    overflow: hidden;
-    height: unset;
+  border-radius: var(--unit-4);
+  margin-top: var(--unit-5);
+  border: 1px solid var(--border-subdued);
+  overflow: hidden;
+  height: unset;
+}
+
+.collapsible.card.type-2 {
+  background-color: var(--surface-subdued);
+  padding: 0 var(--unit-7);
 }
 
 .collapsible.card:first-child {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .collapsible-unite .collapsible.card {
-    border-radius: var(--unit-0);
-    margin-top: 0;
-    border-bottom: none;
+  border-radius: var(--unit-0);
+  margin-top: 0;
+  border-bottom: none;
 }
 
 .collapsible-unite .collapsible.card:first-child {
-    border-top-right-radius: var(--unit-4);
-    border-top-left-radius: var(--unit-4);
+  border-top-right-radius: var(--unit-4);
+  border-top-left-radius: var(--unit-4);
 }
 
 .collapsible-unite .collapsible.card:last-child {
-    border-bottom: 1px solid var(--border-subdued);
-    border-bottom-right-radius: var(--unit-4);
-    border-bottom-left-radius: var(--unit-4);
+  border-bottom: 1px solid var(--border-subdued);
+  border-bottom-right-radius: var(--unit-4);
+  border-bottom-left-radius: var(--unit-4);
 }
 
 .collapsible-unite .collapsible.card:nth-child(2):last-child {
-    border-top: 1px solid var(--border-subdued);
+  border-top: 1px solid var(--border-subdued);
 }
 
 .collapsible-header {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    border: 1px solid transparent;
-    border-radius: var(--unit-0);
-    width: 100%;
-    background: transparent;
-    padding: var(--unit-5) var(--unit-11) var(--unit-5) var(--unit-5);
-    font-size: var(--unit-5);
-    font-weight: var(--font-weight-bold);
-    cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  border-radius: var(--unit-0);
+  width: 100%;
+  background: transparent;
+  padding: var(--unit-5) var(--unit-11) var(--unit-5) var(--unit-5);
+  font-size: var(--unit-5);
+  font-weight: var(--font-weight-bold);
+  cursor: pointer;
+}
+
+.collapsible.card.type-2 .collapsible-header {
+  padding: var(--unit-7) var(--unit-7) var(--unit-7) 0;
+  border: none;
 }
 
 .collapsible-header[data-icon] {
-    padding-left: var(--unit-11);
+  padding-left: var(--unit-11);
 }
 
 .collapsible-header:before {
-    position: absolute;
-    display: flex;
-    left: var(--unit-5);
-    color: var(--icon-default);
-    margin-top: var(--unit-1);
-    overflow: hidden;
+  position: absolute;
+  display: flex;
+  left: var(--unit-5);
+  color: var(--icon-default);
+  margin-top: var(--unit-1);
+  overflow: hidden;
 }
 
 .collapsible-header:after {
-    content: 'keyboard_arrow_down';
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    right: var(--unit-5);
-    height: var(--unit-6);
-    width: var(--unit-6);
-    color: var(--icon-default);
-    margin-top: calc(var(--unit-1)/2);
-    font-family: var(--font-family-icons);
-    font-size: var(--font-size-button-md);
-    font-weight: var(--font-weight-bold);
-    overflow: hidden;
+  content: "keyboard_arrow_down";
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  right: var(--unit-5);
+  height: var(--unit-6);
+  width: var(--unit-6);
+  color: var(--icon-default);
+  margin-top: calc(var(--unit-1) / 2);
+  font-family: var(--font-family-icons);
+  font-size: var(--font-size-button-md);
+  font-weight: var(--font-weight-bold);
+  overflow: hidden;
+}
+
+.collapsible.card.type-2 .collapsible-header:after {
+  right: var(--unit-6);
 }
 
 .collapsible-header:hover {
-    background-color: var(--gray-5);
+  background-color: var(--gray-5);
 }
 
 .collapsible.list:first-child .collapsible-header {
-    border-top-right-radius: var(--unit-4);
-    border-top-left-radius: var(--unit-4);
+  border-top-right-radius: var(--unit-4);
+  border-top-left-radius: var(--unit-4);
 }
 
 .collapsible.list:first-child.open .collapsible-header {
-    border-radius: var(--unit-4);
+  border-radius: var(--unit-4);
 }
 .collapsible.list.open .collapsible-header {
-    border-bottom-right-radius: var(--unit-4);
-    border-bottom-left-radius: var(--unit-4);
+  border-bottom-right-radius: var(--unit-4);
+  border-bottom-left-radius: var(--unit-4);
 }
 
 .collapsible-header:active {
-    background-color: var(--gray-10) !important;
+  background-color: var(--gray-10) !important;
+}
+
+.collapsible.card.type-2 .collapsible-header:active {
+  background-color: transparent !important;
 }
 
 .collapsible.disabled {
-    pointer-events: none;
-    cursor: not-allowed;
-    background-color: var(--surface-subdued);
-    color: var(--text-subdued);
+  pointer-events: none;
+  cursor: not-allowed;
+  background-color: var(--surface-subdued);
+  color: var(--text-subdued);
 }
 
-.disabled .collapsible-header.icon:before, .disabled .collapsible-header.icon:after {
-    color: var(--icon-disabled);
+.disabled .collapsible-header.icon:before,
+.disabled .collapsible-header.icon:after {
+  color: var(--icon-disabled);
 }
 
 .collapsible-header:after {
-    transform-origin: center 12px;
+  transform-origin: center 12px;
 }
 
 .open .collapsible-header:after {
-    transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .collapsible-content {
-    display: none;
-    padding: var(--unit-5);
+  display: none;
+  padding: var(--unit-5);
 }
 
 .collapsible.card .collapsible-content {
-    border-top: 1px solid var(--border-subdued);
+  border-top: 1px solid var(--border-subdued);
+}
+
+.collapsible.card.type-2 .collapsible-content {
+  border-top: none;
+  padding: var(--unit-7) 0;
 }

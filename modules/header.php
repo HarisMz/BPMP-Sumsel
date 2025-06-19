@@ -45,7 +45,7 @@
                                     </a>
                                 </li>
                                 <li class="list-item" data-icon="gavel">
-                                    <a href="#" class="label">
+                                    <a href="/tentang-kami/rbi-ziwbk" class="label">
                                         RBI dan ZIWBK
                                         <span class="helper">
                                             Lorem ipsum dolor sit amet consectetur.
@@ -293,9 +293,9 @@
                 </li>
             </ul>
             <div class="campaign-logo">
-                <img src="./assets/images/hashtag-kemendikdasmen.png" alt="pendidikan-bermutu-untuk-semua">
-                <img src="./assets/images/tagline-kemendikdasmen.png" alt="kemendikdasmen-ramah">
-                <img src="./assets/images/rumah-pendidikan.png" alt="rumah-pendidikan">
+                <img src="/assets/images/hashtag-kemendikdasmen.png" alt="Pendidikan Bermutu Untuk Semua">
+                <img src="/assets/images/tagline-kemendikdasmen.png" alt="Kemendikdasmen Ramah">
+                <img src="/assets/images/rumah-pendidikan.png" alt="Rumah Pendidikan">
             </div>
         </div>
         <ul class="menu">

@@ -59,106 +59,100 @@
                         <div class="flex column gap-10">
                             <div class="display-lg">Perjanjian Kinerja</div>
                             <span class="body">Perjanjian Kinerja adalah dokumen pernyataan yang merupakan komitmen bersama antara Kepala BPMP Provinsi Sumatera Selatan dan Direktur Jenderal PAUD Dasmen, terkait capaian target kinerja BPMP Provinsi Sumatera Selatan yang jelas dan terukur dalam rentang waktu satu tahun tertentu dengan mempertimbangkan sumber daya yang dikelolanya (sesuai dengan dokumen perencanaan).</span>
-                            <div class="collapsible card first-open">
-                                <div class="collapsible-header">
-                                    Rencana Strategis 1
-                                </div>
-                                <div class="collapsible-content">
-                                    <div class="flex gap-4">
-                                        <div>
-                                            <img src="/assets/images/pdf.svg" alt="download" style="height: 24px; width: 24px;">
-                                        </div>
-                                        <p>
-                                            Menyampaikan Informasi: Konten berfungsi sebagai media untuk menyampaikan informasi, baik itu berupa fakta, opini, atau pengetahuan kepada audiens. Konten bisa berupa tulisan, video, gambar, atau suara yang memiliki nilai informatif.
-                                        </p>
-                                        <div class="flex gap-4">
-                                            <a href="#">
-                                                <img src="/assets/images/info.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/visibility.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/download_2.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
+                            <div class="flex column">
+                                <div class="collapsible card type-2 first-open">
+                                    <div class="collapsible-header">
+                                        Perjanjian Kinerja Tahun 2024
+                                    </div>
+                                    <div class="collapsible-content">
+                                        <div class="flex gap-10">
+                                            <div>
+                                                <img src="/assets/images/kinerja-1.png" alt="Kinerja 2024" style="width: 320px; border-radius: 8px;">
+                                            </div>
+                                            <div class="flex column gap-7">
+                                                <span class="heading-lg">Perjanjian Kinerja Tahun 2024</span>
+                                                <span class="body">Perjanjian Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
+                                                <div class="flex gap-3">
+                                                    <a href="#" class="button secondary rounded-full" data-icon="visibility">
+                                                        Tampilkan
+                                                    </a>
+                                                    <a href="#" class="button secondary rounded-full" data-icon="download">
+                                                        Unduh
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="collapsible card">
-                                <div class="collapsible-header">
-                                    Rencana Strategis 2
-                                </div>
-                                <div class="collapsible-content">
-                                    <div class="flex gap-4">
-                                        <div>
-                                            <img src="/assets/images/pdf.svg" alt="download" style="height: 24px; width: 24px;">
-                                        </div>
-                                        <p>
-                                            Menyampaikan Informasi: Konten berfungsi sebagai media untuk menyampaikan informasi, baik itu berupa fakta, opini, atau pengetahuan kepada audiens. Konten bisa berupa tulisan, video, gambar, atau suara yang memiliki nilai informatif.
-                                        </p>
-                                        <div class="flex gap-4">
-                                            <a href="#">
-                                                <img src="/assets/images/info.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/visibility.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/download_2.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
+                                <div class="collapsible card type-2">
+                                    <div class="collapsible-header">
+                                        Perjanjian Kinerja Tahun 2023
+                                    </div>
+                                    <div class="collapsible-content">
+                                        <div class="flex gap-10">
+                                            <div>
+                                                <img src="/assets/images/kinerja-1.png" alt="Kinerja 2024" style="width: 320px; border-radius: 8px;">
+                                            </div>
+                                            <div class="flex column gap-7">
+                                                <span class="heading-lg">Perjanjian Kinerja Tahun 2023</span>
+                                                <span class="body">Perjanjian Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
+                                                <div class="flex gap-3">
+                                                    <a href="#" class="button secondary rounded-full" data-icon="visibility">
+                                                        Tampilkan
+                                                    </a>
+                                                    <a href="#" class="button secondary rounded-full" data-icon="download">
+                                                        Unduh
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="collapsible card">
-                                <div class="collapsible-header">
-                                    Rencana Strategis 3
-                                </div>
-                                <div class="collapsible-content">
-                                    <div class="flex gap-4">
-                                        <div>
-                                            <img src="/assets/images/pdf.svg" alt="download" style="height: 24px; width: 24px;">
-                                        </div>
-                                        <p>
-                                            Menyampaikan Informasi: Konten berfungsi sebagai media untuk menyampaikan informasi, baik itu berupa fakta, opini, atau pengetahuan kepada audiens. Konten bisa berupa tulisan, video, gambar, atau suara yang memiliki nilai informatif.
-                                        </p>
-                                        <div class="flex gap-4">
-                                            <a href="#">
-                                                <img src="/assets/images/info.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/visibility.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/download_2.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
+                                <div class="collapsible card type-2">
+                                    <div class="collapsible-header">
+                                        Perjanjian Kinerja Tahun 2022
+                                    </div>
+                                    <div class="collapsible-content">
+                                        <div class="flex gap-10">
+                                            <div>
+                                                <img src="/assets/images/kinerja-1.png" alt="Kinerja 2024" style="width: 320px; border-radius: 8px;">
+                                            </div>
+                                            <div class="flex column gap-7">
+                                                <span class="heading-lg">Perjanjian Kinerja Tahun 2022</span>
+                                                <span class="body">Perjanjian Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
+                                                <div class="flex gap-3">
+                                                    <a href="#" class="button secondary rounded-full" data-icon="visibility">
+                                                        Tampilkan
+                                                    </a>
+                                                    <a href="#" class="button secondary rounded-full" data-icon="download">
+                                                        Unduh
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="collapsible card">
-                                <div class="collapsible-header">
-                                    Rencana Strategis 4
-                                </div>
-                                <div class="collapsible-content">
-                                    <div class="flex gap-4">
-                                        <div>
-                                            <img src="/assets/images/pdf.svg" alt="download" style="height: 24px; width: 24px;">
-                                        </div>
-                                        <p>
-                                            Menyampaikan Informasi: Konten berfungsi sebagai media untuk menyampaikan informasi, baik itu berupa fakta, opini, atau pengetahuan kepada audiens. Konten bisa berupa tulisan, video, gambar, atau suara yang memiliki nilai informatif.
-                                        </p>
-                                        <div class="flex gap-4">
-                                            <a href="#">
-                                                <img src="/assets/images/info.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/visibility.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/download_2.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
+                                <div class="collapsible card type-2">
+                                    <div class="collapsible-header">
+                                        Perjanjian Kinerja Tahun 2021
+                                    </div>
+                                    <div class="collapsible-content">
+                                        <div class="flex gap-10">
+                                            <div>
+                                                <img src="/assets/images/kinerja-1.png" alt="Kinerja 2024" style="width: 320px; border-radius: 8px;">
+                                            </div>
+                                            <div class="flex column gap-7">
+                                                <span class="heading-lg">Perjanjian Kinerja Tahun 2021</span>
+                                                <span class="body">Perjanjian Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
+                                                <div class="flex gap-3">
+                                                    <a href="#" class="button secondary rounded-full" data-icon="visibility">
+                                                        Tampilkan
+                                                    </a>
+                                                    <a href="#" class="button secondary rounded-full" data-icon="download">
+                                                        Unduh
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -166,107 +160,55 @@
                         </div>
                     </div>
                     <div class="item" id="tab-content-2">
-                        <div class="flex column pt-4">
-                            <div class="collapsible card first-open">
-                                <div class="collapsible-header">
-                                    Program Kerja 1
-                                </div>
-                                <div class="collapsible-content">
-                                    <div class="flex gap-4">
-                                        <div>
-                                            <img src="/assets/images/pdf.svg" alt="download" style="height: 24px; width: 24px;">
-                                        </div>
-                                        <p>
-                                            Menyampaikan Informasi: Konten berfungsi sebagai media untuk menyampaikan informasi, baik itu berupa fakta, opini, atau pengetahuan kepada audiens. Konten bisa berupa tulisan, video, gambar, atau suara yang memiliki nilai informatif.
-                                        </p>
-                                        <div class="flex gap-4">
-                                            <a href="#">
-                                                <img src="/assets/images/info.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/visibility.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/download_2.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
+                        <div class="flex column gap-10">
+                            <div class="display-lg">Rencana Strategis</div>
+                            <span class="body">Rencana Strategis (Restra) adalah dokumen perencanaan suatu organisasi yang berorientasipad hasil yang ingin dicapai dan menjelaskan mengenai strategi atau arahan sebagai dasar dalam mengambil keputusan.</span>
+                            <div class="flex column">
+                                <div class="collapsible card type-2 first-open">
+                                    <div class="collapsible-header">
+                                        Rencana Strategis (Renstra) Tahun 2020 - 2024 EDISI REVISI
+                                    </div>
+                                    <div class="collapsible-content">
+                                        <div class="flex gap-10">
+                                            <div>
+                                                <img src="/assets/images/renstra-1.png" alt="Renstra 2020-2024" style="width: 320px; border-radius: 8px;">
+                                            </div>
+                                            <div class="flex column gap-7">
+                                                <span class="heading-lg">Rencana Strategis (Renstra) Tahun 2020 - 2024 EDISI REVISI</span>
+                                                <span class="body">Rencana Strategis Periode Tahun 2020 - 2024</span>
+                                                <div class="flex gap-3">
+                                                    <a href="#" class="button secondary rounded-full" data-icon="visibility">
+                                                        Tampilkan
+                                                    </a>
+                                                    <a href="#" class="button secondary rounded-full" data-icon="download">
+                                                        Unduh
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="collapsible card">
-                                <div class="collapsible-header">
-                                    Program Kerja 2
-                                </div>
-                                <div class="collapsible-content">
-                                    <div class="flex gap-4">
-                                        <div>
-                                            <img src="/assets/images/pdf.svg" alt="download" style="height: 24px; width: 24px;">
-                                        </div>
-                                        <p>
-                                            Menyampaikan Informasi: Konten berfungsi sebagai media untuk menyampaikan informasi, baik itu berupa fakta, opini, atau pengetahuan kepada audiens. Konten bisa berupa tulisan, video, gambar, atau suara yang memiliki nilai informatif.
-                                        </p>
-                                        <div class="flex gap-4">
-                                            <a href="#">
-                                                <img src="/assets/images/info.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/visibility.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/download_2.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                        </div>
+                                <div class="collapsible card type-2">
+                                    <div class="collapsible-header">
+                                        Rencana Strategis (Renstra) Tahun 2015 - 2019
                                     </div>
-                                </div>
-                            </div>
-                            <div class="collapsible card">
-                                <div class="collapsible-header">
-                                    Program Kerja 3
-                                </div>
-                                <div class="collapsible-content">
-                                    <div class="flex gap-4">
-                                        <div>
-                                            <img src="/assets/images/pdf.svg" alt="download" style="height: 24px; width: 24px;">
-                                        </div>
-                                        <p>
-                                            Menyampaikan Informasi: Konten berfungsi sebagai media untuk menyampaikan informasi, baik itu berupa fakta, opini, atau pengetahuan kepada audiens. Konten bisa berupa tulisan, video, gambar, atau suara yang memiliki nilai informatif.
-                                        </p>
-                                        <div class="flex gap-4">
-                                            <a href="#">
-                                                <img src="/assets/images/info.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/visibility.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/download_2.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="collapsible card">
-                                <div class="collapsible-header">
-                                    Program Kerja 4
-                                </div>
-                                <div class="collapsible-content">
-                                    <div class="flex gap-4">
-                                        <div>
-                                            <img src="/assets/images/pdf.svg" alt="download" style="height: 24px; width: 24px;">
-                                        </div>
-                                        <p>
-                                            Menyampaikan Informasi: Konten berfungsi sebagai media untuk menyampaikan informasi, baik itu berupa fakta, opini, atau pengetahuan kepada audiens. Konten bisa berupa tulisan, video, gambar, atau suara yang memiliki nilai informatif.
-                                        </p>
-                                        <div class="flex gap-4">
-                                            <a href="#">
-                                                <img src="/assets/images/info.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/visibility.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/download_2.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
+                                    <div class="collapsible-content">
+                                        <div class="flex gap-10">
+                                            <div>
+                                                <img src="/assets/images/renstra-1.png" alt="Renstra 2015-2019" style="width: 320px; border-radius: 8px;">
+                                            </div>
+                                            <div class="flex column gap-7">
+                                                <span class="heading-lg">Rencana Strategis (Renstra) Tahun 2015 - 2019</span>
+                                                <span class="body">Perjanjian Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
+                                                <div class="flex gap-3">
+                                                    <a href="#" class="button secondary rounded-full" data-icon="visibility">
+                                                        Tampilkan
+                                                    </a>
+                                                    <a href="#" class="button secondary rounded-full" data-icon="download">
+                                                        Unduh
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -274,107 +216,55 @@
                         </div>
                     </div>
                     <div class="item" id="tab-content-3">
-                        <div class="flex column pt-4">
-                            <div class="collapsible card first-open">
-                                <div class="collapsible-header">
-                                    Perjanjian Kinerja 1
-                                </div>
-                                <div class="collapsible-content">
-                                    <div class="flex gap-4">
-                                        <div>
-                                            <img src="/assets/images/pdf.svg" alt="download" style="height: 24px; width: 24px;">
-                                        </div>
-                                        <p>
-                                            Menyampaikan Informasi: Konten berfungsi sebagai media untuk menyampaikan informasi, baik itu berupa fakta, opini, atau pengetahuan kepada audiens. Konten bisa berupa tulisan, video, gambar, atau suara yang memiliki nilai informatif.
-                                        </p>
-                                        <div class="flex gap-4">
-                                            <a href="#">
-                                                <img src="/assets/images/info.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/visibility.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/download_2.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
+                        <div class="flex column gap-10">
+                            <div class="display-lg">Rencana Kinerja Tahunan</div>
+                            <span class="body">Perjanjian Kinerja adalah dokumen pernyataan yang merupakan komitmen bersama antara Kepala BPMP Provinsi Sumatera Selatan dan Direktur Jenderal PAUD Dasmen, terkait capaian target kinerja BPMP Provinsi Sumatera Selatan yang jelas dan terukur dalam rentang waktu satu tahun tertentu dengan mempertimbangkan sumber daya yang dikelolanya (sesuai dengan dokumen perencanaan).</span>
+                            <div class="flex column">
+                                <div class="collapsible card type-2 first-open">
+                                    <div class="collapsible-header">
+                                        Rencana Kinerja Tahun 2024
+                                    </div>
+                                    <div class="collapsible-content">
+                                        <div class="flex gap-10">
+                                            <div>
+                                                <img src="/assets/images/kinerja-1.png" alt="Kinerja 2024" style="width: 320px; border-radius: 8px;">
+                                            </div>
+                                            <div class="flex column gap-7">
+                                                <span class="heading-lg">Perjanjian Kinerja Tahun 2024</span>
+                                                <span class="body">Perjanjian Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
+                                                <div class="flex gap-3">
+                                                    <a href="#" class="button secondary rounded-full" data-icon="visibility">
+                                                        Tampilkan
+                                                    </a>
+                                                    <a href="#" class="button secondary rounded-full" data-icon="download">
+                                                        Unduh
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="collapsible card">
-                                <div class="collapsible-header">
-                                    Perjanjian Kinerja 2
-                                </div>
-                                <div class="collapsible-content">
-                                    <div class="flex gap-4">
-                                        <div>
-                                            <img src="/assets/images/pdf.svg" alt="download" style="height: 24px; width: 24px;">
-                                        </div>
-                                        <p>
-                                            Menyampaikan Informasi: Konten berfungsi sebagai media untuk menyampaikan informasi, baik itu berupa fakta, opini, atau pengetahuan kepada audiens. Konten bisa berupa tulisan, video, gambar, atau suara yang memiliki nilai informatif.
-                                        </p>
-                                        <div class="flex gap-4">
-                                            <a href="#">
-                                                <img src="/assets/images/info.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/visibility.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/download_2.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                        </div>
+                                <div class="collapsible card type-2">
+                                    <div class="collapsible-header">
+                                        Rencana Kinerja Tahun 2023
                                     </div>
-                                </div>
-                            </div>
-                            <div class="collapsible card">
-                                <div class="collapsible-header">
-                                    Perjanjian Kinerja 3
-                                </div>
-                                <div class="collapsible-content">
-                                    <div class="flex gap-4">
-                                        <div>
-                                            <img src="/assets/images/pdf.svg" alt="download" style="height: 24px; width: 24px;">
-                                        </div>
-                                        <p>
-                                            Menyampaikan Informasi: Konten berfungsi sebagai media untuk menyampaikan informasi, baik itu berupa fakta, opini, atau pengetahuan kepada audiens. Konten bisa berupa tulisan, video, gambar, atau suara yang memiliki nilai informatif.
-                                        </p>
-                                        <div class="flex gap-4">
-                                            <a href="#">
-                                                <img src="/assets/images/info.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/visibility.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/download_2.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="collapsible card">
-                                <div class="collapsible-header">
-                                    Perjanjian Kinerja 4
-                                </div>
-                                <div class="collapsible-content">
-                                    <div class="flex gap-4">
-                                        <div>
-                                            <img src="/assets/images/pdf.svg" alt="download" style="height: 24px; width: 24px;">
-                                        </div>
-                                        <p>
-                                            Menyampaikan Informasi: Konten berfungsi sebagai media untuk menyampaikan informasi, baik itu berupa fakta, opini, atau pengetahuan kepada audiens. Konten bisa berupa tulisan, video, gambar, atau suara yang memiliki nilai informatif.
-                                        </p>
-                                        <div class="flex gap-4">
-                                            <a href="#">
-                                                <img src="/assets/images/info.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/visibility.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/download_2.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
+                                    <div class="collapsible-content">
+                                        <div class="flex gap-10">
+                                            <div>
+                                                <img src="/assets/images/kinerja-1.png" alt="Kinerja 2024" style="width: 320px; border-radius: 8px;">
+                                            </div>
+                                            <div class="flex column gap-7">
+                                                <span class="heading-lg">Perjanjian Kinerja Tahun 2024</span>
+                                                <span class="body">Perjanjian Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
+                                                <div class="flex gap-3">
+                                                    <a href="#" class="button secondary rounded-full" data-icon="visibility">
+                                                        Tampilkan
+                                                    </a>
+                                                    <a href="#" class="button secondary rounded-full" data-icon="download">
+                                                        Unduh
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -382,107 +272,207 @@
                         </div>
                     </div>
                     <div class="item" id="tab-content-4">
-                        <div class="flex column pt-4">
-                            <div class="collapsible card first-open">
-                                <div class="collapsible-header">
-                                    Lakip 1
-                                </div>
-                                <div class="collapsible-content">
-                                    <div class="flex gap-4">
-                                        <div>
-                                            <img src="/assets/images/pdf.svg" alt="download" style="height: 24px; width: 24px;">
+                        <div class="flex column gap-10">
+                            <div class="display-lg">Rencana Aksi</div>
+                            <span class="body">Dokumen Rencana Aksi (DRA) adalah dokumen turunan dari Dokumen Renstra dan Perjanjian Kinerja (PK) yang merinci langkah-langkah, strategi, dan waktu pelaksanaan yang diperlukan untuk mencapai tujuan tertentu dalam program atau kebijakan yang telah disusun sebelumnya.</span>
+                            <div class="flex column">
+                                <div class="collapsible card type-2 first-open">
+                                    <div class="collapsible-header">
+                                        Rencana Aksi Tahun 2024
+                                    </div>
+                                    <div class="collapsible-content">
+                                        <div class="flex gap-10">
+                                            <div>
+                                                <img src="/assets/images/aksi-1.jpg" alt="Kinerja 2024" style="width: 320px; border-radius: 8px;">
+                                            </div>
+                                            <div class="flex column gap-7">
+                                                <span class="heading-lg">Rencana Aksi Tahun 2024</span>
+                                                <span class="body">Perjanjian Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
+                                                <div class="flex gap-3">
+                                                    <a href="#" class="button secondary rounded-full" data-icon="visibility">
+                                                        Tampilkan
+                                                    </a>
+                                                    <a href="#" class="button secondary rounded-full" data-icon="download">
+                                                        Unduh
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <p>
-                                            Menyampaikan Informasi: Konten berfungsi sebagai media untuk menyampaikan informasi, baik itu berupa fakta, opini, atau pengetahuan kepada audiens. Konten bisa berupa tulisan, video, gambar, atau suara yang memiliki nilai informatif.
-                                        </p>
-                                        <div class="flex gap-4">
-                                            <a href="#">
-                                                <img src="/assets/images/info.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/visibility.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/download_2.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
+                                    </div>
+                                </div>
+                                <div class="collapsible card type-2">
+                                    <div class="collapsible-header">
+                                        Rencana Aksi Tahun 2023
+                                    </div>
+                                    <div class="collapsible-content">
+                                        <div class="flex gap-10">
+                                            <div>
+                                                <img src="/assets/images/kinerja-1.png" alt="Kinerja 2024" style="width: 320px; border-radius: 8px;">
+                                            </div>
+                                            <div class="flex column gap-7">
+                                                <span class="heading-lg">Rencana Aksi Tahun 2023</span>
+                                                <span class="body">Perjanjian Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
+                                                <div class="flex gap-3">
+                                                    <a href="#" class="button secondary rounded-full" data-icon="visibility">
+                                                        Tampilkan
+                                                    </a>
+                                                    <a href="#" class="button secondary rounded-full" data-icon="download">
+                                                        Unduh
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="collapsible card type-2">
+                                    <div class="collapsible-header">
+                                        Rencana Aksi Tahun 2022
+                                    </div>
+                                    <div class="collapsible-content">
+                                        <div class="flex gap-10">
+                                            <div>
+                                                <img src="/assets/images/kinerja-1.png" alt="Kinerja 2024" style="width: 320px; border-radius: 8px;">
+                                            </div>
+                                            <div class="flex column gap-7">
+                                                <span class="heading-lg">Perjanjian Kinerja Tahun 2024</span>
+                                                <span class="body">Perjanjian Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
+                                                <div class="flex gap-3">
+                                                    <a href="#" class="button secondary rounded-full" data-icon="visibility">
+                                                        Tampilkan
+                                                    </a>
+                                                    <a href="#" class="button secondary rounded-full" data-icon="download">
+                                                        Unduh
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="collapsible card type-2">
+                                    <div class="collapsible-header">
+                                        Rencana Aksi Tahun 2021
+                                    </div>
+                                    <div class="collapsible-content">
+                                        <div class="flex gap-10">
+                                            <div>
+                                                <img src="/assets/images/kinerja-1.png" alt="Kinerja 2024" style="width: 320px; border-radius: 8px;">
+                                            </div>
+                                            <div class="flex column gap-7">
+                                                <span class="heading-lg">Perjanjian Kinerja Tahun 2024</span>
+                                                <span class="body">Perjanjian Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
+                                                <div class="flex gap-3">
+                                                    <a href="#" class="button secondary rounded-full" data-icon="visibility">
+                                                        Tampilkan
+                                                    </a>
+                                                    <a href="#" class="button secondary rounded-full" data-icon="download">
+                                                        Unduh
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="collapsible card">
-                                <div class="collapsible-header">
-                                    Lakip 2
-                                </div>
-                                <div class="collapsible-content">
-                                    <div class="flex gap-4">
-                                        <div>
-                                            <img src="/assets/images/pdf.svg" alt="download" style="height: 24px; width: 24px;">
-                                        </div>
-                                        <p>
-                                            Menyampaikan Informasi: Konten berfungsi sebagai media untuk menyampaikan informasi, baik itu berupa fakta, opini, atau pengetahuan kepada audiens. Konten bisa berupa tulisan, video, gambar, atau suara yang memiliki nilai informatif.
-                                        </p>
-                                        <div class="flex gap-4">
-                                            <a href="#">
-                                                <img src="/assets/images/info.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/visibility.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/download_2.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
+                        </div>
+                    </div>
+                    <div class="item" id="tab-content-5">
+                        <div class="flex column gap-10">
+                            <div class="display-lg">Laporan Kinerja</div>
+                            <span class="body">Perjanjian Kinerja adalah dokumen pernyataan yang merupakan komitmen bersama antara Kepala BPMP Provinsi Sumatera Selatan dan Direktur Jenderal PAUD Dasmen, terkait capaian target kinerja BPMP Provinsi Sumatera Selatan yang jelas dan terukur dalam rentang waktu satu tahun tertentu dengan mempertimbangkan sumber daya yang dikelolanya (sesuai dengan dokumen perencanaan).</span>
+                            <div class="flex column">
+                                <div class="collapsible card type-2 first-open">
+                                    <div class="collapsible-header">
+                                        Laporan Kinerja Tahun 2024
+                                    </div>
+                                    <div class="collapsible-content">
+                                        <div class="flex gap-10">
+                                            <div>
+                                                <img src="/assets/images/lapkin-1.jpg" alt="Kinerja 2024" style="width: 320px; border-radius: 8px;">
+                                            </div>
+                                            <div class="flex column gap-7">
+                                                <span class="heading-lg">Laporan Kinerja Tahun 2024</span>
+                                                <span class="body">Laporan Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
+                                                <div class="flex gap-3">
+                                                    <a href="#" class="button secondary rounded-full" data-icon="visibility">
+                                                        Tampilkan
+                                                    </a>
+                                                    <a href="#" class="button secondary rounded-full" data-icon="download">
+                                                        Unduh
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="collapsible card">
-                                <div class="collapsible-header">
-                                    Lakip 3
-                                </div>
-                                <div class="collapsible-content">
-                                    <div class="flex gap-4">
-                                        <div>
-                                            <img src="/assets/images/pdf.svg" alt="download" style="height: 24px; width: 24px;">
-                                        </div>
-                                        <p>
-                                            Menyampaikan Informasi: Konten berfungsi sebagai media untuk menyampaikan informasi, baik itu berupa fakta, opini, atau pengetahuan kepada audiens. Konten bisa berupa tulisan, video, gambar, atau suara yang memiliki nilai informatif.
-                                        </p>
-                                        <div class="flex gap-4">
-                                            <a href="#">
-                                                <img src="/assets/images/info.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/visibility.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/download_2.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
+                                <div class="collapsible card type-2">
+                                    <div class="collapsible-header">
+                                        Laporan Kinerja Tahun 2023
+                                    </div>
+                                    <div class="collapsible-content">
+                                        <div class="flex gap-10">
+                                            <div>
+                                                <img src="/assets/images/kinerja-1.png" alt="Kinerja 2024" style="width: 320px; border-radius: 8px;">
+                                            </div>
+                                            <div class="flex column gap-7">
+                                                <span class="heading-lg">Laporan Kinerja Tahun 2024</span>
+                                                <span class="body">Laporan Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
+                                                <div class="flex gap-3">
+                                                    <a href="#" class="button secondary rounded-full" data-icon="visibility">
+                                                        Tampilkan
+                                                    </a>
+                                                    <a href="#" class="button secondary rounded-full" data-icon="download">
+                                                        Unduh
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="collapsible card">
-                                <div class="collapsible-header">
-                                    Lakip 4
-                                </div>
-                                <div class="collapsible-content">
-                                    <div class="flex gap-4">
-                                        <div>
-                                            <img src="/assets/images/pdf.svg" alt="download" style="height: 24px; width: 24px;">
+                                <div class="collapsible card type-2">
+                                    <div class="collapsible-header">
+                                        Laporan Kinerja Tahun 2022
+                                    </div>
+                                    <div class="collapsible-content">
+                                        <div class="flex gap-10">
+                                            <div>
+                                                <img src="/assets/images/kinerja-1.png" alt="Kinerja 2024" style="width: 320px; border-radius: 8px;">
+                                            </div>
+                                            <div class="flex column gap-7">
+                                                <span class="heading-lg">Laporan Kinerja Tahun 2024</span>
+                                                <span class="body">Laporan Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
+                                                <div class="flex gap-3">
+                                                    <a href="#" class="button secondary rounded-full" data-icon="visibility">
+                                                        Tampilkan
+                                                    </a>
+                                                    <a href="#" class="button secondary rounded-full" data-icon="download">
+                                                        Unduh
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <p>
-                                            Menyampaikan Informasi: Konten berfungsi sebagai media untuk menyampaikan informasi, baik itu berupa fakta, opini, atau pengetahuan kepada audiens. Konten bisa berupa tulisan, video, gambar, atau suara yang memiliki nilai informatif.
-                                        </p>
-                                        <div class="flex gap-4">
-                                            <a href="#">
-                                                <img src="/assets/images/info.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/visibility.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
-                                            <a href="#">
-                                                <img src="/assets/images/download_2.svg" alt="download" style="height: 24px; width: 24px;">
-                                            </a>
+                                    </div>
+                                </div>
+                                <div class="collapsible card type-2">
+                                    <div class="collapsible-header">
+                                        Laporan Kinerja Tahun 2021
+                                    </div>
+                                    <div class="collapsible-content">
+                                        <div class="flex gap-10">
+                                            <div>
+                                                <img src="/assets/images/kinerja-1.png" alt="Kinerja 2024" style="width: 320px; border-radius: 8px;">
+                                            </div>
+                                            <div class="flex column gap-7">
+                                                <span class="heading-lg">Laporan Kinerja Tahun 2024</span>
+                                                <span class="body">Laporan Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
+                                                <div class="flex gap-3">
+                                                    <a href="#" class="button secondary rounded-full" data-icon="visibility">
+                                                        Tampilkan
+                                                    </a>
+                                                    <a href="#" class="button secondary rounded-full" data-icon="download">
+                                                        Unduh
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

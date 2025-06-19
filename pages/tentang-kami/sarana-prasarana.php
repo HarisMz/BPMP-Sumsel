@@ -194,8 +194,8 @@
     <section class="container py-14 surface-subdued">
         <div class="wrapper rounded-24" style="background-image: url('/assets/images/sarana-1.jpg'); height: 400px; background-size: cover; background-position: top;">
             <div style="position: absolute; height: 100%; border-radius: 24px; background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(38, 38, 38, 0.3) 60.47%), linear-gradient(252.22deg, rgba(255, 255, 255, 0) -2.74%, rgba(38, 38, 38, 0.4) 70.42%); background-blend-mode: multiply;"></div>
-            <div class="grid grid-2 p-12">
-                <div class="flex column gap-7 text-inverse">
+            <div class="flex p-12">
+                <div class="flex column gap-7 text-inverse text-balance width-55">
                     <span class="headline-xs">Ingin Menggunakan Fasilitas di BPMP Sumsel?</span>
                     <span class="body">Beberapa sarana dan prasarana kami dapat dimanfaatkan oleh publik sesuai ketentuan yang berlaku. Untuk informasi pemesanan, prosedur penggunaan, atau ketersediaan, <b>silakan hubungi admin kami.</b></span>
                     <a href="#" class="button large">
