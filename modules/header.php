@@ -298,7 +298,7 @@
                 <img src="/assets/images/rumah-pendidikan.png" alt="Rumah Pendidikan">
             </div>
         </div>
-        <ul class="menu">
+        <ul class="menu" style="display:none;">
             <li class="item dropdown">
                 Tentang Kami
                 <div class="dropdown-wrapper surface-white">
@@ -308,7 +308,7 @@
                         </div>
                         <ul class="grid grid-3 gap-7">
                             <li class="list-item" data-icon="account_circle">
-                                <a href="#" class="label">
+                                <a href="/tentang-kami/profil" class="label">
                                     Profil
                                     <span class="helper">
                                         Lorem ipsum dolor sit amet consectetur.
@@ -316,7 +316,7 @@
                                 </a>
                             </li>
                             <li class="list-item" data-icon="support_agent">
-                                <a href="#" class="label">
+                                <a href="/tentang-kami/maklumat-pelayanan" class="label">
                                     Maklumat Pelayanan
                                     <span class="helper">
                                         Lorem ipsum dolor sit amet consectetur.
@@ -324,7 +324,7 @@
                                 </a>
                             </li>
                             <li class="list-item" data-icon="visibility">
-                                <a href="#" class="label">
+                                <a href="/tentang-kami/maklumat-keterbukaan" class="label">
                                     Maklumat Keterbukaan Informasi Publik
                                     <span class="helper">
                                         Lorem ipsum dolor sit amet consectetur.
@@ -332,7 +332,7 @@
                                 </a>
                             </li>
                             <li class="list-item" data-icon="assessment">
-                                <a href="#" class="label">
+                                <a href="/tentang-kami/kinerja-organisasi" class="label">
                                     Kinerja Organisasi
                                     <span class="helper">
                                         Lorem ipsum dolor sit amet consectetur.
@@ -340,7 +340,7 @@
                                 </a>
                             </li>
                             <li class="list-item" data-icon="gavel">
-                                <a href="#" class="label">
+                                <a href="/tentang-kami/rbi-ziwbk" class="label">
                                     RBI dan ZIWBK
                                     <span class="helper">
                                         Lorem ipsum dolor sit amet consectetur.
@@ -348,7 +348,7 @@
                                 </a>
                             </li>
                             <li class="list-item" data-icon="business">
-                                <a href="#" class="label">
+                                <a href="/tentang-kami/sarana-prasarana" class="label">
                                     Fasilitas Sarana dan Prasana
                                     <span class="helper">
                                         Lorem ipsum dolor sit amet consectetur.
