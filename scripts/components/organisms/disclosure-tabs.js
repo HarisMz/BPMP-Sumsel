@@ -172,7 +172,8 @@ function initTabs() {
             const rootStyles = getComputedStyle(document.documentElement);
             const siteHeader = parseInt(rootStyles.getPropertyValue("--site-header"), 10);
             const sitePadding = parseInt(rootStyles.getPropertyValue("--site-padding"), 10);
-            const scrollOffset = $anchorTarget.offset().top - siteHeader - sitePadding;
+            const unit9 = parseInt(rootStyles.getPropertyValue("--unit-9"), 10);
+            const scrollOffset = $anchorTarget.offset().top - siteHeader - unit9;
             window.scrollTo({ top: scrollOffset, behavior: "auto" });
           });
         }        
@@ -304,5 +305,5 @@ function initTabs() {
 }
 
 $(document).ready(function () {
-  initTabs();
+  initTabs();  
 });

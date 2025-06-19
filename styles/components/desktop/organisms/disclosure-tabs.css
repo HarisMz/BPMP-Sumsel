@@ -213,3 +213,24 @@ iframe,
 blockquote {
   width: 100%;
 }
+
+section:has(.sticky-tabs) {
+  overflow: visible;
+}
+.tabs:has(.sticky-tabs) {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+/* .tabs:has(.sticky-tabs) .content {
+  gap: var(--unit-9);
+} */
+.tabs .menu.sticky-tabs {
+  position: sticky;
+  top: calc(var(--site-header) + var(--unit-9));
+  background: white;
+  z-index: 100;
+  align-self: flex-start;
+  flex: 0 0 300px;
+}

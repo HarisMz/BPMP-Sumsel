@@ -41,8 +41,8 @@
     </section>
     <section class="container py-0 surface-subdued">
         <div class="wrapper my-10 p-9 surface-default rounded-16">
-            <div class="tabs one-page vertical p-9">
-                <div class="menu">
+            <div class="tabs one-page vertical">
+                <div class="menu sticky-tabs">
                     <a href="#" class="item action" id="tab-menu-1">
                         Manajemen Perubahan
                     </a>
