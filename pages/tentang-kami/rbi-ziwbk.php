@@ -57,7 +57,7 @@
                         <div class="body-lg"><b>Manajemen Perubahan</b></div>
                     </div>
                     <span class="body">Area ini bertujuan menciptakan lingkungan kerja yang lebih baik melalui perubahan sistematis pada pola pikir dan budaya kerja.</span>
-                    <a href="/tentang-kami/rbi-ziwbk/6-area" class="button secondary small">
+                    <a href="/tentang-kami/rbi-ziwbk/6-area#tab-content-1" class="button secondary small">
                         Selengkapnya
                     </a>
                 </div>
@@ -69,7 +69,7 @@
                         <div class="body-lg"><b>Penataan Tatalaksana</b></div>
                     </div>
                     <span class="body">Penataan tata laksana bertujuan untuk meningkatkan efisiensi dan efektivitas sistem serta prosedur kerja.</span>
-                    <a href="#" class="button secondary small">
+                    <a href="/tentang-kami/rbi-ziwbk/6-area#tab-content-2" class="button secondary small">
                         Selengkapnya
                     </a>
                 </div>
@@ -81,7 +81,7 @@
                         <div class="body-lg"><b>Penataan Sistem Manajemen SDM</b></div>
                     </div>
                     <span class="body">Fokus pada peningkatan profesionalisme SDM aparatur melalui perencanaan pegawai dan pengembangan kompetensi.</span>
-                    <a href="#" class="button secondary small">
+                    <a href="/tentang-kami/rbi-ziwbk/6-area#tab-content-3" class="button secondary small">
                         Selengkapnya
                     </a>
                 </div>
@@ -93,7 +93,7 @@
                         <div class="body-lg"><b>Penguatan Akuntabilitas Kerja</b></div>
                     </div>
                     <span class="body">Akuntabilitas kinerja adalah tanggung jawab instansi pemerintah dalam melaporkan keberhasilan atau kegagalan program.</span>
-                    <a href="#" class="button secondary small">
+                    <a href="/tentang-kami/rbi-ziwbk/6-area#tab-content-4" class="button secondary small">
                         Selengkapnya
                     </a>
                 </div>
@@ -105,7 +105,7 @@
                         <div class="body-lg"><b>Penguatan Pengawasan</b></div>
                     </div>
                     <span class="body">Pengawasan yang kuat diperlukan untuk menciptakan pemerintahan yang bersih dari KKN.</span>
-                    <a href="#" class="button secondary small">
+                    <a href="/tentang-kami/rbi-ziwbk/6-area#tab-content-5" class="button secondary small">
                         Selengkapnya
                     </a>
                 </div>
@@ -117,7 +117,7 @@
                         <div class="body-lg"><b>Peningkatan Kualitas Pelayanan Publik</b></div>
                     </div>
                     <span class="body">Fokus utama adalah meningkatkan kualitas pelayanan publik sesuai harapan masyarakat.</span>
-                    <a href="#" class="button secondary small">
+                    <a href="/tentang-kami/rbi-ziwbk/6-area#tab-content-6" class="button secondary small">
                         Selengkapnya
                     </a>
                 </div>

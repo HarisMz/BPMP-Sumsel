@@ -7,15 +7,16 @@
 </head>
 <body id="beranda">
 
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0"></script>
+<script async defer crossorigin="anonymous" 
+  src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0" nonce="abc123">
+</script>
 <?php include './modules/header.php'; ?>
 
 <main>
     <section class="container hero">
         <div class="wrapper">
             <div class="flex column width-70">
-                <div class="carousel loop full dots">
+                <div class="carousel loop full dots autoplay">
                     <div class="carousel-inner">
                         <div class="carousel-item darken left flex justify-end pb-12" style="background-image: url('/assets/images/hero-1.png');">
                             <div class="wrapper justify-center items-end">
@@ -734,24 +735,28 @@
                             </div>
                         </div>
 						<div class="item" id="tab-content-3">
-                            <!-- <div class="fb-page" 
-                                 data-href="https://www.facebook.com/BPMPProvinsiSumateraSelatan"
-                                 data-tabs="timeline"
-                                 data-width="500"
-                                 data-height="500"
-                                 data-small-header="false"
-                                 data-adapt-container-width="true"
-                                 data-lazy="true"
-                                 data-hide-cover="false"
-                                 data-show-facepile="true">
-                              <blockquote cite="https://www.facebook.com/BPMPProvinsiSumateraSelatan" class="fb-xfbml-parse-ignore">
-                                <a href="https://www.facebook.com/BPMPProvinsiSumateraSelatan"></a>
-                              </blockquote>
-                            </div> -->
                             <div class="social-embed">
-                                <!-- Ganti link sesuai post Facebook -->
-                                <iframe src="https://www.facebook.com/plugins/post.php?href=https://www.facebook.com/USERNAME/posts/POST_ID_1" width="100%" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen></iframe>
-                                <iframe src="https://www.facebook.com/plugins/post.php?href=https://www.facebook.com/USERNAME/posts/POST_ID_2" width="100%" height="400"></iframe>
+                                <!-- Embed Video Post 1 -->
+                                <iframe
+                                src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/BPMPProvinsiSumateraSelatan/videos/702698472517731&show_text=false&width=100%25"
+                                width="100%"
+                                height="750"
+                                scrolling="no"
+                                frameborder="0"
+                                allowfullscreen="true"
+                                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                                </iframe>
+
+                                <!-- Embed Post 2 -->
+                                <iframe
+                                src="https://www.facebook.com/plugins/post.php?href=https://www.facebook.com/BPMPProvinsiSumateraSelatan/posts/pfbid02FaYJLQJ1YvyChkZf1wDSViFeDsEN9YhY3AoxhzptfxSw8bPUWEBAhg7ZK9PHGGaJl&show_text=true&width=100%25"
+                                width="100%"
+                                height="750"
+                                scrolling="no"
+                                frameborder="0"
+                                allowfullscreen="true"
+                                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                                </iframe>
                             </div>
                         </div>
 						<div class="item" id="tab-content-4">

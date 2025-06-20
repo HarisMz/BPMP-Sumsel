@@ -183,7 +183,7 @@
                                         <div style="width: 96px; height: 96px;">
                                             <img src="/assets/images/foto-pimpinan/pimpinan-6.png" alt="Foto Pimpinan Pertama" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;"></div>
                                         <div class="flex column gap-2">
-                                            <div class="heading-lg">Drs. Suyato, M.A.P.</div>
+                                            <div class="heading-lg">DR. H. Yaswardi, M.Si.</div>
                                             <div class="body-sm">Masa Bhakti 2013-2019</div>
                                         </div>
                                     </div>
@@ -195,7 +195,7 @@
                                         <div style="width: 96px; height: 96px;">
                                             <img src="/assets/images/foto-pimpinan/pimpinan-7.png" alt="Foto Pimpinan Pertama" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;"></div>
                                         <div class="flex column gap-2">
-                                            <div class="heading-lg">Drs. H. Ade Karyana, M. Ed.</div>
+                                            <div class="heading-lg">Drs. Suyato, M.A.P.</div>
                                             <div class="body-sm">Masa Bhakti 2019-2022</div>
                                         </div>
                                     </div>

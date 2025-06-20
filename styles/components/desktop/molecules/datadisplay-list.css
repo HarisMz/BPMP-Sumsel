@@ -121,9 +121,9 @@
 .list .list-item:hover .helper {
   color: var(--text-default);
 }
-.list .list-item:active {
+/* .list .list-item:active {
   background: var(--surface-neutral-default);
-}
+} */
 .list .list-item.selected {
   padding-right: var(--unit-3);
 }
