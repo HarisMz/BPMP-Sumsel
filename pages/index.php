@@ -774,29 +774,29 @@
 
     <section class="container expressive-surface-dark-blue py-11">
         <div class="wrapper">
-            <div class="flex column column-mobile gap-14 gap-12-mobile text-inverse">
+            <div class="flex column gap-14 gap-12-tablet text-inverse">
 	            <div class="flex column full-mobile gap-9">
 	                <h1 class="display-md text-center">Statistik Pendidikan Provinsi Sumatera Selatan</h1>
 	            </div>
 	            <div class="flex full-mobile gap-9">
-		            <div class="flex width-100 gap-11 justify-center column-mobile items-center-mobile">
+		            <div class="flex width-100 gap-11 justify-center column-tablet items-center-tablet">
 			            <div class="flex column gap-5 text-center items-center-mobile width-20">
 			            	<p class="heading-lg">Guru</p>
 			            	<h2 class="headline-sm"><span class="number-increase" data-duration="2000">10.700</span></h2>
 						</div>
-                        <div class="separator-0 horizontal border-color-white hide-mobile"></div>
+                        <div class="separator-0 horizontal border-color-white hide-tablet"></div>
                         <div class="separator-0 vertical border-color-white hide-desktop full"></div>
 			            <div class="flex column gap-5 text-center items-center-mobile width-20">
 			            	<p class="heading-lg">Peserta Didik</p>
 			            	<h2 class="headline-sm"><span class="number-increase" data-duration="2000">25.900</span></h2>
 						</div>
-                        <div class="separator-0 horizontal border-color-white hide-mobile"></div>
+                        <div class="separator-0 horizontal border-color-white hide-tablet"></div>
                         <div class="separator-0 vertical border-color-white hide-desktop full"></div>
 			            <div class="flex column gap-5 text-center items-center-mobile width-20">
 			            	<p class="heading-lg">Satuan Pendidikan</p>
 			            	<h2 class="headline-sm"><span class="number-increase" data-duration="2000">1.500</span></h2>
 						</div>
-                        <div class="separator-0 horizontal border-color-white hide-mobile"></div>
+                        <div class="separator-0 horizontal border-color-white hide-tablet"></div>
                         <div class="separator-0 vertical border-color-white hide-desktop full"></div>
 			            <div class="flex column gap-5 text-center items-center-mobile width-20">
 			            	<p class="heading-lg">Rombongan Belajar</p>

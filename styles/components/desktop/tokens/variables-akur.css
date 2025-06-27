@@ -524,7 +524,7 @@
   /* SITEWIDE VARIABLES */
 
   --site-theme-color: var(--cyan-70);
-  --site-header: 128px;
+  --site-header: var(--unit-13);
   --site-padding: var(--unit-6);
   --site-banner: calc(var(--unit-14) * 5);
   --site-logo: url("/assets/images/site-logo/site-logo.svg");

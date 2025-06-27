@@ -3,6 +3,9 @@
   .header.container {
     padding: var(--unit-0);
   }
+  .header.mega-menu {
+    height: var(--site-header);
+  }
   .header.container > .wrapper {
     padding: var(--unit-0) var(--site-padding);
   }
