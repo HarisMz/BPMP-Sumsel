@@ -784,19 +784,19 @@
 			            	<p class="heading-lg">Guru</p>
 			            	<h2 class="headline-sm"><span class="number-increase" data-duration="2000">10.700</span></h2>
 						</div>
-                        <div class="separator-0 horizontal border-color-white hide-tablet"></div>
+                        <div class="separator-0 horizontal border-color-white hide-tablet hide-mobile"></div>
                         <div class="separator-0 vertical border-color-white hide-desktop full"></div>
 			            <div class="flex column gap-5 text-center items-center-mobile width-20">
 			            	<p class="heading-lg">Peserta Didik</p>
 			            	<h2 class="headline-sm"><span class="number-increase" data-duration="2000">25.900</span></h2>
 						</div>
-                        <div class="separator-0 horizontal border-color-white hide-tablet"></div>
+                        <div class="separator-0 horizontal border-color-white hide-tablet hide-mobile"></div>
                         <div class="separator-0 vertical border-color-white hide-desktop full"></div>
 			            <div class="flex column gap-5 text-center items-center-mobile width-20">
 			            	<p class="heading-lg">Satuan Pendidikan</p>
 			            	<h2 class="headline-sm"><span class="number-increase" data-duration="2000">1.500</span></h2>
 						</div>
-                        <div class="separator-0 horizontal border-color-white hide-tablet"></div>
+                        <div class="separator-0 horizontal border-color-white hide-tablet hide-mobile"></div>
                         <div class="separator-0 vertical border-color-white hide-desktop full"></div>
 			            <div class="flex column gap-5 text-center items-center-mobile width-20">
 			            	<p class="heading-lg">Rombongan Belajar</p>
