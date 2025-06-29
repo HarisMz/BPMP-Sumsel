@@ -1,37 +1,5 @@
 let isAnimating = false;
 
-function showMenu() {
-  const $mobileMenu = $(".header .menu.is-mobile");
-  const $hamburger = $(".header .mobile-menu");
-  $("body").css("overflow", "hidden");
-  $hamburger.addClass("open");
-  $mobileMenu.addClass("open").slideDown(300).css("display", "flex");
-}
-
-function hideMenu() {
-  const $mobileMenu = $(".header .menu.is-mobile");
-  const $hamburger = $(".header .mobile-menu");
-  $("body").css("overflow", "auto");
-  $hamburger.removeClass("open");
-  $mobileMenu.removeClass("open").slideUp(300).css("display", "flex");
-  $mobileMenu
-    .find(".dropdown")
-    .next(".dropdown-wrapper")
-    .find("> .list")
-    .slideUp(300);
-  $mobileMenu.find(".dropdown").removeClass("open");
-}
-
-function toggleMenu() {
-  const $mobileMenu = $(".header .menu.is-mobile");
-  const $hamburger = $(".header .mobile-menu");
-  if ($mobileMenu.hasClass("open")) {
-    hideMenu();
-  } else {
-    showMenu();
-  }
-}
-
 function checkHeaderBackgroundColor() {
   requestAnimationFrame(function () {
     var $header = $(".header");
@@ -128,62 +96,83 @@ function checkWidth() {
   }
 }
 
+// Update fungsi checkMobile
 function checkMobile() {
   if (window.matchMedia("(max-width: 1240px)").matches) {
     // MOBILE
-    $(".header .menu")
-      .find(".dropdown")
-      .next(".dropdown-wrapper")
-      .find("> .list")
-      .hide();
-    $(".header .menu").find(".dropdown").removeClass("open");
-    $(".header .mobile-menu").removeClass("open");
-    $(".header .menu").removeClass("open").hide();
     $(".header .menu").addClass("is-mobile");
-    $(".item.dropdown, .list-item.dropdown").each(function () {
-      $(this).find(".dropdown-wrapper").first().insertAfter($(this));
-    });
+    $(".dropdown-wrapper .list").hide();
 
     $(".menu.is-mobile .dropdown").on("click", function () {
       if (isAnimating) return;
       isAnimating = true;
-      $(this).next(".dropdown-wrapper").find("> .list").slideToggle(300);
-      $(this).toggleClass("open");
-      setTimeout(function () {
-        isAnimating = false;
-      }, 300);
+
+      const menuId = $(this).attr("data-mega-menu");
+      $(`.dropdown-wrapper .list`).slideUp(300);
+      $(`.dropdown-wrapper .list#${menuId}`).slideDown(300);
+      $(".menu .dropdown").removeClass("open");
+      $(this).addClass("open");
+
+      setTimeout(() => (isAnimating = false), 300);
     });
 
-    $(".header .mobile-menu").on("click", function () {
-      if (isAnimating) return;
-      isAnimating = true;
-      toggleMenu();
-      setTimeout(function () {
-        isAnimating = false;
-      }, 300);
-    });
-
-    $(".menu .dropdown-wrapper .list").hide();
+    $(".header .mobile-menu").on("click", toggleMenu);
   } else {
     // DESKTOP
-    $(".header .menu")
-      .find(".dropdown")
-      .next(".dropdown-wrapper")
-      .find("> .list")
-      .show();
-    $(".header .menu").find(".dropdown").removeClass("open");
-    $(".header .mobile-menu").removeClass("open");
-    $(".header .menu").removeClass("open").show();
     $(".header .menu").removeClass("is-mobile");
-    $(".dropdown-wrapper").each(function () {
-      $(this).appendTo($(this).prev());
-    });
+    // $(".dropdown-wrapper").hide();
+    // $(".dropdown-wrapper .list").hide();
 
+    // Hover behavior for desktop
+    $(".header .menu .item.dropdown").hover(
+      function () {
+        const menuId = $(this).attr("data-mega-menu");
+        $(".dropdown-wrapper").stop(true, true).show();
+        $(".dropdown-wrapper .list").removeClass("active");
+        $(`#${menuId}`).addClass("active");
+      },
+      function () {
+        $(".dropdown-wrapper")
+          .delay(200)
+          .queue(function (next) {
+            if (!$(".dropdown-wrapper").is(":hover")) {
+              $(this).hide();
+            }
+            next();
+          });
+      }
+    );
+
+    $(".dropdown-wrapper").hover(
+      function () {
+        $(this).show();
+      },
+      function () {
+        $(this).hide();
+      }
+    );
+
+    // Cleanup mobile events
     $(".menu.is-mobile .dropdown").off();
-
     $(".header .mobile-menu").off();
+  }
+}
 
-    $(".menu .dropdown-wrapper .list").show();
+// Update fungsi toggle menu
+function toggleMenu() {
+  const $mobileMenu = $(".header .menu.is-mobile");
+  const $hamburger = $(".header .mobile-menu");
+
+  if ($mobileMenu.hasClass("open")) {
+    $("body").css("overflow", "auto");
+    $hamburger.removeClass("open");
+    $mobileMenu.removeClass("open").slideUp(300);
+    $(".dropdown-wrapper .list").slideUp(300);
+    $(".menu .dropdown").removeClass("open");
+  } else {
+    $("body").css("overflow", "hidden");
+    $hamburger.addClass("open");
+    $mobileMenu.addClass("open").slideDown(300);
   }
 }
 
@@ -223,9 +212,9 @@ $(document).ready(function () {
     checkMobile();
   });
 
-  $(
-    ".header .menu .item:not(.dropdown), .header .menu .list-item:not(.dropdown)"
-  ).on("click", hideMenu);
+  // $(
+  //   ".header .menu .item:not(.dropdown), .header .menu .list-item:not(.dropdown)"
+  // ).on("click", hideMenu);
 
   $(window).on("scroll", function () {
     checkHeaderSticky();

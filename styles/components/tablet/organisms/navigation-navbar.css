@@ -5,6 +5,7 @@
   }
   .header.mega-menu {
     height: var(--site-header);
+    justify-content: center;
   }
   .header.container > .wrapper {
     padding: var(--unit-0) var(--site-padding);

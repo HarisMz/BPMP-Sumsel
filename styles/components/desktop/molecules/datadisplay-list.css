@@ -23,7 +23,7 @@
   border-radius: var(--unit-2);
   align-items: center;
   cursor: pointer;
-  min-width: max-content;
+  /* min-width: max-content; */
   width: 100%;
 }
 .mega-menu .list .list-item {

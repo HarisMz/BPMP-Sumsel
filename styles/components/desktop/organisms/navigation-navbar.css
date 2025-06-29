@@ -19,13 +19,15 @@
   z-index: 9999;
 }
 .header.mega-menu {
-  height: calc(var(--site-header) + var(--unit-11));
+  height: fit-content;
+  flex-direction: column;
+  padding: var(--unit-0);
 }
 .header.is-sticky,
 .header.opaque.is-sticky {
   backdrop-filter: blur(var(--unit-4));
   background: var(--white-0-75);
-  /* box-shadow: var(--elevation-6); */
+  box-shadow: var(--elevation-6);
 }
 .header.opaque {
   position: fixed;
@@ -48,7 +50,7 @@
   background-size: contain;
   height: 100%;
   width: 100%;
-  max-height: calc(var(--site-header) - var(--unit-9));
+  min-height: calc(var(--site-header) - var(--unit-9));
   max-width: 320px;
 }
 .header .menu > .item,
@@ -133,11 +135,8 @@
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
-  top: calc(var(--site-header) + var(--unit-11));
+  top: calc(var(--site-header) + var(--unit-5));
   display: flex;
-  backdrop-filter: blur(var(--unit-4));
-  background: var(--white-0-75);
-  box-shadow: var(--elevation-3);
 }
 .header .menu .item.inverted .dropdown-wrapper {
   right: 0;
@@ -346,4 +345,24 @@ footer * {
 footer .judul {
   font-weight: var(--font-weight-extrabold);
   color: var(--text-inverse) !important;
+}
+
+/* Ganti semua rule .dropdown-wrapper yang ada dengan ini */
+.header.mega-menu .dropdown-wrapper {
+  display: none;
+  width: 100%;
+  transition: all var(--transition-medium) ease;
+}
+
+.header.mega-menu .dropdown-wrapper .list {
+  display: none;
+  padding: var(--unit-10) 0;
+  margin: 0 auto;
+  max-width: 1215px;
+  width: 100%;
+  transition: all var(--transition-medium) ease;
+}
+
+.header.mega-menu .dropdown-wrapper .list.active {
+  display: flex !important;
 }
