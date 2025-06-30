@@ -228,7 +228,7 @@ section:has(.sticky-tabs) {
 } */
 .tabs .menu.sticky-tabs {
   position: sticky;
-  top: calc(var(--site-header) + var(--unit-9));
+  top: calc(var(--site-header) + var(--unit-12));
   background: white;
   z-index: 100;
   align-self: flex-start;

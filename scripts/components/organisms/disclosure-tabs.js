@@ -13,8 +13,12 @@ function initTabs() {
       $menu.append($line);
     }
 
-    const $scrollLeftIndicator = $('<div class="scroll-indicator scroll-left"></div>');
-    const $scrollRightIndicator = $('<div class="scroll-indicator scroll-right"></div>');
+    const $scrollLeftIndicator = $(
+      '<div class="scroll-indicator scroll-left"></div>'
+    );
+    const $scrollRightIndicator = $(
+      '<div class="scroll-indicator scroll-right"></div>'
+    );
     $tabs.append($scrollLeftIndicator).append($scrollRightIndicator);
 
     function checkScrollIndicators() {
@@ -166,23 +170,33 @@ function initTabs() {
         const menuId = $clickedItem.attr("id");
         const targetContentId = menuId.replace("menu", "content");
         const $anchorTarget = $("#" + targetContentId);
-      
+
         if ($anchorTarget.length) {
           requestAnimationFrame(() => {
             const rootStyles = getComputedStyle(document.documentElement);
-            const siteHeader = parseInt(rootStyles.getPropertyValue("--site-header"), 10);
-            const sitePadding = parseInt(rootStyles.getPropertyValue("--site-padding"), 10);
-            const unit9 = parseInt(rootStyles.getPropertyValue("--unit-9"), 10);
-            const scrollOffset = $anchorTarget.offset().top - siteHeader - unit9;
+            const siteHeader = parseInt(
+              rootStyles.getPropertyValue("--site-header"),
+              10
+            );
+            const sitePadding = parseInt(
+              rootStyles.getPropertyValue("--site-padding"),
+              10
+            );
+            const unit9 = parseInt(
+              rootStyles.getPropertyValue("--unit-12"),
+              10
+            );
+            const scrollOffset =
+              $anchorTarget.offset().top - siteHeader - unit9;
             window.scrollTo({ top: scrollOffset, behavior: "auto" });
           });
-        }        
-      
+        }
+
         $items.removeClass("active");
         $clickedItem.addClass("active");
         updateLine($clickedItem);
         return;
-      }            
+      }
 
       if ($tabs.is(":animated") || isAnimating) return;
       isAnimating = true;
@@ -236,20 +250,20 @@ function initTabs() {
       const $matchingTab = $items.filter(function () {
         return getTabUrlName($(this)) === currentTabName;
       });
-    
+
       if ($matchingTab.length) {
         const matchingId = $matchingTab.attr("id");
         const targetId = "#" + matchingId.replace("menu", "content");
-    
+
         $items.removeClass("active");
         $matchingTab.addClass("active");
-    
+
         if (!$tabs.hasClass("one-page")) {
           const $matchingContent = $tabs.find(targetId);
           $contents.hide();
           $matchingContent.show();
         }
-    
+
         updateLine($matchingTab);
         setTimeout(() => {
           updateLine($matchingTab);
@@ -257,13 +271,13 @@ function initTabs() {
       } else {
         const $firstItem = $items.first();
         $firstItem.addClass("active");
-    
+
         if (!$tabs.hasClass("one-page")) {
           const $firstContent = $contents.first();
           $contents.hide();
           $firstContent.show();
         }
-    
+
         updateLine($firstItem);
         setTimeout(() => {
           updateLine($firstItem);
@@ -272,19 +286,18 @@ function initTabs() {
     } else {
       const $firstItem = $items.first();
       $firstItem.addClass("active");
-    
+
       if (!$tabs.hasClass("one-page")) {
         const $firstContent = $contents.first();
         $contents.hide();
         $firstContent.show();
       }
-    
+
       updateLine($firstItem);
       setTimeout(() => {
         updateLine($firstItem);
       }, 300);
     }
-    
 
     function updateLineOnScrollResize() {
       const $activeItem = $items.filter(".active");
@@ -305,5 +318,5 @@ function initTabs() {
 }
 
 $(document).ready(function () {
-  initTabs();  
+  initTabs();
 });
