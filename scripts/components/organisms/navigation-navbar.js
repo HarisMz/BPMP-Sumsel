@@ -99,29 +99,62 @@ function checkWidth() {
 // Update fungsi checkMobile
 function checkMobile() {
   if (window.matchMedia("(max-width: 1240px)").matches) {
-    // MOBILE
+    // MOBILE MODE
     $(".header .menu").addClass("is-mobile");
-    $(".dropdown-wrapper .list").hide();
 
+    // Hanya proses jika belum ada dropdown-wrapper di dalam menu item
+    if ($(".menu.is-mobile .dropdown .dropdown-wrapper").length === 0) {
+      // Pindahkan dropdown content ke masing-masing menu item
+      $(".menu .item.dropdown[data-mega-menu]").each(function () {
+        const menuId = $(this).attr("data-mega-menu");
+        const $list = $(`.dropdown-wrapper .list#${menuId}`).clone();
+
+        // Buat wrapper baru untuk mobile
+        const $mobileWrapper = $(
+          '<div class="dropdown-wrapper mobile-dropdown"></div>'
+        );
+        $mobileWrapper.append($list);
+
+        // Masukkan ke dalam menu item
+        // $(this).append($mobileWrapper);
+        $mobileWrapper.insertAfter($(this));
+      });
+
+      // Sembunyikan dropdown-wrapper utama
+      // $(".dropdown-wrapper").hide();
+    }
+
+    // Event handler untuk mobile
     $(".menu.is-mobile .dropdown").on("click", function () {
       if (isAnimating) return;
       isAnimating = true;
-
-      const menuId = $(this).attr("data-mega-menu");
-      $(`.dropdown-wrapper .list`).slideUp(300);
-      $(`.dropdown-wrapper .list#${menuId}`).slideDown(300);
-      $(".menu .dropdown").removeClass("open");
-      $(this).addClass("open");
-
-      setTimeout(() => (isAnimating = false), 300);
+      $(this).next(".dropdown-wrapper").find("> .list").slideToggle(300);
+      $(this).toggleClass("open");
+      setTimeout(function () {
+        isAnimating = false;
+      }, 300);
     });
 
-    $(".header .mobile-menu").on("click", toggleMenu);
+    $(".header .mobile-menu").on("click", function () {
+      if (isAnimating) return;
+      isAnimating = true;
+      toggleMenu();
+      setTimeout(function () {
+        isAnimating = false;
+      }, 300);
+    });
+
+    // $(".menu .dropdown-wrapper .list").hide();
   } else {
-    // DESKTOP
+    // DESKTOP MODE
     $(".header .menu").removeClass("is-mobile");
-    // $(".dropdown-wrapper").hide();
-    // $(".dropdown-wrapper .list").hide();
+
+    // Kembalikan dropdown content ke tempat asalnya jika ada yang dipindahkan
+    if ($(".mobile-dropdown").length) {
+      $(".mobile-dropdown").remove();
+      $(".dropdown-wrapper").show();
+      $(".dropdown-wrapper .list").hide();
+    }
 
     // Hover behavior for desktop
     $(".header .menu .item.dropdown").hover(
@@ -211,10 +244,6 @@ $(document).ready(function () {
     checkWidth();
     checkMobile();
   });
-
-  // $(
-  //   ".header .menu .item:not(.dropdown), .header .menu .list-item:not(.dropdown)"
-  // ).on("click", hideMenu);
 
   $(window).on("scroll", function () {
     checkHeaderSticky();

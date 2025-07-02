@@ -216,39 +216,42 @@
                         </div>
                     </div>
                     <div class="item" id="tab-content-4">
-                        <div class="flex column gap-11">
-                            <div class="display-lg">Struktur Organisasi</div>
-                            <div class="flex column gap-12 connector" data-height="352px" data-top="252px">
-                                <div class="flex justify-center">
-                                    <div class="flex column gap-7 surface-subdued items-center p-7 rounded-8 call-popup" style="width: 360px;" data-popup='{ 
-                                        "size": "large", 
-                                        "template": "#popup-aria"}'>
-                                        <span class="avatar xxl" style="width: 96px; height: 96px; border-radius: 100%;">
-                                            <img class="image" src="/assets/images/foto-pimpinan/pimpinan-8.png">
-                                        </span>
-                                        <div class="flex column gap-2 text-center">
-                                            <div class="heading-lg">Aria Ahmad Mangunwibawa, S.Psi., M.Si.</div>
-                                            <div class="body">Kepala BPMP Provinsi Sumatera Selatan</div>
+                        <div class="flex column gap-9">
+                            <div class="flex column gap-11">
+                                <div class="display-lg text-center">Struktur Organisasi</div>
+                                <div class="flex column gap-12 connector" data-height="348px" data-top="244px">
+                                    <div class="flex justify-center">
+                                        <div class="flex column gap-7 surface-subdued items-center p-7 rounded-8 call-popup" style="width: 360px;" data-popup='{
+                                            "size": "large",
+                                            "template": "#popup-aria"}'>
+                                            <span class="avatar xxl" style="width: 96px; height: 96px; border-radius: 100%;">
+                                                <img class="image" src="/assets/images/foto-pimpinan/pimpinan-8.png">
+                                            </span>
+                                            <div class="flex column gap-2 text-center">
+                                                <div class="heading-md">Aria Ahmad Mangunwibawa, S.Psi., M.Si.</div>
+                                                <div class="body">Kepala BPMP Provinsi Sumatera Selatan</div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="flex justify-end">
-                                    <div class="flex column gap-7 surface-subdued items-center p-7 rounded-8 connector" style="width: 360px;" data-width="46px" data-height="1px" data-left="-46px" data-top="50%">
-                                        <span class="avatar xxl" style="width: 96px; height: 96px; border-radius: 100%;">
-                                            <img class="image" src="/assets/images/foto-pimpinan/pimpinan-8.png">
-                                        </span>
-                                        <div class="flex column gap-2 text-center">
-                                            <div class="heading-lg">M. A. Fainaludin, S.Ag, M.M.</div>
-                                            <div class="body">Kepala Sub Bagian Umum</div>
+                                    <div class="flex justify-end">
+                                        <div class="flex column gap-7 surface-subdued items-center p-7 rounded-8 connector" style="width: 360px;" data-width="46px" data-height="1px" data-left="-46px" data-top="50%">
+                                            <span class="avatar xxl" style="width: 96px; height: 96px; border-radius: 100%;">
+                                                <img class="image" src="/assets/images/foto-pimpinan/pimpinan-8.png">
+                                            </span>
+                                            <div class="flex column gap-2 text-center">
+                                                <div class="heading-md">M. A. Fainaludin, S.Ag, M.M.</div>
+                                                <div class="body">Kepala Sub Bagian Umum</div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="flex justify-center">
-                                    <div class="flex surface-subdued justify-center p-7 rounded-8" style="width: 360px;">
-                                        <div class="heading-lg">Kelompok Fungsional</div>
+                                    <div class="flex justify-center">
+                                        <div class="flex surface-subdued justify-center p-7 rounded-8" style="width: 360px;">
+                                            <div class="heading-md">Kelompok Fungsional</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="body-sm text-center">Berdasarkan Permendikbudristek Nomor 11 Tahun 2022 Tentang Organisasi dan Tata Kerja BBPMP dan BPMP</div>
                         </div>
                     </div>
                     <div class="item" id="tab-content-5">
