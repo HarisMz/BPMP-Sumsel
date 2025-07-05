@@ -102,8 +102,8 @@ function checkMobile() {
     // MOBILE MODE
     $(".header .menu").addClass("is-mobile");
 
-    // Hanya proses jika belum ada dropdown-wrapper di dalam menu item
-    if ($(".menu.is-mobile .dropdown .dropdown-wrapper").length === 0) {
+    // Hanya proses jika hedaer memiliki class mega-menu
+    if ($(".header").hasClass("mega-menu")) {
       // Pindahkan dropdown content ke masing-masing menu item
       $(".menu .item.dropdown[data-mega-menu]").each(function () {
         const menuId = $(this).attr("data-mega-menu");

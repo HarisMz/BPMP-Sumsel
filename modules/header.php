@@ -203,6 +203,14 @@
             </div>
             <ul class="grid grid-3 gap-7">
                 <li class="list-item" data-icon="account_circle">
+                    <a href="/inovasi-dan-layanan/standar-pelayanan" class="label">
+                        Standar Pelayanan
+                        <span class="helper">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </span>
+                    </a>
+                </li>
+                <li class="list-item" data-icon="account_circle">
                     <a href="#" class="label">
                         Layanan Pendampingan
                         <span class="helper">
