@@ -57,7 +57,7 @@
                         <div class="body-lg"><b>Manajemen Perubahan</b></div>
                     </div>
                     <span class="body">Area ini bertujuan menciptakan lingkungan kerja yang lebih baik melalui perubahan sistematis pada pola pikir dan budaya kerja.</span>
-                    <a href="/tentang-kami/rbi-ziwbk/6-area#tab-content-1" class="button secondary small">
+                    <a href="/tentang-kami/rbi-ziwbk/6-area" class="button secondary small">
                         Selengkapnya
                     </a>
                 </div>

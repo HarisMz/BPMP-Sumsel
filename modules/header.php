@@ -211,7 +211,7 @@
                     </a>
                 </li>
                 <li class="list-item" data-icon="account_circle">
-                    <a href="#" class="label">
+                    <a href="/inovasi-dan-layanan/layanan-pendampingan" class="label">
                         Layanan Pendampingan
                         <span class="helper">
                             Lorem ipsum dolor sit amet consectetur.
