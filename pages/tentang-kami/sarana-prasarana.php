@@ -39,7 +39,7 @@
             <div class="flex column gap-12">
                 <div class="grid grid-2 gap-12">
                     <span class="headline-xs">Mendukung Mutu Pendidikan melalui Fasilitas yang Representatif</span>
-                    <span class="body">Sarana dan prasarana BPMP Provinsi Sumatera Selatan mencakup berbagai fasilitas penunjang yang mendukung pelaksanaan tugas dan fungsi dalam penjaminan mutu pendidikan. Fasilitas tersebut meliputi gedung utama, ruang pertemuan, ruang layanan, serta area pendukung lainnya yang dirancang untuk menciptakan lingkungan kerja yang kondusif, representatif, dan profesional.</span>
+                    <span class="body">Sarana dan prasarana BPMP Provinsi Sumatera Selatan mencakup berbagai fasilitas penunjang yang mendukung pelaksanaan tugas dan fungsi dalam penjaminan mutu pendidikan. Fasilitas tersebut meliputi gedung utama, ruang pertemuan, ruang layanan, serta area pendukung lainnya yang dirancang untuk menciptakan lingkungan kerja yang kondusif, representatif, dan profesional.</span>
                 </div>
                 <div class="grid grid-4 gap-7">
                     <div class="flex items-center p-7 gap-5 rounded-12 surface-subdued">
@@ -75,7 +75,7 @@
             <div class="grid grid-2 gap-11">
                 <div class="flex column justify-center gap-7">
                     <span class="headline-xs">Gedung Utama</span>
-                    <span class="body">Gedung Utama BPMP Provinsi Sumatera Selatan merupakan pusat aktivitas pelayanan, administrasi, dan koordinasi program penjaminan mutu pendidikan. Dilengkapi dengan ruang kerja fungsional, ruang rapat, serta fasilitas pendukung lainnya, gedung ini dirancang untuk mendukung terciptanya lingkungan kerja yang efektif, nyaman, dan profesional dalam melayani masyarakat dan pemangku kepentingan di bidang pendidikan.</span>
+                    <span class="body">Gedung Utama BPMP Provinsi Sumatera Selatan merupakan pusat aktivitas pelayanan, administrasi, dan koordinasi program penjaminan mutu pendidikan. Dilengkapi dengan ruang kerja fungsional, ruang rapat, serta fasilitas pendukung lainnya, gedung ini dirancang untuk mendukung terciptanya lingkungan kerja yang efektif, nyaman, dan profesional dalam melayani masyarakat dan pemangku kepentingan di bidang pendidikan.</span>
                 </div>
                 <div style="height: 400px;">
                     <img src="/assets/images/sarana-1.jpg" alt="Gedung Utama" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
@@ -91,7 +91,7 @@
                 </div>
                 <div class="flex column justify-center gap-7">
                     <span class="headline-xs">Ruang Unit Layanan Terpadu</span>
-                    <span class="body">Unit Layanan Terpadu (ULT) BPMP Provinsi Sumatera Selatan dilengkapi dengan fasilitas yang mendukung pelayanan publik secara efektif, nyaman, dan terintegrasi. Sarana prasarana yang tersedia dirancang untuk memberikan kemudahan akses informasi, konsultasi, dan layanan administratif bagi masyarakat serta pemangku kepentingan di bidang pendidikan.</span>
+                    <span class="body">Unit Layanan Terpadu (ULT) BPMP Provinsi Sumatera Selatan dilengkapi dengan fasilitas yang mendukung pelayanan publik secara efektif, nyaman, dan terintegrasi. Sarana prasarana yang tersedia dirancang untuk memberikan kemudahan akses informasi, konsultasi, dan layanan administratif bagi masyarakat serta pemangku kepentingan di bidang pendidikan.</span>
                 </div>
             </div>
         </div>
@@ -119,7 +119,7 @@
         <div class="wrapper flex column gap-11">
             <div class="grid grid-2 gap-9">
                 <span class="headline-xs">Fasilitas Olahraga</span>
-                <span class="body">Sarana olahraga BPMP Provinsi Sumatera Selatan disediakan sebagai fasilitas pendukung kesehatan dan kebugaran pegawai serta peserta kegiatan. Area ini dirancang untuk mendorong aktivitas fisik yang positif, mempererat kebersamaan, dan menciptakan lingkungan kerja yang sehat dan produktif.</span>
+                <span class="body">Sarana olahraga BPMP Provinsi Sumatera Selatan disediakan sebagai fasilitas pendukung kesehatan dan kebugaran pegawai serta peserta kegiatan. Area ini dirancang untuk mendorong aktivitas fisik yang positif, mempererat kebersamaan, dan menciptakan lingkungan kerja yang sehat dan produktif.</span>
             </div>
             <div class="grid grid-3 gap-5">
                 <div style="height: 240px;">
@@ -166,7 +166,7 @@
         <div class="wrapper flex column gap-11">
             <div class="grid grid-2 gap-9">
                 <span class="headline-xs">Sarana Lainnya</span>
-                <span class="body">Sarana dan prasarana lainnya di BPMP Provinsi Sumatera Selatan mencakup berbagai fasilitas pendukung seperti lahan parkir yang luas dan tertata, taman sebagai area hijau yang asri, saung untuk tempat istirahat atau diskusi santai, serta ruang laktasi yang nyaman dan layak bagi ibu menyusui. Seluruh fasilitas ini disediakan untuk menciptakan lingkungan kerja yang ramah, inklusif, dan mendukung kenyamanan seluruh pengguna layanan.</span>
+                <span class="body">Sarana dan prasarana lainnya di BPMP Provinsi Sumatera Selatan mencakup berbagai fasilitas pendukung seperti lahan parkir yang luas dan tertata, taman sebagai area hijau yang asri, saung untuk tempat istirahat atau diskusi santai, serta ruang laktasi yang nyaman dan layak bagi ibu menyusui. Seluruh fasilitas ini disediakan untuk menciptakan lingkungan kerja yang ramah, inklusif, dan mendukung kenyamanan seluruh pengguna layanan.</span>
             </div>
             <div class="flex column gap-5">
                 <div class="grid grid-3 gap-5">
