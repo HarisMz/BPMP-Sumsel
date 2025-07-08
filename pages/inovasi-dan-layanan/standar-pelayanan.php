@@ -2,7 +2,7 @@
 <html lang="id">
 <head>
     <meta charset="utf-8">
-    <title>Tentang Kami</title>
+    <title>Inovasi dan Layanan</title>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/modules/loadlist.php'); ?>
 </head>
 <body id="inovasi-dan-layanan">

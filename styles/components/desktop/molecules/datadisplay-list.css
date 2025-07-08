@@ -219,9 +219,7 @@
   width: 12px;
   height: 12px;
   background-color: var(--gray-50);
-  border-radius: 50%;
-  margin-right: 15px;
-  position: relative;
+  border-radius: 100%;
 }
 .timeline-dot.connector::before {
   top: 16px;

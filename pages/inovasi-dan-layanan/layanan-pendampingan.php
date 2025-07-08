@@ -2,7 +2,7 @@
 <html lang="id">
 <head>
     <meta charset="utf-8">
-    <title>Tentang Kami</title>
+    <title>Inovasi dan Layanan</title>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/modules/loadlist.php'); ?>
 </head>
 <body id="inovasi-dan-layanan">
@@ -46,7 +46,7 @@
         <div class="wrapper">
             <div class="flex column items-center gap-11">
                 <div class="headline-xs">Jenis Layanan Pendampingan</div>
-                <div class="flex gap-7">
+                <div class="grid grid-2 gap-7">
                     <div class="flex column p-9 gap-9 rounded-8 surface-default">
                         <div style="width: 524px;">
                             <img src="/assets/images/pendampingan-1.jpg" alt="Pikat Bidar" style="height: 100%; width: 100%; border-radius: 8px;">
@@ -54,7 +54,7 @@
                         <div class="flex column gap-7">
                             <div class="display-lg">Pikat Bidar</div>
                             <div class="body"><b>Pendampingan Melekat Bimbingan dalam Jaringan</b> yang merupakan media layanan peningkatan kapasitas, konsultasi, pendampingan terhadap implementasi program Kemendikdasmen yang dilaksanakan oleh BPMP Provinsi Sumatera Selatan.</div>
-                            <a href="#" class="button large">
+                            <a href="/inovasi-dan-layanan/layanan-pendampingan/pikat-bidar" class="button large">
                                 Gunakan Layanan
                             </a>
                         </div>
@@ -66,7 +66,7 @@
                         <div class="flex column gap-7">
                             <div class="display-lg">Pikat Dulur</div>
                             <div class="body"><b>Pendampingan Melekat Datang untuk Luring (tatap muka)</b> merupakan media layanan peningkatan kapasitas, konsultasi, pendampingan terhadap implementasi program Kemendikdasmen yang dilaksanakan oleh BPMP Provinsi Sumatera Selatan.</div>
-                            <a href="#" class="button large">
+                            <a href="/inovasi-dan-layanan/layanan-pendampingan/pikat-bidar" class="button large">
                                 Gunakan Layanan
                             </a>
                         </div>

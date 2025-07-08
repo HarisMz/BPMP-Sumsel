@@ -227,7 +227,7 @@
                     </a>
                 </li>
                 <li class="list-item" data-icon="visibility">
-                    <a href="#" class="label">
+                    <a href="/inovasi-dan-layanan/pengaduan" class="label">
                         Pengaduan
                         <span class="helper">
                             Lorem ipsum dolor sit amet consectetur.

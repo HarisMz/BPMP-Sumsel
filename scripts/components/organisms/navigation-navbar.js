@@ -102,8 +102,8 @@ function checkMobile() {
     // MOBILE MODE
     $(".header .menu").addClass("is-mobile");
 
-    // Hanya proses jika hedaer memiliki class mega-menu
-    if ($(".header").hasClass("mega-menu")) {
+    // Hanya proses jika belum ada dropdown-wrapper di dalam menu item
+    if ($(".menu.is-mobile .dropdown .dropdown-wrapper").length === 0) {
       // Pindahkan dropdown content ke masing-masing menu item
       $(".menu .item.dropdown[data-mega-menu]").each(function () {
         const menuId = $(this).attr("data-mega-menu");
@@ -160,7 +160,7 @@ function checkMobile() {
     $(".header .menu .item.dropdown").hover(
       function () {
         const menuId = $(this).attr("data-mega-menu");
-        $(".dropdown-wrapper").stop(true, true).show();
+        $(".dropdown-wrapper").stop(true, true).show().slideDown(300);
         $(".dropdown-wrapper .list").removeClass("active");
         $(`#${menuId}`).addClass("active");
       },
@@ -169,7 +169,7 @@ function checkMobile() {
           .delay(200)
           .queue(function (next) {
             if (!$(".dropdown-wrapper").is(":hover")) {
-              $(this).hide();
+              $(this).hide().slideUp(300);
             }
             next();
           });

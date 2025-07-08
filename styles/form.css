@@ -1,0 +1,71 @@
+.step {
+  opacity: 40%;
+  transition: all 0.3s ease;
+}
+
+.step.active,
+.step.completed {
+  opacity: 100%;
+}
+
+.step.completed .step-number {
+  background: var(--green-50);
+}
+
+.step-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-inverse);
+  background: var(--blue-60);
+  flex-shrink: 0;
+  height: 24px;
+  width: 24px;
+  transition: all 0.3s ease;
+}
+
+.form-step {
+  display: none;
+  flex-direction: column;
+  gap: var(--unit-9);
+}
+
+.form-step.active {
+  display: flex;
+}
+
+.confirmation-table {
+  display: flex;
+  flex-direction: column;
+  gap: var(--unit-5);
+}
+
+.confirmation-row {
+  display: flex;
+  padding: var(--unit-3) 0;
+  gap: var(--unit-5);
+  border-bottom: 1px solid var(--border-subdued);
+}
+
+.confirmation-label {
+  flex: 1;
+  color: var(--text-subdued);
+}
+
+.confirmation-value {
+  flex: 1;
+}
+
+.form-submitted {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--unit-12) var(--unit-10);
+  border-radius: var(--unit-3);
+  gap: var(--unit-7);
+  background: var(--surface-informational-subdued);
+}
+
+.form-submitted.active {
+  display: flex;
+}

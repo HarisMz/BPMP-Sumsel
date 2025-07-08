@@ -7,6 +7,9 @@ $listThemes = [
     'tokens/variables'
 ];
 $listStyles = [
+    'form.css'
+];
+$listCompStyles = [
     'tokens/colors.css',
     'tokens/elevations.css',
     'tokens/normalize.css',
@@ -58,7 +61,8 @@ $listScripts = [
     'jquery-3.6.1.min.js',
     'click-events.js',
     'custombutton.js',
-    'connector.js'
+    'connector.js',
+    'form.js'
 ];
 $listCompScripts = [
     'tokens/colors.js',
@@ -126,7 +130,13 @@ function loadThemes($file, $deviceTypes = ['desktop'], $theme) {
         }
     }
 }
-function loadStyles($file, $deviceTypes = ['desktop']) {
+function loadStyles($file) {
+    $filePath = "/styles/$file";
+    if (file_exists($_SERVER['DOCUMENT_ROOT'] . $filePath)) {
+        echo "<link rel='stylesheet' href='$filePath'>\n";
+    }
+}
+function loadCompStyles($file, $deviceTypes = ['desktop']) {
     foreach ($deviceTypes as $type) {
         $filePath = "/styles/components/$type/$file";
         if (file_exists($_SERVER['DOCUMENT_ROOT'] . $filePath)) {
@@ -154,7 +164,10 @@ foreach ($listThemes as $file) {
     loadThemes($file, ['desktop', 'tablet', 'mobile'], $theme);
 }
 foreach ($listStyles as $file) {
-    loadStyles($file, ['desktop', 'tablet', 'mobile']);
+    loadStyles($file);
+}
+foreach ($listCompStyles as $file) {
+    loadCompStyles($file, ['desktop', 'tablet', 'mobile']);
 }
 foreach ($listScripts as $file) {
     loadScripts($file);

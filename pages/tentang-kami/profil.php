@@ -116,7 +116,7 @@
                             </div>
                             <div class="display-md">Riwayat Pimpinan BPG/LPMP/BPMP Provinsi Sumatera Selatan</div>
                             <div class="flex column gap-7">
-                                <div class="flex items-center">
+                                <div class="flex items-center gap-5">
                                     <div class="timeline-dot connector"></div>
                                     <div class="flex items-center surface-subdued gap-7 px-7 py-5 rounded-8 full">
                                         <div class="heading-md">1983</div>
@@ -128,7 +128,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="flex items-center">
+                                <div class="flex items-center gap-5">
                                     <div class="timeline-dot connector"></div>
                                     <div class="flex items-center surface-subdued gap-7 px-7 py-5 rounded-8 full">
                                         <div class="heading-md">1990</div>
@@ -140,7 +140,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="flex items-center">
+                                <div class="flex items-center gap-5">
                                     <div class="timeline-dot connector"></div>
                                     <div class="flex items-center surface-subdued gap-7 px-7 py-5 rounded-8 full">
                                         <div class="heading-md">1995</div>
@@ -152,7 +152,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="flex items-center">
+                                <div class="flex items-center gap-5">
                                     <div class="timeline-dot connector"></div>
                                     <div class="flex items-center surface-subdued gap-7 px-7 py-5 rounded-8 full">
                                         <div class="heading-md">2000</div>
@@ -164,7 +164,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="flex items-center">
+                                <div class="flex items-center gap-5">
                                     <div class="timeline-dot connector"></div>
                                     <div class="flex items-center surface-subdued gap-7 px-7 py-5 rounded-8 full">
                                         <div class="heading-md">2009</div>
@@ -176,7 +176,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="flex items-center">
+                                <div class="flex items-center gap-5">
                                     <div class="timeline-dot connector"></div>
                                     <div class="flex items-center surface-subdued gap-7 px-7 py-5 rounded-8 full">
                                         <div class="heading-md">2013</div>
@@ -188,7 +188,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="flex items-center">
+                                <div class="flex items-center gap-5">
                                     <div class="timeline-dot connector"></div>
                                     <div class="flex items-center surface-subdued gap-7 px-7 py-5 rounded-8 full">
                                         <div class="heading-md">2019</div>
@@ -200,7 +200,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="flex items-center">
+                                <div class="flex items-center gap-5">
                                     <div class="timeline-dot connector"></div>
                                     <div class="flex items-center surface-subdued gap-7 px-7 py-5 rounded-8 full">
                                         <div class="heading-md">2022</div>
