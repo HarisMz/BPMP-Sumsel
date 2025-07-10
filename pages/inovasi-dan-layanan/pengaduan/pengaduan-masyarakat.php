@@ -140,11 +140,11 @@
                                 </span>
                             </label>
                             <label class="radio">
-                                <input type="radio" name="jenis-pengaduan" value="Korupsi/gratifikasi">
+                                <input type="radio" name="jenis-pengaduan" value="Korupsi/Gratifikasi">
                                 <span class="mark">
                                 </span>
                                 <span class="label">
-                                    Korupsi/gratifikasi
+                                    Korupsi/Gratifikasi
                                 </span>
                             </label>
                             <label class="radio">
@@ -175,10 +175,11 @@
                     </div>
                     <div class="form-group">
                         <label for="isi-pengaduan">
-                            Isi Pengaduan
+                            Isi pengaduan
                         </label>
-                        <div class="input">
-                            <input type="text" id="isi-pengaduan" placeholder="Isikan pengaduan Anda berupa deskripsi"/>
+                        <div class="textarea">
+                            <textarea id="isi-pengaduan" placeholder="Isikan pengaduan Anda berupa deskripsi" rows="4">
+                            </textarea>
                         </div>
                         <div class="helper">
                             <span>
@@ -188,7 +189,7 @@
                     </div>
                     <div class="flex column gap-5">
                         <div class="body">Bukti Pendukung</div>
-                        <div class="file-upload multiple" max-size="10000">
+                        <div class="file-upload multiple" id="bukti-pengaduan" max-size="10000">
                             <div class="file-input-container" id="file-input-container">
                                 <input type="file" id="file-input">
                                 <span class="file-label">
@@ -247,15 +248,17 @@
                         <div class="confirmation-section heading-md">Detail pengaduan</div>
                         <div class="confirmation-row">
                             <div class="confirmation-label body">Jenis pengaduan</div>
-                            <div class="confirmation-value action" id="conf-jenis">-</div>
+                            <div class="confirmation-value action" id="conf-jenis-pengaduan">-</div>
                         </div>
                         <div class="confirmation-row">
                             <div class="confirmation-label body">Isi pengaduan</div>
-                            <div class="confirmation-value action" id="conf-isi">-</div>
+                            <div class="confirmation-value action" id="conf-isi-pengaduan">-</div>
                         </div>
                         <div class="confirmation-row">
                             <div class="confirmation-label body">Bukti pengaduan</div>
-                            <div class="confirmation-value action" id="conf-bukti">-</div>
+                            <div class="confirmation-value action" id="conf-bukti">
+                                <div id="conf-file-list" class="file-preview-list">-</div>
+                            </div>
                         </div>
                     </div>
                     <div class="flex gap-5">
@@ -285,6 +288,7 @@
 </main>
 
 <?php include './modules/footer.php'; ?>
+<script src="/scripts/pengaduan-masyarakat.js"></script>
 
 </body>
 </html>

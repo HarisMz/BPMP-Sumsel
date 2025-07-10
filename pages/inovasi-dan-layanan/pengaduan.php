@@ -57,7 +57,7 @@
                             </div>
                             <span class="body">WBS melaporkan pelanggaran serius seperti korupsi. Identitas pelapor dijamin rahasia.</span>
                         </div>
-                        <a href="/tentang-kami/rbi-ziwbk/6-area#tab-content-1" class="button large right" data-icon="open_in_new">
+                        <a href="#" class="button large right" data-icon="open_in_new">
                             Buat Laporan
                         </a>
                     </div>
@@ -71,7 +71,7 @@
                             </div>
                             <span class="body">Platform untuk pengaduan layanan publik yang diteruskan ke instansi terkait.</span>
                         </div>
-                        <a href="/tentang-kami/rbi-ziwbk/6-area#tab-content-1" class="button large right" data-icon="open_in_new">
+                        <a href="#" class="button large right" data-icon="open_in_new">
                             Buat Laporan
                         </a>
                     </div>
@@ -85,7 +85,7 @@
                             </div>
                             <span class="body">Saluran untuk melaporkan keluhan layanan BPMP Sumsel, ditindaklanjuti sesuai prosedur.</span>
                         </div>
-                        <a href="/tentang-kami/rbi-ziwbk/6-area#tab-content-1" class="button large right" data-icon="open_in_new">
+                        <a href="/inovasi-dan-layanan/pengaduan/pengaduan-masyarakat" class="button large right" data-icon="open_in_new">
                             Buat Laporan
                         </a>
                     </div>
@@ -99,7 +99,7 @@
                             </div>
                             <span class="body">Saluran untuk melaporkan gratifikasi pegawai BPMP Sumsel, baik ditolak atau diterima.</span>
                         </div>
-                        <a href="/tentang-kami/rbi-ziwbk/6-area#tab-content-1" class="button large right" data-icon="open_in_new">
+                        <a href="/inovasi-dan-layanan/pengaduan/pelaporan-gratifikasi" class="button large right" data-icon="open_in_new">
                             Buat Laporan
                         </a>
                     </div>

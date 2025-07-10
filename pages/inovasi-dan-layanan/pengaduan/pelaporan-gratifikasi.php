@@ -31,12 +31,12 @@
                     </li>
                     <li class="item">
                         <a href="#">
-                            Pikat Bidar
+                            Pelaporan Gratifikasi
                         </a>
                     </li>
                 </ul>
             </nav>
-            <div class="display-lg text-inverse">Pikat Bidar</div>
+            <div class="display-lg text-inverse">Pelaporan Gratifikasi</div>
         </div>
     </section>
     <section class="container py-14 surface-subdued">
@@ -54,8 +54,8 @@
                     <div class="step flex gap-5" id="step-2">
                         <div class="step-number body rounded-full connector" data-top="28px" data-height="76px">2</div>
                         <div class="flex column gap-2">
-                            <div class="heading-md">Pengisian detail pendampingan</div>
-                            <div class="body">Berupa data pendampingan untuk selanjutnya dapat dilakukan analisis kebutuhan pendampingan</div>
+                            <div class="heading-md">Pengisian detail penerimaan gratifikasi</div>
+                            <div class="body">Berupa data pendampingan untuk selanjutnya dapat dilakukan analisis kebutuhan pelaporan gratifikasi</div>
                         </div>
                     </div>
                     <div class="step flex gap-5" id="step-3">
@@ -138,70 +138,85 @@
                 <div class="form-step" id="form-step-2">
                     <div class="display-md">Lengkapi Data Berikut</div>
                     <div class="form-group">
-                        <label>Tema Pendampingan</label>
-                        <div class="select">
-                            <select name id>
-                                <option value disabled selected>
-                                    - Pilih -
-                                </option>
-                                <option value="Penjaminan Mutu Pendidikan">
-                                    Penjaminan Mutu Pendidikan
-                                </option>
-                                <option value="Digitalisasi Pembelajaran">
-                                    Digitalisasi Pembelajaran
-                                </option>
-                                <option value="Penguatan Pendidikan Karakter">
-                                    Penguatan Pendidikan Karakter
-                                </option>
-                                <option value="Revitalisasi Sekolah">
-                                    Revitalisasi Sekolah
-                                </option>
-                            </select>
+                        <label for="nama-pemberi">
+                            Nama Pemberi Gratifikasi
+                        </label>
+                        <div class="input">
+                            <input type="text" id="nama-pemberi" placeholder="Isikan nama lengkap Anda"/>
                         </div>
-                        <div class="helper">
-                            <span>
-                                Pilih tema yang sesuai dengan isu yang Anda hadapi
-                            </span>
+                    </div>
+                    <div class="form-group">
+                        <label for="instansi-pemberi">
+                            Instansi/Pekerjaan Pemberi Gratifikasi
+                        </label>
+                        <div class="input">
+                            <input type="text" id="instansi-pemberi" placeholder="Isikan jabatan pada instansi Anda"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="nama-penerima">
+                            Nama Penerima Gratifikasi
+                        </label>
+                        <div class="input">
+                            <input type="text" id="nama-penerima" placeholder="Isikan nama lengkap Anda"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="instansi-penerima">
+                            Instansi/Pekerjaan Penerima Gratifikasi
+                        </label>
+                        <div class="input">
+                            <input type="text" id="instansi-penerima" placeholder="Isikan jabatan pada instansi Anda"/>
                         </div>
                     </div>
                     <div class="flex column gap-5">
-                        <div class="body">Mode Pendampingan</div>
-                        <div class="grid grid-2 gap-9">
+                        <div class="body">Jenis Penerimaan</div>
+                        <div class="flex column gap-5">
                             <label class="radio">
-                                <input type="radio" name="mode-pendampingan" value="Daring">
+                                <input type="radio" name="jenis-penerimaan" value="Uang">
                                 <span class="mark">
                                 </span>
                                 <span class="label">
-                                    Dalam Jaringan (Daring)
+                                    Uang
                                 </span>
                             </label>
                             <label class="radio">
-                                <input type="radio" name="mode-pendampingan" value="Luring">
+                                <input type="radio" name="jenis-penerimaan" value="Barang/Makanan">
                                 <span class="mark">
                                 </span>
                                 <span class="label">
-                                    Luar Jaringan (Luring)
+                                    Barang/Makanan
                                 </span>
                             </label>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="jumlah-peserta">
-                            Jumlah Peserta
+                        <label for="nominal-harga">
+                            Harga/Nilai Nominal Penerimaan (Untuk Barang dan Makanan diberikan perkiraan harga)
                         </label>
                         <div class="input">
-                            <input type="text" id="jumlah-peserta" placeholder="Isikan jumlah peserta"/>
+                            <input type="text" id="nominal-harga" placeholder="Isikan nominal perkiraan harga barang yang diberikan"/>
                         </div>
                     </div>
-                    <div class="grid grid-2 gap-9">
-                        <div class="flex column gap-1">
-                            <label for="usulan_tanggal">Usulan Tanggal</label>
-                            <input type="date" id="usulan_tanggal">
+                    <div class="form-group">
+                        <label for="kronologis-peristiwa">
+                            Kronologis Peristiwa Penerimaan Gratifikasi
+                        </label>
+                        <div class="input">
+                            <input type="text" id="kronologis-peristiwa" placeholder="Isikan kronologis penerimaan gratifikasi"/>
                         </div>
-                        <div class="flex column gap-1">
-                            <label for="jam">Jam</label>
-                            <input type="time" id="jam">
+                    </div>
+                    <div class="form-group">
+                        <label for="lokasi-peristiwa">
+                            Lokasi/Tempat Peristiwa Penerimaan Gratifikasi
+                        </label>
+                        <div class="input">
+                            <input type="text" id="lokasi-peristiwa" placeholder="Isikan lokasi peristiwa penerimaan gratifikasi"/>
                         </div>
+                    </div>
+                    <div class="flex column gap-1">
+                        <label for="tanggal-peristiwa">Tanggal Peristiwa Penerimaan Gratifikasi</label>
+                        <input type="date" id="tanggal-peristiwa" placeholder="Pilih tanggal">
                     </div>
                     <div class="flex gap-5">
                         <a href="#" class="button secondary large" onclick="prevStep()">
@@ -248,26 +263,42 @@
                     </div>
 
                     <div class="confirmation-table">
-                        <div class="confirmation-section heading-md">Detail pendampingan</div>
+                        <div class="confirmation-section heading-md">Detail penerimaan gratifikasi</div>
                         <div class="confirmation-row">
-                            <div class="confirmation-label body">Tema</div>
-                            <div class="confirmation-value action" id="conf-tema">-</div>
+                            <div class="confirmation-label body">Nama Pemberi Gratifikasi</div>
+                            <div class="confirmation-value action" id="conf-nama-pemberi">-</div>
                         </div>
                         <div class="confirmation-row">
-                            <div class="confirmation-label body">Mode</div>
-                            <div class="confirmation-value action" id="conf-mode">-</div>
+                            <div class="confirmation-label body">Instansi/Pekerjaan Pemberi Gratifikasi</div>
+                            <div class="confirmation-value action" id="conf-instansi-pemberi">-</div>
                         </div>
                         <div class="confirmation-row">
-                            <div class="confirmation-label body">Jumlah Peserta</div>
-                            <div class="confirmation-value action" id="conf-jumlah">-</div>
+                            <div class="confirmation-label body">Nama Penerima Gratifikasi</div>
+                            <div class="confirmation-value action" id="conf-nama-penerima">-</div>
+                        </div>
+                        <div class="confirmation-row">
+                            <div class="confirmation-label body">Instansi/Pekerjaan Penerima Gratifikasi</div>
+                            <div class="confirmation-value action" id="conf-instansi-penerima">-</div>
+                        </div>
+                        <div class="confirmation-row">
+                            <div class="confirmation-label body">Jenis Penerimaan</div>
+                            <div class="confirmation-value action" id="conf-jenis-penerimaan">-</div>
+                        </div>
+                        <div class="confirmation-row">
+                            <div class="confirmation-label body">Harga/Nilai Nominal Penerimaan (Untuk Barang dan Makanan diberikan perkiraan harga)</div>
+                            <div class="confirmation-value action" id="conf-nominal-harga">-</div>
+                        </div>
+                        <div class="confirmation-row">
+                            <div class="confirmation-label body">Kronologis Peristiwa Penerimaan Gratifikasi</div>
+                            <div class="confirmation-value action" id="conf-kronologis-peristiwa">-</div>
+                        </div>
+                        <div class="confirmation-row">
+                            <div class="confirmation-label body">Lokasi/Tempat Peristiwa Penerimaan Gratifikasi</div>
+                            <div class="confirmation-value action" id="conf-lokasi-peristiwa">-</div>
                         </div>
                         <div class="confirmation-row">
                             <div class="confirmation-label body">Usulan Tanggal</div>
-                            <div class="confirmation-value action" id="conf-tanggal">-</div>
-                        </div>
-                        <div class="confirmation-row">
-                            <div class="confirmation-label body">Jam</div>
-                            <div class="confirmation-value action" id="conf-jam">-</div>
+                            <div class="confirmation-value action" id="conf-tanggal-peristiwa">-</div>
                         </div>
                     </div>
                     <div class="flex gap-5">
@@ -297,7 +328,7 @@
 </main>
 
 <?php include './modules/footer.php'; ?>
-<script src="/scripts/pikat-bidar.js"></script>
+<script src="/scripts/pelaporan-gratifikasi.js"></script>
 
 </body>
 </html>

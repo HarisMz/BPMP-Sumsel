@@ -41,19 +41,21 @@
 }
 
 .confirmation-row {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   padding: var(--unit-3) 0;
   gap: var(--unit-5);
   border-bottom: 1px solid var(--border-subdued);
 }
 
 .confirmation-label {
-  flex: 1;
   color: var(--text-subdued);
 }
 
 .confirmation-value {
-  flex: 1;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .form-submitted {

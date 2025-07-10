@@ -1,0 +1,348 @@
+// Pikat Bidar Form Handler JavaScript
+document.addEventListener("DOMContentLoaded", function () {
+  let currentStep = 1;
+  const totalSteps = 3;
+
+  // Initialize form display
+  initializeForm();
+
+  function initializeForm() {
+    showStep(currentStep);
+    updateStepProgress();
+  }
+
+  function showStep(step) {
+    // Hide all form steps and remove active class
+    for (let i = 1; i <= totalSteps; i++) {
+      const stepElement = document.getElementById(`form-step-${i}`);
+      if (stepElement) {
+        stepElement.classList.remove("active");
+      }
+    }
+
+    // Hide submitted message and remove active class
+    const submittedElement = document.querySelector(".form-submitted");
+    if (submittedElement) {
+      submittedElement.classList.remove("active");
+    }
+
+    // Show current step with active class
+    const currentStepElement = document.getElementById(`form-step-${step}`);
+    if (currentStepElement) {
+      currentStepElement.classList.add("active");
+    }
+
+    // Show submitted message if step is 4
+    if (step === 4) {
+      if (submittedElement) {
+        submittedElement.classList.add("active");
+      }
+    }
+  }
+
+  function updateStepProgress() {
+    const stepElements = document.querySelectorAll(".step");
+    stepElements.forEach((element, index) => {
+      const stepNumber = index + 1;
+      const stepNumberElement = element.querySelector(".step-number");
+
+      // Remove all classes first
+      element.classList.remove("active", "completed");
+      stepNumberElement.classList.remove("active", "completed");
+
+      if (stepNumber < currentStep) {
+        // Completed step
+        element.classList.add("completed");
+        stepNumberElement.classList.add("completed");
+        stepNumberElement.innerHTML =
+          '<img src="/assets/images/mini-checklist.svg" alt="Mini Checklist">';
+      } else if (stepNumber === currentStep) {
+        // Active step
+        element.classList.add("active");
+        stepNumberElement.classList.add("active");
+        stepNumberElement.textContent = stepNumber;
+      } else {
+        // Future step
+        stepNumberElement.textContent = stepNumber;
+      }
+    });
+  }
+
+  function validateStep1() {
+    const requiredFields = [
+      "nama",
+      "jabatan",
+      "instansi-lembaga",
+      "wilayah",
+      "nomor-kontak",
+      "email",
+    ];
+    let isValid = true;
+    let firstInvalidField = null;
+
+    requiredFields.forEach((fieldId) => {
+      const field = document.getElementById(fieldId);
+      if (field) {
+        const value = field.value.trim();
+        if (value === "") {
+          isValid = false;
+          field.classList.add("error");
+          if (!firstInvalidField) {
+            firstInvalidField = field;
+          }
+        } else {
+          field.classList.remove("error");
+        }
+      }
+    });
+
+    // Email validation
+    const emailField = document.getElementById("email");
+    if (emailField && emailField.value.trim() !== "") {
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(emailField.value.trim())) {
+        isValid = false;
+        emailField.classList.add("error");
+        if (!firstInvalidField) {
+          firstInvalidField = emailField;
+        }
+      }
+    }
+
+    if (!isValid && firstInvalidField) {
+      firstInvalidField.focus();
+      showErrorMessage("Mohon lengkapi semua field yang diperlukan");
+    }
+
+    return isValid;
+  }
+
+  function validateStep2() {
+    const requiredFields = [
+      "nama-pemberi",
+      "instansi-pemberi",
+      "nama-penerima",
+      "instansi-penerima",
+      "nominal-harga",
+      "kronologis-peristiwa",
+      "lokasi-peristiwa",
+    ];
+    let isValid = true;
+    let firstInvalidField = null;
+
+    requiredFields.forEach((fieldId) => {
+      const field = document.getElementById(fieldId);
+      if (field) {
+        const value = field.value.trim();
+        if (value === "") {
+          isValid = false;
+          field.classList.add("error");
+          if (!firstInvalidField) {
+            firstInvalidField = field;
+          }
+        } else {
+          field.classList.remove("error");
+        }
+      }
+    });
+
+    // Validate jenis penerimaan
+    const jenisRadios = document.querySelectorAll(
+      'input[name="jenis-penerimaan"]'
+    );
+    const jenisSelected = Array.from(jenisRadios).some(
+      (radio) => radio.checked
+    );
+
+    if (!jenisSelected) {
+      isValid = false;
+      if (!firstInvalidField) {
+        firstInvalidField = jenisRadios[0];
+      }
+    }
+
+    // Validate tanggal peristiwa
+    const tanggalPeristiwa = document.getElementById("tanggal-peristiwa");
+    if (tanggalPeristiwa && tanggalPeristiwa.value === "") {
+      isValid = false;
+      tanggalPeristiwa.classList.add("error");
+      if (!firstInvalidField) {
+        firstInvalidField = tanggalPeristiwa;
+      }
+    } else if (tanggalPeristiwa) {
+      tanggalPeristiwa.classList.remove("error");
+    }
+
+    if (!isValid && firstInvalidField) {
+      firstInvalidField.focus();
+      showErrorMessage("Mohon lengkapi semua field yang diperlukan");
+    }
+
+    return isValid;
+  }
+
+  function populateConfirmationData() {
+    // Personal data
+    document.getElementById("conf-nama").textContent =
+      document.getElementById("nama").value || "-";
+    document.getElementById("conf-jabatan").textContent =
+      document.getElementById("jabatan").value || "-";
+    document.getElementById("conf-nip").textContent =
+      document.getElementById("nip").value || "-";
+    document.getElementById("conf-instansi").textContent =
+      document.getElementById("instansi-lembaga").value || "-";
+    document.getElementById("conf-wilayah").textContent =
+      document.getElementById("wilayah").value || "-";
+    document.getElementById("conf-nomor").textContent =
+      document.getElementById("nomor-kontak").value || "-";
+    document.getElementById("conf-email").textContent =
+      document.getElementById("email").value || "-";
+
+    // Jenis penerimaan
+    const selectedJenis = document.querySelector(
+      'input[name="jenis-penerimaan"]:checked'
+    );
+    let jenis = "-";
+
+    if (selectedJenis) {
+      const value = selectedJenis.value;
+      if (value === "Uang") {
+        jenis = "Dalam Jaringan (Daring)";
+      } else if (value === "Luring") {
+        jenis = "Luar Jaringan (Luring)";
+      }
+    }
+
+    document.getElementById("conf-jenis-penerimaan").textContent = jenis;
+
+    // Other data
+    document.getElementById("conf-nama-pemberi").textContent =
+      document.getElementById("nama-pemberi").value || "-";
+    document.getElementById("conf-instansi-pemberi").textContent =
+      document.getElementById("instansi-pemberi").value || "-";
+    document.getElementById("conf-nama-penerima").textContent =
+      document.getElementById("nama-penerima").value || "-";
+    document.getElementById("conf-instansi-penerima").textContent =
+      document.getElementById("instansi-penerima").value || "-";
+    document.getElementById("conf-jenis-penerimaan").textContent =
+      document.querySelector('input[name="jenis-penerimaan"]:checked').value ||
+      "-";
+    document.getElementById("conf-nominal-harga").textContent =
+      document.getElementById("nominal-harga").value || "-";
+    document.getElementById("conf-kronologis-peristiwa").textContent =
+      document.getElementById("kronologis-peristiwa").value || "-";
+    document.getElementById("conf-lokasi-peristiwa").textContent =
+      document.getElementById("lokasi-peristiwa").value || "-";
+
+    // Format tanggal
+    const tanggalValue = document.getElementById("tanggal-peristiwa").value;
+    if (tanggalValue) {
+      const date = new Date(tanggalValue);
+      const formattedDate = date.toLocaleDateString("id-ID", {
+        day: "numeric",
+        month: "long",
+        year: "numeric",
+      });
+      document.getElementById("conf-tanggal-peristiwa").textContent =
+        formattedDate;
+    } else {
+      document.getElementById("conf-tanggal-peristiwa").textContent = "-";
+    }
+  }
+
+  function showErrorMessage(message) {
+    // Create or update error message
+    let errorDiv = document.querySelector(".error-message");
+    if (!errorDiv) {
+      errorDiv = document.createElement("div");
+      errorDiv.className = "error-message";
+      errorDiv.style.cssText = `
+                background-color: #fee;
+                color: #c33;
+                padding: 10px;
+                border-radius: 4px;
+                border: 1px solid #fcc;
+            `;
+
+      const currentStepElement = document.getElementById(
+        `form-step-${currentStep}`
+      );
+      if (currentStepElement) {
+        currentStepElement.insertBefore(
+          errorDiv,
+          currentStepElement.firstChild.nextSibling
+        );
+      }
+    }
+
+    errorDiv.textContent = message;
+    errorDiv.style.display = "block";
+
+    // Hide error message after 5 seconds
+    setTimeout(() => {
+      if (errorDiv) {
+        errorDiv.style.display = "none";
+      }
+    }, 5000);
+  }
+
+  function hideErrorMessage() {
+    const errorDiv = document.querySelector(".error-message");
+    if (errorDiv) {
+      errorDiv.style.display = "none";
+    }
+  }
+
+  // Global functions that can be called from HTML
+  window.nextStep = function () {
+    hideErrorMessage();
+
+    if (currentStep === 1) {
+      if (!validateStep1()) {
+        return;
+      }
+    } else if (currentStep === 2) {
+      if (!validateStep2()) {
+        return;
+      }
+      populateConfirmationData();
+    } else if (currentStep === 3) {
+      // Final submission
+      console.log("Form submitted successfully");
+      // Here you would typically send data to server
+    }
+
+    currentStep++;
+    if (currentStep > 4) {
+      currentStep = 4;
+    }
+
+    showStep(currentStep);
+    updateStepProgress();
+  };
+
+  window.prevStep = function () {
+    hideErrorMessage();
+
+    currentStep--;
+    if (currentStep < 1) {
+      currentStep = 1;
+    }
+
+    showStep(currentStep);
+    updateStepProgress();
+  };
+
+  // Add event listeners for real-time validation
+  document.addEventListener("input", function (e) {
+    if (e.target.tagName === "INPUT" || e.target.tagName === "SELECT") {
+      e.target.classList.remove("error");
+    }
+  });
+
+  document.addEventListener("change", function (e) {
+    if (e.target.type === "radio") {
+      e.target.classList.remove("error");
+    }
+  });
+});

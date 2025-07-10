@@ -61,8 +61,7 @@ $listScripts = [
     'jquery-3.6.1.min.js',
     'click-events.js',
     'custombutton.js',
-    'connector.js',
-    'form.js'
+    'connector.js'
 ];
 $listCompScripts = [
     'tokens/colors.js',
