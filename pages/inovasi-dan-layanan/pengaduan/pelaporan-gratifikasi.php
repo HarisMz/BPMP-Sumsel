@@ -52,7 +52,7 @@
                         </div>
                     </div>
                     <div class="step flex gap-5" id="step-2">
-                        <div class="step-number body rounded-full connector" data-top="28px" data-height="76px">2</div>
+                        <div class="step-number body rounded-full connector" data-top="28px" data-height="100px">2</div>
                         <div class="flex column gap-2">
                             <div class="heading-md">Pengisian detail penerimaan gratifikasi</div>
                             <div class="body">Berupa data pendampingan untuk selanjutnya dapat dilakukan analisis kebutuhan pelaporan gratifikasi</div>
