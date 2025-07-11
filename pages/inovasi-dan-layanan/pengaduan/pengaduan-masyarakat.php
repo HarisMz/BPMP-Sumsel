@@ -178,8 +178,7 @@
                             Isi pengaduan
                         </label>
                         <div class="textarea">
-                            <textarea id="isi-pengaduan" placeholder="Isikan pengaduan Anda berupa deskripsi" rows="4">
-                            </textarea>
+                            <textarea id="isi-pengaduan" placeholder="Isikan pengaduan Anda berupa deskripsi" rows="4"></textarea>
                         </div>
                         <div class="helper">
                             <span>
@@ -256,9 +255,7 @@
                         </div>
                         <div class="confirmation-row">
                             <div class="confirmation-label body">Bukti pengaduan</div>
-                            <div class="confirmation-value action" id="conf-bukti">
-                                <div id="conf-file-list" class="file-preview-list">-</div>
-                            </div>
+                            <div class="confirmation-value action" id="conf-bukti">-</div>
                         </div>
                     </div>
                     <div class="flex gap-5">

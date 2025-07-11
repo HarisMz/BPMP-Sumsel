@@ -42,7 +42,7 @@
 
 .confirmation-row {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   padding: var(--unit-3) 0;
   gap: var(--unit-5);
   border-bottom: 1px solid var(--border-subdued);
@@ -50,12 +50,16 @@
 
 .confirmation-label {
   color: var(--text-subdued);
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .confirmation-value {
   white-space: normal;
   word-wrap: break-word;
   overflow-wrap: break-word;
+  grid-column: span 2;
 }
 
 .form-submitted {
@@ -70,4 +74,11 @@
 
 .form-submitted.active {
   display: flex;
+}
+.conf-file-preview {
+  max-width: calc(var(--unit-14) + var(--unit-7));
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  border-radius: var(--unit-2);
+  margin-right: var(--unit-5);
 }

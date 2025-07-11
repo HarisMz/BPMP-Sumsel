@@ -285,7 +285,7 @@
                             <div class="confirmation-value action" id="conf-jenis-penerimaan">-</div>
                         </div>
                         <div class="confirmation-row">
-                            <div class="confirmation-label body">Harga/Nilai Nominal Penerimaan (Untuk Barang dan Makanan diberikan perkiraan harga)</div>
+                            <div class="confirmation-label body">Harga/Nilai Nominal Penerimaan</div>
                             <div class="confirmation-value action" id="conf-nominal-harga">-</div>
                         </div>
                         <div class="confirmation-row">

@@ -181,17 +181,35 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     document.getElementById("conf-jenis-pengaduan").textContent = jenis;
 
-    // File upload
-    const fileListContainer = document.getElementById("conf-file-list");
+    // Bukti pengaduan
+    const fileListContainer = document.getElementById("conf-bukti");
     fileListContainer.innerHTML = "";
 
-    // Akses file dari global storage
     const files = window.fileUploads["bukti-pengaduan"] || [];
 
     if (files.length > 0) {
-      files.forEach((file) => {
+      files.forEach((item) => {
+        const file = item.file;
         const div = document.createElement("div");
-        div.textContent = file.name;
+        div.className = "file-item";
+
+        // Tampilkan preview untuk gambar
+        if (item.preview) {
+          const img = document.createElement("img");
+          img.src = item.preview;
+          img.className = "conf-file-preview";
+          div.appendChild(img);
+        }
+
+        const fileInfo = document.createElement("div");
+        fileInfo.className = "file-info";
+        div.appendChild(fileInfo);
+
+        const fileName = document.createElement("div");
+        fileName.className = "file-name";
+        fileName.textContent = file.name;
+        fileInfo.appendChild(fileName);
+
         fileListContainer.appendChild(div);
       });
     } else {
@@ -199,6 +217,13 @@ document.addEventListener("DOMContentLoaded", function () {
       div.textContent = "Tidak ada file yang diupload";
       fileListContainer.appendChild(div);
     }
+  }
+
+  // Fungsi helper untuk format ukuran file
+  function formatFileSize(bytes) {
+    if (bytes < 1024) return bytes + " B";
+    else if (bytes < 1048576) return (bytes / 1024).toFixed(2) + " KB";
+    else return (bytes / 1048576).toFixed(2) + " MB";
   }
 
   function showErrorMessage(message) {

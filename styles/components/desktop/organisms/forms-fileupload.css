@@ -1,166 +1,187 @@
 .file-upload {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
 }
 .file-upload.surface {
-    background-color: var(--white);
-    padding: var(--unit-5);
-    border-radius: var(--rounded-12);
-    box-shadow: var(--elevation-4);
+  background-color: var(--white);
+  padding: var(--unit-5);
+  border-radius: var(--rounded-12);
+  box-shadow: var(--elevation-4);
 }
 
 .file-upload .label {
-    margin-bottom: var(--unit-2);
+  margin-bottom: var(--unit-2);
 }
 .file-upload .helper {
-    margin-bottom: var(--unit-3);
+  margin-bottom: var(--unit-3);
 }
 
 .file-input-container {
-    border: 1px dashed var(--border-subdued);
-    padding: var(--unit-3) var(--unit-3) var(--unit-3) var(--unit-8);
-    cursor: pointer;
-    position: relative;
-    border-radius: var(--unit-3);
+  border: 1px dashed var(--border-subdued);
+  padding: var(--unit-3) var(--unit-3) var(--unit-3) var(--unit-8);
+  cursor: pointer;
+  position: relative;
+  border-radius: var(--unit-3);
 }
 
 .file-input-container:before {
-    content: 'attach_file';
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    left: var(--unit-3);
-    height: var(--unit-6);
-    width: var(--unit-6);
-    top: 50%;
-    transform: translateY(-50%);
-    color: var(--icon-default);
-    font-family: var(--font-family-icons);
-    font-size: var(--font-size-button-lg);
-    font-weight: var(--font-weight-regular);
-    overflow: hidden;
+  content: "attach_file";
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: var(--unit-3);
+  height: var(--unit-6);
+  width: var(--unit-6);
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--icon-default);
+  font-family: var(--font-family-icons);
+  font-size: var(--font-size-button-lg);
+  font-weight: var(--font-weight-regular);
+  overflow: hidden;
 }
 
 .file-input-container:hover {
-    border-color: var(--surface-selected-hovered);
+  border-color: var(--surface-selected-hovered);
 }
 
 #file-input {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    padding: 0;
-    cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  padding: 0;
+  cursor: pointer;
 }
 
 .file-label {
-    margin: 0 0 0 var(--unit-2);
-    font-size: var(--font-size-body);
-    font-family: var(--font-family-body);
-    font-weight: var(--font-weight-regular);
-    color: var(--text-subdued);
+  margin: 0 0 0 var(--unit-2);
+  font-size: var(--font-size-body);
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  color: var(--text-subdued);
 }
 
 #file-list {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .file-item {
-    position: relative;
-    display: flex;
-    gap: var(--unit-3);
-    align-items: center;
-    border: 1px solid var(--border-subdued);
-    margin-bottom: var(--unit-2);
-    padding: var(--unit-3) var(--unit-7) var(--unit-3) var(--unit-3);
-    border-radius: var(--unit-3);
-    background-color: var(--surface-subdued);
-    justify-content: space-between;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--border-subdued);
+  margin-bottom: var(--unit-2);
+  padding: var(--unit-3) var(--unit-7) var(--unit-3) var(--unit-3);
+  border-radius: var(--unit-3);
+  background-color: var(--surface-subdued);
+  justify-content: space-between;
 }
 .file-item:last-child {
-    margin-bottom: var(--unit-0);
+  margin-bottom: var(--unit-0);
 }
 
 .file-item:after {
-    content: attr(data-file-name);
-    display: flex;
-    right: 0;
-    text-align: right;
-    width: auto;
-    justify-content: flex-end;
-    flex-shrink: 0;
-    position: relative;
-    padding-right: var(--unit-2);
+  content: attr(data-file-name);
+  display: flex;
+  right: 0;
+  text-align: right;
+  width: auto;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
+  padding-right: var(--unit-2);
+}
+
+.file-info {
+  display: flex;
+  justify-content: space-between;
+  padding-left: var(--unit-7);
+  width: 100%;
 }
 
 .file-name {
-    align-items: center;
-    padding-left: var(--unit-7);
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;
-    align-self: stretch;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    line-break: anywhere;
+  align-items: center;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  align-self: stretch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-break: anywhere;
 }
 
 .file-name:before {
-    content: 'description';
-    left: var(--unit-3); 
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: var(--unit-6);
-    width: var(--unit-6);
-    top: 50%;
-    transform: translateY(-50%);
-    color: var(--icon-default);
-    font-family: var(--font-family-icons);
-    font-size: var(--font-size-button-md);
-    font-weight: var(--font-weight-regular);
-    overflow: hidden;
+  content: "description";
+  left: var(--unit-3);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: var(--unit-6);
+  width: var(--unit-6);
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--icon-default);
+  font-family: var(--font-family-icons);
+  font-size: var(--font-size-button-md);
+  font-weight: var(--font-weight-regular);
+  overflow: hidden;
+}
+
+.file-preview {
+  max-width: 50px;
+  margin-right: 10px;
+  border-radius: 4px;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
+
+.file-item:has(img) .file-info {
+  padding-left: 0;
+}
+
+.file-item:has(img) .file-info .file-name:before {
+  display: none;
 }
 
 .delete-button {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    right: var(--unit-2);
-    height: var(--unit-6);
-    width: var(--unit-6);
-    color: var(--icon-critical);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: var(--unit-2);
+  height: var(--unit-6);
+  width: var(--unit-6);
+  color: var(--icon-critical);
 }
 
 .delete-button:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .delete-button:after {
-    content: 'delete';
-    position: relative;
-    color: inherit;
-    cursor: pointer;
-    font-family: var(--font-family-icons);
-    font-size: var(--font-size-button-md);
-    font-weight: var(--font-weight-regular);
-    overflow: hidden;
+  content: "delete";
+  position: relative;
+  color: inherit;
+  cursor: pointer;
+  font-family: var(--font-family-icons);
+  font-size: var(--font-size-button-md);
+  font-weight: var(--font-weight-regular);
+  overflow: hidden;
 }
 
 #addmore-button {
-    display: none;
-    margin-top: var(--unit-4);
+  display: none;
+  margin-top: var(--unit-4);
 }
 
 #submit-button {
-    margin-top: var(--unit-4);
+  margin-top: var(--unit-4);
 }

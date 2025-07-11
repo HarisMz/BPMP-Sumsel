@@ -1,7 +1,6 @@
 function initFileUpload() {
   $(".file-upload").each(function () {
     const $fileUpload = $(this);
-    // Berikan ID unik jika belum ada
     const id = $fileUpload.attr("id") || `file-upload-${Date.now()}`;
     $fileUpload.attr("id", id);
 
@@ -14,7 +13,7 @@ function initFileUpload() {
     const $container = $fileUpload.find(".file-input-container");
     const $addMore = $fileUpload.find("#addmore-button");
     const $submit = $fileUpload.find("#submit-button");
-    const fileList = window.fileUploads[id]; // Gunakan array global
+    const fileList = window.fileUploads[id]; // Array of {file: File, preview: string?}
 
     const maxSizeKB = $fileUpload.attr("max-size")
       ? parseInt($fileUpload.attr("max-size"))
@@ -36,17 +35,33 @@ function initFileUpload() {
         $container.toggle(fileList.length === 0);
       }
 
-      fileList.forEach((file, index) => {
+      fileList.forEach((item, index) => {
+        const file = item.file;
         const fileItem = document.createElement("li");
         fileItem.className = "file-item";
-        fileItem.setAttribute(
-          "data-file-name",
-          ` (${formatFileSize(file.size)})`
-        );
+
+        // Tampilkan preview untuk gambar
+        if (item.preview) {
+          const preview = document.createElement("img");
+          preview.src = item.preview;
+          preview.className = "file-preview";
+          fileItem.appendChild(preview);
+        }
+
+        const fileInfo = document.createElement("div");
+        fileInfo.className = "file-info";
 
         const fileName = document.createElement("div");
         fileName.className = "file-name";
-        fileName.textContent = `${file.name}`;
+        fileName.textContent = file.name;
+
+        const fileSize = document.createElement("div");
+        fileSize.className = "file-size";
+        fileSize.textContent = formatFileSize(file.size);
+
+        fileInfo.appendChild(fileName);
+        fileInfo.appendChild(fileSize);
+        fileItem.appendChild(fileInfo);
 
         const deleteBtn = document.createElement("div");
         deleteBtn.className = "delete-button";
@@ -56,7 +71,6 @@ function initFileUpload() {
           deleteFile(index);
         };
 
-        fileItem.appendChild(fileName);
         fileItem.appendChild(deleteBtn);
         fragment.appendChild(fileItem);
       });
@@ -112,15 +126,30 @@ function initFileUpload() {
         return;
       }
 
-      // Simpan ke array global
-      Array.prototype.push.apply(fileList, filesToAdd);
-      requestAnimationFrame(updateFileList);
+      // Generate preview untuk gambar
+      filesToAdd.forEach((file) => {
+        const item = { file };
+
+        // Buat preview untuk file gambar
+        if (file.type.startsWith("image/")) {
+          const reader = new FileReader();
+          reader.onload = (e) => {
+            item.preview = e.target.result;
+            updateFileList();
+          };
+          reader.readAsDataURL(file);
+        }
+
+        fileList.push(item);
+      });
+
+      updateFileList();
     }
 
     function deleteFile(index) {
       if (index >= 0 && index < fileList.length) {
         fileList.splice(index, 1);
-        requestAnimationFrame(updateFileList);
+        updateFileList();
       }
     }
 
@@ -145,7 +174,7 @@ function initFileUpload() {
       newFileInput.click();
     });
 
-    // Hapus submit handler bawaan karena kita akan gunakan di form utama
+    // Hapus submit handler bawaan
     $submit.off("click").remove();
   });
 }

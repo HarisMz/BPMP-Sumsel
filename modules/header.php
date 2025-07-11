@@ -235,16 +235,16 @@
                     </a>
                 </li>
                 <li class="list-item" data-icon="assessment">
-                    <a href="#" class="label">
-                        Inovasi Eksternal
+                    <a href="/inovasi-dan-layanan/inovasi-internal" class="label">
+                        Inovasi Internal
                         <span class="helper">
                             Lorem ipsum dolor sit amet consectetur.
                         </span>
                     </a>
                 </li>
                 <li class="list-item" data-icon="gavel">
-                    <a href="#" class="label">
-                        Inovasi Internal
+                    <a href="/inovasi-dan-layanan/inovasi-eksternal" class="label">
+                        Inovasi Eksternal
                         <span class="helper">
                             Lorem ipsum dolor sit amet consectetur.
                         </span>
