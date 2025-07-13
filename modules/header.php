@@ -202,31 +202,23 @@
                 Inovasi dan Layanan
             </div>
             <ul class="grid grid-3 gap-7">
-                <li class="list-item" data-icon="account_circle">
-                    <a href="/inovasi-dan-layanan/standar-pelayanan" class="label">
-                        Standar Pelayanan
-                        <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
-                        </span>
-                    </a>
-                </li>
-                <li class="list-item" data-icon="account_circle">
-                    <a href="/inovasi-dan-layanan/layanan-pendampingan" class="label">
-                        Layanan Pendampingan
+                <li class="list-item" data-icon="fact_check">
+                    <a href="/inovasi-dan-layanan/layanan-utama" class="label">
+                        Layanan Utama
                         <span class="helper">
                             Lorem ipsum dolor sit amet consectetur.
                         </span>
                     </a>
                 </li>
                 <li class="list-item" data-icon="support_agent">
-                    <a href="#" class="label">
-                        Unit Layanan Terpadu (ULT)
+                    <a href="/inovasi-dan-layanan/pendampingan" class="label">
+                        Pendampingan
                         <span class="helper">
                             Lorem ipsum dolor sit amet consectetur.
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="visibility">
+                <li class="list-item" data-icon="report_problem">
                     <a href="/inovasi-dan-layanan/pengaduan" class="label">
                         Pengaduan
                         <span class="helper">
@@ -234,7 +226,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="assessment">
+                <li class="list-item" data-icon="insights">
                     <a href="/inovasi-dan-layanan/inovasi-internal" class="label">
                         Inovasi Internal
                         <span class="helper">
@@ -242,7 +234,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="gavel">
+                <li class="list-item" data-icon="public">
                     <a href="/inovasi-dan-layanan/inovasi-eksternal" class="label">
                         Inovasi Eksternal
                         <span class="helper">

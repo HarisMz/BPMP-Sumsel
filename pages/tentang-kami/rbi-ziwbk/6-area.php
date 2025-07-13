@@ -25,7 +25,7 @@
                         </a>
                     </li>
                     <li class="item">
-                        <a href="#">
+                        <a href="/tentang-kami/rbi-ziwbk">
                             RBI dan ZIWBK
                         </a>
                     </li>

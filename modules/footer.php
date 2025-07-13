@@ -5,10 +5,16 @@
                 <div class="flex column items-start full-mobile width-43 gap-7">
                     <div class="flex column gap-5">
                         <a href="/" class="logo"></a>
-                        <div class="flex column">
+                        <div class="flex column gap-2">
                             <div class="text-balance mb-3">
-                                Jl. Lintas Sumatra No.KM.36, Indralaya Mulia, Kec. Indralaya, Kabupaten Ogan Ilir, Sumatera Selatan 30662<br>
-                                <a href="mailto:bpmpsumsel@kemdikbud.go.id" class="link secondary noline" target="_blank">bpmpsumsel@kemdikbud.go.id</a><br>
+                                Jl. Lintas Sumatra No.KM.36, Indralaya Mulia, Kec. Indralaya, Kabupaten Ogan Ilir, Sumatera Selatan 30662
+                            </div>
+                            <div class="flex gap-3">
+                                <img src="/assets/images/mail.svg" alt="Mail Adress" style="height: 20px;">
+                                <a href="mailto:bpmpsumsel@kemdikbud.go.id" class="link secondary noline" target="_blank">bpmpsumsel@kemdikbud.go.id</a>
+                            </div>
+                            <div class="flex gap-3">
+                                <img src="/assets/images/phone.svg" alt="Phone Number" style="height: 20px;">
                                 <a href="tel:+6215725610" class="link secondary noline" target="_blank">(1234) 4442196</a>
                             </div>
                         </div>

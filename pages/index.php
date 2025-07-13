@@ -190,7 +190,7 @@
                             <img src="/assets/images/layanan-1.svg" class="height-full">
                             <div class="flex column text-left gap-3">
                                 <h2 class="action bold text-balance">Pendampingan Daring /Luring</h2>
-                                <a href="#" class="button small" data-icon="visibility" target="_blank">
+                                <a href="/inovasi-dan-layanan/pendampingan" class="button small" data-icon="visibility" target="_blank">
                                     Lihat Layanan
                                 </a>
                             </div>
@@ -201,7 +201,7 @@
                             <img src="/assets/images/layanan-2.svg" class="height-full">
                             <div class="flex column text-left gap-3">
                                 <h2 class="action bold text-balance">Pengaduan Masyarakat</h2>
-                                <a href="#" class="button small" data-icon="visibility" target="_blank">
+                                <a href="/inovasi-dan-layanan/pengaduan" class="button small" data-icon="visibility" target="_blank">
                                     Lihat Layanan
                                 </a>
                             </div>
@@ -212,7 +212,7 @@
                             <img src="/assets/images/layanan-3.svg" class="height-full">
                             <div class="flex column text-left gap-3">
                                 <h2 class="action bold text-balance">Unit Layanan Terpadu (ULT)</h2>
-                                <a href="#" class="button small" data-icon="visibility" target="_blank">
+                                <a href="/inovasi-dan-layanan/layanan-utama" class="button small" data-icon="visibility" target="_blank">
                                     Lihat Layanan
                                 </a>
                             </div>
@@ -223,7 +223,7 @@
                             <img src="/assets/images/layanan-4.svg" class="height-full">
                             <div class="flex column text-left gap-3">
                                 <h2 class="action bold text-balance">Peminjaman Fasilitas</h2>
-                                <a href="#" class="button small" data-icon="visibility" target="_blank">
+                                <a href="/tentang-kami/sarana-prasarana" class="button small" data-icon="visibility" target="_blank">
                                     Lihat Layanan
                                 </a>
                             </div>

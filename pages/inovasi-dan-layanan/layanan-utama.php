@@ -26,19 +26,19 @@
                     </li>
                     <li class="item">
                         <a href="#">
-                            Standar Pelayanan
+                            Layanan Utama
                         </a>
                     </li>
                 </ul>
             </nav>
-            <div class="display-lg text-inverse">Standar Pelayanan</div>
+            <div class="display-lg text-inverse">Layanan Utama</div>
         </div>
     </section>
     <section class="container py-14 surface-subdued">
         <div class="wrapper flex column gap-11">
             <div class="grid grid-2 gap-12">
-                <span class="headline-xs">6 Layanan Utama BPMP Provinsi Sumatera Selatan</span>
-                <span class="body">Untuk memastikan pelayanan publik yang transparan, akuntabel, dan berkualitas, BPMP Provinsi Sumatera Selatan berkomitmen menetapkan Standar Pelayanan Publik dan Maklumat Pelayanan. Langkah ini bukan hanya memenuhi prinsip pemerintahan yang baik, tetapi juga menjadi wujud nyata komitmen kami dalam memberikan layanan terbaik bagi masyarakat.</span>
+                <span class="headline-xs">6 Fokus Layanan Utama BPMP Provinsi Sumatera Selatan</span>
+                <span class="body">BPMP Provinsi Sumatera Selatan berkomitmen dalam mewujudkan pelayanan publik yang transparan, akuntabel, dan berkualitas kepada seluruh ekosistem dengan menetapkan Standar dan Maklumat Pelayanan Publik sebagai pedoman utama dalam setiap proses fasilitasi layanan. Hal ini merupakan aksi nyata kami agar dapat memberikan pelayanan yang prima, cepat, mudah, terjangkau, dan terukur.</span>
             </div>
             <div class="grid grid-3 gap-7">
                 <div class="flex column gap-4 p-7 surface-default rounded-8">

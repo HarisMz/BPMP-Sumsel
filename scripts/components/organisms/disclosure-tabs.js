@@ -195,6 +195,7 @@ function initTabs() {
         $items.removeClass("active");
         $clickedItem.addClass("active");
         updateLine($clickedItem);
+
         return;
       }
 

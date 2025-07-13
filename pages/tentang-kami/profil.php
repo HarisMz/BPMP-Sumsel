@@ -36,7 +36,7 @@
     </section>
     <section class="container py-0 surface-subdued">
         <div class="wrapper my-10 surface-default rounded-16">
-            <div class="tabs vertical p-9">
+            <div class="tabs no-update vertical p-9">
                 <div class="menu">
                     <a href="#" class="item action" id="tab-menu-1">
                         Visi dan Misi

@@ -36,7 +36,7 @@
     </section>
     <section class="container py-0 surface-subdued">
         <div class="wrapper my-10 p-9 surface-default rounded-16">
-            <div class="tabs vertical p-9">
+            <div class="tabs vertical no-update p-9">
                 <div class="menu">
                     <a href="#" class="item action" id="tab-menu-1">
                         Penjanjian Kinerja
@@ -60,7 +60,7 @@
                             <div class="display-lg">Perjanjian Kinerja</div>
                             <span class="body">Perjanjian Kinerja adalah dokumen pernyataan yang merupakan komitmen bersama antara Kepala BPMP Provinsi Sumatera Selatan dan Direktur Jenderal PAUD Dasmen, terkait capaian target kinerja BPMP Provinsi Sumatera Selatan yang jelas dan terukur dalam rentang waktu satu tahun tertentu dengan mempertimbangkan sumber daya yang dikelolanya (sesuai dengan dokumen perencanaan).</span>
                             <div class="flex column">
-                                <div class="collapsible card type-2 first-open">
+                                <div class="collapsible card accordion type-2 first-open">
                                     <div class="collapsible-header">
                                         Perjanjian Kinerja Tahun 2024
                                     </div>
@@ -84,7 +84,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="collapsible card type-2">
+                                <div class="collapsible card accordion type-2">
                                     <div class="collapsible-header">
                                         Perjanjian Kinerja Tahun 2023
                                     </div>
@@ -108,7 +108,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="collapsible card type-2">
+                                <div class="collapsible card accordion type-2">
                                     <div class="collapsible-header">
                                         Perjanjian Kinerja Tahun 2022
                                     </div>
@@ -132,7 +132,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="collapsible card type-2">
+                                <div class="collapsible card accordion type-2">
                                     <div class="collapsible-header">
                                         Perjanjian Kinerja Tahun 2021
                                     </div>
@@ -164,7 +164,7 @@
                             <div class="display-lg">Rencana Strategis</div>
                             <span class="body">Rencana Strategis (Restra) adalah dokumen perencanaan suatu organisasi yang berorientasipad hasil yang ingin dicapai dan menjelaskan mengenai strategi atau arahan sebagai dasar dalam mengambil keputusan.</span>
                             <div class="flex column">
-                                <div class="collapsible card type-2 first-open">
+                                <div class="collapsible card accordion type-2 first-open">
                                     <div class="collapsible-header">
                                         Rencana Strategis (Renstra) Tahun 2020 - 2024 EDISI REVISI
                                     </div>
@@ -188,7 +188,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="collapsible card type-2">
+                                <div class="collapsible card accordion type-2">
                                     <div class="collapsible-header">
                                         Rencana Strategis (Renstra) Tahun 2015 - 2019
                                     </div>
@@ -220,7 +220,7 @@
                             <div class="display-lg">Rencana Kinerja Tahunan</div>
                             <span class="body">Perjanjian Kinerja adalah dokumen pernyataan yang merupakan komitmen bersama antara Kepala BPMP Provinsi Sumatera Selatan dan Direktur Jenderal PAUD Dasmen, terkait capaian target kinerja BPMP Provinsi Sumatera Selatan yang jelas dan terukur dalam rentang waktu satu tahun tertentu dengan mempertimbangkan sumber daya yang dikelolanya (sesuai dengan dokumen perencanaan).</span>
                             <div class="flex column">
-                                <div class="collapsible card type-2 first-open">
+                                <div class="collapsible card accordion type-2 first-open">
                                     <div class="collapsible-header">
                                         Rencana Kinerja Tahun 2024
                                     </div>
@@ -244,7 +244,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="collapsible card type-2">
+                                <div class="collapsible card accordion type-2">
                                     <div class="collapsible-header">
                                         Rencana Kinerja Tahun 2023
                                     </div>
@@ -276,7 +276,7 @@
                             <div class="display-lg">Rencana Aksi</div>
                             <span class="body">Dokumen Rencana Aksi (DRA) adalah dokumen turunan dari Dokumen Renstra dan Perjanjian Kinerja (PK) yang merinci langkah-langkah, strategi, dan waktu pelaksanaan yang diperlukan untuk mencapai tujuan tertentu dalam program atau kebijakan yang telah disusun sebelumnya.</span>
                             <div class="flex column">
-                                <div class="collapsible card type-2 first-open">
+                                <div class="collapsible card accordion type-2 first-open">
                                     <div class="collapsible-header">
                                         Rencana Aksi Tahun 2024
                                     </div>
@@ -300,7 +300,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="collapsible card type-2">
+                                <div class="collapsible card accordion type-2">
                                     <div class="collapsible-header">
                                         Rencana Aksi Tahun 2023
                                     </div>
@@ -324,7 +324,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="collapsible card type-2">
+                                <div class="collapsible card accordion type-2">
                                     <div class="collapsible-header">
                                         Rencana Aksi Tahun 2022
                                     </div>
@@ -348,7 +348,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="collapsible card type-2">
+                                <div class="collapsible card accordion type-2">
                                     <div class="collapsible-header">
                                         Rencana Aksi Tahun 2021
                                     </div>
@@ -380,7 +380,7 @@
                             <div class="display-lg">Laporan Kinerja</div>
                             <span class="body">Perjanjian Kinerja adalah dokumen pernyataan yang merupakan komitmen bersama antara Kepala BPMP Provinsi Sumatera Selatan dan Direktur Jenderal PAUD Dasmen, terkait capaian target kinerja BPMP Provinsi Sumatera Selatan yang jelas dan terukur dalam rentang waktu satu tahun tertentu dengan mempertimbangkan sumber daya yang dikelolanya (sesuai dengan dokumen perencanaan).</span>
                             <div class="flex column">
-                                <div class="collapsible card type-2 first-open">
+                                <div class="collapsible card accordion type-2 first-open">
                                     <div class="collapsible-header">
                                         Laporan Kinerja Tahun 2024
                                     </div>
@@ -404,7 +404,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="collapsible card type-2">
+                                <div class="collapsible card accordion type-2">
                                     <div class="collapsible-header">
                                         Laporan Kinerja Tahun 2023
                                     </div>
@@ -428,7 +428,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="collapsible card type-2">
+                                <div class="collapsible card accordion type-2">
                                     <div class="collapsible-header">
                                         Laporan Kinerja Tahun 2022
                                     </div>
@@ -452,7 +452,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="collapsible card type-2">
+                                <div class="collapsible card accordion type-2">
                                     <div class="collapsible-header">
                                         Laporan Kinerja Tahun 2021
                                     </div>

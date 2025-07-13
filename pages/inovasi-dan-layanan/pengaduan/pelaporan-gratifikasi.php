@@ -15,7 +15,7 @@
             <nav class="breadcrumb with-background" id="breadcrumb" style="height: 44px;">
                 <ul>
                     <li class="item">
-                        <a href="#">
+                        <a href="/">
                             Beranda
                         </a>
                     </li>
@@ -25,8 +25,8 @@
                         </a>
                     </li>
                     <li class="item">
-                        <a href="#">
-                            Layanan Pendampingan
+                        <a href="/inovasi-dan-layanan/pengaduan">
+                            Pengaduan
                         </a>
                     </li>
                     <li class="item">
@@ -132,7 +132,7 @@
                         </div>
                     </div>
                     <a href="#" class="button large" onclick="nextStep()">
-                        Kirim Data
+                        Selanjutnya
                     </a>
                 </div>
                 <div class="form-step" id="form-step-2">
@@ -223,7 +223,7 @@
                             Kembali
                         </a>
                         <a href="#" class="button large" onclick="nextStep()">
-                            Kirim Data
+                            Selanjutnya
                         </a>
                     </div>
                 </div>
@@ -318,7 +318,7 @@
                         <div class="display-md">Data Anda telah kami rekam</div>
                         <div class="body">Selanjutnya Anda akan dihubungi oleh pihak BPMP Provinsi Sumatera Selatan melalui pesan WhatsApp dan email maksimal 2 hari kerja untuk komunikasi lebih lanjut terkait pengajuan Anda.</div>
                     </div>
-                    <a href="#" class="button large">
+                    <a href="/" class="button large">
                         Kembali ke Beranda
                     </a>
                 </div>

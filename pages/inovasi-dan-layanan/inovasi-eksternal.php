@@ -47,13 +47,13 @@
             </div>
             <div class="grid grid-3 gap-5">
                 <div style="height: 240px;">
-                    <img src="/assets/images/eksternal-1.png" alt="Foto Konsensus" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
+                    <img src="/assets/images/eksternal-1.jpg" alt="Foto Konsensus" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
                 </div>
                 <div style="height: 240px;">
-                    <img src="/assets/images/eksternal-2.png" alt="Foto Konsensus" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
+                    <img src="/assets/images/eksternal-2.jpg" alt="Foto Konsensus" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
                 </div>
                 <div style="height: 240px;">
-                    <img src="/assets/images/eksternal-3.png" alt="Foto Konsensus" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
+                    <img src="/assets/images/eksternal-3.jpg" alt="Foto Konsensus" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
                 </div>
             </div>
         </div>

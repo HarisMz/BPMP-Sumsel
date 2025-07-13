@@ -26,7 +26,7 @@
                     </li>
                     <li class="item">
                         <a href="#">
-                            Layanan Pendampingan
+                            Pendampingan
                         </a>
                     </li>
                 </ul>
@@ -35,14 +35,14 @@
                 <div class="flex column gap-7 text-inverse width-50">
                     <span class="headline-sm">Hadapi Tantangan Pendidikan melalui Layanan Pendampingan</span>
                     <span class="body">Melalui layanan ini, Anda dapat memperoleh pendampingan baik secara daring maupun luring. Pendampingan ini mencakup aktivitas diskusi, baik kelompok maupun individu, yang berfokus pada isu pendidikan, khususnya di Provinsi Sumatera Selatan.</span>
-                    <a href="#" class="button large">
+                    <a href="#jenis-layanan" class="button large">
                         Pilih Jenis Layanan
                     </a>
                 </div>
             </div>
         </div>
     </section>
-    <section class="container py-14 surface-subdued">
+    <section class="container py-14 surface-subdued" id="jenis-layanan">
         <div class="wrapper">
             <div class="flex column items-center gap-11">
                 <div class="headline-xs">Jenis Layanan Pendampingan</div>
@@ -54,7 +54,7 @@
                         <div class="flex column gap-7">
                             <div class="display-lg">Pikat Bidar</div>
                             <div class="body"><b>Pendampingan Melekat Bimbingan dalam Jaringan</b> yang merupakan media layanan peningkatan kapasitas, konsultasi, pendampingan terhadap implementasi program Kemendikdasmen yang dilaksanakan oleh BPMP Provinsi Sumatera Selatan.</div>
-                            <a href="/inovasi-dan-layanan/layanan-pendampingan/pikat-bidar" class="button large">
+                            <a href="/inovasi-dan-layanan/pendampingan/pikat-bidar" class="button large">
                                 Gunakan Layanan
                             </a>
                         </div>
@@ -66,7 +66,7 @@
                         <div class="flex column gap-7">
                             <div class="display-lg">Pikat Dulur</div>
                             <div class="body"><b>Pendampingan Melekat Datang untuk Luring (tatap muka)</b> merupakan media layanan peningkatan kapasitas, konsultasi, pendampingan terhadap implementasi program Kemendikdasmen yang dilaksanakan oleh BPMP Provinsi Sumatera Selatan.</div>
-                            <a href="/inovasi-dan-layanan/layanan-pendampingan/pikat-bidar" class="button large">
+                            <a href="/inovasi-dan-layanan/pendampingan/pikat-bidar" class="button large">
                                 Gunakan Layanan
                             </a>
                         </div>

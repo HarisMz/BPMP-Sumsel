@@ -35,14 +35,14 @@
                 <div class="flex column gap-7 text-inverse width-50">
                     <span class="headline-sm">Sampaikan Pengaduan Anda untuk Perbaikan Pelayanan Publik</span>
                     <span class="body">Laporkan penyimpangan, pelanggaran, atau keluhan terkait  pelayanan publik yang Anda alami di lingkungan BPMP Provinsi Sumatera Selatan agar kami dapat meningkatkan kualitas layanan kami.</span>
-                    <a href="#" class="button large">
+                    <a href="#jenis-pengaduan" class="button large">
                         Pilih Jenis Pengaduan
                     </a>
                 </div>
             </div>
         </div>
     </section>
-    <section class="container py-14 surface-subdued">
+    <section class="container py-14 surface-subdued" id="jenis-pengaduan">
         <div class="wrapper">
             <div class="flex column items-center gap-11">
                 <div class="headline-xs">Jenis Pengaduan</div>
@@ -57,7 +57,7 @@
                             </div>
                             <span class="body">WBS melaporkan pelanggaran serius seperti korupsi. Identitas pelapor dijamin rahasia.</span>
                         </div>
-                        <a href="#" class="button large right" data-icon="open_in_new">
+                        <a href="/inovasi-dan-layanan/pengaduan/pengaduan-masyarakat" class="button large right" data-icon="open_in_new">
                             Buat Laporan
                         </a>
                     </div>
@@ -71,7 +71,7 @@
                             </div>
                             <span class="body">Platform untuk pengaduan layanan publik yang diteruskan ke instansi terkait.</span>
                         </div>
-                        <a href="#" class="button large right" data-icon="open_in_new">
+                        <a href="/inovasi-dan-layanan/pengaduan/pengaduan-masyarakat" class="button large right" data-icon="open_in_new">
                             Buat Laporan
                         </a>
                     </div>
