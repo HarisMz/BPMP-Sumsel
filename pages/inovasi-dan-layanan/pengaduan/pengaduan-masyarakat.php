@@ -12,7 +12,7 @@
 <main>
     <section class="container py-0 interactive-default">
         <div class="wrapper column gap-4 py-9">
-            <nav class="breadcrumb with-background" id="breadcrumb" style="height: 44px;">
+            <nav class="breadcrumb with-background" id="breadcrumb">
                 <ul>
                     <li class="item">
                         <a href="/">

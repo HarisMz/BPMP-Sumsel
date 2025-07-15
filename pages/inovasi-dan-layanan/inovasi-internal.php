@@ -12,7 +12,7 @@
 <main>
     <section class="container hero py-0 darken left" style="background-image: url('/assets/images/hero-internal.png');">
         <div class="wrapper column gap-4 py-9">
-            <nav class="breadcrumb with-background" id="breadcrumb" style="height: 44px;">
+            <nav class="breadcrumb with-background" id="breadcrumb">
                 <ul>
                     <li class="item">
                         <a href="#">
