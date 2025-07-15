@@ -30,7 +30,6 @@
             </li>
         </ul>
     </nav>
-    <div class="separator-0 vertical full hide-tablet hide-mobile border-color-disabled"></div>
     <div class="dropdown-wrapper">
         <div class="list surface" id="menu-1">
             <div class="display-lg">

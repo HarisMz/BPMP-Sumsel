@@ -42,7 +42,7 @@
             </div>
         </div>
     </section>
-    <section class="container py-14 surface-subdued" id="jenis-layanan">
+    <section class="container surface-subdued" id="jenis-layanan">
         <div class="wrapper">
             <div class="flex column items-center gap-11">
                 <div class="headline-xs">Jenis Layanan Pendampingan</div>
@@ -75,7 +75,7 @@
             </div>
         </div>
     </section>
-    <section class="container pt-9 pb-14 surface-default">
+    <section class="container surface-default">
         <div class="wrapper">
             <div class="flex column items-center gap-12">
                 <div class="headline-xs">Bagaimana Prosedur Layanan Pendampingan</div>
@@ -108,8 +108,8 @@
             </div>
         </div>
     </section>
-    <section class="container py-0 surface-subdued">
-        <div class="wrapper py-14">
+    <section class="container surface-subdued">
+        <div class="wrapper">
             <div class="flex gap-11">
                 <div class="headline-xs width-42"><b>Soal Sering Ditanya</b></div>
                 <div class="flex column width-58">

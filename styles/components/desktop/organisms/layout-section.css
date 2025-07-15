@@ -44,22 +44,13 @@ section > div,
 .container > .wrapper.vertical {
   flex-direction: column;
 }
-/*main section:first-child,
-section.hero {
-    height: 80vh;
-    min-height: 768px;
-    gap: var(--unit-14);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}*/
 main section.hero {
   height: 80vh;
-  min-height: 768px;
+  min-height: 720px;
   gap: var(--unit-14);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 main section:first-child .wrapper,
 section.hero .wrapper {

@@ -160,6 +160,14 @@ function checkMobile() {
     $(".header .menu .item.dropdown").hover(
       function () {
         const menuId = $(this).attr("data-mega-menu");
+
+        // Sisipkan separator jika belum ada
+        if ($(".dropdown-wrapper").prev(".separator-0").length === 0) {
+          $(".dropdown-wrapper").before(
+            '<div class="separator-0 vertical full hide-tablet hide-mobile border-color-disabled"></div>'
+          );
+        }
+
         $(".dropdown-wrapper").stop(true, true).show().slideDown(300);
         $(".dropdown-wrapper .list").removeClass("active");
         $(`#${menuId}`).addClass("active");
@@ -170,18 +178,10 @@ function checkMobile() {
           .queue(function (next) {
             if (!$(".dropdown-wrapper").is(":hover")) {
               $(this).hide().slideUp(300);
+              $(".dropdown-wrapper").prev(".separator-0").remove(); // Hapus separator
             }
             next();
           });
-      }
-    );
-
-    $(".dropdown-wrapper").hover(
-      function () {
-        $(this).show();
-      },
-      function () {
-        $(this).hide();
       }
     );
 
