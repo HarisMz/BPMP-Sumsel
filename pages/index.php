@@ -547,7 +547,7 @@
             <div class="flex column justify-center items-center gap-10 gap-6-mobile">
 	            <div class="flex row justify-between items-center text-center gap-9 full">
 	                <h1 class="display-lg full-mobile">Kabar BPMP Provinsi Sumetara Selatan</h1>
-	                <a href="#" class="link noline hide-mobile"><b>Baca Selengkapnya</b></a>
+	                <a href="#" class="link noline hide-mobile"><b>Lihat Kabar Lainnya</b></a>
 	            </div>
 	            <div class="grid grid-3 grid-1-mobile gap-7">
 	            	<div class="card story">

@@ -7,7 +7,7 @@ $listThemes = [
     'tokens/variables'
 ];
 $listStyles = [
-    'form.css'
+    'bpmp-sumsel.css'
 ];
 $listCompStyles = [
     'tokens/colors.css',

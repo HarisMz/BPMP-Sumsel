@@ -1,13 +1,9 @@
-div:has(> .select) {
-  flex-grow: 1;
-}
 .select {
   position: relative;
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
-  align-items: center;
-  width: 100%;
 }
 
 .select select {
@@ -20,6 +16,8 @@ div:has(> .select) {
   padding: var(--unit-4) var(--unit-10) var(--unit-4) var(--unit-5);
   appearance: none;
   width: 100%;
+  white-space: nowrap;
+  min-width: max-content;
   background: var(--surface-default);
   border: 1px solid var(--border-default);
 }
@@ -35,6 +33,8 @@ div:has(> .select) {
   padding: var(--unit-4) var(--unit-10) var(--unit-4) var(--unit-5);
   appearance: none;
   width: 100%;
+  white-space: nowrap;
+  min-width: max-content;
   background: var(--surface-default);
 }
 
@@ -80,7 +80,7 @@ div:has(> .select) {
 }
 
 .select:before {
-	display: none;
+  display: none;
 }
 
 .select[data-icon]:after {
@@ -142,4 +142,9 @@ div:has(> .select) {
 .select .options .option:hover {
   background-color: var(--interactive-hovered);
   color: var(--text-inverse);
+}
+.select .options .option:last-child:hover,
+.select .options .option.selected:last-child {
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
 }

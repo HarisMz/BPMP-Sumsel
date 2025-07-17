@@ -1,3 +1,15 @@
+section:has(.sticky) {
+  overflow: visible;
+}
+
+.sticky {
+  position: sticky;
+  top: calc(var(--site-header) + var(--unit-12));
+  background: white;
+  z-index: 100;
+  align-self: flex-start;
+}
+
 .step {
   opacity: 40%;
   transition: all 0.3s ease;

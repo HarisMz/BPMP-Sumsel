@@ -144,27 +144,18 @@
                 <div class="content items-center surface-subdued py-12">
                     <div class="item" id="tab-content-1" style="max-width: 1200px;">
                         <div class="flex justify-between">
-                            <div class="display-lg">Berita Terbaru</div>
-                            <div class="flex gap-6 items-center" style="max-width: 320px;">
+                            <div class="display-lg">Semua Artikel</div>
+                            <div class="flex gap-6 items-center">
                                 <div class="body-sm bold">URUTKAN</div>
-                                <div class="select small">
+                                <div class="select adjust small">
                                     <div class="selector">
                                     </div>
                                     <div class="options">
-                                        <div class="option selected" value="Semua">
-                                            Semua
+                                        <div class="option selected" value="Terbaru">
+                                            Terbaru
                                         </div>
-                                        <div class="option" value="Event/Kegiatan">
-                                            Event/Kegiatan
-                                        </div>
-                                        <div class="option" value="Kebijakan Pendidikan">
-                                            Kebijakan Pendidikan
-                                        </div>
-                                        <div class="option" value="Praktik Baik">
-                                            Praktik Baik
-                                        </div>
-                                        <div class="option" value="Seputar Program">
-                                            Seputar Program
+                                        <div class="option" value="Terlama">
+                                            Terlama
                                         </div>
                                     </div>
                                 </div>
@@ -172,37 +163,61 @@
                         </div>
                         <div class="grid grid-3 gap-7 py-10">
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis.png);">
-                                    </div>
-                                </a>
+                                <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
+                                    <a href="#" class="chip small selected">
+                                        Kebijakan Pendidikan
+                                    </a>
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Pendidikan Dasar yang Inklusif dan Berkarakter
-                                            </div>
-                                        </a>
-                                        <div class="description">
-                                            Menyediakan akses pendidikan yang adil dan merata bagi semua anak untuk mendukung pembentukan karakter bangsa.
+                                        <a href="#"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
+                                            <div class="dateview">
+                                                <span class="date">
+                                                    16 Januari 2025
+                                                </span>
+                                                • 
+                                                <span class="viewcount">
+                                                    Dilihat 473 kali
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card story">
+                                <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-2.jpg);"></div></a>
+                                <div class="details">
+                                    <a href="#" class="chip small selected">
+                                        Kebijakan Pendidikan
+                                    </a>
+                                    <div class="summary">
+                                        <a href="#"><div class="title line-clamp-3">
+                                            Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata.
+                                        </div>
+                                    </div>
+                                    <div class="meta">
+                                        <div class="info">
+                                            <a href="#"><div class="authorname">
+                                                Fulan Fulana
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
                                                     1 Oktober 2024
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
                                                     Dibaca 114 kali
                                                 </span>
@@ -212,37 +227,29 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-2.png);">
-                                    </div>
-                                </a>
+                                <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-3.jpg);"></div></a>
                                 <div class="details">
+                                    <a href="#" class="chip small selected">
+                                        Praktik Baik
+                                    </a>
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Membangun Generasi Muda Melalui Pembelajaran Kreatif
-                                            </div>
-                                        </a>
-                                        <div class="description">
-                                            Mengintegrasikan metode belajar yang inovatif untuk meningkatkan kreativitas dan minat belajar siswa sejak dini.
+                                        <a href="#"><div class="title line-clamp-3">
+                                            Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Fulan Fulana
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
                                                     1 Oktober 2024
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
                                                     Dibaca 114 kali
                                                 </span>
@@ -252,37 +259,29 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-3.png);">
-                                    </div>
-                                </a>
+                                <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-2.jpg);"></div></a>
                                 <div class="details">
+                                    <a href="#" class="chip small selected">
+                                        Event
+                                    </a>
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Pelatihan Guru: Memajukan Kualitas Pendidikan Dasar
-                                            </div>
-                                        </a>
-                                        <div class="description">
-                                            Meningkatkan kapasitas guru melalui pelatihan intensif agar lebih efektif dalam mendidik dan membimbing siswa.
+                                        <a href="#"><div class="title line-clamp-3">
+                                            Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Fulan Fulana
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
                                                     1 Oktober 2024
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
                                                     Dibaca 114 kali
                                                 </span>
@@ -292,37 +291,29 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-4.png);">
-                                    </div>
-                                </a>
+                                <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-3.jpg);"></div></a>
                                 <div class="details">
+                                    <a href="#" class="chip small selected">
+                                        Kebijakan Pendidikan
+                                    </a>
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Program Lingkungan Sekolah Hijau untuk Siswa SD
-                                            </div>
-                                        </a>
-                                        <div class="description">
-                                            Mendorong sekolah untuk menerapkan praktik ramah lingkungan, membentuk siswa yang peduli terhadap alam.
+                                        <a href="#"><div class="title line-clamp-3">
+                                            Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Fulan Fulana
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
                                                     1 Oktober 2024
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
                                                     Dibaca 114 kali
                                                 </span>
@@ -332,37 +323,29 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-5.png);">
-                                    </div>
-                                </a>
+                                <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-1.jpg);"></div></a>
                                 <div class="details">
+                                    <a href="#" class="chip small selected">
+                                        Praktik Baik
+                                    </a>
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Pengenalan Literasi Digital di Pendidikan Dasar
-                                            </div>
-                                        </a>
-                                        <div class="description">
-                                            Membekali siswa dengan keterampilan digital untuk menghadapi tantangan dunia yang semakin modern.
+                                        <a href="#"><div class="title line-clamp-3">
+                                            Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Fulan Fulana
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
                                                     1 Oktober 2024
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
                                                     Dibaca 114 kali
                                                 </span>
@@ -372,37 +355,29 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-6.png);">
-                                    </div>
-                                </a>
+                                <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-3.jpg);"></div></a>
                                 <div class="details">
+                                    <a href="#" class="chip small selected">
+                                        Praktik Baik
+                                    </a>
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Peran Pendidikan Karakter dalam Pembelajaran Sekolah Dasar
-                                            </div>
-                                        </a>
-                                        <div class="description">
-                                            Menekankan pentingnya karakter positif sebagai landasan bagi pembentukan kepribadian siswa.
+                                        <a href="#"><div class="title line-clamp-3">
+                                            Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Fulan Fulana
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
                                                     1 Oktober 2024
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
                                                     Dibaca 114 kali
                                                 </span>
@@ -412,37 +387,29 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-7.png);">
-                                    </div>
-                                </a>
+                                <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-1.jpg);"></div></a>
                                 <div class="details">
+                                    <a href="#" class="chip small selected">
+                                        Event
+                                    </a>
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Mengoptimalkan Peran Orang Tua dalam Pendidikan Dasar
-                                            </div>
-                                        </a>
-                                        <div class="description">
-                                            Membina hubungan erat dengan orang tua untuk meningkatkan dukungan terhadap kemajuan belajar siswa.
+                                        <a href="#"><div class="title line-clamp-3">
+                                            Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Fulan Fulana
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
                                                     1 Oktober 2024
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
                                                     Dibaca 114 kali
                                                 </span>
@@ -452,77 +419,29 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-8.png);">
-                                    </div>
-                                </a>
+                                <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-2.jpg);"></div></a>
                                 <div class="details">
+                                    <a href="#" class="chip small selected">
+                                        Kebijakan Pendidikan
+                                    </a>
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Mendorong Minat Baca di Kalangan Siswa Sekolah Dasar
-                                            </div>
-                                        </a>
-                                        <div class="description">
-                                            Mengimplementasikan program membaca untuk memperluas wawasan dan meningkatkan keterampilan literasi siswa.
+                                        <a href="#"><div class="title line-clamp-3">
+                                            Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Fulan Fulana
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
                                                     1 Oktober 2024
                                                 </span>
-                                                •
-                                                <span class="viewcount">
-                                                    Dibaca 114 kali
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-9.png);">
-                                    </div>
-                                </a>
-                                <div class="details">
-                                    <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Mewujudkan Pendidikan Dasar yang Ramah Anak
-                                            </div>
-                                        </a>
-                                        <div class="description">
-                                            Menghadirkan lingkungan belajar yang inklusif agar anak berkebutuhan khusus dapat berkembang dan berprestasi secara optimal.
-                                        </div>
-                                    </div>
-                                    <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
-                                        <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
-                                            <div class="dateview">
-                                                <span class="date">
-                                                    1 Oktober 2024
-                                                </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
                                                     Dibaca 114 kali
                                                 </span>
@@ -546,18 +465,18 @@
                     <div class="item" id="tab-content-2" style="max-width: 1200px;">
                         <div class="flex justify-between">
                             <div class="display-lg">Berita Terbaru</div>
-                            <div class="flex gap-6 items-center" style="max-width: 270px;">
+                            <div class="flex gap-6 items-center">
                                 <div class="body-sm bold">URUTKAN</div>
                                 <div class="select small">
                                     <select name id>
                                         <option value disabled selected>
+                                            Urutkan Berdasarkan
+                                        </option>
+                                        <option value="Terbaru">
                                             Terbaru
                                         </option>
-                                        <option value="A ~ Z">
-                                            A ~ Z
-                                        </option>
-                                        <option value="Z ~ A">
-                                            Z ~ A
+                                        <option value="Terlama">
+                                            Terlama
                                         </option>
                                     </select>
                                 </div>
@@ -939,20 +858,17 @@
                     <div class="item" id="tab-content-3" style="max-width: 1200px;">
                         <div class="flex justify-between">
                             <div class="display-lg">Berita Terbaru</div>
-                            <div class="flex gap-6 items-center" style="max-width: 270px;">
-                                <div class="body-sm bold">URUTKAN</div>
-                                <div class="select small">
-                                    <select name id>
-                                        <option value disabled selected>
-                                            Terbaru
-                                        </option>
-                                        <option value="A ~ Z">
-                                            A ~ Z
-                                        </option>
-                                        <option value="Z ~ A">
-                                            Z ~ A
-                                        </option>
-                                    </select>
+                            <div class="select small">
+                                <div class="selector action">
+                                    Urutkan Berdasarkan
+                                </div>
+                                <div class="options">
+                                    <div class="option" value="Terbaru">
+                                        Terbaru
+                                    </div>
+                                    <div class="option" value="Terlama">
+                                        Terlama
+                                    </div>
                                 </div>
                             </div>
                         </div>
