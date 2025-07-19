@@ -4,8 +4,8 @@
             <a href="/" class="logo"></a>
             <nav class="mobile-menu bg-contain"></nav>
             <div class="campaign-logo hide-mobile hide-tablet">
-                <img src="/assets/images/hashtag-kemendikdasmen.png" alt="Pendidikan Bermutu Untuk Semua">
-                <img src="/assets/images/tagline-kemendikdasmen.png" alt="Kemendikdasmen Ramah">
+                <img src="/assets/images/pbus.svg" alt="Pendidikan Bermutu Untuk Semua">
+                <img src="/assets/images/ramah.svg" alt="Kemendikdasmen Ramah">
                 <img src="/assets/images/rumah-pendidikan.png" alt="Rumah Pendidikan">
             </div>
         </div>

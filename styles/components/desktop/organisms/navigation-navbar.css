@@ -350,6 +350,7 @@ footer .judul {
 /* Ganti semua rule .dropdown-wrapper yang ada dengan ini */
 .header.mega-menu .dropdown-wrapper {
   display: none;
+  border-top: 1px solid var(--border-disabled);
   width: 100%;
   /* transition: all var(--transition-medium) ease; */
 }

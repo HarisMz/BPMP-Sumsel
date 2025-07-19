@@ -143,7 +143,7 @@
         <div class="wrapper">
             <div class="flex column gap-7">
                 <div class="display-lg">Lihat Artikel Berdasarkan Penulis</div>
-                <div class="carousel arrow arrow-bordered" data-carousel-visible="5" data-carousel-visible-mobile="1" data-sliding-span="1">
+                <div class="carousel arrow loop arrow-bordered" data-carousel-visible="5" data-carousel-visible-mobile="1" data-sliding-span="1">
                     <div class="carousel-inner" style="height: 240px;">
                         <div class="carousel-item column justify-center surface-subdued rounded-8 gap-7">
                             <span class="avatar xxl">
