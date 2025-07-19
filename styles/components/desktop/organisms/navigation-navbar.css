@@ -349,8 +349,9 @@ footer .judul {
 
 /* Ganti semua rule .dropdown-wrapper yang ada dengan ini */
 .header.mega-menu .dropdown-wrapper {
+  display: none;
   width: 100%;
-  transition: all var(--transition-medium) ease;
+  /* transition: all var(--transition-medium) ease; */
 }
 
 .header.mega-menu .dropdown-wrapper .list {
@@ -359,7 +360,12 @@ footer .judul {
   margin: 0 auto;
   max-width: 1215px;
   width: 100%;
-  transition: all var(--transition-medium) ease;
+  gap: var(--unit-8);
+  /* transition: all var(--transition-medium) ease; */
+}
+.header.mega-menu .dropdown-wrapper .list a {
+  line-height: var(--line-height-heading-sm);
+  gap: var(--unit-2);
 }
 
 .header.mega-menu .dropdown-wrapper .list.active {
