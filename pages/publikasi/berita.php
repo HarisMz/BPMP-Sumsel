@@ -15,7 +15,7 @@
             <nav class="breadcrumb with-background" id="breadcrumb">
                 <ul>
                     <li class="item">
-                        <a href="#">
+                        <a href="/">
                             Beranda
                         </a>
                     </li>
@@ -163,13 +163,13 @@
                         </div>
                         <div class="grid grid-3 gap-7 py-10">
                             <div class="card story">
-                                <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <a href="#" class="chip small selected">
                                         Kebijakan Pendidikan
                                     </a>
                                     <div class="summary">
-                                        <a href="#"><div class="title line-clamp-3">
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
                                             Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
                                         </div></a>
                                         <div class="description line-clamp-3">

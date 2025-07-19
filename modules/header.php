@@ -147,7 +147,7 @@
             </div>
             <ul class="grid grid-3 gap-7">
                 <li class="list-item" data-icon="account_circle">
-                    <a href="#" class="label">
+                    <a href="/publikasi/berita" class="label">
                         Berita
                         <span class="helper">
                             Lorem ipsum dolor sit amet consectetur.
@@ -155,7 +155,7 @@
                     </a>
                 </li>
                 <li class="list-item" data-icon="support_agent">
-                    <a href="#" class="label">
+                    <a href="/publikasi/artikel" class="label">
                         Artikel
                         <span class="helper">
                             Lorem ipsum dolor sit amet consectetur.

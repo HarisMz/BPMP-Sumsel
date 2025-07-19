@@ -13,16 +13,13 @@
 a:has(.card):hover .card,
 .card:not(.collapsible):has(a:not(.button)):hover {
   box-shadow: var(--elevation-5);
-  filter: brightness(1.1);
+  /* filter: brightness(1.1); */
   transform: scale(1.02);
 }
-/* .card:has(.button) {
-  height: 108px;
-} */
 a:has(.card):active .card,
 .card:not(.collapsible):has(a):active {
   box-shadow: var(--elevation-1);
-  filter: brightness(0.98);
+  /* filter: brightness(0.98); */
   transform: scale(0.98);
 }
 .card.feature a:not(.button),
