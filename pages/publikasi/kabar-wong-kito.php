@@ -41,11 +41,11 @@
                 <div class="flex gap-10">
                     <div class="flex items-end p-10 rounded-16 width-64" style="background-image: url('/assets/images/wong-kito-1.png'); background-position: center; background-size: cover; background-repeat: no-repeat; position: relative;">
                         <div class="flex column gap-7 text-white text-balance">
-                            <span class="display-lg">Sistem Penerimaan Murid Baru (SPMB) dalam rangka Persiapan Hasil Perhitungan Daya Tampung dan Penetapan Wilayah Provinsi Sumatera Selatan Tahun 2025</span>
+                            <a href="/publikasi/kabar-wong-kito/artikel-detail" class="display-lg text-white" style="text-decoration: none;">Sistem Penerimaan Murid Baru (SPMB) dalam rangka Persiapan Hasil Perhitungan Daya Tampung dan Penetapan Wilayah Provinsi Sumatera Selatan Tahun 2025</a>
                             <div class="flex gap-4 items-center">
-                                <a href="#" class="chip small selected text-cyan-70">
+                                <span class="badge critical">
                                     Dinas Pendidikan
-                                </a>
+                                </span>
                                 <div class="body-sm">
                                     21 Maret 2025 | 9.56 WIB
                                 </div>
@@ -61,34 +61,34 @@
                                     <span class="badge warning">
                                         Komunitas
                                     </span>
-                                    <span class="heading-md line-clamp-3">Pembinaan Kelembagaan dan Manajemen Sekolah Non Formal/Kesetaraan melalui lorem ipsum</span>
+                                    <span class="heading-md line-clamp-3">Pembinaan Kelembagaan dan Manajemen Sekolah Non Formal/Kesetaraan melalui sebuah</span>
                                     <span class="body-sm">Dedi Kasmarun</span>
                                 </div>
                             </div>
                             <div class="separator-9 vertical border-color-disabled"></div>
                             <div class="flex flex-start gap-5">
-                                <img src="/assets/images/wong-kito-2.png" alt="" style="object-fit: cover; aspect-ratio: 1 / 1; height: 136px; border-radius: 4px; ">
+                                <img src="/assets/images/wong-kito-3.png" alt="" style="object-fit: cover; aspect-ratio: 1 / 1; height: 136px; border-radius: 4px; ">
                                 <div class="flex column gap-3">
-                                    <span class="badge warning">
-                                        Komunitas
+                                    <span class="badge success">
+                                        Peserta Didik
                                     </span>
-                                    <span class="heading-md line-clamp-3">Pembinaan Kelembagaan dan Manajemen Sekolah Non Formal/Kesetaraan melalui lorem ipsum</span>
-                                    <span class="body-sm">Dedi Kasmarun</span>
+                                    <span class="heading-md line-clamp-3">Dorong Kepedulian pada Peserta Didik Down Syndrome, Kemendikbudristek Peringatan Hari</span>
+                                    <span class="body-sm">Halim Hermawan</span>
                                 </div>
                             </div>
                             <div class="separator-9 vertical border-color-disabled"></div>
                             <div class="flex flex-start gap-5">
-                                <img src="/assets/images/wong-kito-2.png" alt="" style="object-fit: cover; aspect-ratio: 1 / 1; height: 136px; border-radius: 4px; ">
+                                <img src="/assets/images/wong-kito-4.png" alt="" style="object-fit: cover; aspect-ratio: 1 / 1; height: 136px; border-radius: 4px; ">
                                 <div class="flex column gap-3">
-                                    <span class="badge warning">
-                                        Komunitas
+                                    <span class="badge critical">
+                                        Dinas Pendidikan
                                     </span>
-                                    <span class="heading-md line-clamp-3">Pembinaan Kelembagaan dan Manajemen Sekolah Non Formal/Kesetaraan melalui lorem ipsum</span>
-                                    <span class="body-sm">Dedi Kasmarun</span>
+                                    <span class="heading-md line-clamp-3">BPMP Sumsel Gelar Musda dan Plantikan PD Awi Sumsel 2024-2029</span>
+                                    <span class="body-sm">Alex Jumitoha</span>
                                 </div>
                             </div>
                         </div>
-                        <a href="#" class="button full">
+                        <a href="/publikasi/kabar-wong-kito/semua-artikel" class="button full">
                             Selengkapnya
                         </a>
                     </div>
@@ -119,7 +119,7 @@
                     <div class="item" id="tab-content-1" style="max-width: 1200px;">
                         <div class="flex justify-between">
                             <span class="display-lg">Artikel Terbaru</span>
-                            <a href="#" class="button">
+                            <a href="/publikasi/kabar-wong-kito/semua-artikel" class="button">
                                 Lihat Semua Artikel
                             </a>
                         </div>

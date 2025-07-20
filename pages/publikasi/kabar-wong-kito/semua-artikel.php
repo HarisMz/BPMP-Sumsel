@@ -109,7 +109,7 @@
                     </div>
                     <div class="separator-0 vertical border-color-disabled"></div>
                     <div class="grid grid-3 gap-7">
-                        <div class="card story">
+                        <div class="card story border-subdued">
                             <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                             <div class="details">
                                 <a href="#" class="chip small selected">
@@ -141,7 +141,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card story">
+                        <div class="card story border-subdued">
                             <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-2.jpg);"></div></a>
                             <div class="details">
                                 <a href="#" class="chip small selected">
@@ -173,7 +173,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card story">
+                        <div class="card story border-subdued">
                             <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-3.jpg);"></div></a>
                             <div class="details">
                                 <a href="#" class="chip small selected">
@@ -205,7 +205,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card story">
+                        <div class="card story border-subdued">
                             <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-2.jpg);"></div></a>
                             <div class="details">
                                 <a href="#" class="chip small selected">
@@ -237,7 +237,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card story">
+                        <div class="card story border-subdued">
                             <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-3.jpg);"></div></a>
                             <div class="details">
                                 <a href="#" class="chip small selected">
@@ -269,7 +269,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card story">
+                        <div class="card story border-subdued">
                             <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-1.jpg);"></div></a>
                             <div class="details">
                                 <a href="#" class="chip small selected">
@@ -301,7 +301,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card story">
+                        <div class="card story border-subdued">
                             <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-3.jpg);"></div></a>
                             <div class="details">
                                 <a href="#" class="chip small selected">
@@ -333,7 +333,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card story">
+                        <div class="card story border-subdued">
                             <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-1.jpg);"></div></a>
                             <div class="details">
                                 <a href="#" class="chip small selected">
@@ -365,7 +365,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card story">
+                        <div class="card story border-subdued">
                             <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-2.jpg);"></div></a>
                             <div class="details">
                                 <a href="#" class="chip small selected">
