@@ -163,7 +163,7 @@
                     </a>
                 </li>
                 <li class="list-item" data-icon="visibility">
-                    <a href="#" class="label">
+                    <a href="/publikasi/kabar-wong-kito" class="label">
                         Kabar Wong Kito
                         <span class="helper">
                             Lorem ipsum dolor sit amet consectetur.
