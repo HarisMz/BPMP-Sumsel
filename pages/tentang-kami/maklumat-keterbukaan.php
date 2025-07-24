@@ -15,7 +15,7 @@
             <nav class="breadcrumb with-background" id="breadcrumb">
                 <ul>
                     <li class="item">
-                        <a href="#">
+                        <a href="/">
                             Beranda
                         </a>
                     </li>
@@ -61,11 +61,8 @@
                 <div class="flex column gap-7">
                     <div class="heading-lg">Lihat Maklumat Lainnya</div>
                     <div class="flex column gap-3">
-                        <a href="#" class="link secondary">
+                        <a href="/tentang-kami/maklumat-pelayanan" class="link secondary">
                             Maklumat Pelayanan
-                        </a>
-                        <a href="#" class="link secondary">
-                            Maklumat Keterbukaan Informasi Publik
                         </a>
                     </div>
                 </div>

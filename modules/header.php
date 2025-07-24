@@ -249,7 +249,7 @@
             </div>
             <ul class="grid grid-3 gap-7">
                 <li class="list-item" data-icon="account_circle">
-                    <a href="#" class="label">
+                    <a href="/ppid/profil-ppid" class="label">
                         Profil PPID
                         <span class="helper">
                             Lorem ipsum dolor sit amet consectetur.
@@ -257,7 +257,7 @@
                     </a>
                 </li>
                 <li class="list-item" data-icon="support_agent">
-                    <a href="#" class="label">
+                    <a href="/ppid/dasar-hukum" class="label">
                         Dasar Hukum
                         <span class="helper">
                             Lorem ipsum dolor sit amet consectetur.
@@ -265,7 +265,7 @@
                     </a>
                 </li>
                 <li class="list-item" data-icon="visibility">
-                    <a href="#" class="label">
+                    <a href="/ppid/informasi-publik" class="label">
                         Informasi Publik
                         <span class="helper">
                             Lorem ipsum dolor sit amet consectetur.
@@ -281,7 +281,7 @@
                     </a>
                 </li>
                 <li class="list-item" data-icon="gavel">
-                    <a href="#" class="label">
+                    <a href="/ppid/layanan-publik" class="label">
                         Layanan Informasi Publik
                         <span class="helper">
                             Lorem ipsum dolor sit amet consectetur.
