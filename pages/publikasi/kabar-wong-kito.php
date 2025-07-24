@@ -55,38 +55,38 @@
                     </div>
                     <div class="flex column gap-9 width-36" style="max-width: 408px;">
                         <div class="flex column">
-                            <div class="flex flex-start gap-5">
+                            <a href="#" class="flex flex-start gap-5" style="text-decoration: none;">
                                 <img src="/assets/images/wong-kito-2.png" alt="" style="object-fit: cover; aspect-ratio: 1 / 1; height: 136px; border-radius: 4px; ">
                                 <div class="flex column gap-3">
                                     <span class="badge warning">
                                         Komunitas
                                     </span>
-                                    <span class="heading-md line-clamp-3">Pembinaan Kelembagaan dan Manajemen Sekolah Non Formal/Kesetaraan melalui sebuah</span>
-                                    <span class="body-sm">Dedi Kasmarun</span>
+                                    <span class="heading-md line-clamp-3 text-default">Pembinaan Kelembagaan dan Manajemen Sekolah Non Formal/Kesetaraan melalui sebuah</span>
+                                    <span class="body-sm text-subdued">Dedi Kasmarun</span>
                                 </div>
-                            </div>
+                            </a>
                             <div class="separator-9 vertical border-color-disabled"></div>
-                            <div class="flex flex-start gap-5">
+                            <a href="#" class="flex flex-start gap-5" style="text-decoration: none;">
                                 <img src="/assets/images/wong-kito-3.png" alt="" style="object-fit: cover; aspect-ratio: 1 / 1; height: 136px; border-radius: 4px; ">
                                 <div class="flex column gap-3">
                                     <span class="badge success">
                                         Peserta Didik
                                     </span>
-                                    <span class="heading-md line-clamp-3">Dorong Kepedulian pada Peserta Didik Down Syndrome, Kemendikbudristek Peringatan Hari</span>
-                                    <span class="body-sm">Halim Hermawan</span>
+                                    <span class="heading-md line-clamp-3 text-default">Dorong Kepedulian pada Peserta Didik Down Syndrome, Kemendikbudristek Peringatan Hari</span>
+                                    <span class="body-sm text-subdued">Halim Hermawan</span>
                                 </div>
-                            </div>
+                            </a>
                             <div class="separator-9 vertical border-color-disabled"></div>
-                            <div class="flex flex-start gap-5">
+                            <a href="#" class="flex flex-start gap-5" style="text-decoration: none;">
                                 <img src="/assets/images/wong-kito-4.png" alt="" style="object-fit: cover; aspect-ratio: 1 / 1; height: 136px; border-radius: 4px; ">
                                 <div class="flex column gap-3">
                                     <span class="badge critical">
                                         Dinas Pendidikan
                                     </span>
-                                    <span class="heading-md line-clamp-3">BPMP Sumsel Gelar Musda dan Plantikan PD Awi Sumsel 2024-2029</span>
-                                    <span class="body-sm">Alex Jumitoha</span>
+                                    <span class="heading-md line-clamp-3 text-default">BPMP Sumsel Gelar Musda dan Plantikan PD Awi Sumsel 2024-2029</span>
+                                    <span class="body-sm text-subdued">Alex Jumitoha</span>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <a href="/publikasi/kabar-wong-kito/semua-artikel" class="button full">
                             Selengkapnya
@@ -1564,7 +1564,7 @@
             </div>
         </div>
     </section>
-    <section class="container">
+    <section class="container surface-subdued pt-0">
         <div class="wrapper">
             <div class="grid grid-3 text-white rounded-24" style="background: linear-gradient(225.54deg, #41C3FF 0.93%, #0468CC 74.77%);">
                 <div class="flex column gap-7 p-10" style="grid-column: span 2;">
@@ -1574,7 +1574,7 @@
                         Hubungi Admin
                     </a>
                 </div>
-                <img class="pt-6" src="/assets/images/wong-kito-ilustrasi.svg" alt="">
+                <img class="pt-7" src="/assets/images/wong-kito-ilustrasi.svg" alt="">
             </div>
         </div>
     </section>

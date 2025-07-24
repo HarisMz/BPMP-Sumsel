@@ -121,38 +121,38 @@
             </div>
             <div class="flex column gap-7 sticky">
                 <div class="display-md">Artikel terkait</div>
-                <div class="flex flex-start gap-5">
+                <a href="#" class="flex flex-start gap-5" style="text-decoration: none;">
                     <img src="/assets/images/wong-kito-2.png" alt="" style="object-fit: cover; aspect-ratio: 1 / 1; height: 136px; border-radius: 4px; ">
                     <div class="flex column gap-3">
                         <span class="badge warning">
                             Komunitas
                         </span>
-                        <span class="heading-md line-clamp-3">Pembinaan Kelembagaan dan Manajemen Sekolah Non Formal/Kesetaraan melalui sebuah</span>
-                        <span class="body-sm">Dedi Kasmarun</span>
+                        <span class="heading-md line-clamp-3 text-default">Pembinaan Kelembagaan dan Manajemen Sekolah Non Formal/Kesetaraan melalui sebuah</span>
+                        <span class="body-sm text-subdued">Dedi Kasmarun</span>
                     </div>
-                </div>
+                </a>
                 <div class="separator-0 vertical border-color-disabled"></div>
-                <div class="flex flex-start gap-5">
+                <a href="#" class="flex flex-start gap-5" style="text-decoration: none;">
                     <img src="/assets/images/wong-kito-3.png" alt="" style="object-fit: cover; aspect-ratio: 1 / 1; height: 136px; border-radius: 4px; ">
                     <div class="flex column gap-3">
                         <span class="badge success">
                             Peserta Didik
                         </span>
-                        <span class="heading-md line-clamp-3">Dorong Kepedulian pada Peserta Didik Down Syndrome, Kemendikbudristek Peringatan Hari</span>
-                        <span class="body-sm">Halim Hermawan</span>
+                        <span class="heading-md line-clamp-3 text-default">Dorong Kepedulian pada Peserta Didik Down Syndrome, Kemendikbudristek Peringatan Hari</span>
+                        <span class="body-sm text-subdued">Halim Hermawan</span>
                     </div>
-                </div>
+                </a>
                 <div class="separator-0 vertical border-color-disabled"></div>
-                <div class="flex flex-start gap-5">
+                <a href="#" class="flex flex-start gap-5" style="text-decoration: none;">
                     <img src="/assets/images/wong-kito-4.png" alt="" style="object-fit: cover; aspect-ratio: 1 / 1; height: 136px; border-radius: 4px; ">
                     <div class="flex column gap-3">
                         <span class="badge critical">
                             Dinas Pendidikan
                         </span>
-                        <span class="heading-md line-clamp-3">BPMP Sumsel Gelar Musda dan Plantikan PD Awi Sumsel 2024-2029</span>
-                        <span class="body-sm">Alex Jumitoha</span>
+                        <span class="heading-md line-clamp-3 text-default">BPMP Sumsel Gelar Musda dan Plantikan PD Awi Sumsel 2024-2029</span>
+                        <span class="body-sm text-subdued">Alex Jumitoha</span>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </section>
@@ -161,7 +161,7 @@
             <div class="flex column justify-center items-center gap-10 gap-6-mobile">
 	            <div class="flex row justify-between items-center text-center gap-9 full">
 	                <h1 class="display-lg full-mobile">Artikel Terbaru</h1>
-	                <a href="#" class="link noline hide-mobile"><b>Lihat Artikel Lainnya</b></a>
+	                <a href="/publikasi/kabar-wong-kito/semua-artikel" class="link noline hide-mobile"><b>Lihat Artikel Lainnya</b></a>
 	            </div>
 	            <div class="grid grid-3 grid-1-mobile gap-7">
 	            	<div class="card story">
@@ -261,7 +261,7 @@
                         </div>
                     </div>
                     <div class="flex row justify-center items-center text-center gap-9 full hide-desktop hide-tablet">
-                        <a href="#" class="link noline"><b>Baca Selengkapnya</b></a>
+                        <a href="/publikasi/kabar-wong-kito/semua-artikel" class="link noline"><b>Lihat Artikel Lainnya</b></a>
                     </div>
 	            </div>
 	        </div>
