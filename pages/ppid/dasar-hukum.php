@@ -187,11 +187,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex column gap-7" style="min-width: 320px;">
+                <div class="flex column gap-7 shrink-0" style="width: 320px;">
                     <span class="heading-lg">Pranala Luar</span>
                     <div class="flex column gap-3">
                         <div class="flex gap-3 items-center">
-                            <a href="#" class="link secondary">Situs resmi Komisi Informasi Pusat</a>
+                            <a href="#" class="link secondary">Situs Resmi Komisi Informasi Pusat</a>
                             <img src="/assets/images/open_in_new.svg" alt="Open" style="height: 16px; width: 16px;">
                         </div>
                         <div class="flex gap-3 items-center">
