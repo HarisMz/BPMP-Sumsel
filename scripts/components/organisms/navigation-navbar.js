@@ -220,7 +220,7 @@ function prepareSlug(text) {
 }
 
 $(document).ready(function () {
-  $("li a").each(function () {
+  $("li").each(function () {
     $(this).attr(
       "data-slug",
       $(this).attr("data-slug") || prepareSlug($(this).text())
@@ -230,7 +230,7 @@ $(document).ready(function () {
     if (slug === bodyId) {
       $(this).addClass("current");
       $(this).closest(".list-item.dropdown").addClass("current");
-      $(this).closest(".item.dropdown").addClass("current");
+      $(this).closest(".item").addClass("current");
     }
   });
 

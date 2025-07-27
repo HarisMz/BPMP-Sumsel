@@ -30,11 +30,6 @@
                         </a>
                     </li>
                     <li class="item">
-                        <a href="/publikasi/kabar-wong-kito">
-                            Dinas Pendidikan
-                        </a>
-                    </li>
-                    <li class="item">
                         <a href="#">
                             Sistem Penerimaan Murid Baru (SPMB) dalam rangka Persiapan Hasil Perhitungan Daya Tampung dan Penetapan Wilayah Provinsi Sumatera Selatan Tahun 2025
                         </a>

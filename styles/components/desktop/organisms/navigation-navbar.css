@@ -165,6 +165,7 @@
   padding: 0 var(--unit-1);
 }
 .header .menu li.current,
+.header .menu li.current a,
 .header .menu li a.current,
 .header .menu li.current:after,
 .header .menu li a.current:after {

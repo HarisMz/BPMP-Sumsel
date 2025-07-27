@@ -221,9 +221,6 @@
                     Lihat Artikel Lainnya
                 </a>
             </div>
-            <div class="input small" data-icon="search">
-                <input type="text" placeholder="Cari Artikel">
-            </div>
             <div class="flex column gap-7">
                 <div class="card digest" style="height: 128px;">
                     <a href="#" class="ratio-1-1">
