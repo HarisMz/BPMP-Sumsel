@@ -302,43 +302,43 @@
                             <div class="flex column gap-5">
                                 <div class="flex wrap gap-4 items-center">
                                     <div class="filter-terpilih">
-                                        <div class="flex py-3 px-5 gap-5 items-center rounded-4 surface-gray-5 border-subdued">
+                                        <div class="flex py-3 px-5 gap-5 items-center rounded-8 surface-gray-5 border-subdued">
                                             <span class="body">Panduan</span>
                                             <img class="close" src="/assets/images/cancel.svg" alt="Cancel Icon" style="cursor: pointer;">
                                         </div>
                                     </div>
                                     <div class="filter-terpilih">
-                                        <div class="flex py-3 px-5 gap-5 items-center rounded-4 surface-gray-5 border-subdued">
+                                        <div class="flex py-3 px-5 gap-5 items-center rounded-8 surface-gray-5 border-subdued">
                                             <span class="body">Modul Pembelajaran</span>
                                             <img class="close" src="/assets/images/cancel.svg" alt="Cancel Icon" style="cursor: pointer;">
                                         </div>
                                     </div>
                                     <div class="filter-terpilih">
-                                        <div class="flex py-3 px-5 gap-5 items-center rounded-4 surface-gray-5 border-subdued">
+                                        <div class="flex py-3 px-5 gap-5 items-center rounded-8 surface-gray-5 border-subdued">
                                             <span class="body">SMP</span>
                                             <img class="close" src="/assets/images/cancel.svg" alt="Cancel Icon" style="cursor: pointer;">
                                         </div>
                                     </div>
                                     <div class="filter-terpilih">
-                                        <div class="flex py-3 px-5 gap-5 items-center rounded-4 surface-gray-5 border-subdued">
+                                        <div class="flex py-3 px-5 gap-5 items-center rounded-8 surface-gray-5 border-subdued">
                                             <span class="body">Guru</span>
                                             <img class="close" src="/assets/images/cancel.svg" alt="Cancel Icon" style="cursor: pointer;">
                                         </div>
                                     </div>
                                     <div class="filter-terpilih">
-                                        <div class="flex py-3 px-5 gap-5 items-center rounded-4 surface-gray-5 border-subdued">
+                                        <div class="flex py-3 px-5 gap-5 items-center rounded-8 surface-gray-5 border-subdued">
                                             <span class="body">2024</span>
                                             <img class="close" src="/assets/images/cancel.svg" alt="Cancel Icon" style="cursor: pointer;">
                                         </div>
                                     </div>
                                     <div class="filter-terpilih">
-                                        <div class="flex py-3 px-5 gap-5 items-center rounded-4 surface-gray-5 border-subdued">
+                                        <div class="flex py-3 px-5 gap-5 items-center rounded-8 surface-gray-5 border-subdued">
                                             <span class="body">2025</span>
                                             <img class="close" src="/assets/images/cancel.svg" alt="Cancel Icon" style="cursor: pointer;">
                                         </div>
                                     </div>
                                     <div class="filter-terpilih">
-                                        <div class="flex py-3 px-5 gap-5 items-center rounded-4 surface-gray-5 border-subdued">
+                                        <div class="flex py-3 px-5 gap-5 items-center rounded-8 surface-gray-5 border-subdued">
                                             <span class="body">Pusat</span>
                                             <img class="close" src="/assets/images/cancel.svg" alt="Cancel Icon" style="cursor: pointer;">
                                         </div>
@@ -354,240 +354,222 @@
                             </div>
                         </div>
                         <div class="grid grid-3 gap-12">
-                            <div class="dokumen">
-                                <div class="flex column gap-7">
-                                    <div style="height:365px">
-                                        <img class="rounded-4" src="/assets/images/pustaka-1.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
-                                    </div>
-                                    <div class="flex column gap-4">
-                                        <span class="badge critical">
-                                            Panduan
-                                        </span>
-                                        <div class="heading-md">Panduan Pendidikan Literasi Finansial</div>
-                                        <div class="meta">
-                                            <div class="info">
-                                                <div class="dateview text-subdued body-sm ">
-                                                    <span class="date">
-                                                        11 Juni 2024
-                                                    </span>
-                                                        • 
-                                                    <span class="time">
-                                                        10.00 WIB
-                                                    </span>
-                                                </div>
+                            <a href="/e-pustaka/dokumen-detail" class="dokumen">
+                                <div style="height:365px">
+                                    <img class="rounded-8" src="/assets/images/pustaka-1.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
+                                </div>
+                                <div class="flex column gap-4">
+                                    <span class="badge critical">
+                                        Panduan
+                                    </span>
+                                    <div class="heading-md text-default">Panduan Pendidikan Literasi Finansial</div>
+                                    <div class="meta">
+                                        <div class="info">
+                                            <div class="dateview text-subdued body-sm ">
+                                                <span class="date">
+                                                    11 Juni 2024
+                                                </span>
+                                                    • 
+                                                <span class="time">
+                                                    10.00 WIB
+                                                </span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="dokumen">
-                                <div class="flex column gap-7">
-                                    <div style="height:365px">
-                                        <img class="rounded-4" src="/assets/images/pustaka-1.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
-                                    </div>
-                                    <div class="flex column gap-4">
-                                        <span class="badge critical">
-                                            Panduan
-                                        </span>
-                                        <div class="heading-md">Panduan Pendidikan Literasi Finansial</div>
-                                        <div class="meta">
-                                            <div class="info">
-                                                <div class="dateview text-subdued body-sm ">
-                                                    <span class="date">
-                                                        11 Juni 2024
-                                                    </span>
-                                                        • 
-                                                    <span class="time">
-                                                        10.00 WIB
-                                                    </span>
-                                                </div>
+                            </a>
+                            <a href="/e-pustaka/dokumen-detail" class="dokumen">
+                                <div style="height:365px">
+                                    <img class="rounded-8" src="/assets/images/pustaka-1.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
+                                </div>
+                                <div class="flex column gap-4">
+                                    <span class="badge critical">
+                                        Panduan
+                                    </span>
+                                    <div class="heading-md text-default">Panduan Pendidikan Literasi Finansial</div>
+                                    <div class="meta">
+                                        <div class="info">
+                                            <div class="dateview text-subdued body-sm ">
+                                                <span class="date">
+                                                    11 Juni 2024
+                                                </span>
+                                                    • 
+                                                <span class="time">
+                                                    10.00 WIB
+                                                </span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="dokumen">
-                                <div class="flex column gap-7">
-                                    <div style="height:365px">
-                                        <img class="rounded-4" src="/assets/images/pustaka-1.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
-                                    </div>
-                                    <div class="flex column gap-4">
-                                        <span class="badge critical">
-                                            Panduan
-                                        </span>
-                                        <div class="heading-md">Panduan Pendidikan Literasi Finansial</div>
-                                        <div class="meta">
-                                            <div class="info">
-                                                <div class="dateview text-subdued body-sm ">
-                                                    <span class="date">
-                                                        11 Juni 2024
-                                                    </span>
-                                                        • 
-                                                    <span class="time">
-                                                        10.00 WIB
-                                                    </span>
-                                                </div>
+                            </a>
+                            <a href="/e-pustaka/dokumen-detail" class="dokumen">
+                                <div style="height:365px">
+                                    <img class="rounded-8" src="/assets/images/pustaka-1.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
+                                </div>
+                                <div class="flex column gap-4">
+                                    <span class="badge critical">
+                                        Panduan
+                                    </span>
+                                    <div class="heading-md text-default">Panduan Pendidikan Literasi Finansial</div>
+                                    <div class="meta">
+                                        <div class="info">
+                                            <div class="dateview text-subdued body-sm ">
+                                                <span class="date">
+                                                    11 Juni 2024
+                                                </span>
+                                                    • 
+                                                <span class="time">
+                                                    10.00 WIB
+                                                </span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="dokumen">
-                                <div class="flex column gap-7">
-                                    <div style="height:365px">
-                                        <img class="rounded-4" src="/assets/images/pustaka-1.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
-                                    </div>
-                                    <div class="flex column gap-4">
-                                        <span class="badge critical">
-                                            Panduan
-                                        </span>
-                                        <div class="heading-md">Panduan Pendidikan Literasi Finansial</div>
-                                        <div class="meta">
-                                            <div class="info">
-                                                <div class="dateview text-subdued body-sm ">
-                                                    <span class="date">
-                                                        11 Juni 2024
-                                                    </span>
-                                                        • 
-                                                    <span class="time">
-                                                        10.00 WIB
-                                                    </span>
-                                                </div>
+                            </a>
+                            <a href="/e-pustaka/dokumen-detail" class="dokumen">
+                                <div style="height:365px">
+                                    <img class="rounded-8" src="/assets/images/pustaka-1.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
+                                </div>
+                                <div class="flex column gap-4">
+                                    <span class="badge critical">
+                                        Panduan
+                                    </span>
+                                    <div class="heading-md text-default">Panduan Pendidikan Literasi Finansial</div>
+                                    <div class="meta">
+                                        <div class="info">
+                                            <div class="dateview text-subdued body-sm ">
+                                                <span class="date">
+                                                    11 Juni 2024
+                                                </span>
+                                                    • 
+                                                <span class="time">
+                                                    10.00 WIB
+                                                </span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="dokumen">
-                                <div class="flex column gap-7">
-                                    <div style="height:365px">
-                                        <img class="rounded-4" src="/assets/images/pustaka-1.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
-                                    </div>
-                                    <div class="flex column gap-4">
-                                        <span class="badge critical">
-                                            Panduan
-                                        </span>
-                                        <div class="heading-md">Panduan Pendidikan Literasi Finansial</div>
-                                        <div class="meta">
-                                            <div class="info">
-                                                <div class="dateview text-subdued body-sm ">
-                                                    <span class="date">
-                                                        11 Juni 2024
-                                                    </span>
-                                                        • 
-                                                    <span class="time">
-                                                        10.00 WIB
-                                                    </span>
-                                                </div>
+                            </a>
+                            <a href="/e-pustaka/dokumen-detail" class="dokumen">
+                                <div style="height:365px">
+                                    <img class="rounded-8" src="/assets/images/pustaka-1.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
+                                </div>
+                                <div class="flex column gap-4">
+                                    <span class="badge critical">
+                                        Panduan
+                                    </span>
+                                    <div class="heading-md text-default">Panduan Pendidikan Literasi Finansial</div>
+                                    <div class="meta">
+                                        <div class="info">
+                                            <div class="dateview text-subdued body-sm ">
+                                                <span class="date">
+                                                    11 Juni 2024
+                                                </span>
+                                                    • 
+                                                <span class="time">
+                                                    10.00 WIB
+                                                </span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="dokumen">
-                                <div class="flex column gap-7">
-                                    <div style="height:365px">
-                                        <img class="rounded-4" src="/assets/images/pustaka-1.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
-                                    </div>
-                                    <div class="flex column gap-4">
-                                        <span class="badge critical">
-                                            Panduan
-                                        </span>
-                                        <div class="heading-md">Panduan Pendidikan Literasi Finansial</div>
-                                        <div class="meta">
-                                            <div class="info">
-                                                <div class="dateview text-subdued body-sm ">
-                                                    <span class="date">
-                                                        11 Juni 2024
-                                                    </span>
-                                                        • 
-                                                    <span class="time">
-                                                        10.00 WIB
-                                                    </span>
-                                                </div>
+                            </a>
+                            <a href="/e-pustaka/dokumen-detail" class="dokumen">
+                                <div style="height:365px">
+                                    <img class="rounded-8" src="/assets/images/pustaka-1.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
+                                </div>
+                                <div class="flex column gap-4">
+                                    <span class="badge critical">
+                                        Panduan
+                                    </span>
+                                    <div class="heading-md text-default">Panduan Pendidikan Literasi Finansial</div>
+                                    <div class="meta">
+                                        <div class="info">
+                                            <div class="dateview text-subdued body-sm ">
+                                                <span class="date">
+                                                    11 Juni 2024
+                                                </span>
+                                                    • 
+                                                <span class="time">
+                                                    10.00 WIB
+                                                </span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="dokumen">
-                                <div class="flex column gap-7">
-                                    <div style="height:365px">
-                                        <img class="rounded-4" src="/assets/images/pustaka-1.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
-                                    </div>
-                                    <div class="flex column gap-4">
-                                        <span class="badge critical">
-                                            Panduan
-                                        </span>
-                                        <div class="heading-md">Panduan Pendidikan Literasi Finansial</div>
-                                        <div class="meta">
-                                            <div class="info">
-                                                <div class="dateview text-subdued body-sm ">
-                                                    <span class="date">
-                                                        11 Juni 2024
-                                                    </span>
-                                                        • 
-                                                    <span class="time">
-                                                        10.00 WIB
-                                                    </span>
-                                                </div>
+                            </a>
+                            <a href="/e-pustaka/dokumen-detail" class="dokumen">
+                                <div style="height:365px">
+                                    <img class="rounded-8" src="/assets/images/pustaka-1.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
+                                </div>
+                                <div class="flex column gap-4">
+                                    <span class="badge critical">
+                                        Panduan
+                                    </span>
+                                    <div class="heading-md text-default">Panduan Pendidikan Literasi Finansial</div>
+                                    <div class="meta">
+                                        <div class="info">
+                                            <div class="dateview text-subdued body-sm ">
+                                                <span class="date">
+                                                    11 Juni 2024
+                                                </span>
+                                                    • 
+                                                <span class="time">
+                                                    10.00 WIB
+                                                </span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="dokumen">
-                                <div class="flex column gap-7">
-                                    <div style="height:365px">
-                                        <img class="rounded-4" src="/assets/images/pustaka-1.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
-                                    </div>
-                                    <div class="flex column gap-4">
-                                        <span class="badge critical">
-                                            Panduan
-                                        </span>
-                                        <div class="heading-md">Panduan Pendidikan Literasi Finansial</div>
-                                        <div class="meta">
-                                            <div class="info">
-                                                <div class="dateview text-subdued body-sm ">
-                                                    <span class="date">
-                                                        11 Juni 2024
-                                                    </span>
-                                                        • 
-                                                    <span class="time">
-                                                        10.00 WIB
-                                                    </span>
-                                                </div>
+                            </a>
+                            <a href="/e-pustaka/dokumen-detail" class="dokumen">
+                                <div style="height:365px">
+                                    <img class="rounded-8" src="/assets/images/pustaka-1.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
+                                </div>
+                                <div class="flex column gap-4">
+                                    <span class="badge critical">
+                                        Panduan
+                                    </span>
+                                    <div class="heading-md text-default">Panduan Pendidikan Literasi Finansial</div>
+                                    <div class="meta">
+                                        <div class="info">
+                                            <div class="dateview text-subdued body-sm ">
+                                                <span class="date">
+                                                    11 Juni 2024
+                                                </span>
+                                                    • 
+                                                <span class="time">
+                                                    10.00 WIB
+                                                </span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="dokumen">
-                                <div class="flex column gap-7">
-                                    <div style="height:365px">
-                                        <img class="rounded-4" src="/assets/images/pustaka-1.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
-                                    </div>
-                                    <div class="flex column gap-4">
-                                        <span class="badge critical">
-                                            Panduan
-                                        </span>
-                                        <div class="heading-md">Panduan Pendidikan Literasi Finansial</div>
-                                        <div class="meta">
-                                            <div class="info">
-                                                <div class="dateview text-subdued body-sm ">
-                                                    <span class="date">
-                                                        11 Juni 2024
-                                                    </span>
-                                                        • 
-                                                    <span class="time">
-                                                        10.00 WIB
-                                                    </span>
-                                                </div>
+                            </a>
+                            <a href="/e-pustaka/dokumen-detail" class="dokumen">
+                                <div style="height:365px">
+                                    <img class="rounded-8" src="/assets/images/pustaka-1.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
+                                </div>
+                                <div class="flex column gap-4">
+                                    <span class="badge critical">
+                                        Panduan
+                                    </span>
+                                    <div class="heading-md text-default">Panduan Pendidikan Literasi Finansial</div>
+                                    <div class="meta">
+                                        <div class="info">
+                                            <div class="dateview text-subdued body-sm ">
+                                                <span class="date">
+                                                    11 Juni 2024
+                                                </span>
+                                                    • 
+                                                <span class="time">
+                                                    10.00 WIB
+                                                </span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="flex justify-center items-center pt-7">
                             <div class="pagination gap-5">

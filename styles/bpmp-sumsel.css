@@ -94,3 +94,14 @@ section:has(.sticky) {
   border-radius: var(--unit-2);
   margin-right: var(--unit-5);
 }
+.dokumen {
+  display: flex;
+  flex-direction: column;
+  gap: var(--unit-7);
+  text-decoration: none;
+  transition: filter var(--transition-medium) ease,
+    transform var(--transition-medium) ease;
+}
+.dokumen:hover {
+  transform: scale(1.02);
+}
