@@ -7,4 +7,7 @@
   .header ~ main {
     padding-top: var(--site-header);
   }
+  .header.mega-menu .dropdown-wrapper {
+    border-top: none;
+  }
 }

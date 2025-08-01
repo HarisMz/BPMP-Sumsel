@@ -298,7 +298,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="kotak-filtering">
+                        <!-- <div class="kotak-filtering">
                             <div class="flex column gap-5">
                                 <div class="flex wrap gap-4 items-center">
                                     <div class="filter-terpilih">
@@ -347,12 +347,9 @@
                                         Hapus Semua
                                     </a>
                                 </div>
-                                <!-- <a href="#" class="link secondary">
-                                    Hapus Semua
-                                </a> -->
                                 <div class="separator-0 vertical border-color-subdued"></div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="grid grid-3 gap-12">
                             <a href="/e-pustaka/dokumen-detail" class="dokumen">
                                 <div style="height:365px">

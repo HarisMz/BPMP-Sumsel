@@ -172,7 +172,7 @@
                     </div>
                     <div class="separator-9 vertical border-color-white"></div>
                 </div>
-                <a href="#" class="button full border-white" target="_blank">
+                <a href="/publikasi/berita" class="button full border-white" target="_blank">
                     Lihat Selengkapnya
                 </a>
             </div>
@@ -335,8 +335,8 @@
     </section>
 
     <section class="container bg-default">
-        <div class="wrapper column gap-14" style="max-width: 1240px;">
-            <img class="px-6" src="/assets/images/banner-ready.png" alt="Arahan Menteri Dikdasmen"">
+        <div class="wrapper column gap-12" style="max-width: 1240px;">
+            <img class="px-6 px-0-mobile" src="/assets/images/banner-ready.png" alt="Arahan Menteri Dikdasmen"">
             <div class="flex column gap-10">
                 <h1 class="display-lg text-center">Apa kata mereka tentang Layanan Kami?</h1>
                 <div class="carousel loop arrow arrow-bordered" data-carousel-visible="3" data-carousel-visible-mobile="1" data-sliding-span="1">
@@ -433,25 +433,25 @@
             <div class="flex column justify-center items-center gap-10 gap-6-mobile">
 	            <div class="flex row justify-between items-center text-center gap-9 full">
 	                <h1 class="display-lg full-mobile">E-Pustaka</h1>
-	                <a href="#" class="button hide-mobile">Lihat Dokumen Lainnya</a>
+	                <a href="/e-pustaka/semua-dokumen" class="button hide-mobile">Lihat Dokumen Lainnya</a>
 	            </div>
 	            <div class="grid grid-4 grid-1-mobile gap-12">
-	            	<div class="flex column gap-7">
+	            	<a href="/e-pustaka/dokumen-detail" class="dokumen">
                         <div style="height:365px">
-                            <img class="rounded-4" src="/assets/images/pustaka-1.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
+                            <img class="rounded-8" src="/assets/images/pustaka-1.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
                         </div>
                         <div class="flex column gap-4">
                             <span class="badge critical">
                                 Panduan
                             </span>
-                            <div class="heading-md">Panduan Pendidikan Literasi Finansial</div>
+                            <div class="heading-md text-default">Panduan Pendidikan Literasi Finansial</div>
                             <div class="meta">
                                 <div class="info">
                                     <div class="dateview text-subdued body-sm ">
                                         <span class="date">
                                             11 Juni 2024
                                         </span>
-                                         • 
+                                            • 
                                         <span class="time">
                                             10.00 WIB
                                         </span>
@@ -459,23 +459,23 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="flex column gap-7">
+                    </a>
+                    <a href="/e-pustaka/dokumen-detail" class="dokumen">
                         <div style="height:365px">
-                            <img class="rounded-4" src="/assets/images/pustaka-2.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
+                            <img class="rounded-8" src="/assets/images/pustaka-2.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
                         </div>
                         <div class="flex column gap-4">
                             <span class="badge critical">
                                 Panduan
                             </span>
-                            <div class="heading-md">Panduan Penyelenggaraan Mata Pelajaran Pilihan</div>
+                            <div class="heading-md text-default">Panduan Penyelenggaraan Mata Pelajaran Pilihan</div>
                             <div class="meta">
                                 <div class="info">
                                     <div class="dateview text-subdued body-sm ">
                                         <span class="date">
                                             11 Juni 2024
                                         </span>
-                                         • 
+                                            •
                                         <span class="time">
                                             10.00 WIB
                                         </span>
@@ -483,23 +483,23 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="flex column gap-7">
+                    </a>
+                    <a href="/e-pustaka/dokumen-detail" class="dokumen">
                         <div style="height:365px">
-                            <img class="rounded-4" src="/assets/images/pustaka-3.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
+                            <img class="rounded-8" src="/assets/images/pustaka-3.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
                         </div>
                         <div class="flex column gap-4">
                             <span class="badge critical">
                                 Panduan
                             </span>
-                            <div class="heading-md">Panduan Pemilihan Mata Pelajaran Pilihan</div>
+                            <div class="heading-md text-default">Panduan Pemilihan Mata Pelajaran Pilihan</div>
                             <div class="meta">
                                 <div class="info">
                                     <div class="dateview text-subdued body-sm ">
                                         <span class="date">
                                             11 Juni 2024
                                         </span>
-                                         • 
+                                            •
                                         <span class="time">
                                             10.00 WIB
                                         </span>
@@ -507,23 +507,23 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="flex column gap-7">
+                    </a>
+                    <a href="/e-pustaka/dokumen-detail" class="dokumen">
                         <div style="height:365px">
-                            <img class="rounded-4" src="/assets/images/pustaka-4.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
+                            <img class="rounded-8" src="/assets/images/pustaka-4.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
                         </div>
                         <div class="flex column gap-4">
                             <span class="badge critical">
                                 Panduan
                             </span>
-                            <div class="heading-md">Panduan Pendidikan Perubahan Iklim</div>
+                            <div class="heading-md text-default">Panduan Pendidikan Perubahan Iklim</div>
                             <div class="meta">
                                 <div class="info">
                                     <div class="dateview text-subdued body-sm ">
                                         <span class="date">
                                             11 Juni 2024
                                         </span>
-                                         • 
+                                            •
                                         <span class="time">
                                             10.00 WIB
                                         </span>
@@ -531,9 +531,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                     <div class="flex row justify-center items-center text-center gap-9 full hide-desktop hide-tablet">
-                        <a href="#" class="button">
+                        <a href="/e-pustaka/semua-dokumen" class="button">
                             Lihat Dokumen Lainnya
                         </a>
                     </div>
@@ -547,7 +547,7 @@
             <div class="flex column justify-center items-center gap-10 gap-6-mobile">
 	            <div class="flex row justify-between items-center text-center gap-9 full">
 	                <h1 class="display-lg full-mobile">Kabar BPMP Provinsi Sumetara Selatan</h1>
-	                <a href="#" class="link noline hide-mobile"><b>Lihat Kabar Lainnya</b></a>
+	                <a href="/publikasi/berita" class="link noline hide-mobile"><b>Lihat Kabar Lainnya</b></a>
 	            </div>
 	            <div class="grid grid-3 grid-1-mobile gap-7">
 	            	<div class="card story">
@@ -647,7 +647,7 @@
                         </div>
                     </div>
                     <div class="flex row justify-center items-center text-center gap-9 full hide-desktop hide-tablet">
-                        <a href="#" class="link noline"><b>Baca Selengkapnya</b></a>
+                        <a href="/publikasi/berita" class="link noline"><b>Lihat Kabar Lainnya</b></a>
                     </div>
 	            </div>
 	        </div>

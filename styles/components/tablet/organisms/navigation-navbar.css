@@ -136,6 +136,9 @@
   .header .menu .dropdown-wrapper {
     width: 100%;
   }
+  .header.mega-menu .dropdown-wrapper {
+    border-top: none;
+  }
   .header .menu .dropdown-wrapper .list {
     padding: var(--unit-0);
     background: var(--transparent);

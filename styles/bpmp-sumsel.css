@@ -10,6 +10,20 @@ section:has(.sticky) {
   align-self: flex-start;
 }
 
+.social-embed {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+iframe,
+blockquote {
+  width: 100%;
+}
+
+.pluginSkinLight > div {
+  width: 100% !important;
+}
+
 .step {
   opacity: 40%;
   transition: all 0.3s ease;

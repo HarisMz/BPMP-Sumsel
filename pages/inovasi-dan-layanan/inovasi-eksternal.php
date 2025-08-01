@@ -74,6 +74,25 @@
             </div>
         </div>
     </section>
+    <section class="container py-14 surface-default">
+        <div class="wrapper flex column gap-11">
+            <div class="grid grid-3 gap-9">
+                <span class="headline-xs">Lintasan Musi</span>
+                <span class="body" style="grid-column: span 2;">Lintasan Musi adalah Layanan Integrasi Data dan Informasi Strategis Pendidikan Provinsi Sumatera Selatan menuju Pendidikan Bermutu untuk Semua dan Inklusif. Lintasan Musi ini merupakan upaya menuju tata kelola pemerintahan yang terbuka (open governance) untuk menciptakan ekosistem data yang koheren, transparan, dan mudah diakses.</span>
+            </div>
+            <div class="grid grid-3 gap-5">
+                <div style="height: 240px;">
+                    <img src="/assets/images/eksternal-1.jpg" alt="Foto Konsensus" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
+                </div>
+                <div style="height: 240px;">
+                    <img src="/assets/images/eksternal-2.jpg" alt="Foto Konsensus" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
+                </div>
+                <div style="height: 240px;">
+                    <img src="/assets/images/eksternal-3.jpg" alt="Foto Konsensus" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php include './modules/footer.php'; ?>

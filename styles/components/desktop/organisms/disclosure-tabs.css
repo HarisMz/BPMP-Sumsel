@@ -204,15 +204,6 @@
 .tabs .scroll-right.shown:before {
   transform: scaleX(1);
 }
-.social-embed {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-}
-iframe,
-blockquote {
-  width: 100%;
-}
 
 section:has(.sticky-tabs) {
   overflow: visible;

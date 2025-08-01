@@ -1,7 +1,7 @@
 /* BREAKPOINT TABLET */
 @media (max-width: 1024px) {
   .flex-tablet {
-    display: flex;
+    display: flex !important;
   }
   .flex-1-tablet {
     flex: 1 1 0% !important;

@@ -35,7 +35,7 @@
         </div>
     </section>
     <section class="container py-0 surface-subdued">
-        <div class="wrapper my-10 surface-default rounded-16">
+        <div class="wrapper my-10 surface-default rounded-16 overflow-auto">
             <div class="tabs no-update vertical p-9">
                 <div class="menu">
                     <a href="#" class="item action" id="tab-menu-1">
@@ -117,96 +117,96 @@
                             <div class="display-md">Riwayat Pimpinan BPG/LPMP/BPMP Provinsi Sumatera Selatan</div>
                             <div class="flex column gap-7">
                                 <div class="flex items-center gap-5">
-                                    <div class="timeline-dot connector"></div>
-                                    <div class="flex items-center surface-subdued gap-7 px-7 py-5 rounded-8 full">
+                                    <div class="timeline-dot connector hide-mobile"></div>
+                                    <div class="flex column-mobile items-center surface-subdued gap-7 px-7 py-5 rounded-8 full">
                                         <div class="heading-md">1983</div>
                                         <div style="width: 96px; height: 96px;">
                                             <img src="/assets/images/foto-pimpinan/pimpinan-1.png" alt="Foto Pimpinan Pertama" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;"></div>
-                                        <div class="flex column gap-2">
+                                        <div class="flex column gap-2 text-center-mobile">
                                             <div class="heading-lg">Drs. H. M. Arif Husin</div>
                                             <div class="body-sm">Masa Bhakti 1983-1990</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="flex items-center gap-5">
-                                    <div class="timeline-dot connector"></div>
-                                    <div class="flex items-center surface-subdued gap-7 px-7 py-5 rounded-8 full">
+                                    <div class="timeline-dot connector hide-mobile"></div>
+                                    <div class="flex column-mobile items-center surface-subdued gap-7 px-7 py-5 rounded-8 full">
                                         <div class="heading-md">1990</div>
                                         <div style="width: 96px; height: 96px;">
                                             <img src="/assets/images/foto-pimpinan/pimpinan-2.png" alt="Foto Pimpinan Pertama" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;"></div>
-                                        <div class="flex column gap-2">
+                                        <div class="flex column gap-2 text-center-mobile">
                                             <div class="heading-lg">Drs. H. Syafei Alim, M. A.</div>
                                             <div class="body-sm">Masa Bhakti 1990-1995</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="flex items-center gap-5">
-                                    <div class="timeline-dot connector"></div>
-                                    <div class="flex items-center surface-subdued gap-7 px-7 py-5 rounded-8 full">
+                                    <div class="timeline-dot connector hide-mobile"></div>
+                                    <div class="flex column-mobile items-center surface-subdued gap-7 px-7 py-5 rounded-8 full">
                                         <div class="heading-md">1995</div>
                                         <div style="width: 96px; height: 96px;">
                                             <img src="/assets/images/foto-pimpinan/pimpinan-3.png" alt="Foto Pimpinan Pertama" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;"></div>
-                                        <div class="flex column gap-2">
+                                        <div class="flex column gap-2 text-center-mobile">
                                             <div class="heading-lg">Drs. H. Rusman Effendi, M.Pd.</div>
                                             <div class="body-sm">Masa Bhakti 1995-2000</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="flex items-center gap-5">
-                                    <div class="timeline-dot connector"></div>
-                                    <div class="flex items-center surface-subdued gap-7 px-7 py-5 rounded-8 full">
+                                    <div class="timeline-dot connector hide-mobile"></div>
+                                    <div class="flex column-mobile items-center surface-subdued gap-7 px-7 py-5 rounded-8 full">
                                         <div class="heading-md">2000</div>
                                         <div style="width: 96px; height: 96px;">
                                             <img src="/assets/images/foto-pimpinan/pimpinan-4.png" alt="Foto Pimpinan Pertama" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;"></div>
-                                        <div class="flex column gap-2">
+                                        <div class="flex column gap-2 text-center-mobile">
                                             <div class="heading-lg">Drs. H. Ade Karyana, M. Ed.</div>
                                             <div class="body-sm">Masa Bhakti 2000-2003 dan 2003-2009</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="flex items-center gap-5">
-                                    <div class="timeline-dot connector"></div>
-                                    <div class="flex items-center surface-subdued gap-7 px-7 py-5 rounded-8 full">
+                                    <div class="timeline-dot connector hide-mobile"></div>
+                                    <div class="flex column-mobile items-center surface-subdued gap-7 px-7 py-5 rounded-8 full">
                                         <div class="heading-md">2009</div>
                                         <div style="width: 96px; height: 96px;">
                                             <img src="/assets/images/foto-pimpinan/pimpinan-5.png" alt="Foto Pimpinan Pertama" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;"></div>
-                                        <div class="flex column gap-2">
+                                        <div class="flex column gap-2 text-center-mobile">
                                             <div class="heading-lg">Drs. Iskandar Saleh, M.Pd.</div>
                                             <div class="body-sm">Masa Bhakti 2009-2013</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="flex items-center gap-5">
-                                    <div class="timeline-dot connector"></div>
-                                    <div class="flex items-center surface-subdued gap-7 px-7 py-5 rounded-8 full">
+                                    <div class="timeline-dot connector hide-mobile"></div>
+                                    <div class="flex column-mobile items-center surface-subdued gap-7 px-7 py-5 rounded-8 full">
                                         <div class="heading-md">2013</div>
                                         <div style="width: 96px; height: 96px;">
                                             <img src="/assets/images/foto-pimpinan/pimpinan-6.png" alt="Foto Pimpinan Pertama" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;"></div>
-                                        <div class="flex column gap-2">
+                                        <div class="flex column gap-2 text-center-mobile">
                                             <div class="heading-lg">DR. H. Yaswardi, M.Si.</div>
                                             <div class="body-sm">Masa Bhakti 2013-2019</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="flex items-center gap-5">
-                                    <div class="timeline-dot connector"></div>
-                                    <div class="flex items-center surface-subdued gap-7 px-7 py-5 rounded-8 full">
+                                    <div class="timeline-dot connector hide-mobile"></div>
+                                    <div class="flex column-mobile items-center surface-subdued gap-7 px-7 py-5 rounded-8 full">
                                         <div class="heading-md">2019</div>
                                         <div style="width: 96px; height: 96px;">
                                             <img src="/assets/images/foto-pimpinan/pimpinan-7.png" alt="Foto Pimpinan Pertama" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;"></div>
-                                        <div class="flex column gap-2">
+                                        <div class="flex column gap-2 text-center-mobile">
                                             <div class="heading-lg">Drs. Suyato, M.A.P.</div>
                                             <div class="body-sm">Masa Bhakti 2019-2022</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="flex items-center gap-5">
-                                    <div class="timeline-dot connector"></div>
-                                    <div class="flex items-center surface-subdued gap-7 px-7 py-5 rounded-8 full">
+                                    <div class="timeline-dot connector hide-mobile"></div>
+                                    <div class="flex column-mobile items-center surface-subdued gap-7 px-7 py-5 rounded-8 full">
                                         <div class="heading-md">2022</div>
                                         <div style="width: 96px; height: 96px;">
                                             <img src="/assets/images/foto-pimpinan/pimpinan-8.png" alt="Foto Pimpinan Pertama" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;"></div>
-                                        <div class="flex column gap-2">
+                                        <div class="flex column gap-2 text-center-mobile">
                                             <div class="heading-lg">Aria Ahmad Mangunwibawa, S.Psi., M.Si.</div>
                                             <div class="body-sm">Masa Bhakti 2022-sekarang</div>
                                         </div>
@@ -219,9 +219,9 @@
                         <div class="flex column gap-9">
                             <div class="flex column gap-11">
                                 <div class="display-lg text-center">Struktur Organisasi</div>
-                                <div class="flex column gap-12 connector" data-height="348px" data-top="244px">
-                                    <div class="flex justify-center">
-                                        <div class="flex column gap-7 surface-subdued items-center p-7 rounded-8 call-popup" style="width: 360px;" data-popup='{
+                                <ul style="list-style-type: none;">
+                                    <li style="padding-left: 226px;">
+                                        <div class="flex column gap-7 surface-subdued items-center p-7 rounded-8 connector call-popup" style="width: 360px;" data-height="348px" data-top="244px" data-popup='{
                                             "size": "large",
                                             "template": "#popup-aria"}'>
                                             <span class="avatar xxl" style="width: 96px; height: 96px; border-radius: 100%;">
@@ -232,8 +232,8 @@
                                                 <div class="body">Kepala BPMP Provinsi Sumatera Selatan</div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="flex justify-end">
+                                    </li>
+                                    <li class="mt-12" style="padding-left: 452px;">
                                         <div class="flex column gap-7 surface-subdued items-center p-7 rounded-8 connector" style="width: 360px;" data-width="46px" data-height="1px" data-left="-46px" data-top="50%">
                                             <span class="avatar xxl" style="width: 96px; height: 96px; border-radius: 100%;">
                                                 <img class="image" src="/assets/images/foto-pimpinan/pimpinan-8.png">
@@ -243,13 +243,16 @@
                                                 <div class="body">Kepala Sub Bagian Umum</div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="flex justify-center">
+                                    </li>
+                                    <li class="mt-12" style="padding-left: 226px;">
                                         <div class="flex surface-subdued justify-center p-7 rounded-8" style="width: 360px;">
                                             <div class="heading-md">Kelompok Fungsional</div>
                                         </div>
-                                    </div>
-                                </div>
+                                    </li>
+                                    <!-- <li class="mt-9">
+                                        <div class="body-sm text-center">Berdasarkan Permendikbudristek Nomor 11 Tahun 2022 Tentang Organisasi dan Tata Kerja BBPMP dan BPMP</div>
+                                    </li> -->
+                                </ul>
                             </div>
                             <div class="body-sm text-center">Berdasarkan Permendikbudristek Nomor 11 Tahun 2022 Tentang Organisasi dan Tata Kerja BBPMP dan BPMP</div>
                         </div>
@@ -258,7 +261,7 @@
                         <div class="flex column gap-11">
                             <div class="display-lg">Struktur Tim Kerja BPMP Provinsi Sumatera Selatan</div>
                             <div>
-                                <img src="/assets/images/tim-kerja.jpg" alt="Struktur Tim Kerja" style="margin: -40px 0 -6px -32px;">
+                                <img src="/assets/images/tim-kerja.png" alt="Struktur Tim Kerja" style="margin: -40px 0 -6px -32px;">
                             </div>
                         </div>
                     </div>
@@ -268,17 +271,18 @@
     </section>
     <template id="popup-aria">
         <div class="flex column height-full">
-            <div class="flex px-12 pb-10 pt-12 surface-blue-90" style="position: relative; height: 189px;">
-                <div style="width: 231px; height: 247px; position: absolute;">
-                    <img src="/assets/images/foto-pimpinan/pimpinan-8.png" alt="Kepala BPMP Sumatera Selatan" style="width: 100%; height: 100%; object-fit: cover; border-radius: 16px;">
-                </div>
-                <div class="flex column justify-end gap-2" style="padding-left: 263px;">
+            <div class="grid grid-3 flex-tablet row-tablet justify-end-tablet px-12 pb-10 pt-12 surface-blue-90" style="position: relative; height: 189px;">
+                <div></div>
+                <div class="flex column justify-end text-center-mobile gap-2" style="grid-column: span 2;">
                     <div class="heading-lg text-inverse">Aria Ahmad Mangunwibawa</div>
                     <div class="body text-inverse-subdued">Kepala BPMP Provinsi Sumatera Selatan</div>
                 </div>
             </div>
-            <div class="px-12 pt-10 pb-12 surface-subdued">
-                <div class="body text-subdued" style="padding-left: 263px;">
+            <div class="grid grid-3 flex-tablet column-tablet items-center-mobile px-12 pt-10 pb-12 surface-subdued">
+                <div class="mt-14-mobile" style="transform: translateY(-165px); margin-bottom: -140px;">
+                    <img class="ratio-1-1 ratio-2-3-tablet ratio-1-1-mobile" src="/assets/images/foto-pimpinan/pimpinan-8.png" alt="Kepala BPMP Sumatera Selatan" style="height: 247px; object-fit: cover; border-radius: 16px; filter: brightness(1.5);">
+                </div>
+                <div class="body text-subdued" style="grid-column: span 2;">
                     Aria Ahmad Mangunwibawa adalah seorang tokoh penting dan berpengaruh dalam pengembangan pendidikan di Provinsi Sumatera Selatan.
                     Lahir pada 15 Maret 1980 di Palembang, Aria menempuh pendidikan di Universitas Sriwijaya, di mana ia meraih gelar Sarjana Pendidikan dengan predikat cum laude.
                     Setelah menyelesaikan studinya, ia tidak hanya aktif dalam berbagai organisasi kemasyarakatan dan pendidikan, tetapi juga menjadi penggerak utama dalam inisiatif yang bertujuan untuk meningkatkan kualitas pendidikan di daerahnya.<br><br>
