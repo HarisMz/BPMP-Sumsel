@@ -36,8 +36,8 @@
     </section>
     <section class="container py-0 surface-subdued">
         <div class="wrapper my-10 p-9 surface-default rounded-16">
-            <div class="flex gap-10">
-                <div class="flex column gap-11 width-70">
+            <div class="flex column-mobile gap-10">
+                <div class="flex column gap-11">
                     <div class="flex column gap-6 px-12 py-9 items-center surface-blue-5 rounded-12">
                         <img src="/assets/images/site-logo/logo-maklumat.svg" alt="Logo Maklumat" style="width: 270px;">
                         <div class="flex column text-center text-balance gap-3">
@@ -59,7 +59,7 @@
                         Lihat Dokumen Asli
                     </a>
                 </div>
-                <div class="flex column gap-7">
+                <div class="flex column gap-7 shrink-0" style="width: 312px;">
                     <div class="heading-lg">Lihat Maklumat Lainnya</div>
                     <div class="flex column gap-3">
                         <a href="/tentang-kami/maklumat-keterbukaan" class="link secondary">
