@@ -36,7 +36,7 @@
     </section>
     <section class="container py-0 surface-subdued">
         <div class="wrapper my-10 p-9 surface-default rounded-16">
-            <div class="flex column-mobile gap-10">
+            <div class="flex column-tablet gap-10">
                 <div class="flex column gap-11">
                     <div class="flex column gap-6 px-12 py-9 items-center surface-blue-5 rounded-12">
                         <img src="/assets/images/site-logo/logo-maklumat.svg" alt="Logo Maklumat" style="width: 270px;">

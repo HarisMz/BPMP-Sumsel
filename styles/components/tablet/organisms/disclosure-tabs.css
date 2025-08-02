@@ -2,7 +2,7 @@
 @media (max-width: 1024px) {
   .tabs.vertical {
     flex-direction: column;
-    gap: var(--unit-6);
+    gap: var(--unit-11);
   }
   .tabs.vertical .menu {
     flex-direction: row;
@@ -12,10 +12,11 @@
   }
   .tabs.vertical .content {
     width: 100%;
+    overflow-x: auto;
   }
   .tabs .menu {
-    margin: 0 calc(var(--site-padding) * -1);
-    width: 100vw !important;
+    /* margin: 0 calc(var(--site-padding) * -1); */
+    width: 100% !important;
     overflow-x: auto;
   }
   .tabs .menu .item {

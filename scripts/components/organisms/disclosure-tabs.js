@@ -69,7 +69,7 @@ function initTabs() {
     });
 
     function updateLine($activeItem) {
-      const isMobile = $(window).width() <= 768;
+      const isMobile = $(window).width() <= 1024;
       const menuScrollLeft = $menu.scrollLeft();
 
       if (isMobile) {

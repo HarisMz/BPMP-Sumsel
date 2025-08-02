@@ -20,7 +20,7 @@ blockquote {
   width: 100%;
 }
 
-.pluginSkinLight > div {
+.pluginSkinLight ._5pcb._5tmf._50f3 {
   width: 100% !important;
 }
 
@@ -118,4 +118,25 @@ blockquote {
 }
 .dokumen:hover {
   transform: scale(1.02);
+}
+
+.stuktur-organisasi {
+  display: flex;
+  flex-direction: column;
+  gap: var(--unit-9);
+}
+.stuktur-organisasi ul {
+  padding-left: 226px;
+}
+
+@media (max-width: 1024px) {
+  .struktur-organisasi ul {
+    padding-left: 206px;
+  }
+}
+
+@media (max-width: 768px) {
+  .struktur-organisasi ul {
+    padding-left: 0;
+  }
 }

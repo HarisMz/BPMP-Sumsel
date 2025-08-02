@@ -34,9 +34,9 @@
             <div class="display-lg text-inverse">Profil</div>
         </div>
     </section>
-    <section class="container py-0 surface-subdued">
-        <div class="wrapper my-10 surface-default rounded-16 overflow-auto">
-            <div class="tabs no-update vertical p-9">
+    <section class="container py-0 surface-default">
+        <div class="wrapper py-10 rounded-16">
+            <div class="tabs no-update vertical">
                 <div class="menu">
                     <a href="#" class="item action" id="tab-menu-1">
                         Visi dan Misi
@@ -56,7 +56,7 @@
                 </div>
                 <div class="content">
                     <div class="item" id="tab-content-1">
-                        <div class="flex column gap-11">
+                        <div class="flex column gap-9">
                             <div class="display-lg">Visi dan Misi</div>
                             <div class="flex column gap-10">
                                 <div class="flex column gap-6 p-9 surface-blue-5 rounded-12">
@@ -216,11 +216,11 @@
                         </div>
                     </div>
                     <div class="item" id="tab-content-4">
-                        <div class="flex column gap-9">
+                        <div class="struktur-organisasi">
                             <div class="flex column gap-11">
                                 <div class="display-lg text-center">Struktur Organisasi</div>
                                 <ul style="list-style-type: none;">
-                                    <li style="padding-left: 226px;">
+                                    <li>
                                         <div class="flex column gap-7 surface-subdued items-center p-7 rounded-8 connector call-popup" style="width: 360px;" data-height="348px" data-top="244px" data-popup='{
                                             "size": "large",
                                             "template": "#popup-aria"}'>
@@ -233,7 +233,7 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="mt-12" style="padding-left: 452px;">
+                                    <li class="mt-12" style="padding-left: 226px;">
                                         <div class="flex column gap-7 surface-subdued items-center p-7 rounded-8 connector" style="width: 360px;" data-width="46px" data-height="1px" data-left="-46px" data-top="50%">
                                             <span class="avatar xxl" style="width: 96px; height: 96px; border-radius: 100%;">
                                                 <img class="image" src="/assets/images/foto-pimpinan/pimpinan-8.png">
@@ -244,14 +244,11 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="mt-12" style="padding-left: 226px;">
+                                    <li class="mt-12">
                                         <div class="flex surface-subdued justify-center p-7 rounded-8" style="width: 360px;">
                                             <div class="heading-md">Kelompok Fungsional</div>
                                         </div>
                                     </li>
-                                    <!-- <li class="mt-9">
-                                        <div class="body-sm text-center">Berdasarkan Permendikbudristek Nomor 11 Tahun 2022 Tentang Organisasi dan Tata Kerja BBPMP dan BPMP</div>
-                                    </li> -->
                                 </ul>
                             </div>
                             <div class="body-sm text-center">Berdasarkan Permendikbudristek Nomor 11 Tahun 2022 Tentang Organisasi dan Tata Kerja BBPMP dan BPMP</div>
