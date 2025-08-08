@@ -30,4 +30,9 @@
   .tabs.horizontal.full .menu .item {
     width: unset;
   }
+  .tabs .menu.sticky-tabs {
+    position: inherit;
+    top: 0;
+    flex: inherit;
+  }
 }

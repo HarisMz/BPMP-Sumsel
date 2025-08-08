@@ -39,9 +39,9 @@
             <div class="display-lg text-inverse">6 Area Pengungkit</div>
         </div>
     </section>
-    <section class="container py-0 surface-subdued">
-        <div class="wrapper my-10 p-9 surface-default rounded-16">
-            <div class="tabs one-page vertical">
+    <section class="container py-10 surface-subdued">
+        <div class="wrapper surface-default rounded-16">
+            <div class="tabs one-page vertical p-9 p-0-tablet">
                 <div class="menu sticky-tabs">
                     <a href="#" class="item action" id="tab-menu-1">
                         Manajemen Perubahan

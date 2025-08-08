@@ -34,9 +34,9 @@
             <div class="display-lg text-inverse">Kinerja Organisasi</div>
         </div>
     </section>
-    <section class="container py-0 surface-subdued">
-        <div class="wrapper my-10 p-9 surface-default rounded-16 overflow-auto">
-            <div class="tabs vertical no-update p-9">
+    <section class="container py-10 surface-subdued">
+        <div class="wrapper surface-default rounded-16">
+            <div class="tabs no-update vertical p-9 p-0-tablet">
                 <div class="menu">
                     <a href="#" class="item action" id="tab-menu-1">
                         Penjanjian Kinerja
@@ -65,11 +65,11 @@
                                         Perjanjian Kinerja Tahun 2024
                                     </div>
                                     <div class="collapsible-content">
-                                        <div class="flex gap-10">
+                                        <div class="flex column-mobile gap-10">
                                             <div>
                                                 <img class="full rounded-8" src="/assets/images/kinerja-1.png" alt="Kinerja 2024">
                                             </div>
-                                            <div class="flex column gap-7 shrink-0" style="width: 320px;">
+                                            <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
                                                 <span class="heading-lg">Perjanjian Kinerja Tahun 2024</span>
                                                 <span class="body">Perjanjian Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
                                                 <div class="flex gap-3">
@@ -89,11 +89,11 @@
                                         Perjanjian Kinerja Tahun 2023
                                     </div>
                                     <div class="collapsible-content">
-                                        <div class="flex gap-10">
+                                        <div class="flex column-mobile gap-10">
                                             <div>
                                                 <img class="full rounded-8" src="/assets/images/kinerja-1.png" alt="Kinerja 2024">
                                             </div>
-                                            <div class="flex column gap-7 shrink-0" style="width: 320px;">
+                                            <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
                                                 <span class="heading-lg">Perjanjian Kinerja Tahun 2023</span>
                                                 <span class="body">Perjanjian Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
                                                 <div class="flex gap-3">
@@ -113,11 +113,11 @@
                                         Perjanjian Kinerja Tahun 2022
                                     </div>
                                     <div class="collapsible-content">
-                                        <div class="flex gap-10">
+                                        <div class="flex column-mobile gap-10">
                                             <div>
                                                 <img class="full rounded-8" src="/assets/images/kinerja-1.png" alt="Kinerja 2024">
                                             </div>
-                                            <div class="flex column gap-7 shrink-0" style="width: 320px;">
+                                            <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
                                                 <span class="heading-lg">Perjanjian Kinerja Tahun 2022</span>
                                                 <span class="body">Perjanjian Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
                                                 <div class="flex gap-3">
@@ -137,11 +137,11 @@
                                         Perjanjian Kinerja Tahun 2021
                                     </div>
                                     <div class="collapsible-content">
-                                        <div class="flex gap-10">
+                                        <div class="flex column-mobile gap-10">
                                             <div>
                                                 <img class="full rounded-8" src="/assets/images/kinerja-1.png" alt="Kinerja 2024">
                                             </div>
-                                            <div class="flex column gap-7 shrink-0" style="width: 320px;">
+                                            <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
                                                 <span class="heading-lg">Perjanjian Kinerja Tahun 2021</span>
                                                 <span class="body">Perjanjian Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
                                                 <div class="flex gap-3">
@@ -169,11 +169,11 @@
                                         Rencana Strategis (Renstra) Tahun 2020 - 2024 EDISI REVISI
                                     </div>
                                     <div class="collapsible-content">
-                                        <div class="flex gap-10">
+                                        <div class="flex column-mobile gap-10">
                                             <div>
                                                 <img class="full rounded-8" src="/assets/images/renstra-1.png" alt="Renstra 2020-2024">
                                             </div>
-                                            <div class="flex column gap-7 shrink-0" style="width: 320px;">
+                                            <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
                                                 <span class="heading-lg">Rencana Strategis (Renstra) Tahun 2020 - 2024 EDISI REVISI</span>
                                                 <span class="body">Rencana Strategis Periode Tahun 2020 - 2024</span>
                                                 <div class="flex gap-3">
@@ -193,11 +193,11 @@
                                         Rencana Strategis (Renstra) Tahun 2015 - 2019
                                     </div>
                                     <div class="collapsible-content">
-                                        <div class="flex gap-10">
+                                        <div class="flex column-mobile gap-10">
                                             <div>
                                                 <img class="full rounded-8" src="/assets/images/renstra-1.png" alt="Renstra 2015-2019">
                                             </div>
-                                            <div class="flex column gap-7 shrink-0" style="width: 320px;">
+                                            <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
                                                 <span class="heading-lg">Rencana Strategis (Renstra) Tahun 2015 - 2019</span>
                                                 <span class="body">Perjanjian Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
                                                 <div class="flex gap-3">
@@ -225,11 +225,11 @@
                                         Rencana Kinerja Tahun 2024
                                     </div>
                                     <div class="collapsible-content">
-                                        <div class="flex gap-10">
+                                        <div class="flex column-mobile gap-10">
                                             <div>
                                                 <img class="full rounded-8" src="/assets/images/kinerja-1.png" alt="Kinerja 2024">
                                             </div>
-                                            <div class="flex column gap-7 shrink-0" style="width: 320px;">
+                                            <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
                                                 <span class="heading-lg">Perjanjian Kinerja Tahun 2024</span>
                                                 <span class="body">Perjanjian Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
                                                 <div class="flex gap-3">
@@ -249,11 +249,11 @@
                                         Rencana Kinerja Tahun 2023
                                     </div>
                                     <div class="collapsible-content">
-                                        <div class="flex gap-10">
+                                        <div class="flex column-mobile gap-10">
                                             <div>
                                                 <img class="full rounded-8" src="/assets/images/kinerja-1.png" alt="Kinerja 2024">
                                             </div>
-                                            <div class="flex column gap-7 shrink-0" style="width: 320px;">
+                                            <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
                                                 <span class="heading-lg">Perjanjian Kinerja Tahun 2024</span>
                                                 <span class="body">Perjanjian Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
                                                 <div class="flex gap-3">
@@ -281,11 +281,11 @@
                                         Rencana Aksi Tahun 2024
                                     </div>
                                     <div class="collapsible-content">
-                                        <div class="flex gap-10">
+                                        <div class="flex column-mobile gap-10">
                                             <div>
                                                 <img class="full rounded-8" src="/assets/images/aksi-1.jpg" alt="Kinerja 2024">
                                             </div>
-                                            <div class="flex column gap-7 shrink-0" style="width: 320px;">
+                                            <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
                                                 <span class="heading-lg">Rencana Aksi Tahun 2024</span>
                                                 <span class="body">Perjanjian Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
                                                 <div class="flex gap-3">
@@ -305,11 +305,11 @@
                                         Rencana Aksi Tahun 2023
                                     </div>
                                     <div class="collapsible-content">
-                                        <div class="flex gap-10">
+                                        <div class="flex column-mobile gap-10">
                                             <div>
                                                 <img class="full rounded-8" src="/assets/images/kinerja-1.png" alt="Kinerja 2024">
                                             </div>
-                                            <div class="flex column gap-7 shrink-0" style="width: 320px;">
+                                            <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
                                                 <span class="heading-lg">Rencana Aksi Tahun 2023</span>
                                                 <span class="body">Perjanjian Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
                                                 <div class="flex gap-3">
@@ -329,11 +329,11 @@
                                         Rencana Aksi Tahun 2022
                                     </div>
                                     <div class="collapsible-content">
-                                        <div class="flex gap-10">
+                                        <div class="flex column-mobile gap-10">
                                             <div>
                                                 <img class="full rounded-8" src="/assets/images/kinerja-1.png" alt="Kinerja 2024">
                                             </div>
-                                            <div class="flex column gap-7 shrink-0" style="width: 320px;">
+                                            <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
                                                 <span class="heading-lg">Perjanjian Kinerja Tahun 2024</span>
                                                 <span class="body">Perjanjian Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
                                                 <div class="flex gap-3">
@@ -353,11 +353,11 @@
                                         Rencana Aksi Tahun 2021
                                     </div>
                                     <div class="collapsible-content">
-                                        <div class="flex gap-10">
+                                        <div class="flex column-mobile gap-10">
                                             <div>
                                                 <img class="full rounded-8" src="/assets/images/kinerja-1.png" alt="Kinerja 2024">
                                             </div>
-                                            <div class="flex column gap-7 shrink-0" style="width: 320px;">
+                                            <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
                                                 <span class="heading-lg">Perjanjian Kinerja Tahun 2024</span>
                                                 <span class="body">Perjanjian Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
                                                 <div class="flex gap-3">
@@ -385,11 +385,11 @@
                                         Laporan Kinerja Tahun 2024
                                     </div>
                                     <div class="collapsible-content">
-                                        <div class="flex gap-10">
+                                        <div class="flex column-mobile gap-10">
                                             <div>
                                                 <img class="full rounded-8" src="/assets/images/lapkin-1.jpg" alt="Kinerja 2024">
                                             </div>
-                                            <div class="flex column gap-7 shrink-0" style="width: 320px;">
+                                            <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
                                                 <span class="heading-lg">Laporan Kinerja Tahun 2024</span>
                                                 <span class="body">Laporan Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
                                                 <div class="flex gap-3">
@@ -409,11 +409,11 @@
                                         Laporan Kinerja Tahun 2023
                                     </div>
                                     <div class="collapsible-content">
-                                        <div class="flex gap-10">
+                                        <div class="flex column-mobile gap-10">
                                             <div>
                                                 <img class="full rounded-8" src="/assets/images/kinerja-1.png" alt="Kinerja 2024">
                                             </div>
-                                            <div class="flex column gap-7 shrink-0" style="width: 320px;">
+                                            <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
                                                 <span class="heading-lg">Laporan Kinerja Tahun 2024</span>
                                                 <span class="body">Laporan Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
                                                 <div class="flex gap-3">
@@ -433,11 +433,11 @@
                                         Laporan Kinerja Tahun 2022
                                     </div>
                                     <div class="collapsible-content">
-                                        <div class="flex gap-10">
+                                        <div class="flex column-mobile gap-10">
                                             <div>
                                                 <img class="full rounded-8" src="/assets/images/kinerja-1.png" alt="Kinerja 2024">
                                             </div>
-                                            <div class="flex column gap-7 shrink-0" style="width: 320px;">
+                                            <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
                                                 <span class="heading-lg">Laporan Kinerja Tahun 2024</span>
                                                 <span class="body">Laporan Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
                                                 <div class="flex gap-3">
@@ -457,11 +457,11 @@
                                         Laporan Kinerja Tahun 2021
                                     </div>
                                     <div class="collapsible-content">
-                                        <div class="flex gap-10">
+                                        <div class="flex column-mobile gap-10">
                                             <div>
                                                 <img class="full rounded-8" src="/assets/images/kinerja-1.png" alt="Kinerja 2024">
                                             </div>
-                                            <div class="flex column gap-7 shrink-0" style="width: 320px;">
+                                            <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
                                                 <span class="heading-lg">Laporan Kinerja Tahun 2024</span>
                                                 <span class="body">Laporan Kinerja Tahun 2024 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
                                                 <div class="flex gap-3">

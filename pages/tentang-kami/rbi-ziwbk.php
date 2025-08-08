@@ -35,7 +35,7 @@
                 <div class="flex column gap-7 text-inverse width-50">
                     <span class="headline-xs">Peningkatan pelayanan publik dan lingkungan kerja melalui pembangunan ZIWBK</span>
                     <span class="body">Melalui pembangunan ZI, BPMP Provinsi Sumatera Selatan berupaya menciptakan tata kelola pemerintahan yang bebas korupsi, berkinerja tinggi, dan mampu memberikan pelayanan publik yang berkualitas.</span>
-                    <a href="/tentang-kami/rbi-ziwbk/6-area" class="button large">
+                    <a href="/tentang-kami/rbi-ziwbk/6-area" class="button large body-sm-mobile p-4-mobile">
                         Lihat 6 Area ZIWBK
                     </a>
                 </div>
@@ -44,13 +44,13 @@
     </section>
     <section class="container py-14 surface-subdued">
         <div class="wrapper flex column gap-11">
-            <div class="grid grid-2 gap-9">
+            <div class="grid grid-2 grid-1-tablet gap-9">
                 <span class="headline-xs">6 Area Pengungkit Zona Integritas Wilayah Bebas Korupsi</span>
                 <span class="body">BPMP Provinsi Sumsel berkomitmen dalam meningkatkan enam area pengungkit Zona Integritas (ZI) menuju Wilayah Bebas Korupsi (WBK) dan Wilayah Birokrasi Bersih dan Melayani (WBBM). Berdasarkan PermenPAN RB Nomor 90 Tahun 2021, langkah ini bertujuan untuk mencegah korupsi, kolusi, dan nepotisme, serta untuk meningkatkan kualitas pelayanan publik.</span>
             </div>
-            <div class="grid grid-3 gap-7">
+            <div class="grid grid-3 grid-2-tablet grid-1-mobile gap-7">
                 <div class="flex column gap-4 p-7 surface-default rounded-8">
-                    <div class="flex gap-5 items-center">
+                    <div class="flex column-mobile gap-5 items-center items-start-mobile">
                         <div class="flex justify-center items-center surface-red-50 rounded-8 shrink-0" style="height: 60px; width: 60px;">
                             <img src="/assets/images/ziwbk-icon-1.svg" alt="Manajemen Perubahan">
                         </div>
@@ -62,7 +62,7 @@
                     </a>
                 </div>
                 <div class="flex column gap-4 p-7 surface-default rounded-8">
-                    <div class="flex gap-5 items-center">
+                    <div class="flex column-mobile gap-5 items-center items-start-mobile">
                         <div class="flex justify-center items-center surface-purple-50 rounded-8 shrink-0" style="height: 60px; width: 60px;">
                             <img src="/assets/images/ziwbk-icon-2.svg" alt="Penataan Tatalaksana">
                         </div>
@@ -74,7 +74,7 @@
                     </a>
                 </div>
                 <div class="flex column gap-4 p-7 surface-default rounded-8">
-                    <div class="flex gap-5 items-center">
+                    <div class="flex column-mobile gap-5 items-center items-start-mobile">
                         <div class="flex justify-center items-center surface-cyan-50 rounded-8 shrink-0" style="height: 60px; width: 60px;">
                             <img src="/assets/images/ziwbk-icon-3.svg" alt="Penataan Sistem Manajemen SDM">
                         </div>
@@ -86,7 +86,7 @@
                     </a>
                 </div>
                 <div class="flex column gap-4 p-7 surface-default rounded-8">
-                    <div class="flex gap-5 items-center">
+                    <div class="flex column-mobile gap-5 items-center items-start-mobile">
                         <div class="flex justify-center items-center surface-green-50 rounded-8 shrink-0" style="height: 60px; width: 60px;">
                             <img src="/assets/images/ziwbk-icon-4.svg" alt="Penguatan Akuntabilitas Kerja">
                         </div>
@@ -98,7 +98,7 @@
                     </a>
                 </div>
                 <div class="flex column gap-4 p-7 surface-default rounded-8">
-                    <div class="flex gap-5 items-center">
+                    <div class="flex column-mobile gap-5 items-center items-start-mobile">
                         <div class="flex justify-center items-center surface-orange-40 rounded-8 shrink-0" style="height: 60px; width: 60px;">
                             <img src="/assets/images/ziwbk-icon-5.svg" alt="Penguatan Pengawasan">
                         </div>
@@ -110,7 +110,7 @@
                     </a>
                 </div>
                 <div class="flex column gap-4 p-7 surface-default rounded-8">
-                    <div class="flex gap-5 items-center">
+                    <div class="flex column-mobile gap-5 items-center items-start-mobile">
                         <div class="flex justify-center items-center surface-yellow-50 rounded-8 shrink-0" style="height: 60px; width: 60px;">
                             <img src="/assets/images/ziwbk-icon-6.svg" alt="Peningkatan Kualitas Pelayanan Publik">
                         </div>
@@ -218,7 +218,7 @@
     </section>
     <section class="container py-0 surface-default">
         <div class="wrapper py-14">
-            <div class="flex items-center justify-center gap-12">
+            <div class="flex column-tablet items-center justify-center gap-12">
                 <img src="/assets/images/hashtag-kemendikdasmen.png" alt="Pendidikan Bermutu Untuk Semua" style="height: 94px;">
                 <img src="/assets/images/tagline-kemendikdasmen.png" alt="Kemendikdasmen Ramah" style="height: 94px;">
                 <img src="/assets/images/anti-korupsi.png" alt="Anti Korupsi">

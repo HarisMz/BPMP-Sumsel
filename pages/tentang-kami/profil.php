@@ -34,9 +34,9 @@
             <div class="display-lg text-inverse">Profil</div>
         </div>
     </section>
-    <section class="container py-0 surface-default">
-        <div class="wrapper py-10 rounded-16">
-            <div class="tabs no-update vertical">
+    <section class="container py-10 surface-subdued">
+        <div class="wrapper surface-default rounded-16">
+            <div class="tabs no-update vertical p-9 p-0-tablet">
                 <div class="menu">
                     <a href="#" class="item action" id="tab-menu-1">
                         Visi dan Misi

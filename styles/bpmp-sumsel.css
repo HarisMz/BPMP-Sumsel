@@ -120,12 +120,12 @@ blockquote {
   transform: scale(1.02);
 }
 
-.stuktur-organisasi {
+.struktur-organisasi {
   display: flex;
   flex-direction: column;
   gap: var(--unit-9);
 }
-.stuktur-organisasi ul {
+.struktur-organisasi ul {
   padding-left: 226px;
 }
 
@@ -133,10 +133,14 @@ blockquote {
   .struktur-organisasi ul {
     padding-left: 206px;
   }
+
+  section:has(.tabs) {
+    background: var(--surface-default) !important;
+  }
 }
 
 @media (max-width: 768px) {
   .struktur-organisasi ul {
-    padding-left: 0;
+    padding-left: 14px;
   }
 }
