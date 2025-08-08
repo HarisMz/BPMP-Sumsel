@@ -32,7 +32,7 @@
                 </ul>
             </nav>
             <div class="flex items-center height-full">
-                <div class="flex column gap-7 text-inverse width-50">
+                <div class="flex column gap-7 text-inverse width-50 full-mobile">
                     <span class="headline-sm">Inovasi Penguatan Organisasi dan Insan BPMP Provinsi Sumsel</span>
                     <span class="body">Inovasi organisasi dan Insan BPMP Provinsi Sumsel adalah cerminan semangat BPMP Sumatera Selatan dalam membangun budaya kerja yang adaptif dan solutif. Melalui pembaruan tata kelola, digitalisasi, serta penguatan sistem kerja, kami terus mendorong efisiensi dan kualitas layanan dari dalam organisasi.</span>
                 </div>
@@ -41,7 +41,7 @@
     </section>
     <section class="container py-12 surface-default">
         <div class="wrapper">
-            <div class="grid grid-2 gap-5">
+            <div class="grid grid-2 grid-1-mobile gap-5">
                 <div class="flex column justify-center gap-7 pr-7">
                     <span class="headline-xs">Senin Berpijar</span>
                     <span class="body">Senin BERPIJAR adalah forum rutin dua minggu sekali. Kegiatan ini sebagai wadah pelatihan, sosialisasi kebijakan, dan informasi penting untuk pegawai. Tujuannya memperkuat jejaring dan kolaborasi antar pegawai, menciptakan sinergi positif untuk peningkatan mutu pendidikan. Diharapkan pegawai BPMP Sumatera Selatan terus bersemangat belajar dan mengembangkan diri.</span>
@@ -60,14 +60,14 @@
     </section>
     <section class="container py-14 surface-subdued">
         <div class="wrapper flex column gap-11">
-            <div class="grid grid-2 gap-9">
+            <div class="grid grid-2 grid-1-mobile gap-9">
                 <div class="flex column gap-3">
                     <span class="headline-xs">PATIN</span>
                     <span class="display-sm">Rapat Rutin</span>
                 </div>
                 <span class="body">Rapat Rutin (Patin) merupakan mekanisme koordinasi yang terstruktur dan rutin yang diadakan setiap hari Senin hadir sebagai sarana untuk memastikan bahwa setiap program dan kegiatan yang direncanakan dapat berjalan sesuai dengan jadwal, serta untuk melakukan evaluasi terhadap kegiatan yang telah dilaksanakan.</span>
             </div>
-            <div class="grid grid-3 gap-5">
+            <div class="grid grid-3 grid-1-mobile gap-5">
                 <div style="height: 240px;">
                     <img src="/assets/images/internal-4.png" alt="Foto Rapat Rutin" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
                 </div>
@@ -82,14 +82,14 @@
     </section>
     <section class="container py-14 surface-default">
         <div class="wrapper flex column gap-11">
-            <div class="grid grid-2 gap-7">
+            <div class="grid grid-2 grid-1-mobile gap-7">
                 <div class="flex column gap-3">
                     <span class="headline-xs">Kombel Cerdas</span>
                     <span class="display-sm">Komunitas Belajar Cerita dan Diskusi Asik</span>
                 </div>
                 <span class="body">Komunitas belajar merupakan salah satu strategi yang efektif dalam menciptakan lingkungan kerja yang interaktif, kolaboratif, dan berkelanjutan. Dalam komunitas belajar, seluruh anggota tim kerja dapat saling berbagi pengetahuan, keterampilan, dan pengalaman untuk mendorong peningkatan mutu pelayanan secara keseluruhan.</span>
             </div>
-            <div class="grid grid-2 gap-5">
+            <div class="grid grid-2 grid-1-mobile gap-5">
                 <div style="height: 320px;">
                     <img src="/assets/images/internal-7.png" alt="Foto Kombel Cerdas" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
                 </div>
@@ -101,7 +101,7 @@
     </section>
     <section class="container py-12 surface-subdued">
         <div class="wrapper">
-            <div class="grid grid-2 gap-11">
+            <div class="grid grid-2 grid-1-mobile gap-11">
                 <div class="flex column justify-center gap-7">
                     <div class="flex column gap-3">
                         <span class="headline-xs">Mang Oleh</span>
@@ -117,7 +117,7 @@
     </section>
     <section class="container py-14 surface-default">
         <div class="wrapper">
-            <div class="grid grid-2 gap-11">
+            <div class="grid grid-2 flex-mobile column-reverse-mobile gap-11">
                 <div style="height: 400px;">
                     <img src="/assets/images/internal-10.png" alt="Jumat Kelas Olahraga dan Belajar" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
                 </div>

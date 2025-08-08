@@ -35,6 +35,9 @@
     grid-template-columns: repeat(10, minmax(0, 1fr)) !important;
   }
 
+  .grid-column-1-tablet {
+    grid-column: span 1;
+  }
   .grid-column-2-tablet {
     grid-column: span 2;
   }

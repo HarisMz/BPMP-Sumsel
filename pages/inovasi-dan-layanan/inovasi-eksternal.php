@@ -32,7 +32,7 @@
                 </ul>
             </nav>
             <div class="flex items-center height-full">
-                <div class="flex column gap-7 text-inverse width-50">
+                <div class="flex column gap-7 text-inverse width-50 full-mobile">
                     <span class="headline-sm">Inovasi Bersama Ekosistem Pendidikan Provinsi Sumsel</span>
                     <span class="body">Inovasi pemangku kepentingan pendidikan merupakan hasil kolaborasi dan sinergi BPMP Sumsel dengan para mitra dan pemangku kepentingan. Melalui program, pendampingan, dan solusi inovatif, kami hadir untuk mendukung transformasi pendidikan dasar dan menengah serta layanan publik yang lebih berdampak.</span>
                 </div>
@@ -41,11 +41,11 @@
     </section>
     <section class="container py-14 surface-default">
         <div class="wrapper flex column gap-11">
-            <div class="grid grid-3 gap-9">
+            <div class="grid grid-3 grid-1-mobile gap-9">
                 <span class="headline-xs">Konsensus</span>
                 <span class="body" style="grid-column: span 2;">Konsensus merupakan inisiasi inovasi BPMP Prov Sumsel untuk melaksanakan kesepakatan bersama yang diwujudkan dalam bentuk dokumen yang ditandatangani Kepala BPMP Provinsi Sumsel dan Kepala Dinas Pendidikan Provinsi/Kabupaten/Kota untuk bersama-sama mendukung implementasi dan keberlanjutan program prioritas Kemdikdasmen.</span>
             </div>
-            <div class="grid grid-3 gap-5">
+            <div class="grid grid-3 grid-1-mobile gap-5">
                 <div style="height: 240px;">
                     <img src="/assets/images/eksternal-1.jpg" alt="Foto Konsensus" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
                 </div>
@@ -60,11 +60,11 @@
     </section>
     <section class="container py-14 surface-subdued">
         <div class="wrapper flex column gap-11">
-            <div class="grid grid-3 gap-7">
+            <div class="grid grid-3 grid-1-tablet gap-7">
                 <span class="headline-xs">Serasan</span>
                 <span class="body" style="grid-column: span 2;">Serasan merupakan merupakan akronim dari Sarasehan, Eksplorasi, apResiAsi, dan reflekSi sANtai, Serasan menjadi inisiasi pendekatan advokasi dalam memastikan implementasi Program Prioritas Kemdikdasmen oleh Pemerintah Daerah Provinsi dan Kabupaten/Kota, Serasan menjadi forum untuk berdialog, berdiskusi dan mengidentifikasi praktik baik, keberhasilan dan tantangan serta refleksi dengan pendekatan yang cair dalam prosesnya.</span>
             </div>
-            <div class="grid grid-2 gap-5">
+            <div class="grid grid-2 grid-1-mobile gap-5">
                 <div style="height: 320px;">
                     <img src="/assets/images/eksternal-4.png" alt="Foto Serasan" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
                 </div>
@@ -76,11 +76,11 @@
     </section>
     <section class="container py-14 surface-default">
         <div class="wrapper flex column gap-11">
-            <div class="grid grid-3 gap-9">
+            <div class="grid grid-3 grid-1-tablet gap-9">
                 <span class="headline-xs">Lintasan Musi</span>
                 <span class="body" style="grid-column: span 2;">Lintasan Musi adalah Layanan Integrasi Data dan Informasi Strategis Pendidikan Provinsi Sumatera Selatan menuju Pendidikan Bermutu untuk Semua dan Inklusif. Lintasan Musi ini merupakan upaya menuju tata kelola pemerintahan yang terbuka (open governance) untuk menciptakan ekosistem data yang koheren, transparan, dan mudah diakses.</span>
             </div>
-            <div class="grid grid-3 gap-5">
+            <div class="grid grid-3 grid-1-mobile gap-5">
                 <div style="height: 240px;">
                     <img src="/assets/images/eksternal-1.jpg" alt="Foto Konsensus" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
                 </div>

@@ -32,7 +32,7 @@
                 </ul>
             </nav>
             <div class="flex items-center height-full">
-                <div class="flex column gap-7 text-inverse width-50">
+                <div class="flex column gap-7 text-inverse width-50 full-mobile">
                     <span class="headline-sm">Hadapi Tantangan Pendidikan melalui Layanan Pendampingan</span>
                     <span class="body">Melalui layanan ini, Anda dapat memperoleh pendampingan baik secara daring maupun luring. Pendampingan ini mencakup aktivitas diskusi, baik kelompok maupun individu, yang berfokus pada isu pendidikan, khususnya di Provinsi Sumatera Selatan.</span>
                     <a href="#jenis-layanan" class="button large">
@@ -46,9 +46,9 @@
         <div class="wrapper">
             <div class="flex column items-center gap-11">
                 <div class="headline-xs">Jenis Layanan Pendampingan</div>
-                <div class="grid grid-2 gap-7">
+                <div class="grid grid-2 grid-1-mobile gap-7">
                     <div class="flex column p-9 gap-9 rounded-8 surface-default">
-                        <div style="width: 524px;">
+                        <div>
                             <img src="/assets/images/pendampingan-1.jpg" alt="Pikat Bidar" style="height: 100%; width: 100%; border-radius: 8px;">
                         </div>
                         <div class="flex column gap-7">
@@ -60,7 +60,7 @@
                         </div>
                     </div>
                     <div class="flex column p-9 gap-9 rounded-8 surface-default">
-                        <div style="width: 524px;">
+                        <div>
                             <img src="/assets/images/pendampingan-2.jpg" alt="Pikat Dulur" style="height: 100%; width: 100%; border-radius: 8px;">
                         </div>
                         <div class="flex column gap-7">
@@ -79,7 +79,7 @@
         <div class="wrapper">
             <div class="flex column items-center gap-12">
                 <div class="headline-xs">Bagaimana Prosedur Layanan Pendampingan</div>
-                <div class="grid grid-3 gap-11">
+                <div class="grid grid-3 grid-1-mobile gap-11">
                     <div class="flex column items-center gap-5 text-center">
                         <div class="flex justify-center items-center surface-gray-40 rounded-12 shrink-0" style="height: 80px; width: 80px; position: relative;">
                             <img src="/assets/images/assignment.svg" alt="Prosedur Pendampingan 1">
@@ -110,9 +110,9 @@
     </section>
     <section class="container surface-subdued">
         <div class="wrapper">
-            <div class="flex gap-11">
-                <div class="headline-xs width-42"><b>Soal Sering Ditanya</b></div>
-                <div class="flex column width-58">
+            <div class="grid grid-2 grid-1-tablet gap-11">
+                <div class="headline-xs"><b>Soal Sering Ditanya</b></div>
+                <div class="flex column" style="margin-left: -16px;">
                     <div class="collapsible list accordion first-open">
                         <div class="collapsible-header">
                             Apakah layanan pendampingan ini berbayar?

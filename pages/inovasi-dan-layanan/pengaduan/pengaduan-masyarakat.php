@@ -41,7 +41,7 @@
     </section>
     <section class="container py-14 surface-subdued">
         <div class="wrapper p-12 gap-12 surface-default rounded-8">
-            <div class="flex column gap-9 width-42">
+            <div class="flex column gap-9 width-42 hide-mobile">
                 <div class="display-md">Tahapan Pengisian Data</div>
                 <p class="body">Formulir ini digunakan kepada pengguna layanan (masyarakat) untuk memberikan pengaduan ketidakpuasan atas layanan BPMP Provinsi Sumatera Selatan, data identitas pelapor dijamin kerahasiaannya.</p>
                 <div class="flex column gap-9">
@@ -61,7 +61,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex column width-58 gap-9">
+            <div class="flex column width-58 gap-9 full-mobile">
                 <div class="form-step" id="form-step-1">
                     <div class="display-md">Lengkapi Data Berikut</div>
                     <div class="form-group">

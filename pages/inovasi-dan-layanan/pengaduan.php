@@ -32,7 +32,7 @@
                 </ul>
             </nav>
             <div class="flex items-center height-full">
-                <div class="flex column gap-7 text-inverse width-50">
+                <div class="flex column gap-7 text-inverse width-50 full-mobile">
                     <span class="headline-sm">Sampaikan Pengaduan Anda untuk Perbaikan Pelayanan Publik</span>
                     <span class="body">Laporkan penyimpangan, pelanggaran, atau keluhan terkait  pelayanan publik yang Anda alami di lingkungan BPMP Provinsi Sumatera Selatan agar kami dapat meningkatkan kualitas layanan kami.</span>
                     <a href="#jenis-pengaduan" class="button large">
@@ -46,7 +46,7 @@
         <div class="wrapper">
             <div class="flex column items-center gap-11">
                 <div class="headline-xs">Jenis Pengaduan</div>
-                <div class="grid grid-4 gap-7">
+                <div class="grid grid-4 grid-2-tablet grid-1-mobile gap-7">
                     <div class="flex column justify-between gap-5 p-7 surface-default rounded-8">
                         <div class="flex column gap-5">
                             <div class="flex gap-5 items-center">
@@ -111,7 +111,7 @@
         <div class="wrapper">
             <div class="flex column items-center gap-12">
                 <div class="headline-xs">Prosedur Penyampaian Pengaduan</div>
-                <div class="grid grid-3 gap-11">
+                <div class="grid grid-3 grid-1-mobile gap-11">
                     <div class="flex column items-center gap-5 text-center">
                         <div class="flex justify-center items-center surface-gray-40 rounded-12 shrink-0" style="height: 80px; width: 80px; position: relative;">
                             <img src="/assets/images/data_table.svg" alt="Prosedur Pengaduan 1">
@@ -142,9 +142,9 @@
     </section>
     <section class="container py-0 surface-subdued">
         <div class="wrapper py-14">
-            <div class="flex gap-11">
-                <div class="headline-xs width-42"><b>Soal Sering Ditanya</b></div>
-                <div class="flex column width-58">
+            <div class="grid grid-2 grid-1-tablet gap-11">
+                <div class="headline-xs"><b>Soal Sering Ditanya</b></div>
+                <div class="flex column" style="margin-left: -16px;">
                     <div class="collapsible list accordion first-open">
                         <div class="collapsible-header">
                             Apakah Identitas pelapor dirahasiakan?

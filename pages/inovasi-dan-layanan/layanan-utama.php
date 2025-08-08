@@ -36,11 +36,11 @@
     </section>
     <section class="container py-14 surface-subdued">
         <div class="wrapper flex column gap-11">
-            <div class="grid grid-2 gap-12">
+            <div class="grid grid-2 grid-1-tablet gap-12">
                 <span class="headline-xs">6 Fokus Layanan Utama BPMP Provinsi Sumatera Selatan</span>
                 <span class="body">BPMP Provinsi Sumatera Selatan berkomitmen dalam mewujudkan pelayanan publik yang transparan, akuntabel, dan berkualitas kepada seluruh ekosistem dengan menetapkan Standar dan Maklumat Pelayanan Publik sebagai pedoman utama dalam setiap proses fasilitasi layanan. Hal ini merupakan aksi nyata kami agar dapat memberikan pelayanan yang prima, cepat, mudah, terjangkau, dan terukur.</span>
             </div>
-            <div class="grid grid-3 gap-7">
+            <div class="grid grid-3 grid-2-tablet grid-1-mobile gap-7">
                 <div class="flex column gap-4 p-7 surface-default rounded-8">
                     <div class="flex gap-5 items-center">
                         <div class="flex justify-center items-center surface-red-50 rounded-8 shrink-0" style="height: 60px; width: 60px;">
@@ -120,7 +120,7 @@
         <div class="wrapper">
             <div class="flex column gap-10">
                 <div class="headline-xs">Lihat Dasar Hukum</div>
-                <div class="grid grid-3 gap-7">
+                <div class="grid grid-3 grid-1-mobile gap-7">
                     <div class="flex column p-7 gap-5 surface-subdued rounded-8">
                         <div class="flex justify-center items-center surface-blue-60 rounded-8 shrink-0" style="height: 60px; width: 60px;">
                             <img src="/assets/images/book.svg" alt="Peningkatan Kualitas Pelayanan Publik">    
@@ -154,9 +154,9 @@
     </section>
     <section class="container py-0 surface-subdued">
         <div class="wrapper py-14">
-            <div class="grid grid-2 gap-10">
+            <div class="grid grid-2 grid-1-tablet gap-10">
                 <div class="headline-xs"><b>Soal Sering Ditanya terkait Pelayanan BPMP Provinsi Sumatera Selatan</b></div>
-                <div class="flex column">
+                <div class="flex column" style="margin-left: -16px;">
                     <div class="collapsible list accordion first-open">
                         <div class="collapsible-header">
                             Ini adalah contoh Collapsible.
