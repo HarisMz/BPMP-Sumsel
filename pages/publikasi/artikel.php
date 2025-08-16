@@ -38,7 +38,7 @@
         <div class="wrapper">
             <div class="flex column gap-10 gap-6-mobile">
                 <h1 class="display-lg full-mobile">Artikel Populer</h1>
-	            <div class="grid grid-3 grid-1-mobile gap-7">
+	            <div class="grid grid-3 grid-1-tablet gap-7">
 	            	<div class="card story">
                         <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-1.jpg);"></div></a>
                         <div class="details">
@@ -217,7 +217,7 @@
         <div class="wrapper column gap-10">
             <div class="flex justify-between">
                 <div class="display-lg">Artikel Terbaru</div>
-                <a href="#" class="button">
+                <a href="#" class="button hide-mobile">
                     Lihat Artikel Lainnya
                 </a>
             </div>
@@ -378,6 +378,9 @@
                     </div>
                 </div>
             </div>
+            <a href="#" class="button full hide-desktop hide-tablet">
+                Lihat Artikel Lainnya
+            </a>
         </div>
     </section>
 </main>

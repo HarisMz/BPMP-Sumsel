@@ -88,34 +88,42 @@
         </div>
         <div class="list surface" id="menu-2">
             <div class="display-lg">
-                Program dan Kegiatan 
+                Program dan Kegiatan
             </div>
             <ul class="grid grid-3 gap-7">
                 <li class="list-item" data-icon="account_circle">
                     <a href="#" class="label">
-                        Pemenuhan dan Perbaikan Sarana dan Prasarana
+                        Revitalisasi Sekolah
                         <span class="helper">
                             Lorem ipsum dolor sit amet consectetur.
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="support_agent">
+                <li class="list-item" data-icon="account_circle">
                     <a href="#" class="label">
-                        Peningkatan Kualifikasi, Kompentensi, dan Kesejahteraan Guru
+                        Digitalisasi Pembelajaran
                         <span class="helper">
                             Lorem ipsum dolor sit amet consectetur.
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="visibility">
+                <li class="list-item" data-icon="account_circle">
                     <a href="#" class="label">
-                        Pembangunan Bahasa dan Sastra
+                        Sistem Penerimaan Murid Baru
                         <span class="helper">
                             Lorem ipsum dolor sit amet consectetur.
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="assessment">
+                <li class="list-item" data-icon="account_circle">
+                    <a href="#" class="label">
+                        Wajib Belajar 13 Tahun
+                        <span class="helper">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </span>
+                    </a>
+                </li>
+                <li class="list-item" data-icon="account_circle">
                     <a href="#" class="label">
                         Penguatan Pendidikan Karakter
                         <span class="helper">
@@ -123,17 +131,25 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="gavel">
+                <li class="list-item" data-icon="account_circle">
                     <a href="#" class="label">
-                        Wajib Belajar 13 Tahun dan Pemerataan Kesempatan Pendidikan
+                        Makan Bergizi Gratis
                         <span class="helper">
                             Lorem ipsum dolor sit amet consectetur.
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="business">
+                <li class="list-item" data-icon="account_circle">
                     <a href="#" class="label">
-                        Peningkatan Pendidikan Unggul, Literasim Numerasi, dan Sains
+                        Pembelajaran dan Penilaian
+                        <span class="helper">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </span>
+                    </a>
+                </li>
+                <li class="list-item" data-icon="account_circle">
+                    <a href="#" class="label">
+                        Penjaminan Mutu Pendidikan
                         <span class="helper">
                             Lorem ipsum dolor sit amet consectetur.
                         </span>

@@ -141,10 +141,10 @@
                         </a>
                     </div>
                 </div>
-                <div class="content items-center surface-subdued py-12">
+                <div class="content items-center surface-subdued px-7-tablet py-12">
                     <div class="item" id="tab-content-1" style="max-width: 1200px;">
                         <div class="flex justify-between">
-                            <div class="display-lg">Semua Artikel</div>
+                            <div class="display-lg">Semua Berita</div>
                             <div class="flex gap-6 items-center">
                                 <div class="body-sm bold">URUTKAN</div>
                                 <div class="select adjust small">
@@ -161,7 +161,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="grid grid-3 gap-7 py-10">
+                        <div class="grid grid-3 grid-2-tablet gap-7 py-10">
                             <div class="card story">
                                 <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
@@ -467,22 +467,21 @@
                             <div class="display-lg">Berita Terbaru</div>
                             <div class="flex gap-6 items-center">
                                 <div class="body-sm bold">URUTKAN</div>
-                                <div class="select small">
-                                    <select name id>
-                                        <option value disabled selected>
-                                            Urutkan Berdasarkan
-                                        </option>
-                                        <option value="Terbaru">
+                                <div class="select adjust small">
+                                    <div class="selector">
+                                    </div>
+                                    <div class="options">
+                                        <div class="option selected" value="Terbaru">
                                             Terbaru
-                                        </option>
-                                        <option value="Terlama">
+                                        </div>
+                                        <div class="option" value="Terlama">
                                             Terlama
-                                        </option>
-                                    </select>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="grid grid-3 gap-7 py-10">
+                        <div class="grid grid-3 grid-2-tablet gap-7 py-10">
                             <div class="card story">
                                 <a href="#">
                                     <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis.png);">
@@ -858,21 +857,23 @@
                     <div class="item" id="tab-content-3" style="max-width: 1200px;">
                         <div class="flex justify-between">
                             <div class="display-lg">Berita Terbaru</div>
-                            <div class="select small">
-                                <div class="selector action">
-                                    Urutkan Berdasarkan
-                                </div>
-                                <div class="options">
-                                    <div class="option" value="Terbaru">
-                                        Terbaru
+                            <div class="flex gap-6 items-center">
+                                <div class="body-sm bold">URUTKAN</div>
+                                <div class="select adjust small">
+                                    <div class="selector">
                                     </div>
-                                    <div class="option" value="Terlama">
-                                        Terlama
+                                    <div class="options">
+                                        <div class="option selected" value="Terbaru">
+                                            Terbaru
+                                        </div>
+                                        <div class="option" value="Terlama">
+                                            Terlama
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="grid grid-3 gap-7 py-10">
+                        <div class="grid grid-3 grid-2-tablet gap-7 py-10">
                             <div class="card story">
                                 <a href="#">
                                     <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis.png);">
@@ -1248,24 +1249,23 @@
                     <div class="item" id="tab-content-4" style="max-width: 1200px;">
                         <div class="flex justify-between">
                             <div class="display-lg">Berita Terbaru</div>
-                            <div class="flex gap-6 items-center" style="max-width: 270px;">
+                            <div class="flex gap-6 items-center">
                                 <div class="body-sm bold">URUTKAN</div>
-                                <div class="select small">
-                                    <select name id>
-                                        <option value disabled selected>
+                                <div class="select adjust small">
+                                    <div class="selector">
+                                    </div>
+                                    <div class="options">
+                                        <div class="option selected" value="Terbaru">
                                             Terbaru
-                                        </option>
-                                        <option value="A ~ Z">
-                                            A ~ Z
-                                        </option>
-                                        <option value="Z ~ A">
-                                            Z ~ A
-                                        </option>
-                                    </select>
+                                        </div>
+                                        <div class="option" value="Terlama">
+                                            Terlama
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="grid grid-3 gap-7 py-10">
+                        <div class="grid grid-3 grid-2-tablet gap-7 py-10">
                             <div class="card story">
                                 <a href="#">
                                     <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis.png);">
@@ -1641,24 +1641,23 @@
                     <div class="item" id="tab-content-5" style="max-width: 1200px;">
                         <div class="flex justify-between">
                             <div class="display-lg">Berita Terbaru</div>
-                            <div class="flex gap-6 items-center" style="max-width: 270px;">
+                            <div class="flex gap-6 items-center">
                                 <div class="body-sm bold">URUTKAN</div>
-                                <div class="select small">
-                                    <select name id>
-                                        <option value disabled selected>
+                                <div class="select adjust small">
+                                    <div class="selector">
+                                    </div>
+                                    <div class="options">
+                                        <div class="option selected" value="Terbaru">
                                             Terbaru
-                                        </option>
-                                        <option value="A ~ Z">
-                                            A ~ Z
-                                        </option>
-                                        <option value="Z ~ A">
-                                            Z ~ A
-                                        </option>
-                                    </select>
+                                        </div>
+                                        <div class="option" value="Terlama">
+                                            Terlama
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="grid grid-3 gap-7 py-10">
+                        <div class="grid grid-3 grid-2-tablet gap-7 py-10">
                             <div class="card story">
                                 <a href="#">
                                     <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis.png);">

@@ -135,7 +135,8 @@
                                 <div class="details">
                                     <div class="summary gap-5">
                                         <div class="flex justify-start items-start">
-                                            <img src="/assets/images/tanda-kutip.png" alt="Icon Tanda Kutip" style="height:20px;"></div>
+                                            <img src="/assets/images/tanda-kutip.png" alt="Icon Tanda Kutip" style="height:20px;">
+                                        </div>
                                         <div class="title body-lg">
                                             Pengalaman saya dengan BPMP Sumatera Selatan sangat baik. Stafnya membantu dan membimbing saya dengan baik. Saya merasa dihargai. Terima kasih atas pelayanannya!
                                         </div>

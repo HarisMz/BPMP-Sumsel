@@ -68,34 +68,34 @@
                 <div>
                     <img src="/assets/images/wong-kito-1.png" alt="Thumbnail Artikel Wong Kito" style="width: 640px; border-radius: 8px;">
                 </div>
-                <div style="line-height: 24px !important;">
-                    <p class="body">
+                <div class="detail body">
+                    <p>
                         Indralaya, Sumatera Selatan - Dalam rangka mendukung Pemerintah Daerah dalam mempersiapkan Sistem Penerimaan Murid Baru (SPMB)
                         yang adil dan merata, Balai Penjaminan Mutu Pendidikan (BPMP) Provinsi Sumatera Selatan melaksanakan kegiatan Sistem Penerimaan
                         Murid Baru (SPMB) dalam rangka Persiapan Hasil Perhitungan Daya Tampung dan Penetapan Wilayah Provinsi Sumatera Selatan Tahun 2025.
                         Kegiatan ini bertujuan untuk membantu Pemerintah Daerah dalam mengidentifikasi serta menginventarisasi progres penyusunan perencanaan,
                         pelaksanaan, permasalahan/kendala, serta solusi dalam upaya optimalisasi SPMB.
-                    </p><br>
-                    <p class="body">
+                    </p>
+                    <p>
                         Kegiatan ini secara resmi dibuka oleh Kepala BPMP Provinsi Sumatera Selatan, Aria Ahmad Mangunwibawa, S.Psi., M.Si dan dihadiri oleh
                         54 peserta yang terdiri dari Penanggung Jawab/PIC SPMB dan Admin Dapodik Dinas Pendidikan Provinsi/Kabupaten/Kota se Sumatera Selatan.
-                    </p><br>
-                    <p class="body">
+                    </p>
+                    <p>
                         Pada sambutan dan arahannya, Aria Ahmad Mangunwibawa menyampaikan pentingnya pemahaman terhadap regulasi terbaru SPMB yaitu Permendikdasmen
                         Nomor 3 Tahun 2025 yang didasarkan adanya beragam masukan dan dinamika serta tantangan dalam penerimaan murid baru. Melalui regulasi ini
                         diharapkan proses penerimaan murid baru dapat berjalan lebih transparan, adil, dan berkualitas sehingga setiap anak Indonesia mendapatkan
                         hak pendidikan yang setara.
-                    </p><br>
-                    <p class="body">Selanjutnya, terkait perencanaan penerimaan murid baru sebagaimana diatur dalam Pasal 24 meliputi:</p>
-                    <ol class="ml-7 pt-3">
+                    </p>
+                    <p>Selanjutnya, terkait perencanaan penerimaan murid baru sebagaimana diatur dalam Pasal 24 meliputi:</p>
+                    <ol>
                         <li>Penetapan wilayah penerimaan Murid baru;</li>
                         <li>Penentuan persentase daya tampung setiap jalur penerimaan Murid baru;</li>
                         <li>Penyusunan petunjuk teknis penerimaan Murid baru oleh Pemerintah Daerah;</li>
                         <li>Pembentukan panitia penerimaan Murid baru;</li>
                         <li>Penyediaan aplikasi penerimaan Murid baru secara daring; dan</li>
                         <li>Sosialisasi pelaksanaan penerimaan Murid baru.</li>
-                    </ol><br>
-                    <p class="body">
+                    </ol>
+                    <p>
                         Melalui kegiatan persiapan ini, diharapkan seluruh pihak yang terlibat dalam SPMB dapat lebih siap dalam mengimplementasikan Sistem Penerimaan Baru.
                         BPMP Provinsi Sumatera Selatan berkomitmen untuk terus mendukung Pemerintah Daerah dalam meningkatkan kualitas pendidikan serta menjamin akses pendidikan
                         yang lebih inklusif dan berkeadilan bagi seluruh anak di Sumatera Selatan.

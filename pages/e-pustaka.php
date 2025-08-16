@@ -229,7 +229,7 @@
                 <span class="display-md">Pranala Luar</span>
                 <div class="grid grid-3 gap-5">
                     <div class="flex gap-3 items-center">
-                        <a href="#" class="link secondary">Sisitem Informasi Kurikulum Nasional</a>
+                        <a href="#" class="link secondary">Sistem Informasi Kurikulum Nasional</a>
                         <img src="/assets/images/open_in_new.svg" alt="Open" style="height: 16px; width: 16px;">
                     </div>
                     <div class="flex gap-3 items-center">
