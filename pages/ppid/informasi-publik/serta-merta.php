@@ -39,9 +39,9 @@
             <div class="display-lg text-inverse">Informasi Serta Merta</div>
         </div>
     </section>
-    <section class="container">
-        <div class="wrapper">
-            <div class="tabs no-update vertical">
+    <section class="container py-10 surface-subdued">
+        <div class="wrapper surface-default rounded-16">
+            <div class="tabs no-update vertical p-9 p-0-tablet">
                 <div class="menu">
                     <a href="#" class="item" id="tab-menu-1">
                         Profil BPMP Provinsi Sumsel

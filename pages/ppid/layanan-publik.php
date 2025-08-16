@@ -37,7 +37,7 @@
     <section class="container">
         <div class="wrapper">
             <div class="flex column gap-13">
-                <div class="grid grid-2 gap-12">
+                <div class="grid grid-2 grid-1-tablet gap-12">
                     <div class="flex column gap-7">
                         <span class="display-lg">Permohonan Informasi Publik</span>
                         <span class="body">Di tengah hiruk-pikuk kehidupan modern, masyarakat perlu memiliki saluran untuk mendapatkan berita yang penting. Dengan adanya aplikasi canggih, semua orang bisa dengan cepat mengakses informasi yang mereka butuhkan, mulai dari berita terkini hingga acara komunitas. Mari kita dorong keterlibatan dalam menjaga kejelasan informasi demi terciptanya masyarakat yang lebih terbuka.</span>
@@ -69,7 +69,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="grid grid-2 gap-12">
+                <div class="grid grid-2 grid-1-tablet gap-12">
                     <div class="flex column gap-7">
                         <span class="display-lg">Pengajuan Keberatan</span>
                         <span class="body">Di zaman digital saat ini, pentingnya akses terhadap informasi publik tidak bisa diabaikan. Setiap orang berhak untuk mengetahui aktivitas lembaga-lembaga pemerintah. Dengan memanfaatkan inovasi teknologi, kita dapat dengan mudah mendapatkan data yang tepat dan dapat dipercaya, sehingga meningkatkan akuntabilitas dan keterbukaan dalam pengelolaan sumber daya.</span>

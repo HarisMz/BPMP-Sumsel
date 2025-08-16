@@ -36,7 +36,7 @@
     </section>
     <section class="container surface-subdued py-10">
         <div class="wrapper">
-            <div class="flex p-9 gap-12 surface-default rounded-16">
+            <div class="flex column-tablet p-9 gap-12 surface-default rounded-16">
                 <div class="flex column gap-7">
                     <p class="body">
                         Sebagai wujud komitmen terhadap keterbukaan informasi publik, pelaksanaan tugas dan layanan Pejabat Pengelola Informasi dan Dokumentasi (PPID) di lingkungan 

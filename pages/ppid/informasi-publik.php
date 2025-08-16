@@ -37,11 +37,11 @@
     <section class="container surface-subdued">
         <div class="wrapper">
             <div class="flex column gap-13">
-                <div class="grid grid-2 gap-12">
+                <div class="grid grid-2 grid-1-tablet gap-12">
                     <span class="headline-xs">Dapatkan Akses Menuju Informasi Publik BPMP Provinsi Sumatera Selatan</span>
                     <span class="body">Pejabat Pengelola Informasi dan Dokumentasi (PPID) hadir sebagai jembatan antara lembaga dan masyarakat dalam mewujudkan keterbukaan informasi. informasi publik mencakup data, kegiatan, kinerja, hingga laporan keuangan yang dihasilkan dan dikelola oleh badan publik. Dengan memahami informasi ini, Anda turut serta dalam memastikan transparansi dan akuntabilitas lembaga. Manfaatkan hak Anda untuk memperoleh informasi yang terbuka, terpercaya, dan mudah diakses.</span>
                 </div>
-                <div class="grid grid-2 gap-7">
+                <div class="grid grid-2 grid-1-mobile gap-7">
                     <div class="flex column justify-between gap-4 p-7 surface-default rounded-8">
                         <div class="flex gap-5 items-center">
                             <div class="flex justify-center items-center surface-red-50 rounded-8 shrink-0" style="height: 60px; width: 60px;">
