@@ -36,15 +36,15 @@
     </section>
     <section class="container pt-0 surface-subdued" style="overflow: visible;">
         <div class="wrapper column gap-10">
-            <div class="grid grid-2 py-11 px-12 rounded-24" style="position: relative; overflow: hidden; background-image: url('/assets/images/ppid-hero.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; transform: translateY(-250px); margin-bottom: -250px;">
+            <div class="grid grid-2 grid-1-tablet py-11 px-12 p-10-mobile rounded-24" style="position: relative; overflow: hidden; background-image: url('/assets/images/ppid-hero.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; transform: translateY(-250px); margin-bottom: -250px;">
                 <div style="position: absolute; height: 100%; width: 100%; top: 0; left: 0; background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(38, 38, 38, 0.3) 60.47%), linear-gradient(252.22deg, rgba(255, 255, 255, 0) -2.74%, rgba(38, 38, 38, 0.4) 70.42%); background-blend-mode: multiply; z-index: -1;"></div>
                 <div class="flex column gap-7 text-balance text-inverse">
                     <span class="headline-xs">PPID BPMP Provinsi Sumatera Selatan</span>
                     <span class="body">Akses informasi publik secara cepat, mudah, dan transparan sesuai amanat Undang-Undang No. 14 Tahun 2008 tentang Keterbukaan Informasi Publik. BPMP Sumatera Selatan berkomitmen menyajikan layanan informasi yang akuntabel bagi seluruh masyarakat.</span>
-                    <a href="#" class="button large">Ajukan Permohonan Informasi</a>
+                    <a href="#" class="button large body-mobile">Ajukan Permohonan Informasi</a>
                 </div>
             </div>
-            <div class="tabs no-update vertical p-9 surface-default rounded-16">
+            <div class="tabs no-update vertical p-9 p-0-tablet surface-default rounded-16">
                 <div class="menu">
                     <a href="#" class="item action" id="tab-menu-1">
                         Tugas dan Fungsi
@@ -63,7 +63,7 @@
                             <div class="flex column gap-7">
                                 <span class="body">PPID BPMP Sumatera Selatan berkomitmen untuk keterbukaan informasi yang mudah diakses. Dengan pengelolaan sistematis, prosedur jelas, dan evaluasi, PPID menciptakan layanan informasi yang transparan dan terpercaya.</span>
                                 <span class="body">Adapun fungsi PPID BPMP Provinsi Sumatera Selatan adalah sebagai berikut.</span>
-                                <div class="grid grid-2 p-5 gap-5 surface-subdued rounded-16">
+                                <div class="grid grid-2 grid-1-mobile p-5 gap-5 surface-subdued rounded-16">
                                     <div class="flex column p-8 gap-4 surface-default rounded-8">
                                         <div class="flex gap-5 items-center">
                                             <div class="flex justify-center items-center surface-blue-60 rounded-4 shrink-0" style="height: 48px; width: 48px;">
@@ -180,11 +180,8 @@
                         </div>
                     </div>
                     <div class="item" id="tab-content-3">
-                        <div class="flex column gap-11 justify-center text-center text-balance">
-                            <div class="display-md">Struktur Organisasi Penanggungjawab dan Pengelola Informasi Publik BPMP Provinsi Sumatera Selatan</div>
-                            <div>
-                                <img src="/assets/images/struktur-ppid.png" alt="Struktur Tim PPID" style="margin-bottom: -64px;">
-                            </div>
+                        <div>
+                            <img src="/assets/images/struktur-ppid-2.png" alt="Struktur Tim PPID" style="margin-bottom: -64px; margin-left: -41px;">
                         </div>
                     </div>
                 </div>

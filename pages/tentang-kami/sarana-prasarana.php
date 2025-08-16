@@ -139,15 +139,15 @@
             <div class="grid grid-2 grid-1-mobile gap-11">
                 <div class="flex column gap-7">
                     <span class="headline-xs">Asrama</span>
-                    <span class="body">Tersedia 24 ruang asrama di BPMP Provinsi Sumatera Selatan untuk mendukung kebutuhan akomodasi peserta kegiatan dan pelatihan.</span>
+                    <span class="body">Tersedia 70 ruang asrama di BPMP Provinsi Sumatera Selatan untuk mendukung kebutuhan akomodasi peserta kegiatan dan pelatihan.</span>
                 </div>
                 <div class="grid grid-2 gap-9">
                     <div class="flex column items-center gap-3">
-                        <span class="headline-sm">12</span>
+                        <span class="headline-sm">4</span>
                         <span class="heading-lg">Ruang VIP</span>
                     </div>
                     <div class="flex column items-center gap-3">
-                        <span class="headline-sm">8</span>
+                        <span class="headline-sm">66</span>
                         <span class="heading-lg">Ruang Reguler</span>
                     </div>
                 </div>

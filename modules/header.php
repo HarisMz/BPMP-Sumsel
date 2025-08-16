@@ -92,7 +92,7 @@
             </div>
             <ul class="grid grid-3 gap-7">
                 <li class="list-item" data-icon="account_circle">
-                    <a href="#" class="label">
+                    <a href="/program/revitalisasi-sekolah" class="label">
                         Revitalisasi Sekolah
                         <span class="helper">
                             Lorem ipsum dolor sit amet consectetur.
@@ -100,7 +100,7 @@
                     </a>
                 </li>
                 <li class="list-item" data-icon="account_circle">
-                    <a href="#" class="label">
+                    <a href="/program/digitalisasi-pembelajaran" class="label">
                         Digitalisasi Pembelajaran
                         <span class="helper">
                             Lorem ipsum dolor sit amet consectetur.
@@ -108,7 +108,7 @@
                     </a>
                 </li>
                 <li class="list-item" data-icon="account_circle">
-                    <a href="#" class="label">
+                    <a href="/program/sistem-penerimaan" class="label">
                         Sistem Penerimaan Murid Baru
                         <span class="helper">
                             Lorem ipsum dolor sit amet consectetur.
@@ -116,7 +116,7 @@
                     </a>
                 </li>
                 <li class="list-item" data-icon="account_circle">
-                    <a href="#" class="label">
+                    <a href="/program/wajib-belajar" class="label">
                         Wajib Belajar 13 Tahun
                         <span class="helper">
                             Lorem ipsum dolor sit amet consectetur.
@@ -124,7 +124,7 @@
                     </a>
                 </li>
                 <li class="list-item" data-icon="account_circle">
-                    <a href="#" class="label">
+                    <a href="/program/pendidikan-karakter" class="label">
                         Penguatan Pendidikan Karakter
                         <span class="helper">
                             Lorem ipsum dolor sit amet consectetur.
@@ -132,7 +132,7 @@
                     </a>
                 </li>
                 <li class="list-item" data-icon="account_circle">
-                    <a href="#" class="label">
+                    <a href="/program/makan-bergizi" class="label">
                         Makan Bergizi Gratis
                         <span class="helper">
                             Lorem ipsum dolor sit amet consectetur.
@@ -148,7 +148,7 @@
                     </a>
                 </li>
                 <li class="list-item" data-icon="account_circle">
-                    <a href="#" class="label">
+                    <a href="/program/penjaminan-mutu" class="label">
                         Penjaminan Mutu Pendidikan
                         <span class="helper">
                             Lorem ipsum dolor sit amet consectetur.
