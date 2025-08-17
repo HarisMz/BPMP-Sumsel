@@ -99,23 +99,30 @@ function checkWidth() {
 // Update fungsi checkMobile
 function checkMobile() {
   if (window.matchMedia("(max-width: 1240px)").matches) {
+    // MOBILE MODE
     $(".header .menu").addClass("is-mobile");
 
-    // Cleanup sebelumnya
-    $(".dropdown-wrapper.mobile-dropdown").remove();
-    $(".menu.is-mobile .dropdown").off("click");
-    $(".header .mobile-menu").off("click");
+    // Hanya proses jika belum ada dropdown-wrapper di dalam menu item
+    if ($(".menu.is-mobile .dropdown .dropdown-wrapper").length === 0) {
+      // Pindahkan dropdown content ke masing-masing menu item
+      $(".menu .item.dropdown[data-mega-menu]").each(function () {
+        const menuId = $(this).attr("data-mega-menu");
+        const $list = $(`.dropdown-wrapper .list#${menuId}`).clone();
 
-    $(".menu .item.dropdown[data-mega-menu]").each(function () {
-      const menuId = $(this).attr("data-mega-menu");
-      const $list = $(`.dropdown-wrapper .list#${menuId}`).clone();
+        // Buat wrapper baru untuk mobile
+        const $mobileWrapper = $(
+          '<div class="dropdown-wrapper mobile-dropdown"></div>'
+        );
+        $mobileWrapper.append($list);
 
-      const $mobileWrapper = $(
-        '<div class="dropdown-wrapper mobile-dropdown"></div>'
-      );
-      $mobileWrapper.append($list);
-      $mobileWrapper.insertAfter($(this));
-    });
+        // Masukkan ke dalam menu item
+        // $(this).append($mobileWrapper);
+        $mobileWrapper.insertAfter($(this));
+      });
+
+      // Sembunyikan dropdown-wrapper utama
+      // $(".dropdown-wrapper").hide();
+    }
 
     // Event handler untuk mobile
     $(".menu.is-mobile .dropdown").on("click", function () {
@@ -136,43 +143,55 @@ function checkMobile() {
         isAnimating = false;
       }, 300);
     });
+
+    // $(".menu .dropdown-wrapper .list").hide();
   } else {
     // DESKTOP MODE
     $(".header .menu").removeClass("is-mobile");
 
+    // Kembalikan dropdown content ke tempat asalnya jika ada yang dipindahkan
     if ($(".mobile-dropdown").length) {
       $(".mobile-dropdown").remove();
       $(".dropdown-wrapper").show();
       $(".dropdown-wrapper .list").hide();
     }
 
+    // Hover behavior for desktop
     $(".header .menu .item.dropdown").on("mouseenter", function () {
       const menuId = $(this).attr("data-mega-menu");
       $(this).closest(".header").find(".dropdown-wrapper .list").hide();
+      $(this).addClass("highlight");
+      $(this).addClass("opened");
       $(this)
-        .closest(".header")
-        .find(".dropdown-wrapper")
-        .css("display", "flex")
-        .show();
+      .closest(".header")
+      .find(".dropdown-wrapper").addClass("active");
       $(this)
         .closest(".header")
         .find(`.dropdown-wrapper #${menuId}`)
-        .css("display", "flex")
-        .show();
+        .stop(true, true)
+        .slideDown(200)
+        .css("display", "flex");
     });
 
     $(".header .menu .item").on("mouseleave", function (e) {
+      const menuId = $(this).attr("data-mega-menu");
       if ($(e.relatedTarget).closest(".dropdown-wrapper").length === 0) {
-        $(this).closest(".header").find(".dropdown-wrapper").hide();
-        $(this).closest(".header").find(".dropdown-wrapper .list").hide();
+        $(this).closest(".header").find(".dropdown-wrapper").delay(200).removeClass("active");
+        // $(this).closest(".header").find(".dropdown-wrapper .list").hide();
+        $(this).closest(".header").find(`.dropdown-wrapper #${menuId}`).stop(true, true).slideUp(200);
+        $(this).removeClass("highlight");
+        $(this).removeClass("opened");
       }
     });
-
+    
     $(".dropdown-wrapper").on("mouseleave", function (e) {
       if ($(e.relatedTarget).closest(".item.dropdown").length === 0) {
-        $(this).closest(".header").find(".dropdown-wrapper").hide();
-        $(this).closest(".header").find(".dropdown-wrapper .list").hide();
+        $(this).closest(".header").find(".dropdown-wrapper").delay(200).removeClass("active");
+        // $(this).closest(".header").find(".dropdown-wrapper .list").hide();
+        $(this).closest(".header").find(".dropdown-wrapper .list").stop(true, true).slideUp(200);
       }
+      $(`.mega-menu .item.dropdown`).removeClass("highlight");
+      $(`.mega-menu .item.dropdown`).removeClass("opened");
     });
 
     // Cleanup mobile events

@@ -290,7 +290,8 @@
 .header.is-sticky .menu .item.dropdown:hover:after {
   color: var(--action-default);
 }
-.header .menu .item:hover {
+.header .menu .item:hover,
+.header .menu .item.highlight {
   border-bottom: 4px solid var(--action-default);
 }
 
@@ -349,7 +350,7 @@ footer .judul {
 }
 
 /* Ganti semua rule .dropdown-wrapper yang ada dengan ini */
-.header.mega-menu .dropdown-wrapper {
+.header.mega-menu .dropdown-wrapper.active {
   border-top: 1px solid var(--border-disabled);
   width: 100%;
 }
@@ -361,6 +362,7 @@ footer .judul {
   max-width: 1215px;
   width: 100%;
   gap: var(--unit-8);
+  transition: none !important;
 }
 .header.mega-menu .dropdown-wrapper .list a {
   line-height: var(--line-height-heading-sm);
