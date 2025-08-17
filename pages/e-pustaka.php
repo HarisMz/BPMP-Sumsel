@@ -36,7 +36,7 @@
 	                <h1 class="display-md full-mobile">Dokumen Populer</h1>
 	                <a href="/e-pustaka/semua-dokumen" class="button hide-mobile">Lihat Semua Dokumen</a>
 	            </div>
-	            <div class="grid grid-4 grid-1-mobile gap-12">
+	            <div class="grid grid-4 grid-2-tablet grid-1-mobile gap-12">
 	            	<a href="/e-pustaka/dokumen-detail" class="dokumen">
                         <div style="height:365px">
                             <img class="rounded-8" src="/assets/images/pustaka-1.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
@@ -133,11 +133,9 @@
                             </div>
                         </div>
                     </a>
-                    <div class="flex row justify-center items-center text-center gap-9 full hide-desktop hide-tablet">
-                        <a href="/e-pustaka/semua-dokumen" class="button">
-                            Lihat Dokumen Lainnya
-                        </a>
-                    </div>
+                    <a href="/e-pustaka/semua-dokumen" class="button full-mobile hide-desktop hide-tablet">
+                        Lihat Dokumen Lainnya
+                    </a>
 	            </div>
 	        </div>
         </div>
@@ -146,7 +144,7 @@
         <div class="wrapper">
             <div class="flex column gap-10">
                 <div class="display-md">Kategori Dokumen</div>
-                <div class="grid grid-3 gap-7">
+                <div class="grid grid-3 grid-2-tablet grid-1-mobile gap-7">
                     <div class="flex column justify-between gap-4 p-9 surface-default rounded-8">
                         <div class="flex gap-5 items-center">
                             <div class="flex justify-center items-center surface-red-50 rounded-8 shrink-0" style="height: 60px; width: 60px;">
@@ -227,7 +225,7 @@
         <div class="wrapper">
             <div class="flex column gap-10">
                 <span class="display-md">Pranala Luar</span>
-                <div class="grid grid-3 gap-5">
+                <div class="grid grid-3 grid-2-tablet grid-1-mobile gap-5">
                     <div class="flex gap-3 items-center">
                         <a href="#" class="link secondary">Sistem Informasi Kurikulum Nasional</a>
                         <img src="/assets/images/open_in_new.svg" alt="Open" style="height: 16px; width: 16px;">

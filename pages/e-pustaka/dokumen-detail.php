@@ -36,7 +36,7 @@
     <section class="container surface-subdued py-12">
         <div class="wrapper">
             <div class="dokumen-detail">
-                <div class="flex p-11 gap-11 surface-default rounded-16">
+                <div class="flex column-tablet items-center-tablet p-11 p-7-mobile gap-11 surface-default rounded-16">
                     <div>
                         <img class="rounded-8 shrink-0" src="/assets/images/pustaka-1.png" alt="Buku Pustaka" style="width: 320px; object-fit:cover;">
                     </div>
@@ -130,7 +130,7 @@
 	                <h1 class="display-md full-mobile">Dokumen Terkait</h1>
 	                <a href="/e-pustaka/semua-dokumen" class="button hide-mobile">Lihat Semua Dokumen</a>
 	            </div>
-	            <div class="grid grid-4 grid-1-mobile gap-12">
+	            <div class="grid grid-4 grid-2-tablet grid-1-mobile gap-12">
 	            	<a href="/e-pustaka/dokumen-detail" class="dokumen">
                         <div style="height:365px">
                             <img class="rounded-8" src="/assets/images/pustaka-1.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
@@ -227,11 +227,9 @@
                             </div>
                         </div>
                     </a>
-                    <div class="flex row justify-center items-center text-center gap-9 full hide-desktop hide-tablet">
-                        <a href="/e-pustaka/semua-dokumen" class="button">
-                            Lihat Dokumen Lainnya
-                        </a>
-                    </div>
+                    <a href="/e-pustaka/semua-dokumen" class="button full-mobile hide-desktop hide-tablet">
+                        Lihat Dokumen Lainnya
+                    </a>
 	            </div>
 	        </div>
         </div>

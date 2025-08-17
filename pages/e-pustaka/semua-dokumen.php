@@ -40,8 +40,8 @@
                     <span class="display-lg">Semua Dokumen</span>
                     <span class="body">Beragam dokumen pendidikan untuk mendukung implementasi kebijakan dan peningkatan mutu layanan.</span>
                 </div>
-                <div class="flex gap-12">
-                    <div class="flex column gap-10 shrink-0" style="width: 256px;">
+                <div class="flex column-tablet gap-12">
+                    <div class="flex column gap-10 shrink-0 full-tablet" style="width: 256px;">
                         <span class="heading-lg">Filter</span>
                         <div class="flex column gap-7">
                             <div class="collapsible card mt-0">
@@ -350,7 +350,7 @@
                                 <div class="separator-0 vertical border-color-subdued"></div>
                             </div>
                         </div> -->
-                        <div class="grid grid-3 gap-12">
+                        <div class="grid grid-3 grid-2-tablet grid-1-mobile gap-12">
                             <a href="/e-pustaka/dokumen-detail" class="dokumen">
                                 <div style="height:365px">
                                     <img class="rounded-8" src="/assets/images/pustaka-1.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
