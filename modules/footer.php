@@ -7,7 +7,7 @@
                         <a href="/" class="logo"></a>
                         <div class="flex column gap-2">
                             <div class="text-balance mb-3">
-                                Jl. Lintas Sumatra No.KM.36, Indralaya Mulia, Kec. Indralaya, Kabupaten Ogan Ilir, Sumatera Selatan 30662
+                                Jl. Raya Lintas Timur KM 36, Indralaya Mulya, Kec. Indralaya, Kab. Ogan Ilir, Sumatera Selatan 30662
                             </div>
                             <div class="flex gap-3">
                                 <img src="/assets/images/mail.svg" alt="Mail Adress" style="height: 20px;">

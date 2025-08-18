@@ -105,13 +105,13 @@
                 </div>
             </div>
             <div class="flex column gap-7 sticky">
-                <div class="display-md">Berita terkait</div>
-                <div class="card digest" style="height: 128px;">
+                <div class="display-sm">Berita terkait</div>
+                <div class="card digest border-subdued" style="height: 128px;">
                     <a href="#" class="ratio-1-1">
                         <div class="featured-image" style="background-image: url(/assets/images/berita-1.jpg);">
                         </div>
                     </a>
-                    <div class="details justify-center py-4 px-7">
+                    <div class="details justify-center py-4 px-5">
                         <div class="summary">
                             <a href="#">
                                 <div class="heading-sm line-clamp-3">
@@ -137,12 +137,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="card digest" style="height: 128px;">
+                <div class="card digest border-subdued" style="height: 128px;">
                     <a href="#" class="ratio-1-1">
                         <div class="featured-image" style="background-image: url(/assets/images/berita-1.jpg);">
                         </div>
                     </a>
-                    <div class="details justify-center py-4 px-7">
+                    <div class="details justify-center py-4 px-5">
                         <div class="summary">
                             <a href="#">
                                 <div class="heading-sm line-clamp-3">
@@ -168,12 +168,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="card digest" style="height: 128px;">
+                <div class="card digest border-subdued" style="height: 128px;">
                     <a href="#" class="ratio-1-1">
                         <div class="featured-image" style="background-image: url(/assets/images/berita-1.jpg);">
                         </div>
                     </a>
-                    <div class="details justify-center py-4 px-7">
+                    <div class="details justify-center py-4 px-5">
                         <div class="summary">
                             <a href="#">
                                 <div class="heading-sm line-clamp-3">
@@ -199,12 +199,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="card digest" style="height: 128px;">
+                <div class="card digest border-subdued" style="height: 128px;">
                     <a href="#" class="ratio-1-1">
                         <div class="featured-image" style="background-image: url(/assets/images/berita-1.jpg);">
                         </div>
                     </a>
-                    <div class="details justify-center py-4 px-7">
+                    <div class="details justify-center py-4 px-5">
                         <div class="summary">
                             <a href="#">
                                 <div class="heading-sm line-clamp-3">
@@ -230,12 +230,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="card digest" style="height: 128px;">
+                <div class="card digest border-subdued" style="height: 128px;">
                     <a href="#" class="ratio-1-1">
                         <div class="featured-image" style="background-image: url(/assets/images/berita-1.jpg);">
                         </div>
                     </a>
-                    <div class="details justify-center py-4 px-7">
+                    <div class="details justify-center py-4 px-5">
                         <div class="summary">
                             <a href="#">
                                 <div class="heading-sm line-clamp-3">
@@ -276,6 +276,9 @@
                         <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-1.jpg);"></div></a>
                         <div class="details">
                             <div class="summary">
+                                <a href="#" class="chip small selected">
+                                    Webinar
+                                </a>
                                 <a href="#"><div class="title line-clamp-3">
                                     Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
                                 </div></a>
@@ -298,9 +301,6 @@
                                         </span>
                                     </div>
                                 </div>
-                                <a href="#" class="chip small selected">
-                                    Webinar
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -308,6 +308,9 @@
                         <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-2.jpg);"></div></a>
                         <div class="details">
                             <div class="summary">
+                                <a href="#" class="chip small selected">
+                                    Event
+                                </a>
                                 <a href="#"><div class="title line-clamp-3">
                                     Judul Berita Terdiri dari 1 – 3 Baris Tulisan, Jika Lebih Maka Akan Diberikan Tanda Elipsis
                                 </div></a>
@@ -330,9 +333,6 @@
                                         </span>
                                     </div>
                                 </div>
-                                <a href="#" class="chip small selected">
-                                    Event
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -340,6 +340,9 @@
                         <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-3.jpg);"></div></a>
                         <div class="details">
                             <div class="summary">
+                                <a href="#" class="chip small selected">
+                                    Kebijakan
+                                </a>
                                 <a href="#"><div class="title line-clamp-3">
                                     Judul Berita Ini Singkat
                                 </div></a>
@@ -362,9 +365,6 @@
                                         </span>
                                     </div>
                                 </div>
-                                <a href="#" class="chip small selected">
-                                    Kebijakan
-                                </a>
                             </div>
                         </div>
                     </div>

@@ -208,12 +208,12 @@ function initTabs() {
       $clickedItem.addClass("active");
 
       $activeContent.stop(true, true).fadeTo(60, 0, function () {
-        $activeContent.slideUp(120, function () {
+        $activeContent.fadeOut(120, function () {
           $(this).css({ opacity: "0" });
           $targetContent
             .stop(true, true)
             .css({ opacity: "0" })
-            .slideDown(120, function () {
+            .fadeIn(120, function () {
               $(this).fadeTo(60, 1, function () {
                 isAnimating = false;
               });

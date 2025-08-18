@@ -21,7 +21,9 @@
                         <div class="carousel-item darken left flex justify-end pb-12" style="background-image: url('/assets/images/hero-1.png');">
                             <div class="wrapper justify-center items-end">
                                 <div class="flex column width-74 full-mobile">
-                                    <h1 class="display-lg">Mendikdasmen Dorong Seluruh Pemangku Kepentingan Optimalkan Penggunaan Rapor Pendidikan 2025</h1>
+                                    <h1 class="display-lg">
+                                        <a href="#" class="link subtle">Mendikdasmen Dorong Seluruh Pemangku Kepentingan Optimalkan Penggunaan Rapor Pendidikan 2025</a>
+                                    </h1>
                                     <div class="flex gap-4 items-center">
                                         <a href="#" class="chip small selected text-cyan-70">
                                             Kegiatan
@@ -36,7 +38,9 @@
                         <div class="carousel-item darken left flex justify-end pb-12" style="background-image: url('/assets/images/hero-2.png');">
                             <div class="wrapper justify-center items-end">
                                 <div class="flex column width-74 full-mobile">
-                                    <h1 class="display-lg">Sistem Penerimaan Murid Baru (SPMB) dalam rangka Persiapan Hasil Perhitungan Daya Tampung dan Penetapan Wilayah Provinsi Sumatera Selatan Tahun 2025</h1>
+                                    <h1 class="display-lg">
+                                        <a href="#" class="link subtle">Sistem Penerimaan Murid Baru (SPMB) dalam rangka Persiapan Hasil Perhitungan Daya Tampung dan Penetapan Wilayah Provinsi Sumatera Selatan Tahun 2025</a>
+                                    </h1>
                                     <div class="flex gap-4 items-center">
                                         <a href="#" class="chip small selected text-cyan-70">
                                             Kebijakan Pendidikan
@@ -51,7 +55,9 @@
                         <div class="carousel-item darken left flex justify-end pb-12" style="background-image: url('/assets/images/hero-3.png');">
                             <div class="wrapper justify-center items-end">
                                 <div class="flex column width-74 full-mobile">
-                                    <h1 class="display-lg">Kemendikdasmen Pantau Persiapan Pelaksanaan SPMB 2025 di Seluruh Indonesia</h1>
+                                    <h1 class="display-lg">
+                                        <a href="#" class="link subtle">Kemendikdasmen Pantau Persiapan Pelaksanaan SPMB 2025 di Seluruh Indonesia</a>
+                                    </h1>
                                     <div class="flex gap-4 items-center">
                                         <a href="#" class="chip small selected text-cyan-70">
                                             Kabar
@@ -66,7 +72,9 @@
                         <div class="carousel-item darken left flex justify-end pb-12" style="background-image: url('/assets/images/hero-4.png');">
                             <div class="wrapper justify-center items-end">
                                 <div class="flex column width-74 full-mobile">
-                                    <h1 class="display-lg">Kemendikdasmen Gandeng Sektor Swasta Dukung Digitalisasi Pembelajaran di Indonesia</h1>
+                                    <h1 class="display-lg">
+                                        <a href="#" class="link subtle">Kemendikdasmen Gandeng Sektor Swasta Dukung Digitalisasi Pembelajaran di Indonesia</a>
+                                    </h1>
                                     <div class="flex gap-4 items-center">
                                         <a href="#" class="chip small selected text-cyan-70">
                                             Kabar
@@ -81,7 +89,9 @@
                         <div class="carousel-item darken left flex justify-end pb-12" style="background-image: url('/assets/images/hero-5.png');">
                             <div class="wrapper justify-center items-end">
                                 <div class="flex column width-74 full-mobile">
-                                    <h1 class="display-lg">Pemerintah Indonesia dan Mitra Berkolaborasi Tingkatkan Pendidikan Inklusif dan Berkeadilan</h1>
+                                    <h1 class="display-lg">
+                                        <a href="#" class="link subtle">Pemerintah Indonesia dan Mitra Berkolaborasi Tingkatkan Pendidikan Inklusif dan Berkeadilan</a>
+                                    </h1>
                                     <div class="flex gap-4 items-center">
                                         <a href="#" class="chip small selected text-cyan-70">
                                             Kabar
@@ -102,9 +112,9 @@
                 </div>
                 <div class="flex column">
                     <div class="flex column gap-3">
-                        <div class="heading-sm">
-                            Rilis Kebijakan Baru tentang Kurikulum Merdeka
-                        </div>
+                        <h3 class="heading-sm">
+                            <a href="#" class="link subtle inverse">Rilis Kebijakan Baru tentang Kurikulum Merdeka</a>
+                        </h3>
                         <div class="flex gap-4 items-center">
                             <a href="#" class="chip small selected">
                                 Kebijakan
@@ -116,9 +126,9 @@
                     </div>
                     <div class="separator-9 vertical border-color-white"></div>
                     <div class="flex column gap-3">
-                        <div class="heading-sm">
-                            Webinar Nasional: Implementasi Kurikulum Merdeka
-                        </div>
+                        <h3 class="heading-sm">
+                            <a href="#" class="link subtle inverse">Webinar Nasional: Implementasi Kurikulum Merdeka</a>
+                        </h3>
                         <div class="flex gap-4 items-center">
                             <a href="#" class="chip small selected">
                                 Webinar
@@ -130,9 +140,9 @@
                     </div>
                     <div class="separator-9 vertical border-color-white"></div>
                     <div class="flex column gap-3">
-                        <div class="heading-sm">
-                            Workshop Peningkatan Kompetensi Guru Vokasi
-                        </div>
+                        <h3 class="heading-sm">
+                            <a href="#" class="link subtle inverse">Workshop Peningkatan Kompetensi Guru Vokasi</a>
+                        </h3>
                         <div class="flex gap-4 items-center">
                             <a href="#" class="chip small selected">
                                 Event
@@ -144,9 +154,9 @@
                     </div>
                     <div class="separator-9 vertical border-color-white"></div>
                     <div class="flex column gap-3">
-                        <div class="heading-sm">
-                            Sosialisasi Program Prioritas Nasional Tahun 2025
-                        </div>
+                        <h3 class="heading-sm">
+                            <a href="#" class="link subtle inverse">Sosialisasi Program Prioritas Nasional Tahun 2025</a>
+                        </h3>
                         <div class="flex gap-4 items-center">
                             <a href="#" class="chip small selected">
                                 Kebijakan
@@ -158,9 +168,9 @@
                     </div>
                     <div class="separator-9 vertical border-color-white"></div>
                     <div class="flex column gap-3">
-                        <div class="heading-sm">
-                            Peluncuran Aplikasi Rumah Pendidikan untuk Guru dan Siswa
-                        </div>
+                        <h3 class="heading-sm">
+                            <a href="#" class="link subtle inverse">Peluncuran Aplikasi Rumah Pendidikan untuk Guru dan Siswa</a>
+                        </h3>
                         <div class="flex gap-4 items-center">
                             <a href="#" class="chip small selected">
                                 Kebijakan
@@ -189,7 +199,7 @@
                         <div class="flex row column-mobile gap-5 p-4 height-100 width-100">
                             <img src="/assets/images/layanan-1.svg" class="height-full">
                             <div class="flex column text-left gap-3">
-                                <h2 class="action bold text-balance">Pendampingan Daring /Luring</h2>
+                                <h2 class="action bold text-balance">Pendampingan Daring/Luring</h2>
                                 <a href="/inovasi-dan-layanan/pendampingan" class="button small" data-icon="visibility" target="_blank">
                                     Lihat Layanan
                                 </a>
@@ -338,7 +348,7 @@
         <div class="wrapper column gap-12" style="max-width: 1240px;">
             <img class="px-6 px-0-mobile" src="/assets/images/banner-ready.png" alt="Arahan Menteri Dikdasmen"">
             <div class="flex column gap-10">
-                <h1 class="display-lg text-center">Apa kata mereka tentang Layanan Kami?</h1>
+                <h1 class="display-lg text-center">Apa kata mereka tentang layanan kami?</h1>
                 <div class="carousel loop arrow arrow-bordered" data-carousel-visible="3" data-carousel-visible-mobile="1" data-sliding-span="1">
                     <div class="carousel-inner">
                         <div class="carousel-item">
@@ -547,13 +557,16 @@
             <div class="flex column justify-center items-center gap-10 gap-6-mobile">
 	            <div class="flex row justify-between items-center text-center gap-9 full">
 	                <h1 class="display-lg full-mobile">Kabar BPMP Provinsi Sumetara Selatan</h1>
-	                <a href="/publikasi/berita" class="link noline hide-mobile"><b>Lihat Kabar Lainnya</b></a>
+	                <a href="/publikasi/berita" class="link subtle hide-mobile"><b>Lihat Kabar Lainnya</b></a>
 	            </div>
 	            <div class="grid grid-3 grid-1-mobile gap-7">
 	            	<div class="card story">
                         <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-1.jpg);"></div></a>
                         <div class="details">
                             <div class="summary">
+                                <a href="#" class="chip small selected">
+                                    Webinar
+                                </a>
                                 <a href="#"><div class="title line-clamp-3">
                                     Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
                                 </div></a>
@@ -576,9 +589,6 @@
                                         </span>
                                     </div>
                                 </div>
-                                <a href="#" class="chip small selected">
-                                    Webinar
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -586,6 +596,9 @@
                         <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-2.jpg);"></div></a>
                         <div class="details">
                             <div class="summary">
+                                <a href="#" class="chip small selected">
+                                    Event
+                                </a>
                                 <a href="#"><div class="title line-clamp-3">
                                     Judul Berita Terdiri dari 1 – 3 Baris Tulisan, Jika Lebih Maka Akan Diberikan Tanda Elipsis
                                 </div></a>
@@ -608,9 +621,6 @@
                                         </span>
                                     </div>
                                 </div>
-                                <a href="#" class="chip small selected">
-                                    Event
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -618,6 +628,9 @@
                         <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-3.jpg);"></div></a>
                         <div class="details">
                             <div class="summary">
+                                <a href="#" class="chip small selected">
+                                    Kebijakan
+                                </a>
                                 <a href="#"><div class="title line-clamp-3">
                                     Judul Berita Ini Singkat
                                 </div></a>
@@ -640,14 +653,11 @@
                                         </span>
                                     </div>
                                 </div>
-                                <a href="#" class="chip small selected">
-                                    Kebijakan
-                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="flex row justify-center items-center text-center gap-9 full hide-desktop hide-tablet">
-                        <a href="/publikasi/berita" class="link noline"><b>Lihat Kabar Lainnya</b></a>
+                        <a href="/publikasi/berita" class="link subtle"><b>Lihat Kabar Lainnya</b></a>
                     </div>
 	            </div>
 	        </div>

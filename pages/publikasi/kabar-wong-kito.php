@@ -127,10 +127,10 @@
                             <div class="card story">
                                 <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
-                                    <span class="badge critical">
-                                        Dinas Pendidikan
-                                    </span>
                                     <div class="summary">
+                                        <span class="badge critical">
+                                            Dinas Pendidikan
+                                        </span>
                                         <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
                                             Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
                                         </div></a>
@@ -159,10 +159,10 @@
                             <div class="card story">
                                 <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-2.jpg);"></div></a>
                                 <div class="details">
-                                    <span class="badge critical">
-                                        Dinas Pendidikan
-                                    </span>
                                     <div class="summary">
+                                        <span class="badge critical">
+                                            Dinas Pendidikan
+                                        </span>
                                         <a href="#"><div class="title line-clamp-3">
                                             Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
                                         </div></a>
@@ -191,10 +191,10 @@
                             <div class="card story">
                                 <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-3.jpg);"></div></a>
                                 <div class="details">
-                                    <span class="badge critical">
-                                        Dinas Pendidikan
-                                    </span>
                                     <div class="summary">
+                                        <span class="badge critical">
+                                            Dinas Pendidikan
+                                        </span>
                                         <a href="#"><div class="title line-clamp-3">
                                             Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
                                         </div></a>
@@ -223,10 +223,10 @@
                             <div class="card story">
                                 <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-2.jpg);"></div></a>
                                 <div class="details">
-                                    <span class="badge critical">
-                                        Dinas Pendidikan
-                                    </span>
                                     <div class="summary">
+                                        <span class="badge critical">
+                                            Dinas Pendidikan
+                                        </span>
                                         <a href="#"><div class="title line-clamp-3">
                                             Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
                                         </div></a>
@@ -255,10 +255,10 @@
                             <div class="card story">
                                 <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-3.jpg);"></div></a>
                                 <div class="details">
-                                    <span class="badge critical">
-                                        Dinas Pendidikan
-                                    </span>
                                     <div class="summary">
+                                        <span class="badge critical">
+                                            Dinas Pendidikan
+                                        </span>
                                         <a href="#"><div class="title line-clamp-3">
                                             Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
                                         </div></a>
@@ -287,10 +287,10 @@
                             <div class="card story">
                                 <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-1.jpg);"></div></a>
                                 <div class="details">
-                                    <span class="badge critical">
-                                        Dinas Pendidikan
-                                    </span>
                                     <div class="summary">
+                                        <span class="badge critical">
+                                            Dinas Pendidikan
+                                        </span>
                                         <a href="#"><div class="title line-clamp-3">
                                             Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
                                         </div></a>
@@ -319,10 +319,10 @@
                             <div class="card story">
                                 <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-3.jpg);"></div></a>
                                 <div class="details">
-                                    <span class="badge critical">
-                                        Dinas Pendidikan
-                                    </span>
                                     <div class="summary">
+                                        <span class="badge critical">
+                                            Dinas Pendidikan
+                                        </span>
                                         <a href="#"><div class="title line-clamp-3">
                                             Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
                                         </div></a>
@@ -351,10 +351,10 @@
                             <div class="card story">
                                 <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-1.jpg);"></div></a>
                                 <div class="details">
-                                    <span class="badge critical">
-                                        Dinas Pendidikan
-                                    </span>
                                     <div class="summary">
+                                        <span class="badge critical">
+                                            Dinas Pendidikan
+                                        </span>
                                         <a href="#"><div class="title line-clamp-3">
                                             Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
                                         </div></a>
@@ -383,10 +383,10 @@
                             <div class="card story">
                                 <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-2.jpg);"></div></a>
                                 <div class="details">
-                                    <span class="badge critical">
-                                        Dinas Pendidikan
-                                    </span>
                                     <div class="summary">
+                                        <span class="badge critical">
+                                            Dinas Pendidikan
+                                        </span>
                                         <a href="#"><div class="title line-clamp-3">
                                             Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
                                         </div></a>

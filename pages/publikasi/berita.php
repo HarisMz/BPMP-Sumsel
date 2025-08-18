@@ -39,9 +39,9 @@
             <div class="flex column rounded-24 height-full">
                 <div class="carousel loop dots autoplay">
                     <div class="carousel-inner">
-                        <div class="carousel-item darken left flex justify-end pb-12" style="background-image: url('/assets/images/hero-1.png');">
+                        <div class="carousel-item darken left flex justify-end pb-10" style="background-image: url('/assets/images/hero-1.png');">
                             <div class="wrapper justify-center items-end">
-                                <div class="flex column gap-7 px-12 full-mobile">
+                                <div class="flex column gap-7 px-8 full-mobile">
                                     <h1 class="display-lg">Mendikdasmen Dorong Seluruh Pemangku Kepentingan Optimalkan Penggunaan Rapor Pendidikan 2025</h1>
                                     <div class="flex gap-4 items-center">
                                         <a href="#" class="chip small selected text-cyan-70">
@@ -54,9 +54,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item darken left flex justify-end pb-12" style="background-image: url('/assets/images/hero-2.png');">
+                        <div class="carousel-item darken left flex justify-end pb-10" style="background-image: url('/assets/images/hero-2.png');">
                             <div class="wrapper justify-center items-end">
-                                <div class="flex column gap-7 px-12 full-mobile">
+                                <div class="flex column gap-7 px-8 full-mobile">
                                     <h1 class="display-lg">Sistem Penerimaan Murid Baru (SPMB) dalam rangka Persiapan Hasil Perhitungan Daya Tampung dan Penetapan Wilayah Provinsi Sumatera Selatan Tahun 2025</h1>
                                     <div class="flex gap-4 items-center">
                                         <a href="#" class="chip small selected text-cyan-70">
@@ -69,9 +69,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item darken left flex justify-end pb-12" style="background-image: url('/assets/images/hero-3.png');">
+                        <div class="carousel-item darken left flex justify-end pb-10" style="background-image: url('/assets/images/hero-3.png');">
                             <div class="wrapper justify-center items-end">
-                                <div class="flex column gap-7 px-12 full-mobile">
+                                <div class="flex column gap-7 px-8 full-mobile">
                                     <h1 class="display-lg">Kemendikdasmen Pantau Persiapan Pelaksanaan SPMB 2025 di Seluruh Indonesia</h1>
                                     <div class="flex gap-4 items-center">
                                         <a href="#" class="chip small selected text-cyan-70">
@@ -84,9 +84,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item darken left flex justify-end pb-12" style="background-image: url('/assets/images/hero-4.png');">
+                        <div class="carousel-item darken left flex justify-end pb-10" style="background-image: url('/assets/images/hero-4.png');">
                             <div class="wrapper justify-center items-end">
-                                <div class="flex column gap-7 px-12 full-mobile">
+                                <div class="flex column gap-7 px-8 full-mobile">
                                     <h1 class="display-lg">Kemendikdasmen Gandeng Sektor Swasta Dukung Digitalisasi Pembelajaran di Indonesia</h1>
                                     <div class="flex gap-4 items-center">
                                         <a href="#" class="chip small selected text-cyan-70">
@@ -99,9 +99,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item darken left flex justify-end pb-12" style="background-image: url('/assets/images/hero-5.png');">
+                        <div class="carousel-item darken left flex justify-end pb-10" style="background-image: url('/assets/images/hero-5.png');">
                             <div class="wrapper justify-center items-end">
-                                <div class="flex column gap-7 px-12 full-mobile">
+                                <div class="flex column gap-7 px-8 full-mobile">
                                     <h1 class="display-lg">Pemerintah Indonesia dan Mitra Berkolaborasi Tingkatkan Pendidikan Inklusif dan Berkeadilan</h1>
                                     <div class="flex gap-4 items-center">
                                         <a href="#" class="chip small selected text-cyan-70">
@@ -165,10 +165,10 @@
                             <div class="card story">
                                 <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
-                                    <a href="#" class="chip small selected">
-                                        Kebijakan Pendidikan
-                                    </a>
                                     <div class="summary">
+                                        <a href="#" class="chip small selected">
+                                            Kebijakan Pendidikan
+                                        </a>
                                         <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
                                             Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
                                         </div></a>
@@ -197,10 +197,10 @@
                             <div class="card story">
                                 <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-2.jpg);"></div></a>
                                 <div class="details">
-                                    <a href="#" class="chip small selected">
-                                        Kebijakan Pendidikan
-                                    </a>
                                     <div class="summary">
+                                        <a href="#" class="chip small selected">
+                                            Kebijakan Pendidikan
+                                        </a>
                                         <a href="#"><div class="title line-clamp-3">
                                             Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
                                         </div></a>
@@ -229,10 +229,10 @@
                             <div class="card story">
                                 <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-3.jpg);"></div></a>
                                 <div class="details">
-                                    <a href="#" class="chip small selected">
-                                        Praktik Baik
-                                    </a>
                                     <div class="summary">
+                                        <a href="#" class="chip small selected">
+                                            Praktik Baik
+                                        </a>
                                         <a href="#"><div class="title line-clamp-3">
                                             Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
                                         </div></a>
@@ -261,10 +261,10 @@
                             <div class="card story">
                                 <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-2.jpg);"></div></a>
                                 <div class="details">
-                                    <a href="#" class="chip small selected">
-                                        Event
-                                    </a>
                                     <div class="summary">
+                                        <a href="#" class="chip small selected">
+                                            Event
+                                        </a>
                                         <a href="#"><div class="title line-clamp-3">
                                             Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
                                         </div></a>
@@ -293,10 +293,10 @@
                             <div class="card story">
                                 <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-3.jpg);"></div></a>
                                 <div class="details">
-                                    <a href="#" class="chip small selected">
-                                        Kebijakan Pendidikan
-                                    </a>
                                     <div class="summary">
+                                        <a href="#" class="chip small selected">
+                                            Kebijakan Pendidikan
+                                        </a>
                                         <a href="#"><div class="title line-clamp-3">
                                             Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
                                         </div></a>
@@ -325,10 +325,10 @@
                             <div class="card story">
                                 <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-1.jpg);"></div></a>
                                 <div class="details">
-                                    <a href="#" class="chip small selected">
-                                        Praktik Baik
-                                    </a>
                                     <div class="summary">
+                                        <a href="#" class="chip small selected">
+                                            Praktik Baik
+                                        </a>
                                         <a href="#"><div class="title line-clamp-3">
                                             Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
                                         </div></a>
@@ -357,10 +357,10 @@
                             <div class="card story">
                                 <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-3.jpg);"></div></a>
                                 <div class="details">
-                                    <a href="#" class="chip small selected">
-                                        Praktik Baik
-                                    </a>
                                     <div class="summary">
+                                        <a href="#" class="chip small selected">
+                                            Praktik Baik
+                                        </a>
                                         <a href="#"><div class="title line-clamp-3">
                                             Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
                                         </div></a>
@@ -389,10 +389,10 @@
                             <div class="card story">
                                 <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-1.jpg);"></div></a>
                                 <div class="details">
-                                    <a href="#" class="chip small selected">
-                                        Event
-                                    </a>
                                     <div class="summary">
+                                        <a href="#" class="chip small selected">
+                                            Event
+                                        </a>
                                         <a href="#"><div class="title line-clamp-3">
                                             Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
                                         </div></a>
@@ -421,10 +421,10 @@
                             <div class="card story">
                                 <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-2.jpg);"></div></a>
                                 <div class="details">
-                                    <a href="#" class="chip small selected">
-                                        Kebijakan Pendidikan
-                                    </a>
                                     <div class="summary">
+                                        <a href="#" class="chip small selected">
+                                            Kebijakan Pendidikan
+                                        </a>
                                         <a href="#"><div class="title line-clamp-3">
                                             Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
                                         </div></a>

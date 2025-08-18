@@ -17,6 +17,7 @@ img {
 
 body {
     -webkit-tap-highlight-color: transparent;
+    /* font-optical-sizing: none; */
 }
 html {
     -webkit-tap-highlight-color: transparent;

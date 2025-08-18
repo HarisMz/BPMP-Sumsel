@@ -127,6 +127,7 @@
 	left: 0;
 	bottom: 0;
 	right: 0;
+	z-index: 10000;
 }
 .banner-buffer .banner:last-of-type {
     margin-bottom: var(--unit-0);

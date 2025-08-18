@@ -45,7 +45,7 @@
                         Berikut ini adalah daftar peraturan yang menjadi rujukan dan landasan hukum dalam pelaksanaan layanan informasi publik di lingkungan BPMP Sumatera Selatan.
                     </p>
                     <div class="flex column">
-                        <div class="collapsible card accordion first-open surface-subdued">
+                        <div class="collapsible card accordion first-open">
                             <div class="collapsible-header">
                                 Undang-Undang Nomor 14 Tahun 2008 tentang Keterbukaan Informasi Publik
                             </div>
@@ -65,7 +65,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="collapsible card accordion surface-subdued">
+                        <div class="collapsible card accordion">
                             <div class="collapsible-header">
                                 Peraturan Pemerintah (PP) Nomor 61 Tahun 2010 tentang Pelaksanaan UU KIP
                             </div>
@@ -85,7 +85,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="collapsible card accordion surface-subdued">
+                        <div class="collapsible card accordion">
                             <div class="collapsible-header">
                                 Peraturan Komisi Informasi (Perki) Nomor 1 Tahun 2010 tentang Standar Layanan Informasi Publik
                             </div>
@@ -105,7 +105,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="collapsible card accordion surface-subdued">
+                        <div class="collapsible card accordion">
                             <div class="collapsible-header">
                                 Peraturan Menteri Hukum dan HAM Nomor 25 Tahun 2023 tentang Pelayanan Publik Berbasis Hak Asasi Manusia
                             </div>
@@ -125,7 +125,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="collapsible card accordion surface-subdued">
+                        <div class="collapsible card accordion">
                             <div class="collapsible-header">
                                 Peraturan Menteri Pendidikan, Kebudayaan, Riset, dan Teknologi Nomor 69 Tahun 2024 tentang Pengelolaan dan Pelayanan Informasi Publik di Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi
                             </div>
@@ -145,7 +145,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="collapsible card accordion surface-subdued">
+                        <div class="collapsible card accordion">
                             <div class="collapsible-header">
                                 Peraturan Menteri Pendidikan, Kebudayaan, Riset, dan Teknologi Nomor 11 Tahun 2022 tentang Organisasi dan Tata Kerja Balai Besar Penjaminan Mutu Pendidikan dan Balai Penjaminan Mutu Pendidikan
                             </div>
@@ -165,7 +165,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="collapsible card accordion surface-subdued">
+                        <div class="collapsible card accordion">
                             <div class="collapsible-header">
                                 Keputusan Kepala Balai Penjaminan Mutu Pendidikan (BPMP) Provinsi Sumatera Selatan Nomor 2207 tentang Penetapan Standar Pelayanan Publik dan Maklumat Pelayanan
                             </div>

@@ -36,3 +36,12 @@
 .noline:hover {
 	text-decoration-line: underline;
 }
+
+.link.subtle {
+	text-decoration-line: none;
+	transition: all var(--transition-fast) ease;
+}
+
+.subtle:hover {
+	opacity: 0.85;
+}
