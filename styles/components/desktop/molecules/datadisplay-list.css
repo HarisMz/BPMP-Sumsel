@@ -100,12 +100,13 @@
   font-weight: var(--font-weight-regular);
   overflow: hidden;
   flex-shrink: 0;
+  font-variation-settings: var(--font-variation-settings);
 }
 .mega-menu .list .list-item[data-icon]:before {
   height: var(--unit-10);
   width: var(--unit-10);
   font-size: var(--unit-7);
-  background: #ecf5fe;
+  background: var(--cyan-5);
   border-radius: var(--unit-3);
 }
 .list.bold .list-item[data-icon]:before {

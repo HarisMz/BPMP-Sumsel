@@ -5,7 +5,7 @@
     <title>Program</title>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/modules/loadlist.php'); ?>
 </head>
-<body id="program">
+<body id="digitalisasi-pembelajaran" data-slug="program">
 
 <?php include './modules/header.php'; ?>
 

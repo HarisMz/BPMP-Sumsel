@@ -5,7 +5,7 @@
     <title>Inovasi dan Layanan</title>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/modules/loadlist.php'); ?>
 </head>
-<body id="inovasi-dan-layanan">
+<body id="pengaduan" data-slug="inovasi-dan-layanan">
 
 <?php include './modules/header.php'; ?>
 

@@ -5,7 +5,7 @@
     <title>Tentang Kami</title>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/modules/loadlist.php'); ?>
 </head>
-<body id="tentang-kami">
+<body id="profil" data-slug="tentang-kami">
 
 <?php include './modules/header.php'; ?>
 

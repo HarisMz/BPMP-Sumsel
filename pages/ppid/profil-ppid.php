@@ -5,7 +5,7 @@
     <title>PPID</title>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/modules/loadlist.php'); ?>
 </head>
-<body id="ppid">
+<body id="profil-ppid" data-slug="ppid">
 
 <?php include './modules/header.php'; ?>
 

@@ -156,42 +156,60 @@ function checkMobile() {
       $(".dropdown-wrapper .list").hide();
     }
 
-    // Hover behavior for desktop
+    let isMenuOpen = false;
+
     $(".header .menu .item.dropdown").on("mouseenter", function () {
       const menuId = $(this).attr("data-mega-menu");
-      $(this).closest(".header").find(".dropdown-wrapper .list").hide();
-      $(this).addClass("highlight");
-      $(this).addClass("opened");
-      $(this)
-      .closest(".header")
-      .find(".dropdown-wrapper").addClass("active");
-      $(this)
-        .closest(".header")
-        .find(`.dropdown-wrapper #${menuId}`)
-        .stop(true, true)
-        .slideDown(200)
-        .css("display", "flex");
+      const $header = $(this).closest(".header");
+      const $dropdownWrapper = $header.find(".dropdown-wrapper");
+      const $targetMenu = $dropdownWrapper.find(`#${menuId}`);
+
+      $dropdownWrapper.find(".list").hide(); // sembunyikan semua dulu
+
+      // 🔑 reset dulu semua item biar highlight cuma 1
+      $header.find(".menu .item.dropdown").removeClass("highlight opened");
+
+      // baru kasih ke item ini
+      $(this).addClass("highlight opened");
+      $dropdownWrapper.addClass("active");
+
+      if (!isMenuOpen) {
+        $targetMenu.stop(true, true).slideDown(200).css("display", "flex");
+        isMenuOpen = true;
+      } else {
+        $targetMenu.stop(true, true).show().css("display", "flex");
+      }
     });
 
-    $(".header .menu .item").on("mouseleave", function (e) {
-      const menuId = $(this).attr("data-mega-menu");
-      if ($(e.relatedTarget).closest(".dropdown-wrapper").length === 0) {
-        $(this).closest(".header").find(".dropdown-wrapper").delay(200).removeClass("active");
-        // $(this).closest(".header").find(".dropdown-wrapper .list").hide();
-        $(this).closest(".header").find(`.dropdown-wrapper #${menuId}`).stop(true, true).slideUp(200);
-        $(this).removeClass("highlight");
-        $(this).removeClass("opened");
+    $(".header .menu .item.dropdown").on("mouseleave", function (e) {
+      if (
+        $(e.relatedTarget).closest(".dropdown-wrapper").length > 0 ||
+        $(e.relatedTarget).closest(".item.dropdown").length > 0
+      ) {
+        return;
       }
+
+      const $header = $(this).closest(".header");
+      $header.find(".dropdown-wrapper").removeClass("active");
+      $header.find(".dropdown-wrapper .list").stop(true, true).slideUp(200);
+
+      // reset highlight saat benar-benar keluar
+      $header.find(".menu .item.dropdown").removeClass("highlight opened");
+      isMenuOpen = false;
     });
-    
+
     $(".dropdown-wrapper").on("mouseleave", function (e) {
-      if ($(e.relatedTarget).closest(".item.dropdown").length === 0) {
-        $(this).closest(".header").find(".dropdown-wrapper").delay(200).removeClass("active");
-        // $(this).closest(".header").find(".dropdown-wrapper .list").hide();
-        $(this).closest(".header").find(".dropdown-wrapper .list").stop(true, true).slideUp(200);
+      if ($(e.relatedTarget).closest(".item.dropdown").length > 0) {
+        return;
       }
-      $(`.mega-menu .item.dropdown`).removeClass("highlight");
-      $(`.mega-menu .item.dropdown`).removeClass("opened");
+
+      const $header = $(this).closest(".header");
+      $header.find(".dropdown-wrapper").removeClass("active");
+      $header.find(".dropdown-wrapper .list").stop(true, true).slideUp(200);
+
+      // reset highlight saat benar-benar keluar
+      $header.find(".menu .item.dropdown").removeClass("highlight opened");
+      isMenuOpen = false;
     });
 
     // Cleanup mobile events
@@ -227,19 +245,38 @@ function prepareSlug(text) {
   return text;
 }
 
+function textWithoutChildren($el) {
+  return $el.contents().filter(function() {
+    return this.nodeType === 3;
+  }).text().trim();
+}
+
+function setSlugAndHighlight($el, textSource) {
+  $el.attr("data-slug", $el.attr("data-slug") || prepareSlug(textSource));
+
+  const bodyId = $("body").attr("id");
+  const bodySlug = $("body").attr("data-slug");
+  const slug = $el.attr("data-slug");
+
+  if (slug === bodyId || slug === bodySlug) {
+    $el.addClass("current");
+  }
+}
+
 $(document).ready(function () {
-  $("li").each(function () {
-    $(this).attr(
-      "data-slug",
-      $(this).attr("data-slug") || prepareSlug($(this).text())
-    );
-    const bodyId = $("body").attr("id");
-    const slug = $(this).attr("data-slug");
-    if (slug === bodyId) {
-      $(this).addClass("current");
-      $(this).closest(".list-item.dropdown").addClass("current");
-      $(this).closest(".item").addClass("current");
+  $(".mega-menu .menu li").each(function () {
+    const textSource = $(this).text();
+    setSlugAndHighlight($(this), textSource);
+  });
+
+  $(".mega-menu .dropdown-wrapper .list-item").each(function () {
+    let textSource;
+    if ($(this).closest(".mega-menu").length) {
+      textSource = textWithoutChildren($(this).find(".label"));
+    } else {
+      textSource = $(this).text();
     }
+    setSlugAndHighlight($(this), textSource);
   });
 
   checkWidth();

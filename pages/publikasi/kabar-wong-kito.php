@@ -5,7 +5,7 @@
     <title>Publikasi</title>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/modules/loadlist.php'); ?>
 </head>
-<body id="publikasi">
+<body id="kabar-wong-kito" data-slug="publikasi">
 
 <?php include './modules/header.php'; ?>
 

@@ -26,7 +26,7 @@
 .header.is-sticky,
 .header.opaque.is-sticky {
   backdrop-filter: blur(var(--unit-4));
-  background: var(--white-0-75);
+  background: var(--white-0-88);
   box-shadow: var(--elevation-6);
 }
 .header.opaque {
@@ -104,9 +104,20 @@
   height: var(--unit-11);
   display: flex;
   align-items: center;
-  border-bottom: 4px solid transparent;
+  border-bottom: var(--unit-2) solid transparent;
   transition: all var(--transition-medium) ease;
   gap: var(--unit-3);
+}
+.header .menu .item:before {
+  content: '';
+  padding: 0 var(--unit-4);
+  position: absolute;
+  width: 100%;
+  height: calc(var(--unit-11) + var(--unit-2));
+  left: calc(var(--unit-4) * -1);
+}
+.header .menu .item a {
+  z-index: 2;
 }
 .header .menu .item.active,
 .header .menu .item.active a {
@@ -292,7 +303,7 @@
 }
 .header .menu .item:hover,
 .header .menu .item.highlight {
-  border-bottom: 4px solid var(--action-default);
+  border-bottom: var(--unit-2) solid var(--action-default);
 }
 
 .footer {
@@ -364,9 +375,40 @@ footer .judul {
   gap: var(--unit-8);
   transition: none !important;
 }
+.header.mega-menu .list .list-item {
+  position: relative;
+}
+.header.mega-menu .list .list-item.current * {
+  color: var(--action-default);
+}
+.header.mega-menu .list .list-item:after {
+  content: '';
+  padding: var(--unit-2);
+  border-radius: var(--unit-3);
+  position: absolute;
+  width: calc(100% + var(--unit-3));
+  height: calc(100% + var(--unit-3));
+  left: calc(var(--unit-3) * -1);
+  top: calc(var(--unit-3) * -1);
+  z-index: -1;
+  opacity: 0.5;
+  transition: all var(--transition-fast) ease;
+}
+.header.mega-menu .list .list-item:hover:after {
+  background: var(--blue-10);
+}
 .header.mega-menu .dropdown-wrapper .list a {
   line-height: var(--line-height-heading-sm);
-  gap: var(--unit-2);
+  gap: var(--unit-1);
+  font-weight: var(--font-weight-bold);
+}
+.header.mega-menu .list .list-item:hover a,
+.header.mega-menu .list .list-item:hover a .helper {
+  color: var(--action-default);
+}
+.header.mega-menu .dropdown-wrapper .list a,
+.header.mega-menu .dropdown-wrapper .list a .helper {
+  transition: all var(--transition-fast) ease;
 }
 
 .header.mega-menu .dropdown-wrapper .list.active {

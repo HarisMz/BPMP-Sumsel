@@ -32,11 +32,11 @@
     </nav>
     <div class="dropdown-wrapper">
         <div class="list surface" id="menu-1">
-            <div class="display-lg">
+            <div class="display-sm">
                 Tentang Kami
             </div>
             <ul class="grid grid-3 gap-7">
-                <li class="list-item" data-icon="account_circle">
+                <li class="list-item" data-icon="account_circle" data-slug="profil">
                     <a href="/tentang-kami/profil" class="label">
                         Profil
                         <span class="helper">
@@ -44,7 +44,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="support_agent">
+                <li class="list-item" data-icon="support_agent" data-slug="maklumat-pelayanan">
                     <a href="/tentang-kami/maklumat-pelayanan" class="label">
                         Maklumat Pelayanan
                         <span class="helper">
@@ -52,7 +52,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="visibility">
+                <li class="list-item" data-icon="visibility" data-slug="maklumat-keterbukaan">
                     <a href="/tentang-kami/maklumat-keterbukaan" class="label">
                         Maklumat Keterbukaan Informasi Publik
                         <span class="helper">
@@ -60,7 +60,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="assessment">
+                <li class="list-item" data-icon="assessment" data-slug="kinerja-organisasi">
                     <a href="/tentang-kami/kinerja-organisasi" class="label">
                         Kinerja Organisasi
                         <span class="helper">
@@ -68,7 +68,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="gavel">
+                <li class="list-item" data-icon="gavel" data-slug="rbi-ziwbk">
                     <a href="/tentang-kami/rbi-ziwbk" class="label">
                         RBI dan ZIWBK
                         <span class="helper">
@@ -76,7 +76,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="business">
+                <li class="list-item" data-icon="business" data-slug="sarana-prasarana">
                     <a href="/tentang-kami/sarana-prasarana" class="label">
                         Fasilitas Sarana dan Prasana
                         <span class="helper">
@@ -87,11 +87,11 @@
             </ul>
         </div>
         <div class="list surface" id="menu-2">
-            <div class="display-lg">
+            <div class="display-sm">
                 Program dan Kegiatan
             </div>
             <ul class="grid grid-3 gap-7">
-                <li class="list-item" data-icon="account_circle">
+                <li class="list-item" data-icon="account_circle" data-slug="revitalisasi-sekolah">
                     <a href="/program/revitalisasi-sekolah" class="label">
                         Revitalisasi Sekolah
                         <span class="helper">
@@ -99,7 +99,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="account_circle">
+                <li class="list-item" data-icon="account_circle" data-slug="digitalisasi-pembelajaran">
                     <a href="/program/digitalisasi-pembelajaran" class="label">
                         Digitalisasi Pembelajaran
                         <span class="helper">
@@ -107,7 +107,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="account_circle">
+                <li class="list-item" data-icon="account_circle" data-slug="sistem-penerimaan">
                     <a href="/program/sistem-penerimaan" class="label">
                         Sistem Penerimaan Murid Baru
                         <span class="helper">
@@ -115,7 +115,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="account_circle">
+                <li class="list-item" data-icon="account_circle" data-slug="wajib-belajar">
                     <a href="/program/wajib-belajar" class="label">
                         Wajib Belajar 13 Tahun
                         <span class="helper">
@@ -123,7 +123,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="account_circle">
+                <li class="list-item" data-icon="account_circle" data-slug="pendidikan-karakter">
                     <a href="/program/pendidikan-karakter" class="label">
                         Penguatan Pendidikan Karakter
                         <span class="helper">
@@ -131,7 +131,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="account_circle">
+                <li class="list-item" data-icon="account_circle" data-slug="makan-bergizi">
                     <a href="/program/makan-bergizi" class="label">
                         Makan Bergizi Gratis
                         <span class="helper">
@@ -139,7 +139,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="account_circle">
+                <li class="list-item" data-icon="account_circle" data-slug="pembelajaran-dan-penilaian">
                     <a href="#" class="label">
                         Pembelajaran dan Penilaian
                         <span class="helper">
@@ -147,7 +147,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="account_circle">
+                <li class="list-item" data-icon="account_circle" data-slug="penjaminan-mutu">
                     <a href="/program/penjaminan-mutu" class="label">
                         Penjaminan Mutu Pendidikan
                         <span class="helper">
@@ -158,11 +158,11 @@
             </ul>
         </div>
         <div class="list surface" id="menu-3">
-            <div class="display-lg">
+            <div class="display-sm">
                 Publikasi
             </div>
             <ul class="grid grid-3 gap-7">
-                <li class="list-item" data-icon="account_circle">
+                <li class="list-item" data-icon="account_circle" data-slug="berita">
                     <a href="/publikasi/berita" class="label">
                         Berita
                         <span class="helper">
@@ -170,7 +170,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="support_agent">
+                <li class="list-item" data-icon="support_agent" data-slug="artikel">
                     <a href="/publikasi/artikel" class="label">
                         Artikel
                         <span class="helper">
@@ -178,7 +178,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="visibility">
+                <li class="list-item" data-icon="visibility" data-slug="kabar-wong-kito">
                     <a href="/publikasi/kabar-wong-kito" class="label">
                         Kabar Wong Kito
                         <span class="helper">
@@ -186,7 +186,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="assessment">
+                <li class="list-item" data-icon="assessment" data-slug="penghargaan">
                     <a href="#" class="label">
                         Penghargaan
                         <span class="helper">
@@ -194,7 +194,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="gavel">
+                <li class="list-item" data-icon="gavel" data-slug="media-sosial">
                     <a href="#" class="label">
                         Media Sosial
                         <span class="helper">
@@ -202,7 +202,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="business">
+                <li class="list-item" data-icon="business" data-slug="infografis">
                     <a href="#" class="label">
                         Infografis
                         <span class="helper">
@@ -213,11 +213,11 @@
             </ul>
         </div>
         <div class="list surface" id="menu-4">
-            <div class="display-lg">
+            <div class="display-sm">
                 Inovasi dan Layanan
             </div>
             <ul class="grid grid-3 gap-7">
-                <li class="list-item" data-icon="fact_check">
+                <li class="list-item" data-icon="fact_check" data-slug="layanan-utama">
                     <a href="/inovasi-dan-layanan/layanan-utama" class="label">
                         Layanan Utama
                         <span class="helper">
@@ -225,7 +225,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="support_agent">
+                <li class="list-item" data-icon="support_agent" data-slug="pendampingan">
                     <a href="/inovasi-dan-layanan/pendampingan" class="label">
                         Pendampingan
                         <span class="helper">
@@ -233,7 +233,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="report_problem">
+                <li class="list-item" data-icon="report_problem" data-slug="pengaduan">
                     <a href="/inovasi-dan-layanan/pengaduan" class="label">
                         Pengaduan
                         <span class="helper">
@@ -241,7 +241,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="insights">
+                <li class="list-item" data-icon="insights" data-slug="inovasi-internal">
                     <a href="/inovasi-dan-layanan/inovasi-internal" class="label">
                         Inovasi Internal
                         <span class="helper">
@@ -249,7 +249,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="public">
+                <li class="list-item" data-icon="public" data-slug="inovasi-eksternal">
                     <a href="/inovasi-dan-layanan/inovasi-eksternal" class="label">
                         Inovasi Eksternal
                         <span class="helper">
@@ -260,11 +260,11 @@
             </ul>
         </div>
         <div class="list surface" id="menu-5">
-            <div class="display-lg">
+            <div class="display-sm">
                 Pejabat Pengelola Informasi dan Dokumentasi
             </div>
             <ul class="grid grid-3 gap-7">
-                <li class="list-item" data-icon="account_circle">
+                <li class="list-item" data-icon="account_circle" data-slug="profil-ppid">
                     <a href="/ppid/profil-ppid" class="label">
                         Profil PPID
                         <span class="helper">
@@ -272,7 +272,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="support_agent">
+                <li class="list-item" data-icon="support_agent" data-slug="dasar-hukum">
                     <a href="/ppid/dasar-hukum" class="label">
                         Dasar Hukum
                         <span class="helper">
@@ -280,7 +280,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="visibility">
+                <li class="list-item" data-icon="visibility" data-slug="informasi-publik">
                     <a href="/ppid/informasi-publik" class="label">
                         Informasi Publik
                         <span class="helper">
@@ -288,7 +288,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="assessment">
+                <li class="list-item" data-icon="assessment" data-slug="standar-pelayanan-informasi-publik">
                     <a href="#" class="label">
                         Standar Pelayanan Informasi Publik
                         <span class="helper">
@@ -296,7 +296,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="gavel">
+                <li class="list-item" data-icon="gavel" data-slug="layanan-publik">
                     <a href="/ppid/layanan-publik" class="label">
                         Layanan Informasi Publik
                         <span class="helper">
