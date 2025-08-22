@@ -181,7 +181,7 @@ a:has(.card) {
 .card.story .details {
   display: flex;
   flex-direction: column;
-  padding: var(--unit-6) var(--unit-7);
+  padding: var(--unit-6) var(--unit-9);
   justify-content: space-between;
   align-items: start;
   text-align: left;

@@ -45,7 +45,7 @@
     <section class="container surface-subdued">
         <div class="wrapper">
             <div class="grid grid-2 gap-12 items-center">
-                <div class="bg-normalize cover ratio-4-3 rounded-8" style="background-image: url('/assets/images/mbg-1.png');"></div>
+                <div class="bg-normalize cover ratio-4-3 rounded-8" style="background-image: url('/assets/images/mbg-1.jpg');"></div>
                 <div class="flex column gap-7">
                     <span class="headline-xs">Gizi Seimbang untuk Pendidikan Berkualitas dan Generasi Emas Indonesia</span>
                     <div class="flex column gap-5">

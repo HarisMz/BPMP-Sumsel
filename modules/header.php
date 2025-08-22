@@ -28,6 +28,9 @@
             <li class="item">
                 <a href="/e-pustaka">E-Pustaka</a>
             </li>
+            <li class="item">
+                <a href="#">Lintasan Musi</a>
+            </li>
         </ul>
     </nav>
     <div class="dropdown-wrapper">
@@ -40,15 +43,15 @@
                     <a href="/tentang-kami/profil" class="label">
                         Profil
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            Mengenal BPMP Provinsi Sumatera Selatan
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="support_agent" data-slug="maklumat-pelayanan">
+                <li class="list-item" data-icon="announcement" data-slug="maklumat-pelayanan">
                     <a href="/tentang-kami/maklumat-pelayanan" class="label">
                         Maklumat Pelayanan
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            Deklarasi Pelayanan Publik
                         </span>
                     </a>
                 </li>
@@ -56,15 +59,15 @@
                     <a href="/tentang-kami/maklumat-keterbukaan" class="label">
                         Maklumat Keterbukaan Informasi Publik
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            Komitmen Penyediaan Informasi Publik
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="assessment" data-slug="kinerja-organisasi">
+                <li class="list-item" data-icon="leaderboard" data-slug="kinerja-organisasi">
                     <a href="/tentang-kami/kinerja-organisasi" class="label">
                         Kinerja Organisasi
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            Informasi Kinerja dan Capaian Strategis
                         </span>
                     </a>
                 </li>
@@ -72,7 +75,7 @@
                     <a href="/tentang-kami/rbi-ziwbk" class="label">
                         RBI dan ZIWBK
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            Komitmen Reformasi dan Pembangunan Integritas
                         </span>
                     </a>
                 </li>
@@ -80,7 +83,7 @@
                     <a href="/tentang-kami/sarana-prasarana" class="label">
                         Fasilitas Sarana dan Prasana
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            Potret Fasilitas Pendukung Layanan
                         </span>
                     </a>
                 </li>
@@ -91,7 +94,7 @@
                 Program dan Kegiatan
             </div>
             <ul class="grid grid-3 gap-7">
-                <li class="list-item" data-icon="account_circle" data-slug="revitalisasi-sekolah">
+                <li class="list-item" data-icon="school" data-slug="revitalisasi-sekolah">
                     <a href="/program/revitalisasi-sekolah" class="label">
                         Revitalisasi Sekolah
                         <span class="helper">
@@ -99,7 +102,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="account_circle" data-slug="digitalisasi-pembelajaran">
+                <li class="list-item" data-icon="computer" data-slug="digitalisasi-pembelajaran">
                     <a href="/program/digitalisasi-pembelajaran" class="label">
                         Digitalisasi Pembelajaran
                         <span class="helper">
@@ -107,7 +110,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="account_circle" data-slug="sistem-penerimaan">
+                <li class="list-item" data-icon="how_to_reg" data-slug="sistem-penerimaan">
                     <a href="/program/sistem-penerimaan" class="label">
                         Sistem Penerimaan Murid Baru
                         <span class="helper">
@@ -115,7 +118,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="account_circle" data-slug="wajib-belajar">
+                <li class="list-item" data-icon="cast_for_education" data-slug="wajib-belajar">
                     <a href="/program/wajib-belajar" class="label">
                         Wajib Belajar 13 Tahun
                         <span class="helper">
@@ -123,7 +126,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="account_circle" data-slug="pendidikan-karakter">
+                <li class="list-item" data-icon="self_improvement" data-slug="pendidikan-karakter">
                     <a href="/program/pendidikan-karakter" class="label">
                         Penguatan Pendidikan Karakter
                         <span class="helper">
@@ -131,7 +134,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="account_circle" data-slug="makan-bergizi">
+                <li class="list-item" data-icon="lunch_dining" data-slug="makan-bergizi">
                     <a href="/program/makan-bergizi" class="label">
                         Makan Bergizi Gratis
                         <span class="helper">
@@ -139,7 +142,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="account_circle" data-slug="pembelajaran-dan-penilaian">
+                <li class="list-item" data-icon="grading" data-slug="pembelajaran-dan-penilaian">
                     <a href="#" class="label">
                         Pembelajaran dan Penilaian
                         <span class="helper">
@@ -147,7 +150,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="account_circle" data-slug="penjaminan-mutu">
+                <li class="list-item" data-icon="verified" data-slug="penjaminan-mutu">
                     <a href="/program/penjaminan-mutu" class="label">
                         Penjaminan Mutu Pendidikan
                         <span class="helper">
@@ -162,15 +165,15 @@
                 Publikasi
             </div>
             <ul class="grid grid-3 gap-7">
-                <li class="list-item" data-icon="account_circle" data-slug="berita">
+                <li class="list-item" data-icon="newspaper" data-slug="berita">
                     <a href="/publikasi/berita" class="label">
                         Berita
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            Warta dan informasi mengenai pendidikan
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="support_agent" data-slug="artikel">
+                <li class="list-item" data-icon="article" data-slug="artikel">
                     <a href="/publikasi/artikel" class="label">
                         Artikel
                         <span class="helper">
@@ -178,7 +181,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="visibility" data-slug="kabar-wong-kito">
+                <li class="list-item" data-icon="campaign" data-slug="kabar-wong-kito">
                     <a href="/publikasi/kabar-wong-kito" class="label">
                         Kabar Wong Kito
                         <span class="helper">
@@ -186,15 +189,15 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="assessment" data-slug="penghargaan">
+                <li class="list-item" data-icon="emoji_events" data-slug="penghargaan">
                     <a href="#" class="label">
                         Penghargaan
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            Apresiasi Capaian Kinerja BPMP dan Ekosistem
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="gavel" data-slug="media-sosial">
+                <li class="list-item" data-icon="share" data-slug="media-sosial">
                     <a href="#" class="label">
                         Media Sosial
                         <span class="helper">
@@ -202,7 +205,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="business" data-slug="infografis">
+                <li class="list-item" data-icon="analytics" data-slug="infografis">
                     <a href="#" class="label">
                         Infografis
                         <span class="helper">
@@ -217,19 +220,19 @@
                 Inovasi dan Layanan
             </div>
             <ul class="grid grid-3 gap-7">
-                <li class="list-item" data-icon="fact_check" data-slug="layanan-utama">
-                    <a href="/inovasi-dan-layanan/layanan-utama" class="label">
-                        Layanan Utama
+                <li class="list-item" data-icon="support_agent" data-slug="pendampingan">
+                    <a href="/inovasi-dan-layanan/pendampingan" class="label">
+                        Layanan Pendampingan
                         <span class="helper">
                             Lorem ipsum dolor sit amet consectetur.
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="support_agent" data-slug="pendampingan">
-                    <a href="/inovasi-dan-layanan/pendampingan" class="label">
-                        Pendampingan
+                <li class="list-item" data-icon="fact_check" data-slug="layanan-utama">
+                    <a href="/inovasi-dan-layanan/layanan-utama" class="label">
+                        Unit Layanan Terpadu (ULT)
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            Pelayanan Terpadu BPMP Provinsi Sumsel
                         </span>
                     </a>
                 </li>
@@ -272,7 +275,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="support_agent" data-slug="dasar-hukum">
+                <li class="list-item" data-icon="gavel" data-slug="dasar-hukum">
                     <a href="/ppid/dasar-hukum" class="label">
                         Dasar Hukum
                         <span class="helper">
@@ -288,7 +291,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="assessment" data-slug="standar-pelayanan-informasi-publik">
+                <li class="list-item" data-icon="announcement" data-slug="standar-pelayanan-informasi-publik">
                     <a href="#" class="label">
                         Standar Pelayanan Informasi Publik
                         <span class="helper">
@@ -296,7 +299,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="list-item" data-icon="gavel" data-slug="layanan-publik">
+                <li class="list-item" data-icon="campaign" data-slug="layanan-publik">
                     <a href="/ppid/layanan-publik" class="label">
                         Layanan Informasi Publik
                         <span class="helper">

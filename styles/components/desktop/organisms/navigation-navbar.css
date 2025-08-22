@@ -370,7 +370,7 @@ footer .judul {
   display: none;
   padding: var(--unit-10) 0;
   margin: 0 auto;
-  max-width: 1215px;
+  max-width: 1200px;
   width: 100%;
   gap: var(--unit-8);
   transition: none !important;

@@ -44,9 +44,8 @@
                         <p>Penerapan digitalisasi pembelajaran yang melibatkan penggunaan perangkat keras, perangkat lunak, dan platform digital untuk mendukung berbagai aktivitas pembelajaran, mulai dari penyampaian materi, interaksi antara guru dan siswa, hingga evaluasi penilaian diharapkan dapat meningkatkan kualitas dan efektivitas pendidikan serta terciptanya kolaborasi ekosistem pembelajaran yang relevan dan berkelanjutan.</p>
                     </div>
                 </div>
-                <div class="flex justify-end rounded-24 py-13 px-12 relative ratio-3-1" style="background-image: url('/assets/images/digitalisasi-1.png'); background-size: contain; background-position: left; background-repeat: no-repeat;">
-                    <div style="position: absolute; height: 100%; width: 100%; top: 0; right: 0; border-radius: 24px; background: linear-gradient(270deg, rgba(38, 38, 38, 0.7) 46.83%, rgba(0, 0, 0, 0) 69.71%), linear-gradient(78.07deg, rgba(255, 255, 255, 0) 3.21%, rgba(38, 38, 38, 0.4) 93.23%); background-blend-mode: multiply;"></div>
-                    <div class="flex column gap-7 text-inverse width-66" style="z-index: 1;">
+                <div class="flex justify-end rounded-24 py-13 px-12 bg-normalize cover" style="background-image: url('/assets/images/presiden-1.png');">
+                    <div class="flex column gap-7 text-inverse width-66">
                         <div class="flex justify-start items-start">
                             <img src="/assets/images/tanda-kutip-biru.png" alt="Icon Tanda Kutip" style="height:20px;">
                         </div>

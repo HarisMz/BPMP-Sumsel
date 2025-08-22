@@ -18,6 +18,23 @@
             <div class="flex column width-70">
                 <div class="carousel loop full dots autoplay">
                     <div class="carousel-inner">
+                        <div class="carousel-item darken left flex justify-end pb-12" style="background-image: url('/assets/images/hero-3.png');">
+                            <div class="wrapper justify-center items-end">
+                                <div class="flex column width-74 full-mobile">
+                                    <h1 class="display-lg">
+                                        <a href="/publikasi/berita/berita-detail" class="link subtle">Kemendikdasmen Gandeng Semua Mitra Pendidikan untuk Implementasi Program Prioritas</a>
+                                    </h1>
+                                    <div class="flex gap-4 items-center">
+                                        <a href="#" class="chip small selected text-cyan-70">
+                                            Kabar
+                                        </a>
+                                        <div class="body-sm">
+                                            18 Agustus 2025 | 9.56 WIB
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="carousel-item darken left flex justify-end pb-12" style="background-image: url('/assets/images/hero-1.png');">
                             <div class="wrapper justify-center items-end">
                                 <div class="flex column width-74 full-mobile">
@@ -44,23 +61,6 @@
                                     <div class="flex gap-4 items-center">
                                         <a href="#" class="chip small selected text-cyan-70">
                                             Kebijakan Pendidikan
-                                        </a>
-                                        <div class="body-sm">
-                                            18 Maret 2025 | 9.56 WIB
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item darken left flex justify-end pb-12" style="background-image: url('/assets/images/hero-3.png');">
-                            <div class="wrapper justify-center items-end">
-                                <div class="flex column width-74 full-mobile">
-                                    <h1 class="display-lg">
-                                        <a href="#" class="link subtle">Kemendikdasmen Pantau Persiapan Pelaksanaan SPMB 2025 di Seluruh Indonesia</a>
-                                    </h1>
-                                    <div class="flex gap-4 items-center">
-                                        <a href="#" class="chip small selected text-cyan-70">
-                                            Kabar
                                         </a>
                                         <div class="body-sm">
                                             18 Maret 2025 | 9.56 WIB
@@ -200,7 +200,7 @@
                             <img src="/assets/images/layanan-1.svg" class="height-full">
                             <div class="flex column text-left gap-3">
                                 <h2 class="action bold text-balance">Pendampingan Daring/Luring</h2>
-                                <a href="/inovasi-dan-layanan/pendampingan" class="button small" data-icon="visibility" target="_blank">
+                                <a href="/inovasi-dan-layanan/pendampingan" class="button small" target="_blank">
                                     Lihat Layanan
                                 </a>
                             </div>
@@ -211,7 +211,7 @@
                             <img src="/assets/images/layanan-2.svg" class="height-full">
                             <div class="flex column text-left gap-3">
                                 <h2 class="action bold text-balance">Pengaduan Masyarakat</h2>
-                                <a href="/inovasi-dan-layanan/pengaduan" class="button small" data-icon="visibility" target="_blank">
+                                <a href="/inovasi-dan-layanan/pengaduan" class="button small" target="_blank">
                                     Lihat Layanan
                                 </a>
                             </div>
@@ -222,7 +222,7 @@
                             <img src="/assets/images/layanan-3.svg" class="height-full">
                             <div class="flex column text-left gap-3">
                                 <h2 class="action bold text-balance">Unit Layanan Terpadu (ULT)</h2>
-                                <a href="/inovasi-dan-layanan/layanan-utama" class="button small" data-icon="visibility" target="_blank">
+                                <a href="/inovasi-dan-layanan/layanan-utama" class="button small" target="_blank">
                                     Lihat Layanan
                                 </a>
                             </div>
@@ -233,7 +233,7 @@
                             <img src="/assets/images/layanan-4.svg" class="height-full">
                             <div class="flex column text-left gap-3">
                                 <h2 class="action bold text-balance">Peminjaman Fasilitas</h2>
-                                <a href="/tentang-kami/sarana-prasarana" class="button small" data-icon="visibility" target="_blank">
+                                <a href="/tentang-kami/sarana-prasarana" class="button small" target="_blank">
                                     Lihat Layanan
                                 </a>
                             </div>
@@ -273,8 +273,8 @@
 	            <div class="flex full">
 	                <h1 class="display-lg full-mobile">Program</h1>
 	            </div>
-	            <div class="grid grid-4 grid-1-mobile gap-7 text-white">
-	            	<div class="card feature text-balance text-left justify-end items-start ratio-3-2 p-7 darken bottom heading-md" style="background-image: url('/assets/images/program-1.png'); height: 300px;">
+	            <div class="grid grid-4 grid-2-tablet grid-1-mobile gap-7 text-white">
+	            	<a href="/program/revitalisasi-sekolah" class="card feature text-balance text-left justify-end items-start ratio-3-2 p-7 darken bottom heading-md" style="background-image: url('/assets/images/program-1.png'); height: 300px;">
                         <div class="card-content">
                             <h3 class="card-title heading-md">Revitalisasi Sekolah</h3>
                             <p class="card-description body">
@@ -282,71 +282,85 @@
                             perbaikan sarana, manajemen, dan peran pemangku kepentingan.
                             </p>
                         </div>
-                    </div>
-                    <div class="card feature text-balance text-left justify-end items-start ratio-3-2 p-7 darken bottom heading-md" style="background-image: url('/assets/images/program-2.png'); height: 300px;">
+                    </a>
+                    <a href="/program/digitalisasi-pembelajaran" class="card feature text-balance text-left justify-end items-start ratio-3-2 p-7 darken bottom heading-md" style="background-image: url('/assets/images/program-2.png'); height: 300px;">
                         <div class="card-content">
                             <h3 class="card-title heading-md">Digitalisasi Pembelajaran</h3>
                             <p class="card-description body">
                             Inisiatif ini mendorong pemanfaatan teknologi digital dalam proses belajar-mengajar untuk akses pendidikan yang lebih luas dan inovatif.
                             </p>
                         </div>
-                    </div>
-                    <div class="card feature text-balance text-left justify-end items-start ratio-3-2 p-7 darken bottom heading-md" style="background-image: url('/assets/images/program-3.png'); height: 300px;">
+                    </a>
+                    <a href="/program/sistem-penerimaan" class="card feature text-balance text-left justify-end items-start ratio-3-2 p-7 darken bottom heading-md" style="background-image: url('/assets/images/program-3.png'); height: 300px;">
                         <div class="card-content">
                             <h3 class="card-title heading-md">Sistem Penerimaan Murid Baru</h3>
                             <p class="card-description body">
                             SPMB adalah mekanisme terpadu untuk memastikan proses penerimaan peserta didik baru berlangsung secara adil, objektif, dan transparan.
                             </p>
                         </div>
-                    </div>
-                    <div class="card feature text-balance text-left justify-end items-start ratio-3-2 p-7 darken bottom heading-md" style="background-image: url('/assets/images/program-4.png'); height: 300px;">
+                    </a>
+                    <a href="/program/wajib-belajar" class="card feature text-balance text-left justify-end items-start ratio-3-2 p-7 darken bottom heading-md" style="background-image: url('/assets/images/program-4.png'); height: 300px;">
                         <div class="card-content">
                             <h3 class="card-title heading-md">Wajib Belajar 13 Tahun</h3>
                             <p class="card-description body">
                             Program ini menetapkan kewajiban belajar bagi setiap warga negara Indonesia dari jenjang pendidikan dasar hingga menengah atas atau sederajat.
                             </p>
                         </div>
-                    </div>
-                    <div class="card feature text-balance text-left justify-end items-start ratio-3-2 p-7 darken bottom heading-md" style="background-image: url('/assets/images/program-5.png'); height: 300px;">
+                    </a>
+                    <a href="/program/pendidikan-karakter" class="card feature text-balance text-left justify-end items-start ratio-3-2 p-7 darken bottom heading-md" style="background-image: url('/assets/images/program-5.png'); height: 300px;">
                         <div class="card-content">
                             <h3 class="card-title heading-md">Penguatan Pendidikan Karakter</h3>
                             <p class="card-description body">
                             Fokus program ini adalah menumbuhkan nilai-nilai luhur dan etika pada peserta didik untuk membentuk pribadi yang berintegritas.
                             </p>
                         </div>
-                    </div>
-                    <div class="card feature text-balance text-left justify-end items-start ratio-3-2 p-7 darken bottom heading-md" style="background-image: url('/assets/images/program-6.png'); height: 300px;">
+                    </a>
+                    <a href="/program/makan-bergizi" class="card feature text-balance text-left justify-end items-start ratio-3-2 p-7 darken bottom heading-md" style="background-image: url('/assets/images/program-6.png'); height: 300px;">
                         <div class="card-content">
                             <h3 class="card-title heading-md">Makan Bergizi Gratis</h3>
                             <p class="card-description body">
                             Program ini menyediakan makanan bergizi gratis bagi peserta didik untuk mendukung kesehatan dan konsentrasi belajar mereka.
                             </p>
                         </div>
-                    </div>
-                    <div class="card feature text-balance text-left justify-end items-start ratio-3-2 p-7 darken bottom heading-md" style="background-image: url('/assets/images/program-7.png'); height: 300px;">
+                    </a>
+                    <a href="#" class="card feature text-balance text-left justify-end items-start ratio-3-2 p-7 darken bottom heading-md" style="background-image: url('/assets/images/program-7.png'); height: 300px;">
                         <div class="card-content">
                             <h3 class="card-title heading-md">Pembelajaran dan Penilaian</h3>
                             <p class="card-description body">
                             Program ini berupaya menyelaraskan metode pembelajaran dengan sistem penilaian yang relevan untuk mengukur capaian belajar peserta didik secara holistik.
                             </p>
                         </div>
-                    </div>
-                    <div class="card feature text-balance text-left justify-end items-start ratio-3-2 p-7 darken bottom heading-md" style="background-image: url('/assets/images/program-8.png'); height: 300px;">
+                    </a>
+                    <a href="/program/penjaminan-mutu" class="card feature text-balance text-left justify-end items-start ratio-3-2 p-7 darken bottom heading-md" style="background-image: url('/assets/images/program-8.png'); height: 300px;">
                         <div class="card-content">
                             <h3 class="card-title heading-md">Penjaminan Mutu Pendidikan</h3>
                             <p class="card-description body">
                             Inisiatif ini memastikan standar kualitas pendidikan terpenuhi dan terus ditingkatkan melalui berbagai mekanisme kontrol dan evaluasi.
                             </p>
                         </div>
-                    </div>
+                    </a>
 	            </div>
 	        </div>
         </div>
     </section>
-
-    <section class="container bg-default">
-        <div class="wrapper column gap-12" style="max-width: 1240px;">
-            <img class="px-6 px-0-mobile" src="/assets/images/banner-ready.png" alt="Arahan Menteri Dikdasmen"">
+    <section class="container surface-subdued pb-0">
+        <div class="wrapper">
+            <div class="flex justify-end rounded-24 p-12 bg-normalize cover" style="background-image: url('/assets/images/menteri-1.png');">
+                <div class="flex column gap-7 text-inverse text-balance width-59">
+                    <div class="flex justify-start items-start">
+                        <img src="/assets/images/tanda-kutip-biru.png" alt="Icon Tanda Kutip" style="height:20px;">
+                    </div>
+                    <span class="display-lg">Kami ingin menjadikan Kementerian Pendidikan sebagai rumah yang RAMAH: Responsif, Akuntabel, Melayani, Adaptif, dan Harmonis.</span>
+                    <div class="flex column gap-1">
+                        <span class="display-sm">Abdul Mu'ti</span>
+                        <span class="body-lg">Menteri Pendidikan Dasar dan Menengah</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container bg-default pt-12">
+        <div class="wrapper" style="max-width: 1240px;">
             <div class="flex column gap-10">
                 <h1 class="display-lg text-center">Apa kata mereka tentang layanan kami?</h1>
                 <div class="carousel loop arrow arrow-bordered" data-carousel-visible="3" data-carousel-visible-mobile="1" data-sliding-span="1">
