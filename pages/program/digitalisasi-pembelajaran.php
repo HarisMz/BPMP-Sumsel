@@ -36,25 +36,11 @@
     </section>
     <section class="container">
         <div class="wrapper">
-            <div class="flex column gap-14">
-                <div class="grid grid-2 gap-14">
-                    <span class="headline-xs">Digitalisasi Pembelajaran Untuk Peningkatan Akses dan Kualitas Pembelajaran</span>
-                    <div class="body flex column gap-3">
-                        <p>Digitalisasi dalam pendidikan merupakan upaya transformasi sistem pendidikan dengan memanfaatkan teknologi digital untuk memperluas akses, meningkatkan mutu, dan menyesuaikan proses belajar-mengajar dengan kebutuhan zaman. Integrasi teknologi digital dalam proses pembelajaran akan membantu terciptanya  lingkungan belajar yang lebih fleksibel, kolaboratif, dan terhubung.</p>
-                        <p>Penerapan digitalisasi pembelajaran yang melibatkan penggunaan perangkat keras, perangkat lunak, dan platform digital untuk mendukung berbagai aktivitas pembelajaran, mulai dari penyampaian materi, interaksi antara guru dan siswa, hingga evaluasi penilaian diharapkan dapat meningkatkan kualitas dan efektivitas pendidikan serta terciptanya kolaborasi ekosistem pembelajaran yang relevan dan berkelanjutan.</p>
-                    </div>
-                </div>
-                <div class="flex justify-end rounded-24 py-13 px-12 bg-normalize cover" style="background-image: url('/assets/images/presiden-1.png');">
-                    <div class="flex column gap-7 text-inverse width-66">
-                        <div class="flex justify-start items-start">
-                            <img src="/assets/images/tanda-kutip-biru.png" alt="Icon Tanda Kutip" style="height:20px;">
-                        </div>
-                        <span class="display-sm">Tidak boleh ada sekolah yang atapnya runtuh (rusak) bahkan tidak boleh ada sekolah yang tidak ada WC. Dana akan dikirim langsung ke sekolah-sekolah/cash transfer. Sekolah-sekolah akan melakukan swakelola sehingga nilai bantuan lebih bermanfaat oleh daerah”</span>
-                        <div class="flex column gap-1">
-                            <span class="display-sm">Presiden Prabowo Subianto</span>
-                            <span class="body-lg">Pidato Hari Guru Nasional, 26 November 2024</span>
-                        </div>
-                    </div>
+            <div class="grid grid-2 gap-14">
+                <span class="headline-xs">Digitalisasi Pembelajaran Untuk Peningkatan Akses dan Kualitas Pembelajaran</span>
+                <div class="body flex column gap-3">
+                    <p>Digitalisasi dalam pendidikan merupakan upaya transformasi sistem pendidikan dengan memanfaatkan teknologi digital untuk memperluas akses, meningkatkan mutu, dan menyesuaikan proses belajar-mengajar dengan kebutuhan zaman. Integrasi teknologi digital dalam proses pembelajaran akan membantu terciptanya  lingkungan belajar yang lebih fleksibel, kolaboratif, dan terhubung.</p>
+                    <p>Penerapan digitalisasi pembelajaran yang melibatkan penggunaan perangkat keras, perangkat lunak, dan platform digital untuk mendukung berbagai aktivitas pembelajaran, mulai dari penyampaian materi, interaksi antara guru dan siswa, hingga evaluasi penilaian diharapkan dapat meningkatkan kualitas dan efektivitas pendidikan serta terciptanya kolaborasi ekosistem pembelajaran yang relevan dan berkelanjutan.</p>
                 </div>
             </div>
         </div>
@@ -125,6 +111,9 @@
                         <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-1.jpg);"></div></a>
                         <div class="details">
                             <div class="summary">
+                                <a href="#" class="chip small selected">
+                                    Kegiatan
+                                </a>
                                 <a href="#"><div class="title line-clamp-3">
                                     Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
                                 </div></a>
@@ -147,9 +136,6 @@
                                         </span>
                                     </div>
                                 </div>
-                                <a href="#" class="chip small selected">
-                                    Webinar
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -157,6 +143,9 @@
                         <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-2.jpg);"></div></a>
                         <div class="details">
                             <div class="summary">
+                                <a href="#" class="chip small selected">
+                                    Event
+                                </a>
                                 <a href="#"><div class="title line-clamp-3">
                                     Judul Berita Terdiri dari 1 – 3 Baris Tulisan, Jika Lebih Maka Akan Diberikan Tanda Elipsis
                                 </div></a>
@@ -179,9 +168,6 @@
                                         </span>
                                     </div>
                                 </div>
-                                <a href="#" class="chip small selected">
-                                    Event
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -189,6 +175,9 @@
                         <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-3.jpg);"></div></a>
                         <div class="details">
                             <div class="summary">
+                                <a href="#" class="chip small selected">
+                                    Kebijakan
+                                </a>
                                 <a href="#"><div class="title line-clamp-3">
                                     Judul Berita Ini Singkat
                                 </div></a>
@@ -211,14 +200,11 @@
                                         </span>
                                     </div>
                                 </div>
-                                <a href="#" class="chip small selected">
-                                    Kebijakan
-                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="flex row justify-center items-center text-center gap-9 full hide-desktop hide-tablet">
-                        <a href="#" class="link noline"><b>Baca Selengkapnya</b></a>
+                        <a href="#" class="link noline"><b>Lihat Berita Lainnya</b></a>
                     </div>
 	            </div>
 	        </div>

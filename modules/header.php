@@ -29,7 +29,7 @@
                 <a href="/e-pustaka">E-Pustaka</a>
             </li>
             <li class="item">
-                <a href="#">Lintasan Musi</a>
+                <a href="/lintasan-musi">Lintasan Musi</a>
             </li>
         </ul>
     </nav>
@@ -98,7 +98,7 @@
                     <a href="/program/revitalisasi-sekolah" class="label">
                         Revitalisasi Sekolah
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            Peningkatan Sarana dan Prasarana Pendidikan Berkualitas
                         </span>
                     </a>
                 </li>
@@ -106,7 +106,7 @@
                     <a href="/program/digitalisasi-pembelajaran" class="label">
                         Digitalisasi Pembelajaran
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            Transformasi Pendidikan Berbasis Teknologi Digital
                         </span>
                     </a>
                 </li>
@@ -114,7 +114,7 @@
                     <a href="/program/sistem-penerimaan" class="label">
                         Sistem Penerimaan Murid Baru
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            SPMB Menuju Pendidikan Merata dan Inklusif
                         </span>
                     </a>
                 </li>
@@ -122,7 +122,7 @@
                     <a href="/program/wajib-belajar" class="label">
                         Wajib Belajar 13 Tahun
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            Perluasan Akses PAUD hingga Menengah
                         </span>
                     </a>
                 </li>
@@ -130,7 +130,7 @@
                     <a href="/program/pendidikan-karakter" class="label">
                         Penguatan Pendidikan Karakter
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            Pembentukan Moral dan Karakter Berbasis Pancasila
                         </span>
                     </a>
                 </li>
@@ -138,15 +138,15 @@
                     <a href="/program/makan-bergizi" class="label">
                         Makan Bergizi Gratis
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            Program Strategis Gizi dan Edukasi Nutrisi
                         </span>
                     </a>
                 </li>
                 <li class="list-item" data-icon="grading" data-slug="pembelajaran-dan-penilaian">
-                    <a href="#" class="label">
+                    <a href="/program/pembelajaran-penilaian" class="label">
                         Pembelajaran dan Penilaian
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            Menciptakan Pembelajaran Holistik dan Penilaian Reflektif
                         </span>
                     </a>
                 </li>
@@ -154,7 +154,7 @@
                     <a href="/program/penjaminan-mutu" class="label">
                         Penjaminan Mutu Pendidikan
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            Menjamin Mutu Pendidikan Terstandar dan Berdaya Saing
                         </span>
                     </a>
                 </li>
@@ -177,7 +177,7 @@
                     <a href="/publikasi/artikel" class="label">
                         Artikel
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            Wawasan Strategis dan Opini Pendidikan
                         </span>
                     </a>
                 </li>
@@ -185,12 +185,12 @@
                     <a href="/publikasi/kabar-wong-kito" class="label">
                         Kabar Wong Kito
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            Ruang Berbagi Tulisan Warga SUMSEL
                         </span>
                     </a>
                 </li>
                 <li class="list-item" data-icon="emoji_events" data-slug="penghargaan">
-                    <a href="#" class="label">
+                    <a href="/publikasi/penghargaan" class="label">
                         Penghargaan
                         <span class="helper">
                             Apresiasi Capaian Kinerja BPMP dan Ekosistem
@@ -198,18 +198,18 @@
                     </a>
                 </li>
                 <li class="list-item" data-icon="share" data-slug="media-sosial">
-                    <a href="#" class="label">
+                    <a href="/publikasi/media-sosial" class="label">
                         Media Sosial
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            Terhubung dan Berkomunikasi Melalui Media Sosial
                         </span>
                     </a>
                 </li>
                 <li class="list-item" data-icon="analytics" data-slug="infografis">
-                    <a href="#" class="label">
+                    <a href="/publikasi/infografis" class="label">
                         Infografis
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            Visualisasi Informasi Pelayanan Pendidikan
                         </span>
                     </a>
                 </li>
@@ -220,14 +220,6 @@
                 Inovasi dan Layanan
             </div>
             <ul class="grid grid-3 gap-7">
-                <li class="list-item" data-icon="support_agent" data-slug="pendampingan">
-                    <a href="/inovasi-dan-layanan/pendampingan" class="label">
-                        Layanan Pendampingan
-                        <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
-                        </span>
-                    </a>
-                </li>
                 <li class="list-item" data-icon="fact_check" data-slug="layanan-utama">
                     <a href="/inovasi-dan-layanan/layanan-utama" class="label">
                         Unit Layanan Terpadu (ULT)
@@ -236,11 +228,19 @@
                         </span>
                     </a>
                 </li>
+                <li class="list-item" data-icon="support_agent" data-slug="pendampingan">
+                    <a href="/inovasi-dan-layanan/pendampingan" class="label">
+                        Layanan Pendampingan
+                        <span class="helper">
+                            Kolaborasi, Konsultatif, dan Pendampingan Program Kemendikdasmen
+                        </span>
+                    </a>
+                </li>
                 <li class="list-item" data-icon="report_problem" data-slug="pengaduan">
                     <a href="/inovasi-dan-layanan/pengaduan" class="label">
                         Pengaduan
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            Saluran Resmi Kritik, Keluhan, dan Pengaduan
                         </span>
                     </a>
                 </li>
@@ -248,7 +248,7 @@
                     <a href="/inovasi-dan-layanan/inovasi-internal" class="label">
                         Inovasi Internal
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            Transformasi Internal Membangun Budaya Kerja Adaptif
                         </span>
                     </a>
                 </li>
@@ -256,7 +256,7 @@
                     <a href="/inovasi-dan-layanan/inovasi-eksternal" class="label">
                         Inovasi Eksternal
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            Kolaborasi dan Sinergi Strategis Transformasi Pendidikan
                         </span>
                     </a>
                 </li>
@@ -271,7 +271,7 @@
                     <a href="/ppid/profil-ppid" class="label">
                         Profil PPID
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            Tugas, Fungsi, dan Struktur PPID
                         </span>
                     </a>
                 </li>
@@ -279,7 +279,7 @@
                     <a href="/ppid/dasar-hukum" class="label">
                         Dasar Hukum
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            Pedoman Hukum Keterbukaan Informasi Publik
                         </span>
                     </a>
                 </li>
@@ -287,15 +287,15 @@
                     <a href="/ppid/informasi-publik" class="label">
                         Informasi Publik
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            Data dan Informasi Resmi yang Terbuka
                         </span>
                     </a>
                 </li>
                 <li class="list-item" data-icon="announcement" data-slug="standar-pelayanan-informasi-publik">
-                    <a href="#" class="label">
+                    <a href="/ppid/standar-pelayanan" class="label">
                         Standar Pelayanan Informasi Publik
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            Dasar Keterbukaan Informasi Efektif dan Efisien
                         </span>
                     </a>
                 </li>
@@ -303,7 +303,7 @@
                     <a href="/ppid/layanan-publik" class="label">
                         Layanan Informasi Publik
                         <span class="helper">
-                            Lorem ipsum dolor sit amet consectetur.
+                            Hak Akses dan Keberatan Atas Informasi Publik
                         </span>
                     </a>
                 </li>

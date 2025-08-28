@@ -37,11 +37,20 @@
     <section class="container">
         <div class="wrapper">
             <div class="flex column gap-14">
-                <div class="flex justify-end rounded-24 py-13 px-12 bg-normalize cover relative ratio-3-1" style="background-image: url('/assets/images/revitalisasi-1.png');">
-                    <div style="position: absolute; height: 100%; width: 100%; top: 0; right: 0; border-radius: 24px; background: linear-gradient(270deg, rgba(38, 38, 38, 0.7) 46.83%, rgba(0, 0, 0, 0) 69.71%), linear-gradient(78.07deg, rgba(255, 255, 255, 0) 3.21%, rgba(38, 38, 38, 0.4) 93.23%); background-blend-mode: multiply;"></div>
-                    <div class="flex column gap-7 text-inverse width-66" style="z-index: 1;">
-                        <span class="display-md">Program Revitalisasi Satuan Pendidikan yang selanjutnya disebut Revitalisasi Sekolah adalah program peningkatan sarana dan prasarana pendidikan yang berkualitas melalui rehabilitasi dan pembangunan prasarana, serta penyediaan sarana.</span>
-                        <span class="body-lg">(Sesuai Perditjendikdasmen Nomor: M2400/C/HK.03.01/2025 Pasal 1)</span>
+                <div class="flex column gap-7 text-pretty">
+                    <span class="display-lg">Program Revitalisasi Satuan Pendidikan yang selanjutnya disebut Revitalisasi Sekolah adalah program peningkatan sarana dan prasarana pendidikan yang berkualitas melalui rehabilitasi dan pembangunan prasarana, serta penyediaan sarana.</span>
+                    <span class="body-lg">(Sesuai Perditjendikdasmen Nomor: M2400/C/HK.03.01/2025 Pasal 1)</span>
+                </div>
+                <div class="flex justify-end rounded-24 py-13 px-12 bg-normalize cover" style="background-image: url('/assets/images/presiden-1.png');">
+                    <div class="flex column gap-7 text-inverse width-66">
+                        <div class="flex justify-start items-start">
+                            <img src="/assets/images/tanda-kutip-biru.png" alt="Icon Tanda Kutip" style="height:20px;">
+                        </div>
+                        <span class="display-sm">Tidak boleh ada sekolah yang atapnya runtuh (rusak) bahkan tidak boleh ada sekolah yang tidak ada WC. Dana akan dikirim langsung ke sekolah-sekolah/cash transfer. Sekolah-sekolah akan melakukan swakelola sehingga nilai bantuan lebih bermanfaat oleh daerah”</span>
+                        <div class="flex column gap-1">
+                            <span class="display-sm">Presiden Prabowo Subianto</span>
+                            <span class="body-lg">Pidato Hari Guru Nasional, 26 November 2024</span>
+                        </div>
                     </div>
                 </div>
                 <div class="grid grid-2 gap-12">
@@ -67,10 +76,16 @@
     <section class="container surface-subdued">
         <div class="wrapper">
             <div class="grid grid-2 gap-12 items-center">
-                <div class="bg-normalize cover ratio-16-9 rounded-8" style="background-image: url('/assets/images/revitalisasi-2.png');"></div>
+                <div class="bg-normalize cover ratio-16-10 rounded-8" style="background-image: url('/assets/images/revitalisasi-2.png');"></div>
                 <div class="flex column gap-7">
                     <span class="headline-xs">Implementasi Program</span>
-                    <span class="body">Sasaran Revitalisasi merata pada seluruh pemerintah daerah yang menerima alokasi DAK Fisik pada Tahun 2025. Bantuan berupa pembangunan dan rehabilitasi untuk sarana dan prasarana rusak. Adapun skema pelaksanaan Program Revitalisasi Sekolah adalah swakelola dimana sekolah akan mengelola dana bantuan secara mandiri dengan dengan pelibatan peran serta masyarakat.</span>
+                    <div class="flex column gap-3">
+                        <p class="body">Sasaran Revitalisasi merata pada seluruh pemerintah daerah yang menerima alokasi DAK Fisik pada Tahun 2025. Bantuan berupa pembangunan dan rehabilitasi untuk sarana dan prasarana rusak. Adapun skema pelaksanaan Program Revitalisasi Sekolah adalah swakelola dimana sekolah akan mengelola dana bantuan secara mandiri dengan dengan pelibatan peran serta masyarakat.</p>
+                        <p class="body">Untuk mendukung implementasi program Revitalisasi Sekolah di tingkat daerah, BPMP Provinsi Sumatera Selatan melaksanakan beberapa kegiatan:<br>
+                            a. Koordinasi dengan Pemda dalam peningkatan akses layanan pendidikan melalui program revitalisasi<br>
+                            b. Pendampingan pelaksanaan Program Revitalisasi
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -114,6 +129,9 @@
                         <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-1.jpg);"></div></a>
                         <div class="details">
                             <div class="summary">
+                                <a href="#" class="chip small selected">
+                                    Kegiatan
+                                </a>
                                 <a href="#"><div class="title line-clamp-3">
                                     Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
                                 </div></a>
@@ -136,9 +154,6 @@
                                         </span>
                                     </div>
                                 </div>
-                                <a href="#" class="chip small selected">
-                                    Webinar
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -146,6 +161,9 @@
                         <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-2.jpg);"></div></a>
                         <div class="details">
                             <div class="summary">
+                                <a href="#" class="chip small selected">
+                                    Event
+                                </a>
                                 <a href="#"><div class="title line-clamp-3">
                                     Judul Berita Terdiri dari 1 – 3 Baris Tulisan, Jika Lebih Maka Akan Diberikan Tanda Elipsis
                                 </div></a>
@@ -168,9 +186,6 @@
                                         </span>
                                     </div>
                                 </div>
-                                <a href="#" class="chip small selected">
-                                    Event
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -178,6 +193,9 @@
                         <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-3.jpg);"></div></a>
                         <div class="details">
                             <div class="summary">
+                                <a href="#" class="chip small selected">
+                                    Kebijakan
+                                </a>
                                 <a href="#"><div class="title line-clamp-3">
                                     Judul Berita Ini Singkat
                                 </div></a>
@@ -200,14 +218,11 @@
                                         </span>
                                     </div>
                                 </div>
-                                <a href="#" class="chip small selected">
-                                    Kebijakan
-                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="flex row justify-center items-center text-center gap-9 full hide-desktop hide-tablet">
-                        <a href="#" class="link noline"><b>Baca Selengkapnya</b></a>
+                        <a href="#" class="link noline"><b>Lihat Berita Lainnya</b></a>
                     </div>
 	            </div>
 	        </div>

@@ -131,7 +131,7 @@
                         </h3>
                         <div class="flex gap-4 items-center">
                             <a href="#" class="chip small selected">
-                                Webinar
+                                Kegiatan
                             </a>
                             <div class="body-sm">
                                 4 Januari 2025 | 9.56 WIB
@@ -190,7 +190,7 @@
     </section>
     <section class="container bg-default">
         <div class="wrapper">
-            <div class="flex column gap-10 gap-6-mobile">
+            <div class="flex column gap-10 gap-8-mobile">
 	            <div class="flex column text-balance gap-7">
 	                <h1 class="display-lg">Layanan Publik</h1>
 	            </div>
@@ -246,7 +246,7 @@
 
     <section class="container bg-default pt-0 pb-14">
         <div class="wrapper" style="max-width: 1240px;">
-            <div class="flex column justify-center items-center gap-10 gap-6-mobile" style="height: 207px;">
+            <div class="flex column justify-center items-center gap-10 gap-8-mobile" style="height: 207px;">
                 <div class="carousel loop arrow clear arrow-bordered" data-carousel-visible="1" data-carousel-visible-mobile="1" data-sliding-span="1" data-peek="20">
                     <div class="carousel-inner">
                         <div class="carousel-item">
@@ -269,7 +269,7 @@
 
     <section class="container surface-default">
         <div class="wrapper">
-            <div class="flex column justify-center items-center gap-10 gap-6-mobile">
+            <div class="flex column justify-center items-center gap-10 gap-8-mobile">
 	            <div class="flex full">
 	                <h1 class="display-lg full-mobile">Program</h1>
 	            </div>
@@ -315,7 +315,7 @@
                             </p>
                         </div>
                     </a>
-                    <a href="/program/makan-bergizi" class="card feature text-balance text-left justify-end items-start ratio-3-2 p-7 darken bottom heading-md" style="background-image: url('/assets/images/program-6.png'); height: 300px;">
+                    <a href="/program/makan-bergizi" class="card feature text-balance text-left justify-end items-start ratio-3-2 p-7 darken bottom heading-md" style="background-image: url('/assets/images/program-6.jpg'); height: 300px;">
                         <div class="card-content">
                             <h3 class="card-title heading-md">Makan Bergizi Gratis</h3>
                             <p class="card-description body">
@@ -372,7 +372,7 @@
                                         <div class="flex justify-start items-start">
                                             <img src="assets/images/tanda-kutip.png" alt="Icon Tanda Kutip" style="height:20px;"></div>
                                         <div class="title body-lg">
-                                            Pengalaman saya dengan BPMP Sumatera Selatan sangat baik. Stafnya membantu dan membimbing saya dengan baik. Saya merasa dihargai. Terima kasih atas pelayanannya!
+                                            Kami menyampaikan apresiasi dan terima kasih kepada BPMP Provinsi Sumsel atas sinergi dan kolaborasinya dalam meningkatkan mutu pendidikan di daerah. Melalui berbagai advokasi dan pendampingan implementasi program prioritas Kemendikdasmen, Kota Palembang berhasil meraih capaian SPM Tuntas Madya.
                                         </div>
                                     </div>
                                     <div class="meta">
@@ -380,11 +380,11 @@
                                         </div>
                                         <div class="info">
                                             <div class="authorname">
-                                                Budi Santoso
+                                                Adrianus Amri
                                             </div>
                                             <div class="dateview">
                                                 <span class="institution">
-                                                    Sekolah Dasar Harapan Bangsa
+                                                    Kepala Dinas Kota Palembang
                                                 </span>
                                             </div>
                                         </div>
@@ -399,7 +399,7 @@
                                         <div class="flex justify-start items-start">
                                             <img src="assets/images/tanda-kutip.png" alt="Icon Tanda Kutip" style="height:20px;"></div>
                                         <div class="title body-lg">
-                                            Pelayanan dari BPMP Sumatera Selatan sangat memuaskan. Mereka cepat dan profesional, melebihi harapan saya. Saya menghargai dedikasi mereka.
+                                            Saya mendapatkan kesan bahwa BPMP Sumsel melaksanakan seluruh programnya dengan penuh profesionalisme, dedikasi, akuntabilitas, dan integritas yang sangat tinggi. Karena itu, saya sangat yakin BPMP Provinsi Sumsel siap untuk mencapai predikat ZI-WBK.
                                         </div>
                                     </div>
                                     <div class="meta">
@@ -407,11 +407,11 @@
                                         </div>
                                         <div class="info">
                                             <div class="authorname">
-                                                Budi Santoso
+                                                Vina Driani, Ph.D.
                                             </div>
                                             <div class="dateview">
                                                 <span class="institution">
-                                                    Sekolah Dasar Harapan Bangsa
+                                                    Direktur SEAMEO CECCEP
                                                 </span>
                                             </div>
                                         </div>
@@ -426,7 +426,7 @@
                                         <div class="flex justify-start items-start">
                                             <img src="assets/images/tanda-kutip.png" alt="Icon Tanda Kutip" style="height:20px;"></div>
                                         <div class="title body-lg">
-                                            BPMP Sumsel selalu berkomitmen memberikan pelayanan terbaik. Proses yang dilakukan cepat dan efisien, sehingga hasilnya pun menjadi optimal dan memuaskan.
+                                            Melalui penjaringan informasi kombel yang dilaksanakan BPMP Sumsel, kami dapat berbagi praktik yang telah kami laksanakan di komunitas belajar kami. Umpan balik yang kami terima sangat positif dan membuat kami semakin bersemangat dalam menjalankan kombel di sekolah.
                                         </div>
                                     </div>
                                     <div class="meta">
@@ -434,11 +434,11 @@
                                         </div>
                                         <div class="info">
                                             <div class="authorname">
-                                                Budi Santoso
+                                                Murniasih
                                             </div>
                                             <div class="dateview">
                                                 <span class="institution">
-                                                    Sekolah Dasar Harapan Bangsa
+                                                    SMP Negeri 1 Indralaya, Kab. Ogan Ilir
                                                 </span>
                                             </div>
                                         </div>
@@ -454,12 +454,12 @@
 
     <section class="container surface-default">
         <div class="wrapper">
-            <div class="flex column justify-center items-center gap-10 gap-6-mobile">
+            <div class="flex column justify-center items-center gap-10 gap-8-mobile">
 	            <div class="flex row justify-between items-center text-center gap-9 full">
 	                <h1 class="display-lg full-mobile">E-Pustaka</h1>
 	                <a href="/e-pustaka/semua-dokumen" class="button hide-mobile">Lihat Dokumen Lainnya</a>
 	            </div>
-	            <div class="grid grid-4 grid-1-mobile gap-12">
+	            <div class="grid grid-4 grid-2-tablet grid-1-mobile gap-12">
 	            	<a href="/e-pustaka/dokumen-detail" class="dokumen">
                         <div style="height:365px">
                             <img class="rounded-8" src="/assets/images/pustaka-1.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
@@ -557,7 +557,7 @@
                         </div>
                     </a>
                     <div class="flex row justify-center items-center text-center gap-9 full hide-desktop hide-tablet">
-                        <a href="/e-pustaka/semua-dokumen" class="button">
+                        <a href="/e-pustaka/semua-dokumen" class="button full-mobile">
                             Lihat Dokumen Lainnya
                         </a>
                     </div>
@@ -568,18 +568,18 @@
 
     <section class="container bg-default">
         <div class="wrapper">
-            <div class="flex column justify-center items-center gap-10 gap-6-mobile">
+            <div class="flex column justify-center items-center gap-10 gap-8-mobile">
 	            <div class="flex row justify-between items-center text-center gap-9 full">
-	                <h1 class="display-lg full-mobile">Kabar BPMP Provinsi Sumetara Selatan</h1>
+	                <h1 class="display-lg full-mobile">Kabar BPMP Provinsi Sumatera Selatan</h1>
 	                <a href="/publikasi/berita" class="link subtle hide-mobile"><b>Lihat Kabar Lainnya</b></a>
 	            </div>
-	            <div class="grid grid-3 grid-1-mobile gap-7">
+	            <div class="grid grid-3 grid-2-tablet grid-1-mobile gap-7">
 	            	<div class="card story">
                         <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-1.jpg);"></div></a>
                         <div class="details">
                             <div class="summary">
                                 <a href="#" class="chip small selected">
-                                    Webinar
+                                    Kegiatan
                                 </a>
                                 <a href="#"><div class="title line-clamp-3">
                                     Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
@@ -671,7 +671,7 @@
                         </div>
                     </div>
                     <div class="flex row justify-center items-center text-center gap-9 full hide-desktop hide-tablet">
-                        <a href="/publikasi/berita" class="link subtle"><b>Lihat Kabar Lainnya</b></a>
+                        <a href="/publikasi/berita" class="link subtle full-mobile"><b>Lihat Kabar Lainnya</b></a>
                     </div>
 	            </div>
 	        </div>
@@ -680,7 +680,7 @@
 
     <section class="container surface-default">
         <div class="wrapper">
-            <div class="flex column justify-center items-center gap-10 gap-6-mobile">
+            <div class="flex column justify-center items-center gap-10 gap-8-mobile">
 	            <div class="flex full">
 	                <h1 class="display-lg text-start">Media Sosial</h1>
 	            </div>

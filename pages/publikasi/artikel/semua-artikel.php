@@ -5,7 +5,7 @@
     <title>Publikasi</title>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/modules/loadlist.php'); ?>
 </head>
-<body id="kabar-wong-kito" data-slug="publikasi">
+<body id="artikel" data-slug="publikasi">
 
 <?php include './modules/header.php'; ?>
 
@@ -25,8 +25,8 @@
                         </a>
                     </li>
                     <li class="item">
-                        <a href="/publikasi/kabar-wong-kito">
-                            Kabar Wong Kito
+                        <a href="/publikasi/artikel">
+                            Artikel
                         </a>
                     </li>
                     <li class="item">
@@ -149,21 +149,22 @@
                     <div class="separator-0 vertical border-color-disabled"></div>
                     <div class="grid grid-3 gap-7">
                         <div class="card story border-subdued">
-                            <a href="/publikasi/kabar-wong-kito/artikel-detail"><div class="featured-image" style="background-image: url(/assets/images/wong-kito-1.png);"></div></a>
+                            <a href="/publikasi/artikel/artikel-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                             <div class="details">
                                 <a href="#" class="chip small selected">
                                     Dinas Pendidikan
                                 </a>
                                 <div class="summary">
-                                    <a href="/publikasi/kabar-wong-kito/artikel-detail"><div class="title line-clamp-3">
-                                        Sistem Penerimaan Murid Baru (SPMB) dalam rangka Persiapan Hasil Perhitungan Daya Tampung dan Penetapan Wilayah Provinsi Sumatera Selatan Tahun 2025
-                                    </div></a>
+                                    <a href="/publikasi/artikel/artikel-detail">
+                                        <div class="title line-clamp-3">
+                                        Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div>
+                                    </a>
                                     <div class="description line-clamp-3">
-                                        Indralaya, Sumatera Selatan - Dalam rangka mendukung Pemerintah Daerah dalam mempersiapkan Sistem Penerimaan Murid Baru (SPMB)
-                                        yang adil dan merata, Balai Penjaminan Mutu Pendidikan (BPMP) Provinsi Sumatera Selatan melaksanakan kegiatan Sistem Penerimaan
-                                        Murid Baru (SPMB) dalam rangka Persiapan Hasil Perhitungan Daya Tampung dan Penetapan Wilayah Provinsi Sumatera Selatan Tahun 2025.
-                                        Kegiatan ini bertujuan untuk membantu Pemerintah Daerah dalam mengidentifikasi serta menginventarisasi progres penyusunan perencanaan,
-                                        pelaksanaan, permasalahan/kendala, serta solusi dalam upaya optimalisasi SPMB.
+                                        Jakarta, Kemendikdasmen --- Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk 
+                                        memperkuat pendidikan karakter di Indonesia. Sejumlah langkah strategis dilakukan untuk membangun generasi yang berkarakter kuat, 
+                                        berintegritas, serta berdaya saing global. Program-program prioritas dalam pembangunan pendidikan nasional, khususnya yang berkaitan 
+                                        dengan karakter dan inklusivitas, terus diperkenalkan untuk menghadapi tantangan zaman yang semakin kompleks.
                                     </div>
                                 </div>
                                 <div class="meta">

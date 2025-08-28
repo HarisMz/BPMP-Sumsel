@@ -73,13 +73,13 @@
                             </div>
                             <div class="flex column gap-5">
                                 <span class="body">
-                                    Area ini berfokus pada upaya untuk mengubah secara sistematis dan konsisten mekanisme kerja, pola pikir (mindset), dan budaya kerja (culture set) individu pada unit kerja. Tujuannya adalah agar tercipta lingkungan kerja yang lebih baik, sesuai dengan tujuan pembangunan Zona Integritas. Ini termasuk komitmen pimpinan, pembentukan tim kerja, dan sosialisasi perubahan kepada seluruh pegawai.
+                                    Area ini berfokus pada upaya untuk mengubah secara sistematis dan konsisten mekanisme kerja, pola pikir (<i>mindset</i>), dan budaya kerja (<i>culture set</i>) individu pada unit kerja. Tujuannya adalah agar tercipta lingkungan kerja yang lebih baik, sesuai dengan tujuan pembangunan Zona Integritas. Ini termasuk komitmen pimpinan, pembentukan tim kerja, dan sosialisasi perubahan kepada seluruh pegawai.
                                 </span>
                                 <div class="flex column gap-5 p-7 surface-subdued rounded-8">
                                     <div class="flex justify-between items-center">
                                         <div class="body">Komitmen Pimpinan dan Agen Perubahan</div>
                                         <a href="#" class="link noline action">
-                                            Lihat komitmen sebelumnya
+                                            Selengkapnya
                                         </a>
                                     </div>
                                     <div class="flex column gap-3">
@@ -129,7 +129,7 @@
                                     <div class="flex justify-between items-center">
                                         <div class="body">Komitmen Pimpinan dan Agen Perubahan</div>
                                         <a href="#" class="link noline action">
-                                            Lihat komitmen sebelumnya
+                                            Selengkapnya
                                         </a>
                                     </div>
                                     <div class="flex column gap-3">
@@ -175,7 +175,7 @@
                                     <div class="flex justify-between items-center">
                                         <div class="body">Komitmen Pimpinan dan Agen Perubahan</div>
                                         <a href="#" class="link noline action">
-                                            Lihat komitmen sebelumnya
+                                            Selengkapnya
                                         </a>
                                     </div>
                                     <div class="flex column gap-3">
@@ -209,7 +209,7 @@
                                     <div class="flex justify-between items-center">
                                         <div class="body">Komitmen Pimpinan dan Agen Perubahan</div>
                                         <a href="#" class="link noline action">
-                                            Lihat komitmen sebelumnya
+                                            Selengkapnya
                                         </a>
                                     </div>
                                     <div class="flex column gap-3">
@@ -251,7 +251,7 @@
                                     <div class="flex justify-between items-center">
                                         <div class="body">Komitmen Pimpinan dan Agen Perubahan</div>
                                         <a href="#" class="link noline action">
-                                            Lihat komitmen sebelumnya
+                                            Selengkapnya
                                         </a>
                                     </div>
                                     <div class="flex column gap-3">
@@ -293,7 +293,7 @@
                                     <div class="flex justify-between items-center">
                                         <div class="body">Komitmen Pimpinan dan Agen Perubahan</div>
                                         <a href="#" class="link noline action">
-                                            Lihat komitmen sebelumnya
+                                            Selengkapnya
                                         </a>
                                     </div>
                                     <div class="flex column gap-3">

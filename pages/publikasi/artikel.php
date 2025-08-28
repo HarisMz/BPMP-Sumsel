@@ -146,66 +146,57 @@
                 <div class="carousel arrow loop arrow-bordered" data-carousel-visible="5" data-carousel-visible-mobile="1" data-sliding-span="1">
                     <div class="carousel-inner" style="height: 240px;">
                         <div class="carousel-item column justify-center surface-subdued rounded-8 gap-7">
-                            <span class="avatar xxl">
+                            <span class="avatar xxxl">
                                 <img class="image" src="/assets/images/foto-pimpinan/pimpinan-8.png">
                             </span>
                             <div class="flex column gap-2 text-center">
                                 <span class="heading-sm">Aria Ahmad Mangunwibawa</span>
-                                <span class="body">5 Artikel</span>
+                                <span class="body">3 Artikel</span>
                             </div>
                         </div>
                         <div class="carousel-item column justify-center surface-subdued rounded-8 gap-7">
-                            <span class="avatar xxl">
-                                <img class="image" src="/assets/images/foto-pimpinan/pimpinan-8.png">
+                            <span class="avatar xxxl">
+                                <img class="image" src="/assets/images/foto-pimpinan/foto-kasubbag.png">
                             </span>
                             <div class="flex column gap-2 text-center">
-                                <span class="heading-sm">Aria Ahmad Mangunwibawa</span>
-                                <span class="body">5 Artikel</span>
+                                <span class="heading-sm">M. A. Fainaludin</span>
+                                <span class="body">3 Artikel</span>
                             </div>
                         </div>
                         <div class="carousel-item column justify-center surface-subdued rounded-8 gap-7">
-                            <span class="avatar xxl">
-                                <img class="image" src="/assets/images/foto-pimpinan/pimpinan-8.png">
+                            <span class="avatar xxxl">
+                                <img class="image" src="/assets/images/foto-pimpinan/pimpinan-7.png">
                             </span>
                             <div class="flex column gap-2 text-center">
-                                <span class="heading-sm">Aria Ahmad Mangunwibawa</span>
-                                <span class="body">5 Artikel</span>
+                                <span class="heading-sm">Drs. Suyato, M.A.P.</span>
+                                <span class="body">3 Artikel</span>
                             </div>
                         </div>
                         <div class="carousel-item column justify-center surface-subdued rounded-8 gap-7">
-                            <span class="avatar xxl">
+                            <span class="avatar xxxl">
                                 <img class="image" src="/assets/images/foto-pimpinan/pimpinan-8.png">
                             </span>
                             <div class="flex column gap-2 text-center">
                                 <span class="heading-sm">Aria Ahmad Mangunwibawa</span>
-                                <span class="body">5 Artikel</span>
+                                <span class="body">3 Artikel</span>
                             </div>
                         </div>
                         <div class="carousel-item column justify-center surface-subdued rounded-8 gap-7">
-                            <span class="avatar xxl">
-                                <img class="image" src="/assets/images/foto-pimpinan/pimpinan-8.png">
+                            <span class="avatar xxxl">
+                                <img class="image" src="/assets/images/foto-pimpinan/foto-kasubbag.png">
                             </span>
                             <div class="flex column gap-2 text-center">
-                                <span class="heading-sm">Aria Ahmad Mangunwibawa</span>
-                                <span class="body">5 Artikel</span>
+                                <span class="heading-sm">M. A. Fainaludin</span>
+                                <span class="body">3 Artikel</span>
                             </div>
                         </div>
                         <div class="carousel-item column justify-center surface-subdued rounded-8 gap-7">
-                            <span class="avatar xxl">
-                                <img class="image" src="/assets/images/foto-pimpinan/pimpinan-8.png">
+                            <span class="avatar xxxl">
+                                <img class="image" src="/assets/images/foto-pimpinan/pimpinan-7.png">
                             </span>
                             <div class="flex column gap-2 text-center">
-                                <span class="heading-sm">Aria Ahmad Mangunwibawa</span>
-                                <span class="body">5 Artikel</span>
-                            </div>
-                        </div>
-                        <div class="carousel-item column justify-center surface-subdued rounded-8 gap-7">
-                            <span class="avatar xxl">
-                                <img class="image" src="/assets/images/foto-pimpinan/pimpinan-8.png">
-                            </span>
-                            <div class="flex column gap-2 text-center">
-                                <span class="heading-sm">Aria Ahmad Mangunwibawa</span>
-                                <span class="body">5 Artikel</span>
+                                <span class="heading-sm">Drs. Suyato, M.A.P.</span>
+                                <span class="body">3 Artikel</span>
                             </div>
                         </div>
                     </div>
@@ -217,7 +208,7 @@
         <div class="wrapper column gap-10">
             <div class="flex justify-between">
                 <div class="display-lg">Artikel Terbaru</div>
-                <a href="#" class="button hide-mobile">
+                <a href="/publikasi/artikel/semua-artikel" class="button hide-mobile">
                     Lihat Artikel Lainnya
                 </a>
             </div>

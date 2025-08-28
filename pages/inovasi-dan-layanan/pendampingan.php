@@ -48,9 +48,7 @@
                 <div class="headline-xs">Jenis Layanan Pendampingan</div>
                 <div class="grid grid-2 grid-1-mobile gap-7">
                     <div class="flex column p-9 gap-9 rounded-8 surface-default">
-                        <div>
-                            <img src="/assets/images/pendampingan-1.jpg" alt="Pikat Bidar" style="height: 100%; width: 100%; border-radius: 8px;">
-                        </div>
+                        <div class="bg-normalize cover ratio-16-10 rounded-8" style="background-image: url('/assets/images/pendampingan-1.jpg');" alt="Pikat Bidar"></div>
                         <div class="flex column gap-7">
                             <div class="display-lg">Pikat Bidar</div>
                             <div class="body"><b>Pendampingan Melekat Bimbingan dalam Jaringan</b> yang merupakan media layanan peningkatan kapasitas, konsultasi, pendampingan terhadap implementasi program Kemendikdasmen yang dilaksanakan oleh BPMP Provinsi Sumatera Selatan.</div>
@@ -60,9 +58,7 @@
                         </div>
                     </div>
                     <div class="flex column p-9 gap-9 rounded-8 surface-default">
-                        <div>
-                            <img src="/assets/images/pendampingan-2.jpg" alt="Pikat Dulur" style="height: 100%; width: 100%; border-radius: 8px;">
-                        </div>
+                        <div class="bg-normalize cover ratio-16-10 rounded-8" style="background-image: url('/assets/images/pendampingan-2.jpg');" alt="Pikat Dulur"></div>
                         <div class="flex column gap-7">
                             <div class="display-lg">Pikat Dulur</div>
                             <div class="body"><b>Pendampingan Melekat Datang untuk Luring (tatap muka)</b> merupakan media layanan peningkatan kapasitas, konsultasi, pendampingan terhadap implementasi program Kemendikdasmen yang dilaksanakan oleh BPMP Provinsi Sumatera Selatan.</div>

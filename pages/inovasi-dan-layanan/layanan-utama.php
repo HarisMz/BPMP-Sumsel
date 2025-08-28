@@ -41,76 +41,76 @@
                 <span class="body">BPMP Provinsi Sumatera Selatan berkomitmen dalam mewujudkan pelayanan publik yang transparan, akuntabel, dan berkualitas kepada seluruh ekosistem dengan menetapkan Standar dan Maklumat Pelayanan Publik sebagai pedoman utama dalam setiap proses fasilitasi layanan. Hal ini merupakan aksi nyata kami agar dapat memberikan pelayanan yang prima, cepat, mudah, terjangkau, dan terukur.</span>
             </div>
             <div class="grid grid-3 grid-2-tablet grid-1-mobile gap-7">
-                <div class="flex column gap-4 p-7 surface-default rounded-8">
+                <div class="flex column gap-5 p-7 surface-default rounded-8">
                     <div class="flex gap-5 items-center">
                         <div class="flex justify-center items-center surface-red-50 rounded-8 shrink-0" style="height: 60px; width: 60px;">
                             <img src="/assets/images/ziwbk-icon-1.svg" alt="Manajemen Perubahan">
                         </div>
                         <div class="body-lg"><b>Layanan Informasi Mutu Pendidikan</b></div>
                     </div>
-                    <span class="body">Area ini bertujuan menciptakan lingkungan kerja yang lebih baik melalui perubahan sistematis pada pola pikir dan budaya kerja.</span>
-                    <a href="/tentang-kami/rbi-ziwbk/6-area#tab-content-1" class="button secondary small">
-                        Selengkapnya
+                    <span class="body">BPMP Provinsi Sumatera Selatan menyediakan layanan dashboard profil informasi mutu pendidikan provinsi dan kabupaten/kota di Sumatera Selatan</span>
+                    <a href="#" class="button secondary large right full" data-icon="open_in_new">
+                        Gunakan Layanan
                     </a>
                 </div>
-                <div class="flex column gap-4 p-7 surface-default rounded-8">
+                <div class="flex column gap-5 p-7 surface-default rounded-8">
                     <div class="flex gap-5 items-center">
                         <div class="flex justify-center items-center surface-purple-50 rounded-8 shrink-0" style="height: 60px; width: 60px;">
                             <img src="/assets/images/ziwbk-icon-2.svg" alt="Penataan Tatalaksana">
                         </div>
                         <div class="body-lg"><b>Layanan Konsultasi Mutu Pendidikan</b></div>
                     </div>
-                    <span class="body">Penataan tata laksana bertujuan untuk meningkatkan efisiensi dan efektivitas sistem serta prosedur kerja.</span>
-                    <a href="/tentang-kami/rbi-ziwbk/6-area#tab-content-2" class="button secondary small">
-                        Selengkapnya
+                    <span class="body">BPMP Provinsi Sumatera Selatan berkomitmen untuk memberikan konsultasi dan informasi mengenai kebijakan dan program Kemendikdasmen</span>
+                    <a href="#" class="button secondary large right full" data-icon="open_in_new">
+                        Gunakan Layanan
                     </a>
                 </div>
-                <div class="flex column gap-4 p-7 surface-default rounded-8">
+                <div class="flex column gap-5 p-7 surface-default rounded-8">
                     <div class="flex gap-5 items-center">
                         <div class="flex justify-center items-center surface-cyan-50 rounded-8 shrink-0" style="height: 60px; width: 60px;">
                             <img src="/assets/images/ziwbk-icon-3.svg" alt="Penataan Sistem Manajemen SDM">
                         </div>
                         <div class="body-lg"><b>Layanan Kerjasama</b></div>
                     </div>
-                    <span class="body">Fokus pada peningkatan profesionalisme SDM aparatur melalui perencanaan pegawai dan pengembangan kompetensi.</span>
-                    <a href="/tentang-kami/rbi-ziwbk/6-area#tab-content-3" class="button secondary small">
-                        Selengkapnya
+                    <span class="body">Kerjasama dilakukan dengan semua pemangku kepentingan dan ekosistem untuk meningkatkan serta menjamin kualitas pendidikan</span>
+                    <a href="#" class="button secondary large right full" data-icon="open_in_new">
+                        Gunakan Layanan
                     </a>
                 </div>
-                <div class="flex column gap-4 p-7 surface-default rounded-8">
+                <div class="flex column gap-5 p-7 surface-default rounded-8">
                     <div class="flex gap-5 items-center">
                         <div class="flex justify-center items-center surface-green-50 rounded-8 shrink-0" style="height: 60px; width: 60px;">
                             <img src="/assets/images/ziwbk-icon-4.svg" alt="Penguatan Akuntabilitas Kerja">
                         </div>
                         <div class="body-lg"><b>Layanan Kerja Praktik, Magang, dan Penelitian</b></div>
                     </div>
-                    <span class="body">Akuntabilitas kinerja adalah tanggung jawab instansi pemerintah dalam melaporkan keberhasilan atau kegagalan program.</span>
-                    <a href="/tentang-kami/rbi-ziwbk/6-area#tab-content-4" class="button secondary small">
-                        Selengkapnya
+                    <span class="body">Menyediakan ruang bagi publik dan ekosistem pendidikan untuk melaksanakan praktik kerja, magang, dan penelitian terkait program dan kebijakan di bidang pendidikan</span>
+                    <a href="#" class="button secondary large right full" data-icon="open_in_new">
+                        Gunakan Layanan
                     </a>
                 </div>
-                <div class="flex column gap-4 p-7 surface-default rounded-8">
+                <div class="flex column gap-5 p-7 surface-default rounded-8">
                     <div class="flex gap-5 items-center">
                         <div class="flex justify-center items-center surface-orange-40 rounded-8 shrink-0" style="height: 60px; width: 60px;">
                             <img src="/assets/images/ziwbk-icon-5.svg" alt="Penguatan Pengawasan">
                         </div>
                         <div class="body-lg"><b>Layanan Peminjaman Fasilitas</b></div>
                     </div>
-                    <span class="body">Pengawasan yang kuat diperlukan untuk menciptakan pemerintahan yang bersih dari KKN.</span>
-                    <a href="/tentang-kami/rbi-ziwbk/6-area#tab-content-5" class="button secondary small">
-                        Selengkapnya
+                    <span class="body">Fasilitas sarana, prasarana, dan penunjang kegiatan dapat dimanfaatkan oleh ekosistem pendidikan untuk mendukung berbagai aktivitas pendidikan</span>
+                    <a href="#" class="button secondary large right full" data-icon="open_in_new">
+                        Gunakan Layanan
                     </a>
                 </div>
-                <div class="flex column gap-4 p-7 surface-default rounded-8">
+                <div class="flex column gap-5 p-7 surface-default rounded-8">
                     <div class="flex gap-5 items-center">
                         <div class="flex justify-center items-center surface-yellow-50 rounded-8 shrink-0" style="height: 60px; width: 60px;">
                             <img src="/assets/images/ziwbk-icon-6.svg" alt="Peningkatan Kualitas Pelayanan Publik">
                         </div>
                         <div class="body-lg"><b>Layanan Pengaduan</b></div>
                     </div>
-                    <span class="body">Fokus utama adalah meningkatkan kualitas pelayanan publik sesuai harapan masyarakat.</span>
-                    <a href="/tentang-kami/rbi-ziwbk/6-area#tab-content-6" class="button secondary small">
-                        Selengkapnya
+                    <span class="body">Akses ke berbagai saluran pengaduan untuk meningkatkan pengawasan kualitas layanan BPMP Provinsi Sumatera Selatan agar lebih optimal</span>
+                    <a href="#" class="button secondary large right full" data-icon="open_in_new">
+                        Gunakan Layanan
                     </a>
                 </div>
             </div>
@@ -159,7 +159,17 @@
                 <div class="flex column" style="margin-left: -16px;">
                     <div class="collapsible list accordion first-open">
                         <div class="collapsible-header">
-                            Ini adalah contoh Collapsible.
+                            Apakah layanan pendampingan ini berbayar?
+                        </div>
+                        <div class="collapsible-content">
+                            <p>
+                                Tidak. Seluruh layanan pendampingan yang diberikan oleh BPMP Sumatera Selatan bersifat gratis dan merupakan bagian dari tugas pelayanan publik kami kepada satuan pendidikan, pemda, dan masyarakat.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapsible list accordion">
+                        <div class="collapsible-header">
+                            Dimanakah saya dapat melaksanakan pendampingan?
                         </div>
                         <div class="collapsible-content">
                             <p>
@@ -169,7 +179,7 @@
                     </div>
                     <div class="collapsible list accordion">
                         <div class="collapsible-header">
-                            Ini adalah contoh Collapsible.
+                            Siapa saja yang dapat menggunakan layanan ini?
                         </div>
                         <div class="collapsible-content">
                             <p>
@@ -179,17 +189,7 @@
                     </div>
                     <div class="collapsible list accordion">
                         <div class="collapsible-header">
-                            Ini adalah contoh Collapsible.
-                        </div>
-                        <div class="collapsible-content">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et dignissim tortor, in ultricies augue. Integer metus mauris, bibendum ac mattis in, facilisis sit amet urna. In a eleifend urna. Curabitur non pretium urna. Duis convallis pharetra nisi, in malesuada massa tincidunt sit amet. Phasellus at diam malesuada, luctus nibh eu, laoreet odio. Proin quis enim ac nisi rhoncus sodales a vel sem.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="collapsible list accordion">
-                        <div class="collapsible-header">
-                            Ini adalah contoh Collapsible.
+                            Kapan layanan pendampingan dapat diakses?
                         </div>
                         <div class="collapsible-content">
                             <p>

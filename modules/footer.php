@@ -14,8 +14,12 @@
                                 <a href="mailto:bpmpsumsel@kemdikbud.go.id" class="link secondary noline" target="_blank">bpmpsumsel@kemdikbud.go.id</a>
                             </div>
                             <div class="flex gap-3">
-                                <img src="/assets/images/phone.svg" alt="Phone Number" style="height: 20px;">
-                                <a href="tel:+6215725610" class="link secondary noline" target="_blank">(1234) 4442196</a>
+                                <img src="/assets/images/office_phone.svg" alt="Office Phone Number" style="height: 20px;">
+                                <a href="tel:+62711581368" class="link secondary noline" target="_blank">(0711) 581368</a>
+                            </div>
+                            <div class="flex gap-3">
+                                <img src="/assets/images/phone.svg" alt="ULT Phone Number" style="height: 20px;">
+                                <a href="tel:+6282279186898" class="link secondary noline" target="_blank">082279186898</a>
                             </div>
                         </div>
                     </div>
@@ -25,7 +29,7 @@
                             <a href="https://www.facebook.com/DitjenPAUDDikdasmen/?locale=id_ID" class="media facebook" target="_blank" title="Facebook"></a>
                             <a href="https://www.instagram.com/ditjen.paud.dikdasmen/" class="media instagram" target="_blank" title="Instagram"></a>
                             <a href="https://twitter.com/pauddikdasmen" class="media x" target="_blank" title="X"></a>
-                            <a href="https://www.youtube.com/channel/UCE_2hOf7ENLtj09wslgoidw/featured" class="media youtube" target="_blank" title="YouTube"></a>
+                            <a href="https://www.youtube.com/@bpmpprovsumsel" class="media youtube" target="_blank" title="YouTube"></a>
                             <a href="https://www.tiktok.com/@ditjen.paud.dikdasmen" class="media tiktok" target="_blank" title="TikTok"></a>
                         </div>
                     </div>

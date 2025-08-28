@@ -271,14 +271,6 @@
                                     </label>
                                 </div>
                             </div>
-                            <div class="flex justify-between gap-3">
-                                <a href="#" class="button ultimate">
-                                    Terapkan
-                                </a>
-                                <a href="#" class="button secondary">
-                                    Hapus Semua
-                                </a>
-                            </div>
                         </div>
                     </div>
                     <div class="flex column gap-10">
@@ -298,7 +290,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="kotak-filtering">
+                        <div class="kotak-filtering">
                             <div class="flex column gap-5">
                                 <div class="flex wrap gap-4 items-center">
                                     <div class="filter-terpilih">
@@ -349,7 +341,7 @@
                                 </div>
                                 <div class="separator-0 vertical border-color-subdued"></div>
                             </div>
-                        </div> -->
+                        </div>
                         <div class="grid grid-3 grid-2-tablet grid-1-mobile gap-12">
                             <a href="/e-pustaka/dokumen-detail" class="dokumen">
                                 <div style="height:365px">

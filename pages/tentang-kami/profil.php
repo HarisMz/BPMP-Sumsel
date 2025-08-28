@@ -107,14 +107,73 @@
                     <div class="item" id="tab-content-3">
                         <div class="flex column gap-11">
                             <div class="display-lg">Sejarah</div>
-                            <div class="flex column gap-5">
-                                <p>Balai Penjaminan Mutu Pendidikan (BPMP) Provinsi Sumatera Selatan merupakan satuan kerja/unit pelaksana teknis di bawah pembinaan Direktorat Jenderal Pendidikan Anak Usia Dini, Pendidikan Dasar, dan Pendidikan Menengah, Kementerian Pendidikan Dasar dan Menengah.</p>
-                                <p>Pada awal berdirinya, BPMP Provinsi Sumatera Selatan dikenal dengan nama Balai Penataran Guru (BPG) Palembang. Dan mulai beroperasi pada tanggal 21 Januari 1984. Selanjutnya, BGP Palembang diresmikan pada tanggal 3 Februari 1987 oleh Sekretaris Jenderal Departemen Pendidikan dan Kebudayaan (Depdikbud) Republik Indonesia, Bambang Triantoro. Dalam perkembangannya, BPG Palembang mengalami beberapa kali perubahan baik terkait nomenklatur maupun tugas dan fungsi yang harus dilaksanakan.</p>
-                                <p>Perubahan nomenklatur pertama, BPG Palembang berubah menjadi Lembaga Penjamin Mutu Pendidikan sesuai Keputusan Menteri Pendidikan dan Kebudayaan Nomor 087/O/2003 tentang Organisasi dan Tata Kerja Lembaga Penjamin Mutu Pendidikan. Selanjutnya berdasar Peraturan Menteri Pendidikan Kebudayaan Nomor 37 tahun 2012 yang kemudian diubah dengan Peraturan Menteri Pendidikan Kebudayaan Nomor 16 tahun 2013 tentang Organisasi dan Tata Kerja Lembaga Penjaminan Mutu Pendidikan, nomenklatur Lembaga Penjamin Mutu Pendidikan berubah menjadi Lembaga Penjaminan Mutu Pendidikan (LPMP).</p>
-                                <p>Selanjutnya, berdasar Peraturan Menteri Pendidikan, Kebudayaan, Riset, dan Teknologi Nomor 11 Tahun 2022 tentang Organisasi dan Tata Kerja Balai Besar Penjaminan Mutu Pendidikan (BBPMP) dan Balai Penjaminan Mutu Pendidikan (BPMP), Lembaga Penjaminan Mutu Pendidikan berubah menjadi Balai Penjaminan Mutu Pendidikan.</p>
-                                <p>Selanjutnya terkait kepemimpinan, dari awal berdiri sebagai Balai Penataran Guru (BPG) Palembang hingga saat ini, BPMP Provinsi Sumatera Selatan telah dipimpin oleh 8 orang kepala sebagai berikut:</p>
+                            <div class="flex column gap-10">
+                                <div class="flex column gap-5">
+                                    <p>Balai Penjaminan Mutu Pendidikan (BPMP) Provinsi Sumatera Selatan merupakan satuan kerja/unit pelaksana teknis di bawah pembinaan Direktorat Jenderal Pendidikan Anak Usia Dini, Pendidikan Dasar, dan Pendidikan Menengah, Kementerian Pendidikan Dasar dan Menengah.</p>
+                                    <p>Untuk mengetahui ringkasan perjalanan Balai Penjaminan Mutu Pendidikan (BPMP) Provinsi Sumatera Selatan, dapat dilihat melalui alur lini masa berikut.</p>
+                                </div>
+                                <div class="flex column gap-7">
+                                    <div class="flex gap-5">
+                                        <div class="connector shrink-0 mt-8 rounded-full surface-gray-50 hide-mobile" style="height: 12px; width: 12px;" data-top="16px" data-height="106px"></div>
+                                        <div class="flex column surface-subdued gap-3 px-7 py-5 rounded-8 full">
+                                            <div class="flex px-5 py-2 rounded-full border-gray-90" style="width: fit-content;">
+                                                <div class="heading-md">21 Januari 1984</div>
+                                            </div>
+                                            <div class="flex column gap-2">
+                                                <div class="heading-lg">Balai Penataran Guru (BPG) Palembang mulai beroperasi</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex gap-5">
+                                        <div class="connector shrink-0 mt-8 rounded-full surface-gray-50 hide-mobile" style="height: 12px; width: 12px;" data-top="16px" data-height="106px"></div>
+                                        <div class="flex column surface-subdued gap-3 px-7 py-5 rounded-8 full">
+                                            <div class="flex px-5 py-2 rounded-full border-gray-90" style="width: fit-content;">
+                                                <div class="heading-md">3 Februari 1987</div>
+                                            </div>
+                                            <div class="flex column gap-2">
+                                                <div class="heading-lg">Peresmian BPG Palembang</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex gap-5">
+                                        <div class="connector shrink-0 mt-8 rounded-full surface-gray-50 hide-mobile" style="height: 12px; width: 12px;" data-top="16px" data-height="158px"></div>
+                                        <div class="flex column surface-subdued gap-3 px-7 py-5 rounded-8 full">
+                                            <div class="flex px-5 py-2 rounded-full border-gray-90" style="width: fit-content;">
+                                                <div class="heading-md">4 Juli 2003</div>
+                                            </div>
+                                            <div class="flex column gap-2">
+                                                <div class="heading-lg">Lembaga Penjamin Mutu Pendidikan Sumatera Selatan</div>
+                                                <div class="body">Regulasi: Berdasar Keputusan Menteri Pendidikan dan Kebudayaan No.087/O/2003 tentang Organisasi dan Tata Kerja Lembaga Penjamin Mutu Pendidikan</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex gap-5">
+                                        <div class="connector shrink-0 mt-8 rounded-full surface-gray-50 hide-mobile" style="height: 12px; width: 12px;" data-top="16px" data-height="186px"></div>
+                                        <div class="flex column surface-subdued gap-3 px-7 py-5 rounded-8 full">
+                                            <div class="flex px-5 py-2 rounded-full border-gray-90" style="width: fit-content;">
+                                                <div class="heading-md">5 Maret 2013</div>
+                                            </div>
+                                            <div class="flex column gap-2">
+                                                <div class="heading-lg">Lembaga Penjaminan Mutu Pendidikan Provinsi Sumatera Selatan (LPMP Sumsel)</div>
+                                                <div class="body">Regulasi: Berdasar Peraturan Menteri Pendidikan Kebudayaan No.16 Tahun 2013 tentang Organisasi dan Tata Kerja Lembaga Penjaminan Mutu Pendidikan (LPMP)</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex gap-5">
+                                        <div class="shrink-0 mt-8 rounded-full surface-gray-50 hide-mobile" style="height: 12px; width: 12px;"></div>
+                                        <div class="flex column surface-subdued gap-3 px-7 py-5 rounded-8 full">
+                                            <div class="flex px-5 py-2 rounded-full border-gray-90" style="width: fit-content;">
+                                                <div class="heading-md">29 Maret 2022</div>
+                                            </div>
+                                            <div class="flex column gap-2">
+                                                <div class="heading-lg">Balai Penjaminan Mutu Pendidikan Provinsi Sumatera Selatan</div>
+                                                <div class="body">Regulasi: Berdasar Peraturan Menteri Pendidikan, Kebudayaan, Riset, dan Teknologi No.11 Tahun 2022 tentang Organisasi dan Tata Kerja Balai Besar Penjaminan Mutu Pendidikan (BBPMP) dan Balai Penjaminan Mutu Pendidikan (BPMP)</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="display-md">Riwayat Pimpinan BPG/LPMP/BPMP Provinsi Sumatera Selatan</div>
+                            <div class="display-md">Riwayat Pimpinan BPG/LPMP/BPMP <br>Provinsi Sumatera Selatan</div>
                             <div class="flex column gap-7">
                                 <div class="flex items-center gap-5">
                                     <div class="timeline-dot connector hide-mobile"></div>
@@ -236,7 +295,7 @@
                                     <li class="mt-12" style="padding-left: 226px;">
                                         <div class="flex column gap-7 surface-subdued items-center p-7 rounded-8 connector" style="width: 360px;" data-width="46px" data-height="1px" data-left="-46px" data-top="50%">
                                             <span class="avatar xxl" style="width: 96px; height: 96px; border-radius: 100%;">
-                                                <img class="image" src="/assets/images/foto-pimpinan/pimpinan-8.png">
+                                                <img class="image" src="/assets/images/foto-pimpinan/foto-kasubbag.png">
                                             </span>
                                             <div class="flex column gap-2 text-center">
                                                 <div class="heading-md">M. A. Fainaludin, S.Ag, M.M.</div>

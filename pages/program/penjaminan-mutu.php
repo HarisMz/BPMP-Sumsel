@@ -41,8 +41,7 @@
                     <span class="headline-xs">Penjaminan Mutu Pendidikan: Menjaga Standar, Meningkatkan Kualitas</span>
                     <p class="body">Penjaminan Mutu Pendidikan adalah suatu mekanisme yang sistematis, terintegrasi, dan berkelanjutan untuk memastikan bahwa seluruh proses penyelenggaraan pendidikan telah sesuai dengan standar mutu (Permendikbud Nomor 28 Tahun 2016 Pasal 1).</p>
                 </div>
-                <div class="flex justify-end items-center rounded-24 p-12 bg-normalize cover relative ratio-3-1" style="background-image: url('/assets/images/karakter-1.png');">
-                    <div style="position: absolute; height: 100%; width: 100%; top: 0; right: 0; border-radius: 24px; background: linear-gradient(270deg, rgba(38, 38, 38, 0.7) 46.46%, rgba(0, 0, 0, 0) 79.83%), linear-gradient(78.07deg, rgba(255, 255, 255, 0) 3.21%, rgba(38, 38, 38, 0.4) 93.23%); background-blend-mode: multiply;"></div>
+                <div class="flex justify-end items-center rounded-24 p-12 bg-normalize cover ratio-3-1" style="background-image: url('/assets/images/menteri-2.png');">
                     <div class="flex column gap-7 text-inverse width-64" style="z-index: 1;">
                         <div class="flex justify-start items-start">
                             <img src="/assets/images/tanda-kutip-biru.png" alt="Icon Tanda Kutip" style="height:20px;">
@@ -264,10 +263,13 @@
 	                <a href="#" class="link noline hide-mobile"><b>Lihat Berita Lainnya</b></a>
 	            </div>
 	            <div class="grid grid-3 grid-1-mobile gap-7">
-	            	<div class="card story border-subdued">
+	            	<div class="card story">
                         <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-1.jpg);"></div></a>
                         <div class="details">
                             <div class="summary">
+                                <a href="#" class="chip small selected">
+                                    Kegiatan
+                                </a>
                                 <a href="#"><div class="title line-clamp-3">
                                     Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
                                 </div></a>
@@ -290,16 +292,16 @@
                                         </span>
                                     </div>
                                 </div>
-                                <a href="#" class="chip small selected">
-                                    Webinar
-                                </a>
                             </div>
                         </div>
                     </div>
-                    <div class="card story border-subdued">
+                    <div class="card story">
                         <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-2.jpg);"></div></a>
                         <div class="details">
                             <div class="summary">
+                                <a href="#" class="chip small selected">
+                                    Event
+                                </a>
                                 <a href="#"><div class="title line-clamp-3">
                                     Judul Berita Terdiri dari 1 – 3 Baris Tulisan, Jika Lebih Maka Akan Diberikan Tanda Elipsis
                                 </div></a>
@@ -322,16 +324,16 @@
                                         </span>
                                     </div>
                                 </div>
-                                <a href="#" class="chip small selected">
-                                    Event
-                                </a>
                             </div>
                         </div>
                     </div>
-                    <div class="card story border-subdued">
+                    <div class="card story">
                         <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-3.jpg);"></div></a>
                         <div class="details">
                             <div class="summary">
+                                <a href="#" class="chip small selected">
+                                    Kebijakan
+                                </a>
                                 <a href="#"><div class="title line-clamp-3">
                                     Judul Berita Ini Singkat
                                 </div></a>
@@ -354,14 +356,11 @@
                                         </span>
                                     </div>
                                 </div>
-                                <a href="#" class="chip small selected">
-                                    Kebijakan
-                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="flex row justify-center items-center text-center gap-9 full hide-desktop hide-tablet">
-                        <a href="#" class="link noline"><b>Baca Selengkapnya</b></a>
+                        <a href="#" class="link noline"><b>Lihat Berita Lainnya</b></a>
                     </div>
 	            </div>
 	        </div>

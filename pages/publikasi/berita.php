@@ -75,7 +75,7 @@
                                     <h1 class="display-lg">Kemendikdasmen Pantau Persiapan Pelaksanaan SPMB 2025 di Seluruh Indonesia</h1>
                                     <div class="flex gap-4 items-center">
                                         <a href="#" class="chip small selected text-cyan-70">
-                                            Kabar
+                                            Kegiatan
                                         </a>
                                         <div class="body-sm">
                                             18 Maret 2025 | 9.56 WIB
@@ -90,7 +90,7 @@
                                     <h1 class="display-lg">Kemendikdasmen Gandeng Sektor Swasta Dukung Digitalisasi Pembelajaran di Indonesia</h1>
                                     <div class="flex gap-4 items-center">
                                         <a href="#" class="chip small selected text-cyan-70">
-                                            Kabar
+                                            Kegiatan
                                         </a>
                                         <div class="body-sm">
                                             18 Maret 2025 | 9.56 WIB
@@ -105,7 +105,7 @@
                                     <h1 class="display-lg">Pemerintah Indonesia dan Mitra Berkolaborasi Tingkatkan Pendidikan Inklusif dan Berkeadilan</h1>
                                     <div class="flex gap-4 items-center">
                                         <a href="#" class="chip small selected text-cyan-70">
-                                            Kabar
+                                            Kegiatan
                                         </a>
                                         <div class="body-sm">
                                             18 Maret 2025 | 9.56 WIB
@@ -125,7 +125,7 @@
                 <div class="flex justify-center">
                     <div class="menu items-center surface-default" style="min-width: 1200px; border-bottom: none;">
                         <a href="#" class="item action" id="tab-menu-1">
-                            Semua Artikel
+                            Semua Berita
                         </a>
                         <a href="#" class="item action" id="tab-menu-2">
                             Event/Kegiatan
@@ -464,7 +464,7 @@
                     </div>
                     <div class="item" id="tab-content-2" style="max-width: 1200px;">
                         <div class="flex justify-between">
-                            <div class="display-lg">Berita Terbaru</div>
+                            <div class="display-lg">Event/Kegiatan</div>
                             <div class="flex gap-6 items-center">
                                 <div class="body-sm bold">URUTKAN</div>
                                 <div class="select adjust small">
@@ -483,39 +483,31 @@
                         </div>
                         <div class="grid grid-3 grid-2-tablet gap-7 py-10">
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Pendidikan Dasar yang Inklusif dan Berkarakter
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Event
                                         </a>
-                                        <div class="description">
-                                            Menyediakan akses pendidikan yang adil dan merata bagi semua anak untuk mendukung pembentukan karakter bangsa.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -523,39 +515,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-2.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Membangun Generasi Muda Melalui Pembelajaran Kreatif
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Event
                                         </a>
-                                        <div class="description">
-                                            Mengintegrasikan metode belajar yang inovatif untuk meningkatkan kreativitas dan minat belajar siswa sejak dini.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -563,39 +547,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-3.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Pelatihan Guru: Memajukan Kualitas Pendidikan Dasar
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Event
                                         </a>
-                                        <div class="description">
-                                            Meningkatkan kapasitas guru melalui pelatihan intensif agar lebih efektif dalam mendidik dan membimbing siswa.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -603,39 +579,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-4.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Program Lingkungan Sekolah Hijau untuk Siswa SD
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Kegiatan
                                         </a>
-                                        <div class="description">
-                                            Mendorong sekolah untuk menerapkan praktik ramah lingkungan, membentuk siswa yang peduli terhadap alam.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -643,39 +611,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-5.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Pengenalan Literasi Digital di Pendidikan Dasar
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Kegiatan
                                         </a>
-                                        <div class="description">
-                                            Membekali siswa dengan keterampilan digital untuk menghadapi tantangan dunia yang semakin modern.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -683,39 +643,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-6.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Peran Pendidikan Karakter dalam Pembelajaran Sekolah Dasar
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Kegiatan
                                         </a>
-                                        <div class="description">
-                                            Menekankan pentingnya karakter positif sebagai landasan bagi pembentukan kepribadian siswa.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -723,39 +675,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-7.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Mengoptimalkan Peran Orang Tua dalam Pendidikan Dasar
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Kegiatan
                                         </a>
-                                        <div class="description">
-                                            Membina hubungan erat dengan orang tua untuk meningkatkan dukungan terhadap kemajuan belajar siswa.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -763,39 +707,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-8.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Mendorong Minat Baca di Kalangan Siswa Sekolah Dasar
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Event
                                         </a>
-                                        <div class="description">
-                                            Mengimplementasikan program membaca untuk memperluas wawasan dan meningkatkan keterampilan literasi siswa.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -803,39 +739,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-9.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Mewujudkan Pendidikan Dasar yang Ramah Anak
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Event
                                         </a>
-                                        <div class="description">
-                                            Menghadirkan lingkungan belajar yang inklusif agar anak berkebutuhan khusus dapat berkembang dan berprestasi secara optimal.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -875,39 +803,31 @@
                         </div>
                         <div class="grid grid-3 grid-2-tablet gap-7 py-10">
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Pendidikan Dasar yang Inklusif dan Berkarakter
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Kebijakan Pendidikan
                                         </a>
-                                        <div class="description">
-                                            Menyediakan akses pendidikan yang adil dan merata bagi semua anak untuk mendukung pembentukan karakter bangsa.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -915,39 +835,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-2.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Membangun Generasi Muda Melalui Pembelajaran Kreatif
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Kebijakan Pendidikan
                                         </a>
-                                        <div class="description">
-                                            Mengintegrasikan metode belajar yang inovatif untuk meningkatkan kreativitas dan minat belajar siswa sejak dini.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -955,39 +867,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-3.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Pelatihan Guru: Memajukan Kualitas Pendidikan Dasar
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Kebijakan Pendidikan
                                         </a>
-                                        <div class="description">
-                                            Meningkatkan kapasitas guru melalui pelatihan intensif agar lebih efektif dalam mendidik dan membimbing siswa.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -995,39 +899,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-4.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Program Lingkungan Sekolah Hijau untuk Siswa SD
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Kebijakan Pendidikan
                                         </a>
-                                        <div class="description">
-                                            Mendorong sekolah untuk menerapkan praktik ramah lingkungan, membentuk siswa yang peduli terhadap alam.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -1035,39 +931,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-5.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Pengenalan Literasi Digital di Pendidikan Dasar
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Kebijakan Pendidikan
                                         </a>
-                                        <div class="description">
-                                            Membekali siswa dengan keterampilan digital untuk menghadapi tantangan dunia yang semakin modern.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -1075,39 +963,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-6.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Peran Pendidikan Karakter dalam Pembelajaran Sekolah Dasar
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Kebijakan Pendidikan
                                         </a>
-                                        <div class="description">
-                                            Menekankan pentingnya karakter positif sebagai landasan bagi pembentukan kepribadian siswa.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -1115,39 +995,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-7.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Mengoptimalkan Peran Orang Tua dalam Pendidikan Dasar
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Kebijakan Pendidikan
                                         </a>
-                                        <div class="description">
-                                            Membina hubungan erat dengan orang tua untuk meningkatkan dukungan terhadap kemajuan belajar siswa.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -1155,39 +1027,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-8.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Mendorong Minat Baca di Kalangan Siswa Sekolah Dasar
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Kebijakan Pendidikan
                                         </a>
-                                        <div class="description">
-                                            Mengimplementasikan program membaca untuk memperluas wawasan dan meningkatkan keterampilan literasi siswa.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -1195,39 +1059,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-9.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Mewujudkan Pendidikan Dasar yang Ramah Anak
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Kebijakan Pendidikan
                                         </a>
-                                        <div class="description">
-                                            Menghadirkan lingkungan belajar yang inklusif agar anak berkebutuhan khusus dapat berkembang dan berprestasi secara optimal.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -1248,7 +1104,7 @@
                     </div>
                     <div class="item" id="tab-content-4" style="max-width: 1200px;">
                         <div class="flex justify-between">
-                            <div class="display-lg">Berita Terbaru</div>
+                            <div class="display-lg">Praktik Baik</div>
                             <div class="flex gap-6 items-center">
                                 <div class="body-sm bold">URUTKAN</div>
                                 <div class="select adjust small">
@@ -1267,39 +1123,31 @@
                         </div>
                         <div class="grid grid-3 grid-2-tablet gap-7 py-10">
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Pendidikan Dasar yang Inklusif dan Berkarakter
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Praktik Baik
                                         </a>
-                                        <div class="description">
-                                            Menyediakan akses pendidikan yang adil dan merata bagi semua anak untuk mendukung pembentukan karakter bangsa.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -1307,39 +1155,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-2.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Membangun Generasi Muda Melalui Pembelajaran Kreatif
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Praktik Baik
                                         </a>
-                                        <div class="description">
-                                            Mengintegrasikan metode belajar yang inovatif untuk meningkatkan kreativitas dan minat belajar siswa sejak dini.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -1347,39 +1187,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-3.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Pelatihan Guru: Memajukan Kualitas Pendidikan Dasar
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Praktik Baik
                                         </a>
-                                        <div class="description">
-                                            Meningkatkan kapasitas guru melalui pelatihan intensif agar lebih efektif dalam mendidik dan membimbing siswa.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -1387,39 +1219,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-4.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Program Lingkungan Sekolah Hijau untuk Siswa SD
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Praktik Baik
                                         </a>
-                                        <div class="description">
-                                            Mendorong sekolah untuk menerapkan praktik ramah lingkungan, membentuk siswa yang peduli terhadap alam.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -1427,39 +1251,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-5.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Pengenalan Literasi Digital di Pendidikan Dasar
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Praktik Baik
                                         </a>
-                                        <div class="description">
-                                            Membekali siswa dengan keterampilan digital untuk menghadapi tantangan dunia yang semakin modern.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -1467,39 +1283,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-6.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Peran Pendidikan Karakter dalam Pembelajaran Sekolah Dasar
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Praktik Baik
                                         </a>
-                                        <div class="description">
-                                            Menekankan pentingnya karakter positif sebagai landasan bagi pembentukan kepribadian siswa.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -1507,39 +1315,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-7.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Mengoptimalkan Peran Orang Tua dalam Pendidikan Dasar
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Praktik Baik
                                         </a>
-                                        <div class="description">
-                                            Membina hubungan erat dengan orang tua untuk meningkatkan dukungan terhadap kemajuan belajar siswa.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -1547,39 +1347,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-8.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Mendorong Minat Baca di Kalangan Siswa Sekolah Dasar
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Praktik Baik
                                         </a>
-                                        <div class="description">
-                                            Mengimplementasikan program membaca untuk memperluas wawasan dan meningkatkan keterampilan literasi siswa.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -1587,39 +1379,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-9.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Mewujudkan Pendidikan Dasar yang Ramah Anak
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Praktik Baik
                                         </a>
-                                        <div class="description">
-                                            Menghadirkan lingkungan belajar yang inklusif agar anak berkebutuhan khusus dapat berkembang dan berprestasi secara optimal.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -1640,7 +1424,7 @@
                     </div>
                     <div class="item" id="tab-content-5" style="max-width: 1200px;">
                         <div class="flex justify-between">
-                            <div class="display-lg">Berita Terbaru</div>
+                            <div class="display-lg">Seputar Program</div>
                             <div class="flex gap-6 items-center">
                                 <div class="body-sm bold">URUTKAN</div>
                                 <div class="select adjust small">
@@ -1659,39 +1443,31 @@
                         </div>
                         <div class="grid grid-3 grid-2-tablet gap-7 py-10">
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Pendidikan Dasar yang Inklusif dan Berkarakter
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Revitalisasi Sekolah
                                         </a>
-                                        <div class="description">
-                                            Menyediakan akses pendidikan yang adil dan merata bagi semua anak untuk mendukung pembentukan karakter bangsa.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -1699,39 +1475,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-2.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Membangun Generasi Muda Melalui Pembelajaran Kreatif
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Revitalisasi Sekolah
                                         </a>
-                                        <div class="description">
-                                            Mengintegrasikan metode belajar yang inovatif untuk meningkatkan kreativitas dan minat belajar siswa sejak dini.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -1739,39 +1507,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-3.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Pelatihan Guru: Memajukan Kualitas Pendidikan Dasar
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Wajib Belajar 13 Tahun
                                         </a>
-                                        <div class="description">
-                                            Meningkatkan kapasitas guru melalui pelatihan intensif agar lebih efektif dalam mendidik dan membimbing siswa.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -1779,39 +1539,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-4.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Program Lingkungan Sekolah Hijau untuk Siswa SD
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Digitalisasi Pembelajaran
                                         </a>
-                                        <div class="description">
-                                            Mendorong sekolah untuk menerapkan praktik ramah lingkungan, membentuk siswa yang peduli terhadap alam.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -1819,39 +1571,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-5.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Pengenalan Literasi Digital di Pendidikan Dasar
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Digitalisasi Pembelajaran
                                         </a>
-                                        <div class="description">
-                                            Membekali siswa dengan keterampilan digital untuk menghadapi tantangan dunia yang semakin modern.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -1859,39 +1603,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-6.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Peran Pendidikan Karakter dalam Pembelajaran Sekolah Dasar
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Makan Bergizi Gratis
                                         </a>
-                                        <div class="description">
-                                            Menekankan pentingnya karakter positif sebagai landasan bagi pembentukan kepribadian siswa.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -1899,39 +1635,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-7.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Mengoptimalkan Peran Orang Tua dalam Pendidikan Dasar
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Makan Bergizi Gratis
                                         </a>
-                                        <div class="description">
-                                            Membina hubungan erat dengan orang tua untuk meningkatkan dukungan terhadap kemajuan belajar siswa.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -1939,39 +1667,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-8.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Mendorong Minat Baca di Kalangan Siswa Sekolah Dasar
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Penguatan Pendidikan Karakter
                                         </a>
-                                        <div class="description">
-                                            Mengimplementasikan program membaca untuk memperluas wawasan dan meningkatkan keterampilan literasi siswa.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>
@@ -1979,39 +1699,31 @@
                                 </div>
                             </div>
                             <div class="card story">
-                                <a href="#">
-                                    <div class="featured-image" style="background-image: url(/assets/images/thumbnail/rilis-9.png);">
-                                    </div>
-                                </a>
+                                <a href="/publikasi/berita/berita-detail"><div class="featured-image" style="background-image: url(/assets/images/berita-4.png);"></div></a>
                                 <div class="details">
                                     <div class="summary">
-                                        <a href="#">
-                                            <div class="title">
-                                                Mewujudkan Pendidikan Dasar yang Ramah Anak
-                                            </div>
+                                        <a href="#" class="chip small selected">
+                                            Sistem Penerimaan Murid Baru
                                         </a>
-                                        <div class="description">
-                                            Menghadirkan lingkungan belajar yang inklusif agar anak berkebutuhan khusus dapat berkembang dan berprestasi secara optimal.
+                                        <a href="/publikasi/berita/berita-detail"><div class="title line-clamp-3">
+                                            Upaya Membangun Iklim Pembelajaran yang Inklusif, Aman, Nyaman, dan Menggembirakan
+                                        </div></a>
+                                        <div class="description line-clamp-3">
+                                            Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) dan Pimpinan Pusat Aisyiyah berkomitmen untuk memperkuat pendidikan karakter di Indonesia.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <a href="#">
-                                            <div class="avatar round medium" style="background-image: url(https://i.pravatar.cc/150?img=1);">
-                                            </div>
-                                        </a>
                                         <div class="info">
-                                            <a href="#">
-                                                <div class="authorname">
-                                                    Fulan Fulana
-                                                </div>
-                                            </a>
+                                            <a href="#"><div class="authorname">
+                                                Duma Subhatani
+                                            </div></a>
                                             <div class="dateview">
                                                 <span class="date">
-                                                    1 Oktober 2024
+                                                    16 Januari 2025
                                                 </span>
-                                                •
+                                                • 
                                                 <span class="viewcount">
-                                                    Dibaca 114 kali
+                                                    Dilihat 473 kali
                                                 </span>
                                             </div>
                                         </div>

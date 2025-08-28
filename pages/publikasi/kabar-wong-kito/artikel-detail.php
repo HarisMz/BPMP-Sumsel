@@ -40,12 +40,9 @@
     </section>
     <section class="container py-0 surface-subdued">
         <div class="wrapper my-10 p-10 gap-12 surface-default rounded-16">
-            <div class="flex column gap-8">
+            <div class="artikel-detail flex column gap-8">
                 <div class="headline-xs">Sistem Penerimaan Murid Baru (SPMB) dalam rangka Persiapan Hasil Perhitungan Daya Tampung dan Penetapan Wilayah Provinsi Sumatera Selatan Tahun 2025</div>
                 <div class="flex gap-5">
-                    <span class="badge critical">
-                        Dinas Pendidikan
-                    </span>
                     <div class="meta">
                         <div class="info eyebrow-sm">
                             <a href="#" style="text-decoration: none;">
@@ -112,6 +109,14 @@
                         <img src="/assets/images/Facebook.svg" alt="Facebook Share">
                         <img src="/assets/images/TwitterX.svg" alt="X Share">
                     </div>
+                </div>
+                <div class="flex gap-3">
+                    <a href="#" class="chip small selected">
+                        Dinas Pendidikan
+                    </a>
+                    <a href="#" class="chip small selected">
+                        Peserta Didik
+                    </a>
                 </div>
             </div>
             <div class="flex column gap-7 sticky">

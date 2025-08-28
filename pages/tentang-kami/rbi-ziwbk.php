@@ -137,19 +137,19 @@
                                         <div class="flex justify-start items-start">
                                             <img src="/assets/images/tanda-kutip.png" alt="Icon Tanda Kutip" style="height:20px;">
                                         </div>
-                                        <div class="title body-lg">
-                                            Pengalaman saya dengan BPMP Sumatera Selatan sangat baik. Stafnya membantu dan membimbing saya dengan baik. Saya merasa dihargai. Terima kasih atas pelayanannya!
+                                        <div class="title heading-md">
+                                            Pelayanan BPMP Sumsel sangat membantu dalam meningkatkan kualitas pendidikan di sekolah kami.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <div class="avatar round medium" style="background-image: url(/assets/images/avatar.png);">
+                                        <div class="avatar round xl" style="background-image: url(/assets/images/avatar.png);">
                                         </div>
                                         <div class="info">
-                                            <div class="authorname">
+                                            <div class="authorname action">
                                                 Budi Santoso
                                             </div>
                                             <div class="dateview">
-                                                <span class="institution">
+                                                <span class="institution body-sm">
                                                     Sekolah Dasar Harapan Bangsa
                                                 </span>
                                             </div>
@@ -164,20 +164,20 @@
                                     <div class="summary gap-5">
                                         <div class="flex justify-start items-start">
                                             <img src="/assets/images/tanda-kutip.png" alt="Icon Tanda Kutip" style="height:20px;"></div>
-                                        <div class="title body-lg">
-                                            Pelayanan dari BPMP Sumatera Selatan sangat memuaskan. Mereka cepat dan profesional, melebihi harapan saya. Saya menghargai dedikasi mereka.
+                                        <div class="title heading-md">
+                                            Layanan BPMP Sumsel sangat membantu kami dalam memahami kurikulum merdeka dan meningkatkan kualitas pembelajaran.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <div class="avatar round medium" style="background-image: url(/assets/images/avatar.png);">
+                                        <div class="avatar round xl" style="background-image: url(/assets/images/avatar.png);">
                                         </div>
                                         <div class="info">
-                                            <div class="authorname">
-                                                Budi Santoso
+                                            <div class="authorname action">
+                                                Andi Abdullah
                                             </div>
                                             <div class="dateview">
-                                                <span class="institution">
-                                                    Sekolah Dasar Harapan Bangsa
+                                                <span class="institution body-sm">
+                                                    SMA Negeri 1 Palembang
                                                 </span>
                                             </div>
                                         </div>
@@ -191,20 +191,20 @@
                                     <div class="summary gap-5">
                                         <div class="flex justify-start items-start">
                                             <img src="/assets/images/tanda-kutip.png" alt="Icon Tanda Kutip" style="height:20px;"></div>
-                                        <div class="title body-lg">
-                                            BPMP Sumsel selalu berkomitmen memberikan pelayanan terbaik. Proses yang dilakukan cepat dan efisien, sehingga hasilnya pun menjadi optimal dan memuaskan.
+                                        <div class="title heading-md">
+                                            BPMP Sumsel telah memberikan dukungan yang luar biasa dalam pengembangan program-program pendidikan di daerah kami.
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <div class="avatar round medium" style="background-image: url(/assets/images/avatar.png);">
+                                        <div class="avatar round xl" style="background-image: url(/assets/images/avatar.png);">
                                         </div>
                                         <div class="info">
-                                            <div class="authorname">
-                                                Budi Santoso
+                                            <div class="authorname action">
+                                                Nia Niriana
                                             </div>
                                             <div class="dateview">
-                                                <span class="institution">
-                                                    Sekolah Dasar Harapan Bangsa
+                                                <span class="institution body-sm">
+                                                    Dinas Pendidikan Kab. Indra Laya
                                                 </span>
                                             </div>
                                         </div>

@@ -108,7 +108,8 @@ blockquote {
   border-radius: var(--unit-2);
   margin-right: var(--unit-5);
 }
-.dokumen {
+.dokumen,
+.infografis {
   display: flex;
   flex-direction: column;
   gap: var(--unit-7);
@@ -116,7 +117,8 @@ blockquote {
   transition: filter var(--transition-medium) ease,
     transform var(--transition-medium) ease;
 }
-.dokumen:hover {
+.dokumen:hover,
+.infografis:hover {
   transform: scale(1.02);
 }
 
