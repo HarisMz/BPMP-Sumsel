@@ -5,7 +5,7 @@
   min-width: 400px;
   width: fit-content;
   min-height: 200px;
-  /* aspect-ratio: 16 / 9; */
+  aspect-ratio: 16 / 9;
   height: fit-content;
   display: flex;
   flex-direction: column;

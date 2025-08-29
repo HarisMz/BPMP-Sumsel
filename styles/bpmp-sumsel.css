@@ -140,6 +140,10 @@ blockquote {
   margin-left: var(--unit-7);
 }
 
+#profil .popup {
+  aspect-ratio: unset !important;
+}
+
 @media (max-width: 1024px) {
   .struktur-organisasi ul {
     padding-left: 206px;

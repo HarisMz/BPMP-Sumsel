@@ -62,12 +62,36 @@
                             <div class="flex column">
                                 <div class="collapsible card accordion type-2 first-open">
                                     <div class="collapsible-header">
+                                        Perjanjian Kinerja Tahun 2025
+                                    </div>
+                                    <div class="collapsible-content">
+                                        <div class="flex column-mobile gap-10">
+                                            <div>
+                                                <img class="full rounded-8" src="/assets/images/kinerja-1.jpg" alt="Kinerja 2025">
+                                            </div>
+                                            <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
+                                                <span class="heading-lg">Perjanjian Kinerja Tahun 2025</span>
+                                                <span class="body">Perjanjian Kinerja Tahun 2025 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
+                                                <div class="flex gap-3">
+                                                    <a href="#" class="button secondary rounded-full call-popup" data-icon="visibility" data-popup='{ "size": "fill", "content": "<iframe class=\"popup-pdf\" src=\"/assets/dokumen/Perjanjian Kinerja_Awal_2025.pdf\"></iframe>" }'>
+                                                        Tampilkan
+                                                    </a>
+                                                    <a href="#" class="button secondary rounded-full" data-icon="download">
+                                                        Unduh
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="collapsible card accordion type-2">
+                                    <div class="collapsible-header">
                                         Perjanjian Kinerja Tahun 2024
                                     </div>
                                     <div class="collapsible-content">
                                         <div class="flex column-mobile gap-10">
                                             <div>
-                                                <img class="full rounded-8" src="/assets/images/kinerja-1.png" alt="Kinerja 2024">
+                                                <img class="full rounded-8" src="/assets/images/kinerja-1.jpg" alt="Kinerja 2024">
                                             </div>
                                             <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
                                                 <span class="heading-lg">Perjanjian Kinerja Tahun 2024</span>
@@ -91,7 +115,7 @@
                                     <div class="collapsible-content">
                                         <div class="flex column-mobile gap-10">
                                             <div>
-                                                <img class="full rounded-8" src="/assets/images/kinerja-1.png" alt="Kinerja 2024">
+                                                <img class="full rounded-8" src="/assets/images/kinerja-1.jpg" alt="Kinerja 2024">
                                             </div>
                                             <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
                                                 <span class="heading-lg">Perjanjian Kinerja Tahun 2023</span>
@@ -115,7 +139,7 @@
                                     <div class="collapsible-content">
                                         <div class="flex column-mobile gap-10">
                                             <div>
-                                                <img class="full rounded-8" src="/assets/images/kinerja-1.png" alt="Kinerja 2024">
+                                                <img class="full rounded-8" src="/assets/images/kinerja-1.jpg" alt="Kinerja 2024">
                                             </div>
                                             <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
                                                 <span class="heading-lg">Perjanjian Kinerja Tahun 2022</span>
@@ -139,7 +163,7 @@
                                     <div class="collapsible-content">
                                         <div class="flex column-mobile gap-10">
                                             <div>
-                                                <img class="full rounded-8" src="/assets/images/kinerja-1.png" alt="Kinerja 2024">
+                                                <img class="full rounded-8" src="/assets/images/kinerja-1.jpg" alt="Kinerja 2024">
                                             </div>
                                             <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
                                                 <span class="heading-lg">Perjanjian Kinerja Tahun 2021</span>
@@ -227,7 +251,7 @@
                                     <div class="collapsible-content">
                                         <div class="flex column-mobile gap-10">
                                             <div>
-                                                <img class="full rounded-8" src="/assets/images/kinerja-1.png" alt="Kinerja 2024">
+                                                <img class="full rounded-8" src="/assets/images/kinerja-1.jpg" alt="Kinerja 2024">
                                             </div>
                                             <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
                                                 <span class="heading-lg">Perjanjian Kinerja Tahun 2024</span>
@@ -251,7 +275,7 @@
                                     <div class="collapsible-content">
                                         <div class="flex column-mobile gap-10">
                                             <div>
-                                                <img class="full rounded-8" src="/assets/images/kinerja-1.png" alt="Kinerja 2024">
+                                                <img class="full rounded-8" src="/assets/images/kinerja-1.jpg" alt="Kinerja 2024">
                                             </div>
                                             <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
                                                 <span class="heading-lg">Perjanjian Kinerja Tahun 2024</span>
@@ -277,6 +301,30 @@
                             <span class="body">Dokumen Rencana Aksi (DRA) adalah dokumen turunan dari Dokumen Renstra dan Perjanjian Kinerja (PK) yang merinci langkah-langkah, strategi, dan waktu pelaksanaan yang diperlukan untuk mencapai tujuan tertentu dalam program atau kebijakan yang telah disusun sebelumnya.</span>
                             <div class="flex column">
                                 <div class="collapsible card accordion type-2 first-open">
+                                    <div class="collapsible-header">
+                                        Rencana Aksi Tahun 2025
+                                    </div>
+                                    <div class="collapsible-content">
+                                        <div class="flex column-mobile gap-10">
+                                            <div>
+                                                <img class="full rounded-8" src="/assets/images/aksi-1.jpg" alt="Kinerja 2025">
+                                            </div>
+                                            <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
+                                                <span class="heading-lg">Rencana Aksi Tahun 2025</span>
+                                                <span class="body">Perjanjian Kinerja Tahun 2025 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
+                                                <div class="flex gap-3">
+                                                    <a href="#" class="button secondary rounded-full call-popup" data-icon="visibility" data-popup='{ "size": "fill", "content": "<iframe class=\"popup-pdf\" src=\"/assets/dokumen/Rencana Aksi 2025.pdf\"></iframe>" }'>
+                                                        Tampilkan
+                                                    </a>
+                                                    <a href="#" class="button secondary rounded-full" data-icon="download">
+                                                        Unduh
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="collapsible card accordion type-2">
                                     <div class="collapsible-header">
                                         Rencana Aksi Tahun 2024
                                     </div>
@@ -307,7 +355,7 @@
                                     <div class="collapsible-content">
                                         <div class="flex column-mobile gap-10">
                                             <div>
-                                                <img class="full rounded-8" src="/assets/images/kinerja-1.png" alt="Kinerja 2024">
+                                                <img class="full rounded-8" src="/assets/images/kinerja-1.jpg" alt="Kinerja 2024">
                                             </div>
                                             <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
                                                 <span class="heading-lg">Rencana Aksi Tahun 2023</span>
@@ -331,7 +379,7 @@
                                     <div class="collapsible-content">
                                         <div class="flex column-mobile gap-10">
                                             <div>
-                                                <img class="full rounded-8" src="/assets/images/kinerja-1.png" alt="Kinerja 2024">
+                                                <img class="full rounded-8" src="/assets/images/kinerja-1.jpg" alt="Kinerja 2024">
                                             </div>
                                             <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
                                                 <span class="heading-lg">Perjanjian Kinerja Tahun 2024</span>
@@ -355,7 +403,7 @@
                                     <div class="collapsible-content">
                                         <div class="flex column-mobile gap-10">
                                             <div>
-                                                <img class="full rounded-8" src="/assets/images/kinerja-1.png" alt="Kinerja 2024">
+                                                <img class="full rounded-8" src="/assets/images/kinerja-1.jpg" alt="Kinerja 2024">
                                             </div>
                                             <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
                                                 <span class="heading-lg">Perjanjian Kinerja Tahun 2024</span>
@@ -411,7 +459,7 @@
                                     <div class="collapsible-content">
                                         <div class="flex column-mobile gap-10">
                                             <div>
-                                                <img class="full rounded-8" src="/assets/images/kinerja-1.png" alt="Kinerja 2024">
+                                                <img class="full rounded-8" src="/assets/images/kinerja-1.jpg" alt="Kinerja 2024">
                                             </div>
                                             <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
                                                 <span class="heading-lg">Laporan Kinerja Tahun 2024</span>
@@ -435,7 +483,7 @@
                                     <div class="collapsible-content">
                                         <div class="flex column-mobile gap-10">
                                             <div>
-                                                <img class="full rounded-8" src="/assets/images/kinerja-1.png" alt="Kinerja 2024">
+                                                <img class="full rounded-8" src="/assets/images/kinerja-1.jpg" alt="Kinerja 2024">
                                             </div>
                                             <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
                                                 <span class="heading-lg">Laporan Kinerja Tahun 2024</span>
@@ -459,7 +507,7 @@
                                     <div class="collapsible-content">
                                         <div class="flex column-mobile gap-10">
                                             <div>
-                                                <img class="full rounded-8" src="/assets/images/kinerja-1.png" alt="Kinerja 2024">
+                                                <img class="full rounded-8" src="/assets/images/kinerja-1.jpg" alt="Kinerja 2024">
                                             </div>
                                             <div class="flex column gap-7 shrink-0 full-mobile" style="width: 320px;">
                                                 <span class="heading-lg">Laporan Kinerja Tahun 2024</span>

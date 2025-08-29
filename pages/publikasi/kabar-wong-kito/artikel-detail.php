@@ -110,7 +110,7 @@
                         <img src="/assets/images/TwitterX.svg" alt="X Share">
                     </div>
                 </div>
-                <div class="flex gap-3">
+                <div class="flex wrap gap-3">
                     <a href="#" class="chip small selected">
                         Dinas Pendidikan
                     </a>
