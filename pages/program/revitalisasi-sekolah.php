@@ -81,10 +81,9 @@
                     <span class="headline-xs">Implementasi Program</span>
                     <div class="flex column gap-3">
                         <p class="body">Sasaran Revitalisasi merata pada seluruh pemerintah daerah yang menerima alokasi DAK Fisik pada Tahun 2025. Bantuan berupa pembangunan dan rehabilitasi untuk sarana dan prasarana rusak. Adapun skema pelaksanaan Program Revitalisasi Sekolah adalah swakelola dimana sekolah akan mengelola dana bantuan secara mandiri dengan dengan pelibatan peran serta masyarakat.</p>
-                        <p class="body">Untuk mendukung implementasi program Revitalisasi Sekolah di tingkat daerah, BPMP Provinsi Sumatera Selatan melaksanakan beberapa kegiatan:<br>
-                            a. Koordinasi dengan Pemda dalam peningkatan akses layanan pendidikan melalui program revitalisasi<br>
-                            b. Pendampingan pelaksanaan Program Revitalisasi
-                        </p>
+                        <p class="body">Untuk mendukung implementasi program Revitalisasi Sekolah di tingkat daerah, BPMP Provinsi Sumatera Selatan melaksanakan beberapa kegiatan:</p>
+                        <p class="body">1. Koordinasi dengan Pemda dalam peningkatan akses layanan pendidikan melalui program revitalisasi</p>
+                        <p class="body">2. Pendampingan pelaksanaan Program Revitalisasi</p>
                     </div>
                 </div>
             </div>

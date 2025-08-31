@@ -105,43 +105,78 @@
     </section>
     <section class="container">
         <div class="wrapper">
-            <div class="flex column gap-10">
-                <span class="headline-xs">Dokumen Terkait</span>
-                <div class="grid grid-2 gap-5">
-                    <div class="flex gap-5 p-5 rounded-8 surface-subdued">
-                        <div class="flex justify-center items-center shrink-0" style="height: 28px; width: 28px;">
-                            <img src="/assets/images/document.svg" alt="Ikon Dokumen">
+            <div class="flex column gap-12">
+                <div class="flex column p-10 gap-7 rounded-8 surface-subdued">
+                    <span class="display-md text-center">Untuk mendukung implementasi program Penguatan Pendidikan Karakter di daerah,<br>BPMP Provinsi Sumatera Selatan melaksanakan beberapa kegiatan:</span>
+                    <div class="grid grid-2 gap-7 text-start">
+                        <div class="flex column gap-5">
+                            <div class="flex p-7 gap-4 rounded-8 surface-default">
+                                <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">1</div>
+                                <span class="body">Sosialisasi Panduan Pelaksanaan G7KAIH kepada pemda dan satuan pendidikan.</span>
+                            </div>
+                            <div class="flex p-7 gap-4 rounded-8 surface-default">
+                                <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">2</div>
+                                <span class="body">Penguatan pelaksanaan UKS dalam bentuk sosialisasi, advokasi, monitoring dan evaluasi untuk mendukung G7KAIH.</span>
+                            </div>
+                            <div class="flex p-7 gap-4 rounded-8 surface-default">
+                                <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">3</div>
+                                <span class="body">Penyusunan kegiatan penguatan Pelaksanaan G7KAIH ke dalam aktivitas siswa di luar kelas secara kontekstual dan berkelanjutan.</span>
+                            </div>
                         </div>
-                        <div class="flex column gap-4">
-                            <span class="action line-clamp-3">Peraturan Presiden Nomor 87 Tahun 2027 tentang Penguatan Pendidikan Karakter</span>
-                            <a href="#" class="button small secondary right" data-icon="download">Unduh Dokumen</a>
+                        <div class="flex column gap-5">
+                            <div class="flex p-7 gap-4 rounded-8 surface-default">
+                                <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">4</div>
+                                <span class="body">Penguatan kapasitas SDM UPT, Dinas Pendidikan dan Tim Pembina UKS dalam implementasi program dan kebijakan G7KAIH.</span>
+                            </div>
+                            <div class="flex p-7 gap-4 rounded-8 surface-default">
+                                <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">5</div>
+                                <span class="body">Advokasi melalui sosialisasi kebijakan, fasilitasi pelaksanaan, serta penguatan sinergi lintas sektor agar pelaksanaan G7KAIH terintegrasi dalam budaya sekolah dan kegiatan pendidikan secara berkelanjutan.</span>
+                            </div>
+                            <div class="flex p-7 gap-4 rounded-8 surface-default">
+                                <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">6</div>
+                                <span class="body">Internalisasi dilakukan melalui serangkaian kegiatan pendukung yang sistematis dan terkoordinasi agar implementasi G7KAIH dapat berjalan efektif dan berdampak luas.</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="flex gap-5 p-5 rounded-8 surface-subdued">
-                        <div class="flex justify-center items-center shrink-0" style="height: 28px; width: 28px;">
-                            <img src="/assets/images/document.svg" alt="Ikon Dokumen">
+                </div>
+                <div class="flex column gap-10">
+                    <span class="headline-xs">Dokumen Terkait</span>
+                    <div class="grid grid-2 gap-5">
+                        <div class="flex gap-5 p-5 rounded-8 surface-subdued">
+                            <div class="flex justify-center items-center shrink-0" style="height: 28px; width: 28px;">
+                                <img src="/assets/images/document.svg" alt="Ikon Dokumen">
+                            </div>
+                            <div class="flex column gap-4">
+                                <span class="action line-clamp-3">Peraturan Presiden Nomor 87 Tahun 2027 tentang Penguatan Pendidikan Karakter</span>
+                                <a href="#" class="button small secondary right" data-icon="download">Unduh Dokumen</a>
+                            </div>
                         </div>
-                        <div class="flex column gap-4">
-                            <span class="action line-clamp-3">Peraturan Menteri Pendidikan dan Kebudayaan Nomor 20 Tahun 2018 tentang Penguatan Pendidikan Karakter pada Satuan Pendidikan Formal</span>
-                            <a href="#" class="button small secondary right" data-icon="download">Unduh Dokumen</a>
+                        <div class="flex gap-5 p-5 rounded-8 surface-subdued">
+                            <div class="flex justify-center items-center shrink-0" style="height: 28px; width: 28px;">
+                                <img src="/assets/images/document.svg" alt="Ikon Dokumen">
+                            </div>
+                            <div class="flex column gap-4">
+                                <span class="action line-clamp-3">Peraturan Menteri Pendidikan dan Kebudayaan Nomor 20 Tahun 2018 tentang Penguatan Pendidikan Karakter pada Satuan Pendidikan Formal</span>
+                                <a href="#" class="button small secondary right" data-icon="download">Unduh Dokumen</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="flex gap-5 p-5 rounded-8 surface-subdued">
-                        <div class="flex justify-center items-center shrink-0" style="height: 28px; width: 28px;">
-                            <img src="/assets/images/document.svg" alt="Ikon Dokumen">
+                        <div class="flex gap-5 p-5 rounded-8 surface-subdued">
+                            <div class="flex justify-center items-center shrink-0" style="height: 28px; width: 28px;">
+                                <img src="/assets/images/document.svg" alt="Ikon Dokumen">
+                            </div>
+                            <div class="flex column gap-4">
+                                <span class="action line-clamp-3">Surat Edaran Direktur Jenderal PAUD, Pendidikan Dasar dan Pendidikan Menengah Nomor 3584/C/DM.00.02/2025 tentang Pelaksanaan Penguatan Pendidikan Karakter pada Satuan Pendidikan melalui Gerakan 7 Kebiasaan Anak Indonesia Hebat</span>
+                                <a href="#" class="button small secondary right" data-icon="download">Unduh Dokumen</a>
+                            </div>
                         </div>
-                        <div class="flex column gap-4">
-                            <span class="action line-clamp-3">Surat Edaran Direktur Jenderal PAUD, Pendidikan Dasar dan Pendidikan Menengah Nomor 3584/C/DM.00.02/2025 tentang Pelaksanaan Penguatan Pendidikan Karakter pada Satuan Pendidikan melalui Gerakan 7 Kebiasaan Anak Indonesia Hebat</span>
-                            <a href="#" class="button small secondary right" data-icon="download">Unduh Dokumen</a>
-                        </div>
-                    </div>
-                    <div class="flex gap-5 p-5 rounded-8 surface-subdued">
-                        <div class="flex justify-center items-center shrink-0" style="height: 28px; width: 28px;">
-                            <img src="/assets/images/document.svg" alt="Ikon Dokumen">
-                        </div>
-                        <div class="flex column gap-4">
-                            <span class="action line-clamp-3">Surat Edaran Bersama Menteri Pendidikan Dasar dan Menengah RI Nomor 1 Tahun 2025, Menteri Dalam Negeri Republik Indonesia Nomor 800.2.1/225/SJ dan Menteri Agama Republik Indonesia Nomor 1 Tahun 2025 tentang Penguatan Pendidikan Karakter melalui Pembiasaan di Satuan Pendidikan</span>
-                            <a href="#" class="button small secondary right" data-icon="download">Unduh Dokumen</a>
+                        <div class="flex gap-5 p-5 rounded-8 surface-subdued">
+                            <div class="flex justify-center items-center shrink-0" style="height: 28px; width: 28px;">
+                                <img src="/assets/images/document.svg" alt="Ikon Dokumen">
+                            </div>
+                            <div class="flex column gap-4">
+                                <span class="action line-clamp-3">Surat Edaran Bersama Menteri Pendidikan Dasar dan Menengah RI Nomor 1 Tahun 2025, Menteri Dalam Negeri Republik Indonesia Nomor 800.2.1/225/SJ dan Menteri Agama Republik Indonesia Nomor 1 Tahun 2025 tentang Penguatan Pendidikan Karakter melalui Pembiasaan di Satuan Pendidikan</span>
+                                <a href="#" class="button small secondary right" data-icon="download">Unduh Dokumen</a>
+                            </div>
                         </div>
                     </div>
                 </div>

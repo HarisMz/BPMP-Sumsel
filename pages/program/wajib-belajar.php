@@ -34,12 +34,40 @@
             <div class="display-lg text-inverse">Wajib Belajar 13 Tahun</div>
         </div>
     </section>
-    <section class="container">
+    <section class="container surface-subdued">
         <div class="wrapper">
-            <div class="flex column gap-14">
+            <div class="flex column gap-12">
                 <div class="grid grid-2 gap-14">
                     <span class="headline-xs">Wajib Belajar 13 Tahun Mulai dari PAUD hingga SMA</span>
                     <p class="body">Program Wajib Belajar 13 Tahun merupakan upaya untuk memperluas akses pendidikan mulai dari 1 tahun pada Pendidikan Anak Usia Dini (PAUD) hingga 12 tahun pada pendidikan dasar dan menengah. Kebijakan ini bertujuan untuk mewujudkan perluasan dan pemerataan akses pendidikan anak usia dini, dasar, dan menengah yang bermutu, guna menciptakan sumber daya manusia yang berkualitas, berdaya saing, dan siap menghadapi tantangan abad ke-21.</p>
+                </div>
+                <div class="grid grid-3 grid-1-mobile gap-3">
+                    <div class="bg-normalize cover ratio-3-2 rounded-8" style="background-image: url('/assets/images/belajar-1.jpg');"></div>
+                    <div class="bg-normalize cover ratio-3-2 rounded-8" style="background-image: url('/assets/images/belajar-2.jpg');"></div>
+                    <div class="bg-normalize cover ratio-3-2 rounded-8" style="background-image: url('/assets/images/belajar-3.jpg');"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="wrapper">
+            <div class="flex column gap-12">
+                <div class="flex column gap-12 justify-center text-center">
+                    <span class="headline-xs">Penerapan Program Wajib Belajar 13 Tahun<br>Memiliki 3 Objektif</span>
+                    <div class="grid grid-3 gap-5">
+                        <div class="flex column p-7 gap-4 rounded-8 surface-subdued items-center">
+                            <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">1</div>
+                            <span class="body">Meningkatkan partisipasi sekolah di seluruh kabupaten/kota, dengan target sebagian besar wilayah mencapai tingkat Angka Partisipasi Sekolah yang optimal</span>
+                        </div>
+                        <div class="flex column p-7 gap-4 rounded-8 surface-subdued items-center">
+                            <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">2</div>
+                            <span class="body">Menjangkau dan mengembalikan anak-anak usia sekolah yang tidak sekolah agar dapat mengakses layanan pendidikan setara</span>
+                        </div>
+                        <div class="flex column p-7 gap-4 rounded-8 surface-subdued items-center">
+                            <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">3</div>
+                            <span class="body">Meningkatkan akses dan pemerataan pendidikan di seluruh provinsi Indonesia, sehingga lebih banyak provinsi mencapai tingkat Angka Partisipasi Kasar yang optimal</span>
+                        </div>
+                    </div>
                 </div>
                 <div class="flex justify-end rounded-24 p-12 bg-normalize cover" style="background-image: url('/assets/images/menteri-1.png');">
                     <div class="flex column gap-7 text-inverse width-59">
@@ -53,29 +81,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section class="container">
-        <div class="wrapper">
-            <div class="flex column gap-12 justify-center text-center">
-                <span class="headline-xs">Penerapan Program Wajib Belajar 13 Tahun<br>Memiliki 3 Objektif</span>
-                <div class="grid grid-3 gap-5">
-                    <div class="flex column p-7 gap-4 rounded-8 surface-subdued items-center">
-                        <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">1</div>
-                        <span class="body">Meningkatkan partisipasi sekolah di seluruh kabupaten/kota, dengan target sebagian besar wilayah mencapai tingkat Angka Partisipasi Sekolah yang optimal</span>
-                    </div>
-                    <div class="flex column p-7 gap-4 rounded-8 surface-subdued items-center">
-                        <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">2</div>
-                        <span class="body">Menjangkau dan mengembalikan anak-anak usia sekolah yang tidak sekolah agar dapat mengakses layanan pendidikan setara</span>
-                    </div>
-                    <div class="flex column p-7 gap-4 rounded-8 surface-subdued items-center">
-                        <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">3</div>
-                        <span class="body">Meningkatkan akses dan pemerataan pendidikan di seluruh provinsi Indonesia, sehingga lebih banyak provinsi mencapai tingkat Angka Partisipasi Kasar yang optimal</span>
-                    </div>
-                </div>
                 <div class="flex column p-10 gap-7 rounded-8 surface-subdued">
-                    <span class="display-md">Untuk mendukung implementasi program Wajib Belajar 13 Tahun di daerah,<br>BPMP Provinsi Sumatera Selatan melaksanakan beberapa kegiatan:</span>
+                    <span class="display-md text-center">Untuk mendukung implementasi program Wajib Belajar 13 Tahun di daerah,<br>BPMP Provinsi Sumatera Selatan melaksanakan beberapa kegiatan:</span>
                     <div class="grid grid-2 gap-7 text-start">
                         <div class="flex column gap-5">
                             <div class="flex p-7 gap-4 rounded-8 surface-default">
@@ -170,7 +177,7 @@
                                     Event
                                 </a>
                                 <a href="#"><div class="title line-clamp-3">
-                                    Judul Berita Terdiri dari 1 – 3 Baris Tulisan, Jika Lebih Maka Akan Diberikan Tanda Elipsis
+                                    Judul Berita Terdiri dari 1 - 3 Baris Tulisan, Jika Lebih Maka Akan Diberikan Tanda Elipsis
                                 </div></a>
                                 <div class="description line-clamp-3">
                                     Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata.

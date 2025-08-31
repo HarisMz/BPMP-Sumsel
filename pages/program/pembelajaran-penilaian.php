@@ -5,7 +5,7 @@
     <title>Program</title>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/modules/loadlist.php'); ?>
 </head>
-<body id="makan-bergizi" data-slug="program">
+<body id="pembelajaran-penilaian" data-slug="program">
 
 <?php include './modules/header.php'; ?>
 
@@ -26,41 +26,23 @@
                     </li>
                     <li class="item">
                         <a href="#">
-                            Makan Bergizi Gratis
+                            Pembelajaran dan Penilaian
                         </a>
                     </li>
                 </ul>
             </nav>
-            <div class="display-lg text-inverse">Makan Bergizi Gratis</div>
-        </div>
-    </section>
-    <section class="container">
-        <div class="wrapper">
-            <div class="grid grid-2 gap-14">
-                <span class="headline-xs">Memenuhi Gizi, Mencerdaskan Bangsa Menuju Indonesia Emas</span>
-                <p class="body">Program Makan Bergizi Gratis merupakan salah satu program strategis  yang bertujuan untuk pemenuhan gizi dan peningkatan pengetahuan gizi. Sasaran dari program ini adalah peserta didik dan non peserta didik (sesuai Perpres tahun 2024) dalam rangka mendukung terwujudnya generasi emas menuju Indonesia 2045.</p>
-            </div>
+            <div class="display-lg text-inverse">Pembelajaran dan Penilaian</div>
         </div>
     </section>
     <section class="container surface-subdued">
         <div class="wrapper">
             <div class="grid grid-2 gap-12 items-center">
-                <div class="bg-normalize cover ratio-4-3 rounded-8" style="background-image: url('/assets/images/mbg-1.jpg');"></div>
+                <div class="bg-normalize cover ratio-16-10 rounded-8" style="background-image: url('/assets/images/pembelajaran-1.jpg');"></div>
                 <div class="flex column gap-7">
-                    <span class="headline-xs">Gizi Seimbang untuk Pendidikan Berkualitas dan Generasi Emas Indonesia</span>
-                    <div class="flex column gap-5">
-                        <div class="flex gap-4 p-5 surface-default rounded-8">
-                            <div class="flex justify-center items-center shrink-0 rounded-full" style="height: 24px; width: 24px;">
-                                <img src="/assets/images/checklist-2.svg" alt="Mini Checklist">
-                            </div>
-                            <span class="body">Mengatasi masalah stunting dan malnutrisi pada anak-anak Indonesia dengan menyediakan makanan bergizi gratis, untuk dapat meningkatkan daya saing generasi muda Indonesia di tingkat global melalui perbaikan gizi dan kesehatan.</span>
-                        </div>
-                        <div class="flex gap-4 p-5 surface-default rounded-8">
-                            <div class="flex justify-center items-center shrink-0 rounded-full" style="height: 24px; width: 24px;">
-                                <img src="/assets/images/checklist-2.svg" alt="Mini Checklist">
-                            </div>
-                            <span class="body">Pemenuhan gizi dan peningkatan pengetahuan gizi peserta didik pada jenjang PAUD, SD, SMP, SMA, SMK, SLB di seluruh wilayah Indonesia untuk menuju Generasi Emas Tahun 2045.</span>
-                        </div>
+                    <span class="headline-xs">Pembelajaran Mendalam, Menuju Pendidikan Bermutu untuk Semua</span>
+                    <div class="flex column gap-3">
+                        <p class="body">Pembelajaran Mendalam merupakan pendekatan yang memuliakan dengan menekankan pada penciptaan suasana belajar dan proses pembelajaran berkesadaran (mindful), bermakna (meaningful), dan menggembirakan (joyful) melalui olah pikir (intelektual), olah hati (etika), olah rasa (estetika), dan olah raga (kinestetik) secara holistik dan terpadu.</p>
+                        <p class="body">Penilaian dilakukan untuk mengukur tingkat pencapaian kompetensi peserta didik dan memberikan umpan balik bagi perbaikan proses belajar-mengajar.</p>
                     </div>
                 </div>
             </div>
@@ -69,57 +51,57 @@
     <section class="container">
         <div class="wrapper">
             <div class="flex column gap-12">
-                <div class="flex column gap-10 justify-center text-center">
-                    <span class="headline-xs">Meningkatkan Kesehatan, Prestasi, dan<br>Partisipasi Sekolah Anak Indonesia</span>
-                    <div class="flex wrap row justify-center gap-5">
-                        <div class="flex column p-8 gap-4 rounded-8 surface-subdued items-center width-32">
-                            <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">1</div>
-                            <span class="action">Meningkatkan kondisi kesehatan dan memperbaiki asupan gizi peserta didik.</span>
+                <div class="flex justify-end items-center rounded-24 p-12 bg-normalize cover ratio-3-1" style="background-image: url('/assets/images/menteri-2.png');">
+                    <div class="flex column gap-7 text-inverse width-64" style="z-index: 1;">
+                        <div class="flex justify-start items-start">
+                            <img src="/assets/images/tanda-kutip-biru.png" alt="Icon Tanda Kutip" style="height:20px;">
                         </div>
-                        <div class="flex column p-8 gap-4 rounded-8 surface-subdued items-center width-32">
-                            <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">2</div>
-                            <span class="action">Meningkatkan motivasi dan prestasi belajar peserta didik.</span>
+                        <span class="display-sm">Anak-anak perlu diajarkan bagaimana mengelompokkan informasi dan mengenal diri mereka melalui pendekatan-pendekatan sederhana.”</span>
+                        <div class="flex column gap-1">
+                            <span class="display-sm">Dr. M. Muchlas Rowi, M.M.</span>
+                            <span class="body-lg">Staf Ahli Menteri Bidang Pendidikan</span>
                         </div>
-                        <div class="flex column p-8 gap-4 rounded-8 surface-subdued items-center width-32">
-                            <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">3</div>
-                            <span class="action">Mengurangi angka putus sekolah/ meningkatkan angka partisipasi sekolah.</span>
+                    </div>
+                </div>
+                <div class="flex column p-10 gap-12 rounded-8 surface-subdued">
+                    <span class="headline-xs text-center">Program Pembelajaran dan Penilaian memiliki<br>objektivitas antara lain</span>
+                    <div class="grid grid-2 gap-5">
+                        <div class="flex gap-4 p-5 surface-default rounded-8">
+                            <div class="flex justify-center items-center shrink-0 rounded-full" style="height: 24px; width: 24px;">
+                                <img src="/assets/images/checklist-2.svg" alt="Mini Checklist">
+                            </div>
+                            <span class="body">Memberikan pelatihan pembelajaran mendalam pada satuan pendidikan pemerima boskin</span>
                         </div>
-                        <div class="flex column p-8 gap-4 rounded-8 surface-subdued items-center width-32">
-                            <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">4</div>
-                            <span class="action">Meningkatkan pengetahuan terkait gizi seimbang.</span>
+                        <div class="flex gap-4 p-5 surface-default rounded-8">
+                            <div class="flex justify-center items-center shrink-0 rounded-full" style="height: 24px; width: 24px;">
+                                <img src="/assets/images/checklist-2.svg" alt="Mini Checklist">
+                            </div>
+                            <span class="body">Memberikan penguatan terkait kebijakan program peningkatan kualitas pembelajaran</span>
                         </div>
-                        <div class="flex column p-8 gap-4 rounded-8 surface-subdued items-center width-32">
-                            <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">5</div>
-                            <span class="action">Penanaman perilaku pola makan sehat/ gizi seimbang.</span>
+                        <div class="flex gap-4 p-5 surface-default rounded-8">
+                            <div class="flex justify-center items-center shrink-0 rounded-full" style="height: 24px; width: 24px;">
+                                <img src="/assets/images/checklist-2.svg" alt="Mini Checklist">
+                            </div>
+                            <span class="body">Memberikan pelatihan pembelajaran Koding dan Kecerdasan Artifisial pada satuan pendidikan penerima boskin</span>
+                        </div>
+                        <div class="flex gap-4 p-5 surface-default rounded-8">
+                            <div class="flex justify-center items-center shrink-0 rounded-full" style="height: 24px; width: 24px;">
+                                <img src="/assets/images/checklist-2.svg" alt="Mini Checklist">
+                            </div>
+                            <span class="body">Memastikan satuan pendidikan di wilayah cakupan menerapkan kebijakan yang ditetapkan oleh pusat</span>
                         </div>
                     </div>
                 </div>
                 <div class="flex column p-10 gap-7 rounded-8 surface-subdued">
-                    <span class="display-md text-center">Untuk mendukung implementasi program Makan Bergizi Gratis di daerah,<br>BPMP Provinsi Sumatera Selatan melaksanakan beberapa kegiatan:</span>
-                    <div class="grid grid-2 gap-7 text-start">
-                        <div class="flex column gap-5">
-                            <div class="flex p-7 gap-4 rounded-8 surface-default">
-                                <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">1</div>
-                                <span class="body">Pendampingan advokasi pengumpulan data satuan pendidikan dan koordinasi pemerintah daerah dengan SPPG</span>
-                            </div>
-                            <div class="flex p-7 gap-4 rounded-8 surface-default">
-                                <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">2</div>
-                                <span class="body">Advokasi kesiapan data dan persiapan implementasi program MBG di satuan pendidikan</span>
-                            </div>
-                            <div class="flex p-7 gap-4 rounded-8 surface-default">
-                                <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">3</div>
-                                <span class="body">Review, Penyusunan, dan Penyelarasan buku pendukung implementasi program MBG di satuan pendidikan</span>
-                            </div>
+                    <span class="display-md text-center">Untuk mendukung implementasi program Pembelajaran dan Penilaian di daerah,<br>BPMP Provinsi Sumatera Selatan melaksanakan beberapa kegiatan:</span>
+                    <div class="grid grid-2 gap-5">
+                        <div class="flex p-7 gap-4 rounded-8 surface-default">
+                            <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">1</div>
+                            <span class="body">Sosialisasi pembelajaran dan penilaian (pembelejaran mendalam, coding, dan kecerdasan Artifisial) kepada Satuan Pendidikan penerima Boskin</span>
                         </div>
-                        <div class="flex column gap-5">
-                            <div class="flex p-7 gap-4 rounded-8 surface-default">
-                                <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">4</div>
-                                <span class="body">Rakor kepada pemda untuk tindaklajut pendampingan implementasi program MBG di satuan pendidikan</span>
-                            </div>
-                            <div class="flex items-center p-7 gap-4 rounded-8 surface-default">
-                                <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">5</div>
-                                <span class="body">Monitoring dan evaluasi dokumen kerangka instrumen MBG</span>
-                            </div>
+                        <div class="flex p-7 gap-4 rounded-8 surface-default">
+                            <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">2</div>
+                            <span class="body">Sosialisasi program pembelajaran dan penilaian kepada Pemda</span>
                         </div>
                     </div>
                 </div>
@@ -127,6 +109,69 @@
         </div>
     </section>
     <section class="container surface-subdued">
+        <div class="wrapper">
+            <div class="flex column gap-10">
+                <span class="headline-xs">Dokumen Terkait</span>
+                <div class="grid grid-2 gap-5">
+                    <div class="flex gap-5 p-5 rounded-8 surface-default">
+                        <div class="flex justify-center items-center shrink-0" style="height: 28px; width: 28px;">
+                            <img src="/assets/images/document.svg" alt="Ikon Dokumen">
+                        </div>
+                        <div class="flex column gap-4">
+                            <span class="action line-clamp-3">Permendikbudristek Nomor 16 Tahun 2022 tentang Standar Proses pada Pendidikan Anak Usia Dini, Jenjang Pendidikan Dasar dan Pendidikan Menengah</span>
+                            <a href="#" class="button small secondary right" data-icon="download">Unduh Dokumen</a>
+                        </div>
+                    </div>
+                    <div class="flex gap-5 p-5 rounded-8 surface-default">
+                        <div class="flex justify-center items-center shrink-0" style="height: 28px; width: 28px;">
+                            <img src="/assets/images/document.svg" alt="Ikon Dokumen">
+                        </div>
+                        <div class="flex column gap-4">
+                            <span class="action line-clamp-3">Permendikdasmen Nomor 12 Tahun 2025 tentang Standar Isi pada Pendidikan Anak USia Dini, Jenjang Pendidikan Dasar dan Jenjang Pendidikan Menengah</span>
+                            <a href="#" class="button small secondary right" data-icon="download">Unduh Dokumen</a>
+                        </div>
+                    </div>
+                    <div class="flex gap-5 p-5 rounded-8 surface-default">
+                        <div class="flex justify-center items-center shrink-0" style="height: 28px; width: 28px;">
+                            <img src="/assets/images/document.svg" alt="Ikon Dokumen">
+                        </div>
+                        <div class="flex column gap-4">
+                            <span class="action line-clamp-3">Permendikbudristek Nomor 21 Tahun 2022 tentang Standar Penilaian  pada Pendidikan Anak Usia Dini, Jenjang Pendidikan Dasar dan Pendidikan Menengah </span>
+                            <a href="#" class="button small secondary right" data-icon="download">Unduh Dokumen</a>
+                        </div>
+                    </div>
+                    <div class="flex gap-5 p-5 rounded-8 surface-default">
+                        <div class="flex justify-center items-center shrink-0" style="height: 28px; width: 28px;">
+                            <img src="/assets/images/document.svg" alt="Ikon Dokumen">
+                        </div>
+                        <div class="flex column gap-4">
+                            <span class="action line-clamp-3">Permendikdasmen Nomor 13 Tahun 2025 tentang Perubahan Permendikbudristek Nomor 12  Tahun 2024 tentang Kuriikulum pada Pendidikan Anak Usia Dini, Jenjang Pendidikan Dasar dan Jenjang Pendiidkan Menengah</span>
+                            <a href="#" class="button small secondary right" data-icon="download">Unduh Dokumen</a>
+                        </div>
+                    </div>
+                    <div class="flex gap-5 p-5 rounded-8 surface-default">
+                        <div class="flex justify-center items-center shrink-0" style="height: 28px; width: 28px;">
+                            <img src="/assets/images/document.svg" alt="Ikon Dokumen">
+                        </div>
+                        <div class="flex column gap-4">
+                            <span class="action line-clamp-3">Permendikdasmen Nomor 10 Tahun 2025 tentang Standar Kompetensi Lulusan (SKL)</span>
+                            <a href="#" class="button small secondary right" data-icon="download">Unduh Dokumen</a>
+                        </div>
+                    </div>
+                    <div class="flex gap-5 p-5 rounded-8 surface-default">
+                        <div class="flex justify-center items-center shrink-0" style="height: 28px; width: 28px;">
+                            <img src="/assets/images/document.svg" alt="Ikon Dokumen">
+                        </div>
+                        <div class="flex column gap-4">
+                            <span class="action line-clamp-3">Keputusan Kepala Badan Standar, Kurikulum dan Asesmen Pendidikan Kementerian Pendidkan Dasar dan Menengah Nomor 046/H/Kr/2025 tentang Capaian Pembelajaran pada Pendidikan Anak Usia Dini, Jenjang Pendidikan Dasar dan Jenjang Pendidikan Menengah</span>
+                            <a href="#" class="button small secondary right" data-icon="download">Unduh Dokumen</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container">
         <div class="wrapper">
             <div class="flex column justify-center items-center gap-10 gap-6-mobile">
 	            <div class="flex row justify-between items-center text-center gap-9 full">
@@ -174,7 +219,7 @@
                                     Event
                                 </a>
                                 <a href="#"><div class="title line-clamp-3">
-                                    Judul Berita Terdiri dari 1 - 3 Baris Tulisan, Jika Lebih Maka Akan Diberikan Tanda Elipsis
+                                    Judul Berita Terdiri dari 1 – 3 Baris Tulisan, Jika Lebih Maka Akan Diberikan Tanda Elipsis
                                 </div></a>
                                 <div class="description line-clamp-3">
                                     Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata.
@@ -237,7 +282,7 @@
 	        </div>
         </div>
     </section>
-    <section class="container">
+    <section class="container surface-subdued">
         <div class="wrapper">
             <div class="flex column gap-10">
                 <span class="display-md">Pranala Luar</span>

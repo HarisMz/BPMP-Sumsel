@@ -67,26 +67,53 @@
     </section>
     <section class="container">
         <div class="wrapper">
-            <div class="flex column gap-7 justify-center text-center">
-                <span class="headline-xs">Pendidikan Merata dan Inklusif melalui SPMB yang Transparan dan Akuntabel</span>
-                <span class="body">Mendukung terwujudnya peningkatan akses pendidikan, menjamin keadilan dan pemerataan kualitas pendidikan  bagi semua anak, termasuk kelompok rentan dan tidak mampu melalui SPMB secara objektif, transparan, akuntabel, berkeadilan, dan tanpa diskriminasi.</span>
-                <span class="body">(Permendikdasmen Nomor 3 Tahun 2025 Pasal 2) SPMB bertujuan untuk:</span>
-                <div class="grid grid-4 gap-5">
-                    <div class="flex column p-7 gap-4 rounded-8 surface-subdued items-center">
-                        <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">1</div>
-                        <span class="body">Memberikan kesempatan yang adil bagi seluruh murid untuk mendapatkan layanan pendidikan berkualitas yang dekat dengan domisili</span>
+            <div class="flex column gap-14">
+                <div class="flex justify-end rounded-24 p-12 bg-normalize cover" style="background-image: url('/assets/images/menteri-2.png');">
+                    <div class="flex column gap-7 text-inverse width-64">
+                        <div class="flex justify-start items-start">
+                            <img src="/assets/images/tanda-kutip-biru.png" alt="Icon Tanda Kutip" style="height:20px;">
+                        </div>
+                        <span class="display-sm text-pretty">SPMB menjadi upaya pemerintah untuk mewujudkan Pendidikan Bermutu untuk semua dengan asas berkeadilan. SPMB bukan hanya mencakup sistem penerimaan murid saja, namun terdapat pembinaan, evaluasi, kurasi prestasi, fleksibilitas daerah pelibatan sekolah swasta, dan integrasi teknologi."</span>
+                        <div class="flex column gap-1">
+                            <span class="display-sm">Abdul Mu'ti</span>
+                            <span class="body-lg">Pada Peluncuran SPMB di Jakarta, 3 Maret 2025</span>
+                        </div>
                     </div>
-                    <div class="flex column p-7 gap-4 rounded-8 surface-subdued items-center">
-                        <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">2</div>
-                        <span class="body">Meningkatkan akses dan layanan pendidikan bagi Murid dari keluarga ekonomi tidak mampu dan penyandang disabilitas</span>
+                </div>
+                <div class="flex column gap-7 justify-center text-center">
+                    <span class="headline-xs">Pendidikan Merata dan Inklusif melalui SPMB yang<br>Transparan dan Akuntabel</span>
+                    <span class="body">Mendukung terwujudnya peningkatan akses pendidikan, menjamin keadilan dan pemerataan kualitas pendidikan  bagi semua anak, termasuk kelompok rentan dan tidak mampu melalui SPMB secara objektif, transparan, akuntabel, berkeadilan, dan tanpa diskriminasi.</span>
+                    <span class="body">(Permendikdasmen Nomor 3 Tahun 2025 Pasal 2) SPMB bertujuan untuk:</span>
+                    <div class="grid grid-4 gap-5">
+                        <div class="flex column p-7 gap-4 rounded-8 surface-subdued items-center">
+                            <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">1</div>
+                            <span class="body">Memberikan kesempatan yang adil bagi seluruh murid untuk mendapatkan layanan pendidikan berkualitas yang dekat dengan domisili</span>
+                        </div>
+                        <div class="flex column p-7 gap-4 rounded-8 surface-subdued items-center">
+                            <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">2</div>
+                            <span class="body">Meningkatkan akses dan layanan pendidikan bagi Murid dari keluarga ekonomi tidak mampu dan penyandang disabilitas</span>
+                        </div>
+                        <div class="flex column p-7 gap-4 rounded-8 surface-subdued items-center">
+                            <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">3</div>
+                            <span class="body">Mendorong peningkatan prestasi Murid</span>
+                        </div>
+                        <div class="flex column p-7 gap-4 rounded-8 surface-subdued items-center">
+                            <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">4</div>
+                            <span class="body">Mengoptimalkan keterlibatan masyarakat dalam proses penerimaan Murid</span>
+                        </div>
                     </div>
-                    <div class="flex column p-7 gap-4 rounded-8 surface-subdued items-center">
-                        <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">3</div>
-                        <span class="body">Mendorong peningkatan prestasi Murid</span>
-                    </div>
-                    <div class="flex column p-7 gap-4 rounded-8 surface-subdued items-center">
-                        <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">4</div>
-                        <span class="body">Mengoptimalkan keterlibatan masyarakat dalam proses penerimaan Murid</span>
+                </div>
+                <div class="flex column p-10 gap-7 rounded-8 surface-subdued">
+                    <span class="display-md text-center">Untuk mendukung implementasi Sistem Penerimaan Murid Baru (SPMB),<br>BPMP Provinsi Sumatera Selatan melaksanakan beberapa kegiatan:</span>
+                    <div class="grid grid-2 gap-7 text-start">
+                        <div class="flex p-7 gap-4 rounded-8 surface-default">
+                            <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">1</div>
+                            <span class="body">Sosialisasi regulasi SPMB kepada Pemda dan pemangku kepentingan</span>
+                        </div>
+                        <div class="flex items-center p-7 gap-4 rounded-8 surface-default">
+                            <div class="flex rounded-full surface-blue-60 shrink-0 heading-lg justify-center items-center text-inverse" style="width: 32px; height: 32px;">2</div>
+                            <span class="body">Pendampingan Pemda dalam pelaksanaan SPMB</span>
+                        </div>
                     </div>
                 </div>
             </div>
