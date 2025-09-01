@@ -196,7 +196,7 @@
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <div class="avatar round xl" style="background-image: url(/assets/images/avatar.png);">
+                                        <div class="avatar round xl" style="background-image: url(/assets/images/avatar-2.png);">
                                         </div>
                                         <div class="info">
                                             <div class="authorname action">

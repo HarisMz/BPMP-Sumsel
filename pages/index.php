@@ -191,15 +191,17 @@
     <section class="container bg-default">
         <div class="wrapper">
             <div class="flex column gap-10 gap-8-mobile">
-	            <div class="flex column text-balance gap-7">
+	            <div class="flex column text-balance">
 	                <h1 class="display-lg">Layanan Publik</h1>
 	            </div>
 	            <div class="grid grid-4 grid-2-tablet grid-2-mobile gap-7">
                     <div class="card">
-                        <div class="flex row column-mobile gap-5 p-4 height-100 width-100">
-                            <img src="/assets/images/layanan-1.svg" class="height-full">
+                        <div class="flex row items-center column-mobile gap-5 p-4 height-100 width-100">
+                            <div class="flex justify-center items-center surface-purple-50 rounded-8 shrink-0" style="height: 74px; width: 74px;">
+                                <img src="/assets/images/layanan-1.svg" alt="Pendampingan Daring/Luring">    
+                            </div>
                             <div class="flex column text-left gap-3">
-                                <h2 class="action bold text-balance">Pendampingan Daring/Luring</h2>
+                                <h2 class="action text-balance">Pendampingan Daring/Luring</h2>
                                 <a href="/inovasi-dan-layanan/pendampingan" class="button small" target="_blank">
                                     Lihat Layanan
                                 </a>
@@ -207,10 +209,12 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="flex row column-mobile gap-5 p-4 height-100 width-100">
-                            <img src="/assets/images/layanan-2.svg" class="height-full">
+                        <div class="flex row items-center column-mobile gap-5 p-4 height-100 width-100">
+                            <div class="flex justify-center items-center surface-orange-50 rounded-8 shrink-0" style="height: 74px; width: 74px;">
+                                <img src="/assets/images/layanan-2.svg" alt="Pengaduan Masyarakat">    
+                            </div>
                             <div class="flex column text-left gap-3">
-                                <h2 class="action bold text-balance">Pengaduan Masyarakat</h2>
+                                <h2 class="action text-balance">Pengaduan Masyarakat</h2>
                                 <a href="/inovasi-dan-layanan/pengaduan" class="button small" target="_blank">
                                     Lihat Layanan
                                 </a>
@@ -218,10 +222,12 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="flex row column-mobile gap-5 p-4 height-100 width-100">
-                            <img src="/assets/images/layanan-3.svg" class="height-full">
+                        <div class="flex row items-center column-mobile gap-5 p-4 height-100 width-100">
+                            <div class="flex justify-center items-center surface-green-50 rounded-8 shrink-0" style="height: 74px; width: 74px;">
+                                <img src="/assets/images/layanan-3.svg" alt="Unit Layanan Terpadu (ULT)">    
+                            </div>
                             <div class="flex column text-left gap-3">
-                                <h2 class="action bold text-balance">Unit Layanan Terpadu (ULT)</h2>
+                                <h2 class="action text-balance">Unit Layanan Terpadu (ULT)</h2>
                                 <a href="/inovasi-dan-layanan/layanan-utama" class="button small" target="_blank">
                                     Lihat Layanan
                                 </a>
@@ -229,10 +235,12 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="flex row column-mobile gap-5 p-4 height-100 width-100">
-                            <img src="/assets/images/layanan-4.svg" class="height-full">
+                        <div class="flex row items-center column-mobile gap-5 p-4 height-100 width-100">
+                            <div class="flex justify-center items-center surface-pink-50 rounded-8 shrink-0" style="height: 74px; width: 74px;">
+                                <img src="/assets/images/layanan-4.svg" alt="Peminjaman Fasilitas">    
+                            </div>
                             <div class="flex column text-left gap-3">
-                                <h2 class="action bold text-balance">Peminjaman Fasilitas</h2>
+                                <h2 class="action text-balance">Peminjaman<br>Fasilitas</h2>
                                 <a href="/tentang-kami/sarana-prasarana" class="button small" target="_blank">
                                     Lihat Layanan
                                 </a>
@@ -247,7 +255,7 @@
     <section class="container bg-default pt-0 pb-14">
         <div class="wrapper" style="max-width: 1240px;">
             <div class="flex column justify-center items-center gap-10 gap-8-mobile" style="height: 207px;">
-                <div class="carousel loop arrow clear arrow-bordered" data-carousel-visible="1" data-carousel-visible-mobile="1" data-sliding-span="1" data-peek="20">
+                <div class="carousel loop autoplay arrow clear arrow-bordered" data-carousel-visible="1" data-carousel-visible-mobile="1" data-sliding-span="1" data-peek="20">
                     <div class="carousel-inner">
                         <div class="carousel-item">
                             <img src="/assets/images/banner-1.png" alt="Banner 1">
@@ -376,14 +384,14 @@
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <div class="avatar round medium" style="background-image: url(/assets/images/avatar.png);">
+                                        <div class="avatar round xl" style="background-image: url(/assets/images/avatar.png);">
                                         </div>
                                         <div class="info">
-                                            <div class="authorname">
+                                            <div class="authorname action">
                                                 Adrianus Amri
                                             </div>
                                             <div class="dateview">
-                                                <span class="institution">
+                                                <span class="institution body-sm">
                                                     Kepala Dinas Kota Palembang
                                                 </span>
                                             </div>
@@ -403,14 +411,14 @@
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <div class="avatar round medium" style="background-image: url(/assets/images/avatar.png);">
+                                        <div class="avatar round xl" style="background-image: url(/assets/images/avatar-2.png);">
                                         </div>
                                         <div class="info">
-                                            <div class="authorname">
+                                            <div class="authorname action">
                                                 Vina Driani, Ph.D.
                                             </div>
                                             <div class="dateview">
-                                                <span class="institution">
+                                                <span class="institution body-sm">
                                                     Direktur SEAMEO CECCEP
                                                 </span>
                                             </div>
@@ -430,14 +438,14 @@
                                         </div>
                                     </div>
                                     <div class="meta">
-                                        <div class="avatar round medium" style="background-image: url(/assets/images/avatar.png);">
+                                        <div class="avatar round xl" style="background-image: url(/assets/images/avatar-2.png);">
                                         </div>
                                         <div class="info">
-                                            <div class="authorname">
+                                            <div class="authorname action">
                                                 Murniasih
                                             </div>
                                             <div class="dateview">
-                                                <span class="institution">
+                                                <span class="institution body-sm">
                                                     SMP Negeri 1 Indralaya, Kab. Ogan Ilir
                                                 </span>
                                             </div>
