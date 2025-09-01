@@ -39,10 +39,58 @@
             <div class="flex column justify-center items-center gap-10 gap-6-mobile">
 	            <div class="flex row justify-between items-center text-center gap-9 full">
 	                <h1 class="display-md full-mobile">Infografis Populer</h1>
-	                <a href="#" class="button hide-mobile">Lihat Semua Infografis</a>
+	                <a href="/publikasi/infografis/semua-infografis" class="button hide-mobile">Lihat Semua Infografis</a>
 	            </div>
 	            <div class="grid grid-4 grid-2-tablet grid-1-mobile gap-12">
-	            	<a href="#" class="infografis">
+                    <a href="/publikasi/infografis/infografis-detail" class="infografis">
+                        <div style="height:365px">
+                            <img class="rounded-8" src="/assets/images/infografis-5.jpg" alt="Survey IKM" style="width:100%; height:100%; object-fit:cover;">
+                        </div>
+                        <div class="flex column gap-4">
+                            <span class="badge success">
+                                Survey
+                            </span>
+                            <div class="heading-md text-default line-clamp-3">Survey Indeks Kepuasan Masyarakat (IKM) BPMP Provinsi Sumatera Selatan dari Triwulan I (TW I)</div>
+                            <div class="meta">
+                                <div class="info">
+                                    <div class="dateview text-subdued body-sm ">
+                                        <span class="date">
+                                            4 Februari 2025
+                                        </span>
+                                            •
+                                        <span class="time">
+                                            11.40 WIB
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/publikasi/infografis/infografis-detail" class="infografis">
+                        <div style="height:365px">
+                            <img class="rounded-8" src="/assets/images/infografis-6.jpeg" alt="Survey IKM" style="width:100%; height:100%; object-fit:cover;">
+                        </div>
+                        <div class="flex column gap-4">
+                            <span class="badge success">
+                                Survey
+                            </span>
+                            <div class="heading-md text-default line-clamp-3">Survey Indeks Kepuasan Masyarakat (IKM) BPMP Provinsi Sumatera Selatan dari Triwulan II (TW II)</div>
+                            <div class="meta">
+                                <div class="info">
+                                    <div class="dateview text-subdued body-sm ">
+                                        <span class="date">
+                                            4 Februari 2025
+                                        </span>
+                                            •
+                                        <span class="time">
+                                            10.00 WIB
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+	            	<a href="/publikasi/infografis/infografis-detail" class="infografis">
                         <div style="height:365px">
                             <img class="rounded-8" src="/assets/images/infografis-1.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
                         </div>
@@ -66,7 +114,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="#" class="infografis">
+                    <a href="/publikasi/infografis/infografis-detail" class="infografis">
                         <div style="height:365px">
                             <img class="rounded-8" src="/assets/images/infografis-2.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
                         </div>
@@ -90,55 +138,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="#" class="infografis">
-                        <div style="height:365px">
-                            <img class="rounded-8" src="/assets/images/infografis-3.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
-                        </div>
-                        <div class="flex column gap-4">
-                            <span class="badge success">
-                                Statistik
-                            </span>
-                            <div class="heading-md text-default">Judul Infografis Tediri dari 1-3 Baris, jika lebih maka akan diberikan tanda elipsis </div>
-                            <div class="meta">
-                                <div class="info">
-                                    <div class="dateview text-subdued body-sm ">
-                                        <span class="date">
-                                            11 Juni 2024
-                                        </span>
-                                            •
-                                        <span class="time">
-                                            10.00 WIB
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="infografis">
-                        <div style="height:365px">
-                            <img class="rounded-8" src="/assets/images/infografis-4.png" alt="Buku Pustaka" style="width:100%; height:100%; object-fit:cover;">
-                        </div>
-                        <div class="flex column gap-4">
-                            <span class="badge informational">
-                                Panduan
-                            </span>
-                            <div class="heading-md text-default">Judul Infografis Tediri dari 1-3 Baris, jika lebih maka akan diberikan tanda elipsis </div>
-                            <div class="meta">
-                                <div class="info">
-                                    <div class="dateview text-subdued body-sm ">
-                                        <span class="date">
-                                            11 Juni 2024
-                                        </span>
-                                            •
-                                        <span class="time">
-                                            10.00 WIB
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="button full-mobile hide-desktop hide-tablet">
+                    <a href="/publikasi/infografis/semua-infografis" class="button full-mobile hide-desktop hide-tablet">
                         Lihat Semua Infografis
                     </a>
 	            </div>
@@ -158,7 +158,7 @@
                             <div class="body-lg"><b>Program dan Kegiatan BPMP</b></div>
                         </div>
                         <span class="body">Ringkasan kegiatan, program prioritas, dan capaian utama BPMP.</span>
-                        <a href="#" class="button secondary small">
+                        <a href="/publikasi/infografis/semua-infografis" class="button secondary small">
                             Lihat Semua
                         </a>
                     </div>
@@ -170,7 +170,7 @@
                             <div class="body-lg"><b>Data dan Statistik Pendidikan</b></div>
                         </div>
                         <span class="body">Visualisasi angka dan tren mutu pendidikan di Provinsi Sumatera Selatan.</span>
-                        <a href="#" class="button secondary small">
+                        <a href="/publikasi/infografis/semua-infografis" class="button secondary small">
                             Lihat Semua
                         </a>
                     </div>
@@ -182,7 +182,7 @@
                             <div class="body-lg"><b>Panduan dan Edukasi</b></div>
                         </div>
                         <span class="body">Informasi praktis tentang standar, alur, dan mekanisme pendidikan.</span>
-                        <a href="#" class="button secondary small">
+                        <a href="/publikasi/infografis/semua-infografis" class="button secondary small">
                             Lihat Semua
                         </a>
                     </div>
@@ -194,7 +194,7 @@
                             <div class="body-lg"><b>SDM dan Kapasitas Guru</b></div>
                         </div>
                         <span class="body">Infografis pengembangan kompetensi, pelatihan, dan kisah inspiratif guru.</span>
-                        <a href="#" class="button secondary small">
+                        <a href="/publikasi/infografis/semua-infografis" class="button secondary small">
                             Lihat Semua
                         </a>
                     </div>
@@ -206,7 +206,7 @@
                             <div class="body-lg"><b>Informasi Publik dan Layanan</b></div>
                         </div>
                         <span class="body">Alur layanan, struktur organisasi, serta hak dan kewajiban masyarakat.</span>
-                        <a href="#" class="button secondary small">
+                        <a href="/publikasi/infografis/semua-infografis" class="button secondary small">
                             Lihat Semua
                         </a>
                     </div>
@@ -218,7 +218,7 @@
                             <div class="body-lg"><b>Isu dan Kampanye Tematik</b></div>
                         </div>
                         <span class="body">Edukasi isu penting dan kampanye tematik pendidikan yang sedang berjalan.</span>
-                        <a href="#" class="button secondary small">
+                        <a href="/publikasi/infografis/semua-infografis" class="button secondary small">
                             Lihat Semua
                         </a>
                     </div>

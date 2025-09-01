@@ -73,7 +73,7 @@
                                                 <span class="heading-lg">Perjanjian Kinerja Tahun 2025</span>
                                                 <span class="body">Perjanjian Kinerja Tahun 2025 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
                                                 <div class="flex gap-3">
-                                                    <a href="#" class="button secondary rounded-full call-popup" data-icon="visibility" data-popup='{ "size": "fill", "content": "<iframe class=\"popup-pdf\" src=\"/assets/dokumen/Perjanjian Kinerja_Awal_2025.pdf\"></iframe>" }'>
+                                                    <a href="#" class="button secondary rounded-full call-popup" data-icon="visibility" data-popup='{ "size": "fill", "content": "<iframe class=\"popup-pdf\" src=\"/assets/dokumen/Perjanjian Kinerja_Awal_2025.pdf\"></iframe>"}'>
                                                         Tampilkan
                                                     </a>
                                                     <a href="#" class="button secondary rounded-full" data-icon="download">
@@ -313,7 +313,7 @@
                                                 <span class="heading-lg">Rencana Aksi Tahun 2025</span>
                                                 <span class="body">Perjanjian Kinerja Tahun 2025 Kepala Balai Penjaminan Mutu Pendidikan Provinsi Selatan dengan Direktur Jenderal PAUD, Pendidikan Dasar, dan Pendidikan Menengah.</span>
                                                 <div class="flex gap-3">
-                                                    <a href="#" class="button secondary rounded-full call-popup" data-icon="visibility" data-popup='{ "size": "fill", "content": "<iframe class=\"popup-pdf\" src=\"/assets/dokumen/Rencana Aksi 2025.pdf\"></iframe>" }'>
+                                                    <a href="#" class="button secondary rounded-full call-popup" data-icon="visibility" data-popup='{ "size": "fill", "content": "<iframe class=\"popup-pdf\" src=\"/assets/dokumen/Rencana Aksi 2025.pdf\"></iframe>"}'>
                                                         Tampilkan
                                                     </a>
                                                     <a href="#" class="button secondary rounded-full" data-icon="download">
