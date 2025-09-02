@@ -108,7 +108,7 @@
             </div>
             <div class="flex column justify-around gap-9 text-white surface-cyan-70 px-10 pt-12 pb-5">
                 <div class="display-lg">
-                    Pengumuman Terkini
+                    Berita Terkini
                 </div>
                 <div class="flex column">
                     <div class="flex column gap-3">
@@ -291,7 +291,7 @@
                             </p>
                         </div>
                     </a>
-                    <a href="/program/digitalisasi-pembelajaran" class="card feature text-balance text-left justify-end items-start ratio-3-2 p-7 darken bottom heading-md" style="background-image: url('/assets/images/program-2.png'); height: 300px;">
+                    <a href="/program/digitalisasi-pembelajaran" class="card feature text-balance text-left justify-end items-start ratio-3-2 p-7 darken bottom heading-md" style="background-image: url('/assets/images/program-2.jpg'); height: 300px;">
                         <div class="card-content">
                             <h3 class="card-title heading-md">Digitalisasi Pembelajaran</h3>
                             <p class="card-description body">
@@ -307,7 +307,7 @@
                             </p>
                         </div>
                     </a>
-                    <a href="/program/wajib-belajar" class="card feature text-balance text-left justify-end items-start ratio-3-2 p-7 darken bottom heading-md" style="background-image: url('/assets/images/program-4.png'); height: 300px;">
+                    <a href="/program/wajib-belajar" class="card feature text-balance text-left justify-end items-start ratio-3-2 p-7 darken bottom heading-md" style="background-image: url('/assets/images/program-4.jpg'); height: 300px;">
                         <div class="card-content">
                             <h3 class="card-title heading-md">Wajib Belajar 13 Tahun</h3>
                             <p class="card-description body">

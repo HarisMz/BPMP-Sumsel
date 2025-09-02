@@ -78,17 +78,22 @@
         <div class="wrapper flex column gap-11">
             <div class="grid grid-3 grid-1-tablet gap-9">
                 <span class="headline-xs">Lintasan Musi</span>
-                <span class="body" style="grid-column: span 2;">Lintasan Musi adalah Layanan Integrasi Data dan Informasi Strategis Pendidikan Provinsi Sumatera Selatan menuju Pendidikan Bermutu untuk Semua dan Inklusif. Lintasan Musi ini merupakan upaya menuju tata kelola pemerintahan yang terbuka (open governance) untuk menciptakan ekosistem data yang koheren, transparan, dan mudah diakses.</span>
+                <div style="grid-column: span 2;">
+                    <div class="flex column gap-7 body">
+                        <p>Lintasan Musi akronim dari “Layanan Integrasi Data dan Informasi Provinsi Sumatera Selatan Menuju Pendidikan Bermutu Untuk Semua dan Inklusif”, yang menggambarkan semangat untuk terus meningkatkan tata kelola kinerja BPMP Provinsi Sumatera Selatan melalui integrase data dan informasi strategis Pendidikan. Lintasan Musi melambangkan arus yang mengalir mengintegrasikan berbagai data dan informasi strategis layaknya MUSI menyatukan hulu dan hilir dengan keragamannya.</p>
+                        <p>Lintasan Musi menjadi wadah (dashboard terintegrasi) yang menginventarisasikan serta menyajikan data dan informasi strategis Pendidikan di Sumatera Selatan. Data dari berbagai sumber dalam satu kanal yang disajikan dalam bentuk visual yang diringkas, terintegrasi dan dapat diakses oleh ekosistem Pendidikan di Provinsi Sumatera Selatan.</p>
+                    </div>
+                </div>
             </div>
             <div class="grid grid-3 grid-1-mobile gap-5">
                 <div style="height: 240px;">
-                    <img src="/assets/images/eksternal-1.jpg" alt="Foto Konsensus" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
+                    <img src="/assets/images/musi-1.jpeg" alt="Foto Lintasan Musi" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
                 </div>
                 <div style="height: 240px;">
-                    <img src="/assets/images/eksternal-2.jpg" alt="Foto Konsensus" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
+                    <img src="/assets/images/eksternal-2.jpg" alt="Foto Lintasan Musi" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
                 </div>
                 <div style="height: 240px;">
-                    <img src="/assets/images/eksternal-3.jpg" alt="Foto Konsensus" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
+                    <img src="/assets/images/eksternal-3.jpg" alt="Foto Lintasan Musi" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
                 </div>
             </div>
         </div>

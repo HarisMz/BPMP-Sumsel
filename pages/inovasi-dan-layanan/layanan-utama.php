@@ -49,7 +49,7 @@
                         <div class="body-lg"><b>Layanan Informasi Mutu Pendidikan</b></div>
                     </div>
                     <span class="body">BPMP Provinsi Sumatera Selatan menyediakan layanan dashboard profil informasi mutu pendidikan provinsi dan kabupaten/kota di Sumatera Selatan</span>
-                    <a href="#" class="button secondary large right full" data-icon="open_in_new">
+                    <a href="/lintasan-musi" class="button secondary large right full" data-icon="open_in_new">
                         Gunakan Layanan
                     </a>
                 </div>
@@ -61,7 +61,7 @@
                         <div class="body-lg"><b>Layanan Konsultasi Mutu Pendidikan</b></div>
                     </div>
                     <span class="body">BPMP Provinsi Sumatera Selatan berkomitmen untuk memberikan konsultasi dan informasi mengenai kebijakan dan program Kemendikdasmen</span>
-                    <a href="#" class="button secondary large right full" data-icon="open_in_new">
+                    <a href="/inovasi-dan-layanan/pendampingan" class="button secondary large right full" data-icon="open_in_new">
                         Gunakan Layanan
                     </a>
                 </div>
@@ -73,7 +73,7 @@
                         <div class="body-lg"><b>Layanan Kerjasama</b></div>
                     </div>
                     <span class="body">Kerjasama dilakukan dengan semua pemangku kepentingan dan ekosistem untuk meningkatkan serta menjamin kualitas pendidikan</span>
-                    <a href="#" class="button secondary large right full" data-icon="open_in_new">
+                    <a href="https://g.form" class="button secondary large right full" data-icon="open_in_new">
                         Gunakan Layanan
                     </a>
                 </div>
@@ -85,7 +85,7 @@
                         <div class="body-lg"><b>Layanan Kerja Praktik, Magang, dan Penelitian</b></div>
                     </div>
                     <span class="body">Menyediakan ruang bagi publik dan ekosistem pendidikan untuk melaksanakan praktik kerja, magang, dan penelitian terkait program dan kebijakan di bidang pendidikan</span>
-                    <a href="#" class="button secondary large right full" data-icon="open_in_new">
+                    <a href="tel:+6282279186898" class="button secondary large right full" data-icon="open_in_new">
                         Gunakan Layanan
                     </a>
                 </div>
@@ -97,7 +97,7 @@
                         <div class="body-lg"><b>Layanan Peminjaman Fasilitas</b></div>
                     </div>
                     <span class="body">Fasilitas sarana, prasarana, dan penunjang kegiatan dapat dimanfaatkan oleh ekosistem pendidikan untuk mendukung berbagai aktivitas pendidikan</span>
-                    <a href="#" class="button secondary large right full" data-icon="open_in_new">
+                    <a href="/tentang-kami/sarana-prasarana" class="button secondary large right full" data-icon="open_in_new">
                         Gunakan Layanan
                     </a>
                 </div>
@@ -109,7 +109,7 @@
                         <div class="body-lg"><b>Layanan Pengaduan</b></div>
                     </div>
                     <span class="body">Akses ke berbagai saluran pengaduan untuk meningkatkan pengawasan kualitas layanan BPMP Provinsi Sumatera Selatan agar lebih optimal</span>
-                    <a href="#" class="button secondary large right full" data-icon="open_in_new">
+                    <a href="/inovasi-dan-layanan/pengaduan" class="button secondary large right full" data-icon="open_in_new">
                         Gunakan Layanan
                     </a>
                 </div>

@@ -37,9 +37,12 @@
     <section class="container">
         <div class="wrapper">
             <div class="flex column gap-14">
-                <div class="flex column gap-7 text-pretty">
-                    <span class="display-lg">Program Revitalisasi Satuan Pendidikan yang selanjutnya disebut Revitalisasi Sekolah adalah program peningkatan sarana dan prasarana pendidikan yang berkualitas melalui rehabilitasi dan pembangunan prasarana, serta penyediaan sarana.</span>
-                    <span class="body-lg">(Sesuai Perditjendikdasmen Nomor: M2400/C/HK.03.01/2025 Pasal 1)</span>
+                <div class="grid grid-2 gap-12">
+                    <span class="headline-xs">Revitalisasi Sekolah untuk Peningkatan Sarana dan Prasarana Sekolah</span>
+                    <div class="flex column gap-7">
+                        <span class="body">Program Revitalisasi Satuan Pendidikan yang selanjutnya disebut Revitalisasi Sekolah adalah program peningkatan sarana dan prasarana pendidikan yang berkualitas melalui rehabilitasi dan pembangunan prasarana, serta penyediaan sarana.</span>
+                        <span class="body">(Sesuai Perditjendikdasmen Nomor: M2400/C/HK.03.01/2025 Pasal 1)</span>
+                    </div>
                 </div>
                 <div class="flex justify-end rounded-24 py-13 px-12 bg-normalize cover" style="background-image: url('/assets/images/presiden-1.png');">
                     <div class="flex column gap-7 text-inverse width-66">
@@ -82,8 +85,10 @@
                     <div class="flex column gap-3">
                         <p class="body">Sasaran Revitalisasi merata pada seluruh pemerintah daerah yang menerima alokasi DAK Fisik pada Tahun 2025. Bantuan berupa pembangunan dan rehabilitasi untuk sarana dan prasarana rusak. Adapun skema pelaksanaan Program Revitalisasi Sekolah adalah swakelola dimana sekolah akan mengelola dana bantuan secara mandiri dengan dengan pelibatan peran serta masyarakat.</p>
                         <p class="body">Untuk mendukung implementasi program Revitalisasi Sekolah di tingkat daerah, BPMP Provinsi Sumatera Selatan melaksanakan beberapa kegiatan:</p>
-                        <p class="body">1. Koordinasi dengan Pemda dalam peningkatan akses layanan pendidikan melalui program revitalisasi</p>
-                        <p class="body">2. Pendampingan pelaksanaan Program Revitalisasi</p>
+                        <ol class="ml-6">
+                            <li class="body">Koordinasi dengan Pemda dalam peningkatan akses layanan pendidikan melalui program revitalisasi</li>
+                            <li class="body">Pendampingan pelaksanaan Program Revitalisasi</li>
+                        </ol>
                     </div>
                 </div>
             </div>
