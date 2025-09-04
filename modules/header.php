@@ -29,7 +29,7 @@
                 <a href="/e-pustaka">E-Pustaka</a>
             </li>
             <li class="item">
-                <a href="/lintasan-musi">Lintasan Musi</a>
+                <a href="https://bpmpsumsel.kemendikdasmen.go.id/lintasan-musi" target="_blank">Lintasan Musi</a>
             </li>
         </ul>
     </nav>
@@ -221,10 +221,10 @@
             </div>
             <ul class="grid grid-3 gap-7">
                 <li class="list-item" data-icon="fact_check" data-slug="layanan-utama">
-                    <a href="/inovasi-dan-layanan/layanan-utama" class="label">
-                        Unit Layanan Terpadu (ULT)
+                    <a href="/inovasi-dan-layanan/standar-pelayanan" class="label">
+                        Standar Pelayanan
                         <span class="helper">
-                            Pelayanan Terpadu BPMP Provinsi Sumsel
+                            Standar Pelayanan yang disediakan oleh BPMP Provinsi Sumatera Selatan
                         </span>
                     </a>
                 </li>

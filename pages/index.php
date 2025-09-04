@@ -18,7 +18,7 @@
             <div class="flex column width-70">
                 <div class="carousel loop full dots autoplay">
                     <div class="carousel-inner">
-                        <div class="carousel-item darken left flex justify-end pb-12" style="background-image: url('/assets/images/hero-3.png');">
+                        <div class="carousel-item darken bottom flex justify-end pb-12" style="background-image: url('/assets/images/hero-3.png');">
                             <div class="wrapper justify-center items-end">
                                 <div class="flex column width-74 full-mobile">
                                     <h1 class="display-lg">
@@ -35,7 +35,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item darken left flex justify-end pb-12" style="background-image: url('/assets/images/hero-1.png');">
+                        <div class="carousel-item darken bottom flex justify-end pb-12" style="background-image: url('/assets/images/hero-1.png');">
                             <div class="wrapper justify-center items-end">
                                 <div class="flex column width-74 full-mobile">
                                     <h1 class="display-lg">
@@ -52,7 +52,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item darken left flex justify-end pb-12" style="background-image: url('/assets/images/hero-2.png');">
+                        <div class="carousel-item darken bottom flex justify-end pb-12" style="background-image: url('/assets/images/hero-2.png');">
                             <div class="wrapper justify-center items-end">
                                 <div class="flex column width-74 full-mobile">
                                     <h1 class="display-lg">
@@ -69,7 +69,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item darken left flex justify-end pb-12" style="background-image: url('/assets/images/hero-4.png');">
+                        <div class="carousel-item darken bottom flex justify-end pb-12" style="background-image: url('/assets/images/hero-4.png');">
                             <div class="wrapper justify-center items-end">
                                 <div class="flex column width-74 full-mobile">
                                     <h1 class="display-lg">
@@ -86,7 +86,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item darken left flex justify-end pb-12" style="background-image: url('/assets/images/hero-5.png');">
+                        <div class="carousel-item darken bottom flex justify-end pb-12" style="background-image: url('/assets/images/hero-5.png');">
                             <div class="wrapper justify-center items-end">
                                 <div class="flex column width-74 full-mobile">
                                     <h1 class="display-lg">
@@ -113,7 +113,7 @@
                 <div class="flex column">
                     <div class="flex column gap-3">
                         <h3 class="heading-sm">
-                            <a href="#" class="link subtle inverse">Rilis Kebijakan Baru tentang Kurikulum Merdeka</a>
+                            <a href="/publikasi/berita/berita-detail" class="link subtle inverse">Rilis Kebijakan Baru tentang Kurikulum Merdeka</a>
                         </h3>
                         <div class="flex gap-4 items-center">
                             <a href="#" class="chip small selected">
@@ -127,7 +127,7 @@
                     <div class="separator-9 vertical border-color-white"></div>
                     <div class="flex column gap-3">
                         <h3 class="heading-sm">
-                            <a href="#" class="link subtle inverse">Webinar Nasional: Implementasi Kurikulum Merdeka</a>
+                            <a href="/publikasi/berita/berita-detail" class="link subtle inverse">Webinar Nasional: Implementasi Kurikulum Merdeka</a>
                         </h3>
                         <div class="flex gap-4 items-center">
                             <a href="#" class="chip small selected">
@@ -141,7 +141,7 @@
                     <div class="separator-9 vertical border-color-white"></div>
                     <div class="flex column gap-3">
                         <h3 class="heading-sm">
-                            <a href="#" class="link subtle inverse">Workshop Peningkatan Kompetensi Guru Vokasi</a>
+                            <a href="/publikasi/berita/berita-detail" class="link subtle inverse">Workshop Peningkatan Kompetensi Guru Vokasi</a>
                         </h3>
                         <div class="flex gap-4 items-center">
                             <a href="#" class="chip small selected">
@@ -155,7 +155,7 @@
                     <div class="separator-9 vertical border-color-white"></div>
                     <div class="flex column gap-3">
                         <h3 class="heading-sm">
-                            <a href="#" class="link subtle inverse">Sosialisasi Program Prioritas Nasional Tahun 2025</a>
+                            <a href="/publikasi/berita/berita-detail" class="link subtle inverse">Sosialisasi Program Prioritas Nasional Tahun 2025</a>
                         </h3>
                         <div class="flex gap-4 items-center">
                             <a href="#" class="chip small selected">
@@ -169,7 +169,7 @@
                     <div class="separator-9 vertical border-color-white"></div>
                     <div class="flex column gap-3">
                         <h3 class="heading-sm">
-                            <a href="#" class="link subtle inverse">Peluncuran Aplikasi Rumah Pendidikan untuk Guru dan Siswa</a>
+                            <a href="/publikasi/berita/berita-detail" class="link subtle inverse">Peluncuran Aplikasi Rumah Pendidikan untuk Guru dan Siswa</a>
                         </h3>
                         <div class="flex gap-4 items-center">
                             <a href="#" class="chip small selected">
@@ -227,8 +227,8 @@
                                 <img src="/assets/images/layanan-3.svg" alt="Unit Layanan Terpadu (ULT)">    
                             </div>
                             <div class="flex column text-left gap-3">
-                                <h2 class="action text-balance">Unit Layanan Terpadu (ULT)</h2>
-                                <a href="/inovasi-dan-layanan/layanan-utama" class="button small" target="_blank">
+                                <h2 class="action text-balance">Standar Pelayanan</h2>
+                                <a href="/inovasi-dan-layanan/standar-pelayanan" class="button small" target="_blank">
                                     Lihat Layanan
                                 </a>
                             </div>
@@ -576,113 +576,116 @@
 
     <section class="container bg-default">
         <div class="wrapper">
-            <div class="flex column justify-center items-center gap-10 gap-8-mobile">
-	            <div class="flex row justify-between items-center text-center gap-9 full">
-	                <h1 class="display-lg full-mobile">Kabar BPMP Provinsi Sumatera Selatan</h1>
-	                <a href="/publikasi/berita" class="link subtle hide-mobile"><b>Lihat Kabar Lainnya</b></a>
-	            </div>
-	            <div class="grid grid-3 grid-2-tablet grid-1-mobile gap-7">
-	            	<div class="card story">
-                        <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-1.jpg);"></div></a>
-                        <div class="details">
-                            <div class="summary">
-                                <a href="#" class="chip small selected">
-                                    Kegiatan
-                                </a>
-                                <a href="#"><div class="title line-clamp-3">
-                                    Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
-                                </div></a>
-                                <div class="description line-clamp-3">
-                                    Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata.
-                                </div>
-                            </div>
-                            <div class="meta justify-between">
-                                <div class="info">
-                                    <a href="#"><div class="authorname">
-                                        Fulan Fulana
+            <div class="flex column gap-14">
+                <a href="https://bpmpsumsel.kemendikdasmen.go.id/lintasan-musi" target="_blank" class="bg-normalize cover rounded-16" style="background-image: url('/assets/images/banner-musi.png'); height: 238px;"></a>
+                <div class="flex column justify-center items-center gap-10 gap-8-mobile">
+                    <div class="flex row justify-between items-center text-center gap-9 full">
+                        <h1 class="display-lg full-mobile">Kabar BPMP Provinsi Sumatera Selatan</h1>
+                        <a href="/publikasi/berita" class="link subtle hide-mobile"><b>Lihat Kabar Lainnya</b></a>
+                    </div>
+                    <div class="grid grid-3 grid-2-tablet grid-1-mobile gap-7">
+                        <div class="card story">
+                            <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-1.jpg);"></div></a>
+                            <div class="details">
+                                <div class="summary">
+                                    <a href="#" class="chip small selected">
+                                        Kegiatan
+                                    </a>
+                                    <a href="#"><div class="title line-clamp-3">
+                                        Judul Berita Ini Terpanjang, Bisa Jadi Lebih dari 3 Baris Tulisan, Karena Lebih Maka Akan Diberikan Tanda Elipsis yang Menandakan bahwa Judul Beritanya Terlalu Panjang untuk Dimuat
                                     </div></a>
-                                    <div class="dateview">
-                                        <span class="date">
-                                            1 Oktober 2024
-                                        </span>
-                                         • 
-                                        <span class="viewcount">
-                                            Dibaca 114 kali
-                                        </span>
+                                    <div class="description line-clamp-3">
+                                        Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata. Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata.
+                                    </div>
+                                </div>
+                                <div class="meta justify-between">
+                                    <div class="info">
+                                        <a href="#"><div class="authorname">
+                                            Fulan Fulana
+                                        </div></a>
+                                        <div class="dateview">
+                                            <span class="date">
+                                                1 Oktober 2024
+                                            </span>
+                                            • 
+                                            <span class="viewcount">
+                                                Dibaca 114 kali
+                                            </span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card story">
-                        <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-2.jpg);"></div></a>
-                        <div class="details">
-                            <div class="summary">
-                                <a href="#" class="chip small selected">
-                                    Event
-                                </a>
-                                <a href="#"><div class="title line-clamp-3">
-                                    Judul Berita Terdiri dari 1 – 3 Baris Tulisan, Jika Lebih Maka Akan Diberikan Tanda Elipsis
-                                </div></a>
-                                <div class="description line-clamp-3">
-                                    Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata.
-                                </div>
-                            </div>
-                            <div class="meta justify-between">
-                                <div class="info">
-                                    <a href="#"><div class="authorname">
-                                        Fulan Fulana
+                        <div class="card story">
+                            <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-2.jpg);"></div></a>
+                            <div class="details">
+                                <div class="summary">
+                                    <a href="#" class="chip small selected">
+                                        Event
+                                    </a>
+                                    <a href="#"><div class="title line-clamp-3">
+                                        Judul Berita Terdiri dari 1 – 3 Baris Tulisan, Jika Lebih Maka Akan Diberikan Tanda Elipsis
                                     </div></a>
-                                    <div class="dateview">
-                                        <span class="date">
-                                            1 Oktober 2024
-                                        </span>
-                                         • 
-                                        <span class="viewcount">
-                                            Dibaca 114 kali
-                                        </span>
+                                    <div class="description line-clamp-3">
+                                        Deskripsi berfungsi untuk memberikan gambaran yang jelas tentang objek, tempat, atau peristiwa melalui kata-kata.
+                                    </div>
+                                </div>
+                                <div class="meta justify-between">
+                                    <div class="info">
+                                        <a href="#"><div class="authorname">
+                                            Fulan Fulana
+                                        </div></a>
+                                        <div class="dateview">
+                                            <span class="date">
+                                                1 Oktober 2024
+                                            </span>
+                                            • 
+                                            <span class="viewcount">
+                                                Dibaca 114 kali
+                                            </span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card story">
-                        <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-3.jpg);"></div></a>
-                        <div class="details">
-                            <div class="summary">
-                                <a href="#" class="chip small selected">
-                                    Kebijakan
-                                </a>
-                                <a href="#"><div class="title line-clamp-3">
-                                    Judul Berita Ini Singkat
-                                </div></a>
-                                <div class="description line-clamp-3">
-                                    Deskripsinya pun singkat. Singkat sekali, padat jelas.
-                                </div>
-                            </div>
-                            <div class="meta justify-between">
-                                <div class="info">
-                                    <a href="#"><div class="authorname">
-                                        John Doe
+                        <div class="card story">
+                            <a href="#"><div class="featured-image" style="background-image: url(/assets/images/berita-3.jpg);"></div></a>
+                            <div class="details">
+                                <div class="summary">
+                                    <a href="#" class="chip small selected">
+                                        Kebijakan
+                                    </a>
+                                    <a href="#"><div class="title line-clamp-3">
+                                        Judul Berita Ini Singkat
                                     </div></a>
-                                    <div class="dateview">
-                                        <span class="date">
-                                            1 Oktober 2024
-                                        </span>
-                                         • 
-                                        <span class="viewcount">
-                                            Dibaca 114 kali
-                                        </span>
+                                    <div class="description line-clamp-3">
+                                        Deskripsinya pun singkat. Singkat sekali, padat jelas.
+                                    </div>
+                                </div>
+                                <div class="meta justify-between">
+                                    <div class="info">
+                                        <a href="#"><div class="authorname">
+                                            John Doe
+                                        </div></a>
+                                        <div class="dateview">
+                                            <span class="date">
+                                                1 Oktober 2024
+                                            </span>
+                                            • 
+                                            <span class="viewcount">
+                                                Dibaca 114 kali
+                                            </span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="flex row justify-center items-center text-center gap-9 full hide-desktop hide-tablet">
+                            <a href="/publikasi/berita" class="link subtle full-mobile"><b>Lihat Kabar Lainnya</b></a>
+                        </div>
                     </div>
-                    <div class="flex row justify-center items-center text-center gap-9 full hide-desktop hide-tablet">
-                        <a href="/publikasi/berita" class="link subtle full-mobile"><b>Lihat Kabar Lainnya</b></a>
-                    </div>
-	            </div>
-	        </div>
+                </div>
+            </div>
         </div>
     </section>
 

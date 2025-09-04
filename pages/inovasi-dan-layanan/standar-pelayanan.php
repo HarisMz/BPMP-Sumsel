@@ -5,7 +5,7 @@
     <title>Inovasi dan Layanan</title>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/modules/loadlist.php'); ?>
 </head>
-<body id="layanan-utama" data-slug="inovasi-dan-layanan">
+<body id="standar-pelayanan" data-slug="inovasi-dan-layanan">
 
 <?php include './modules/header.php'; ?>
 
@@ -26,18 +26,18 @@
                     </li>
                     <li class="item">
                         <a href="#">
-                            Layanan Utama
+                            Standar Pelayanan
                         </a>
                     </li>
                 </ul>
             </nav>
-            <div class="display-lg text-inverse">Layanan Utama</div>
+            <div class="display-lg text-inverse">Standar Pelayanan</div>
         </div>
     </section>
     <section class="container py-14 surface-subdued">
         <div class="wrapper flex column gap-11">
             <div class="grid grid-2 grid-1-tablet gap-12">
-                <span class="headline-xs">6 Fokus Layanan Utama BPMP Provinsi Sumatera Selatan</span>
+                <span class="headline-xs">Standar Pelayanan pada 6 Layanan Utama BPMP Provinsi Sumatera Selatan</span>
                 <span class="body">BPMP Provinsi Sumatera Selatan berkomitmen dalam mewujudkan pelayanan publik yang transparan, akuntabel, dan berkualitas kepada seluruh ekosistem dengan menetapkan Standar dan Maklumat Pelayanan Publik sebagai pedoman utama dalam setiap proses fasilitasi layanan. Hal ini merupakan aksi nyata kami agar dapat memberikan pelayanan yang prima, cepat, mudah, terjangkau, dan terukur.</span>
             </div>
             <div class="grid grid-3 grid-2-tablet grid-1-mobile gap-7">
@@ -49,8 +49,8 @@
                         <div class="body-lg"><b>Layanan Informasi Mutu Pendidikan</b></div>
                     </div>
                     <span class="body">BPMP Provinsi Sumatera Selatan menyediakan layanan dashboard profil informasi mutu pendidikan provinsi dan kabupaten/kota di Sumatera Selatan</span>
-                    <a href="/lintasan-musi" class="button secondary large right full" data-icon="open_in_new">
-                        Gunakan Layanan
+                    <a href="/inovasi-dan-layanan/standar-pelayanan/alur-pelayanan" class="button secondary large right full" data-icon="open_in_new">
+                        Lihat Alur Pelayanan
                     </a>
                 </div>
                 <div class="flex column gap-5 p-7 surface-default rounded-8">
@@ -61,8 +61,8 @@
                         <div class="body-lg"><b>Layanan Konsultasi Mutu Pendidikan</b></div>
                     </div>
                     <span class="body">BPMP Provinsi Sumatera Selatan berkomitmen untuk memberikan konsultasi dan informasi mengenai kebijakan dan program Kemendikdasmen</span>
-                    <a href="/inovasi-dan-layanan/pendampingan" class="button secondary large right full" data-icon="open_in_new">
-                        Gunakan Layanan
+                    <a href="/inovasi-dan-layanan/standar-pelayanan/alur-pelayanan" class="button secondary large right full" data-icon="open_in_new">
+                        Lihat Alur Pelayanan
                     </a>
                 </div>
                 <div class="flex column gap-5 p-7 surface-default rounded-8">
@@ -73,8 +73,8 @@
                         <div class="body-lg"><b>Layanan Kerjasama</b></div>
                     </div>
                     <span class="body">Kerjasama dilakukan dengan semua pemangku kepentingan dan ekosistem untuk meningkatkan serta menjamin kualitas pendidikan</span>
-                    <a href="https://g.form" class="button secondary large right full" data-icon="open_in_new">
-                        Gunakan Layanan
+                    <a href="/inovasi-dan-layanan/standar-pelayanan/alur-pelayanan" class="button secondary large right full" data-icon="open_in_new">
+                        Lihat Alur Pelayanan
                     </a>
                 </div>
                 <div class="flex column gap-5 p-7 surface-default rounded-8">
@@ -85,8 +85,8 @@
                         <div class="body-lg"><b>Layanan Kerja Praktik, Magang, dan Penelitian</b></div>
                     </div>
                     <span class="body">Menyediakan ruang bagi publik dan ekosistem pendidikan untuk melaksanakan praktik kerja, magang, dan penelitian terkait program dan kebijakan di bidang pendidikan</span>
-                    <a href="tel:+6282279186898" class="button secondary large right full" data-icon="open_in_new">
-                        Gunakan Layanan
+                    <a href="/inovasi-dan-layanan/standar-pelayanan/alur-pelayanan" class="button secondary large right full" data-icon="open_in_new">
+                        Lihat Alur Pelayanan
                     </a>
                 </div>
                 <div class="flex column gap-5 p-7 surface-default rounded-8">
@@ -97,8 +97,8 @@
                         <div class="body-lg"><b>Layanan Peminjaman Fasilitas</b></div>
                     </div>
                     <span class="body">Fasilitas sarana, prasarana, dan penunjang kegiatan dapat dimanfaatkan oleh ekosistem pendidikan untuk mendukung berbagai aktivitas pendidikan</span>
-                    <a href="/tentang-kami/sarana-prasarana" class="button secondary large right full" data-icon="open_in_new">
-                        Gunakan Layanan
+                    <a href="/inovasi-dan-layanan/standar-pelayanan/alur-pelayanan" class="button secondary large right full" data-icon="open_in_new">
+                        Lihat Alur Pelayanan
                     </a>
                 </div>
                 <div class="flex column gap-5 p-7 surface-default rounded-8">
@@ -109,8 +109,8 @@
                         <div class="body-lg"><b>Layanan Pengaduan</b></div>
                     </div>
                     <span class="body">Akses ke berbagai saluran pengaduan untuk meningkatkan pengawasan kualitas layanan BPMP Provinsi Sumatera Selatan agar lebih optimal</span>
-                    <a href="/inovasi-dan-layanan/pengaduan" class="button secondary large right full" data-icon="open_in_new">
-                        Gunakan Layanan
+                    <a href="/inovasi-dan-layanan/standar-pelayanan/alur-pelayanan" class="button secondary large right full" data-icon="open_in_new">
+                        Lihat Alur Pelayanan
                     </a>
                 </div>
             </div>
@@ -152,49 +152,52 @@
             </div>
         </div>
     </section>
-    <section class="container py-0 surface-subdued">
-        <div class="wrapper py-14">
-            <div class="grid grid-2 grid-1-tablet gap-10">
-                <div class="headline-xs"><b>Soal Sering Ditanya terkait Pelayanan BPMP Provinsi Sumatera Selatan</b></div>
-                <div class="flex column" style="margin-left: -16px;">
-                    <div class="collapsible list accordion first-open">
-                        <div class="collapsible-header">
-                            Apakah layanan pendampingan ini berbayar?
+    <section class="container surface-subdued">
+        <div class="wrapper">
+            <div class="flex column gap-14">
+                <div class="flex bg-normalize cover rounded-24" style="background-image: url('/assets/images/waktu-pelayanan.png'); height: 480px;"></div>
+                <div class="grid grid-2 grid-1-tablet gap-10">
+                    <div class="headline-xs"><b>Soal Sering Ditanya terkait Pelayanan BPMP Provinsi Sumatera Selatan</b></div>
+                    <div class="flex column" style="margin-left: -16px;">
+                        <div class="collapsible list accordion first-open">
+                            <div class="collapsible-header">
+                                Apakah layanan pendampingan ini berbayar?
+                            </div>
+                            <div class="collapsible-content">
+                                <p>
+                                    Tidak. Seluruh layanan pendampingan yang diberikan oleh BPMP Sumatera Selatan bersifat gratis dan merupakan bagian dari tugas pelayanan publik kami kepada satuan pendidikan, pemda, dan masyarakat.
+                                </p>
+                            </div>
                         </div>
-                        <div class="collapsible-content">
-                            <p>
-                                Tidak. Seluruh layanan pendampingan yang diberikan oleh BPMP Sumatera Selatan bersifat gratis dan merupakan bagian dari tugas pelayanan publik kami kepada satuan pendidikan, pemda, dan masyarakat.
-                            </p>
+                        <div class="collapsible list accordion">
+                            <div class="collapsible-header">
+                                Dimanakah saya dapat melaksanakan pendampingan?
+                            </div>
+                            <div class="collapsible-content">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et dignissim tortor, in ultricies augue. Integer metus mauris, bibendum ac mattis in, facilisis sit amet urna. In a eleifend urna. Curabitur non pretium urna. Duis convallis pharetra nisi, in malesuada massa tincidunt sit amet. Phasellus at diam malesuada, luctus nibh eu, laoreet odio. Proin quis enim ac nisi rhoncus sodales a vel sem.
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="collapsible list accordion">
-                        <div class="collapsible-header">
-                            Dimanakah saya dapat melaksanakan pendampingan?
+                        <div class="collapsible list accordion">
+                            <div class="collapsible-header">
+                                Siapa saja yang dapat menggunakan layanan ini?
+                            </div>
+                            <div class="collapsible-content">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et dignissim tortor, in ultricies augue. Integer metus mauris, bibendum ac mattis in, facilisis sit amet urna. In a eleifend urna. Curabitur non pretium urna. Duis convallis pharetra nisi, in malesuada massa tincidunt sit amet. Phasellus at diam malesuada, luctus nibh eu, laoreet odio. Proin quis enim ac nisi rhoncus sodales a vel sem.
+                                </p>
+                            </div>
                         </div>
-                        <div class="collapsible-content">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et dignissim tortor, in ultricies augue. Integer metus mauris, bibendum ac mattis in, facilisis sit amet urna. In a eleifend urna. Curabitur non pretium urna. Duis convallis pharetra nisi, in malesuada massa tincidunt sit amet. Phasellus at diam malesuada, luctus nibh eu, laoreet odio. Proin quis enim ac nisi rhoncus sodales a vel sem.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="collapsible list accordion">
-                        <div class="collapsible-header">
-                            Siapa saja yang dapat menggunakan layanan ini?
-                        </div>
-                        <div class="collapsible-content">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et dignissim tortor, in ultricies augue. Integer metus mauris, bibendum ac mattis in, facilisis sit amet urna. In a eleifend urna. Curabitur non pretium urna. Duis convallis pharetra nisi, in malesuada massa tincidunt sit amet. Phasellus at diam malesuada, luctus nibh eu, laoreet odio. Proin quis enim ac nisi rhoncus sodales a vel sem.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="collapsible list accordion">
-                        <div class="collapsible-header">
-                            Kapan layanan pendampingan dapat diakses?
-                        </div>
-                        <div class="collapsible-content">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et dignissim tortor, in ultricies augue. Integer metus mauris, bibendum ac mattis in, facilisis sit amet urna. In a eleifend urna. Curabitur non pretium urna. Duis convallis pharetra nisi, in malesuada massa tincidunt sit amet. Phasellus at diam malesuada, luctus nibh eu, laoreet odio. Proin quis enim ac nisi rhoncus sodales a vel sem.
-                            </p>
+                        <div class="collapsible list accordion">
+                            <div class="collapsible-header">
+                                Kapan layanan pendampingan dapat diakses?
+                            </div>
+                            <div class="collapsible-content">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et dignissim tortor, in ultricies augue. Integer metus mauris, bibendum ac mattis in, facilisis sit amet urna. In a eleifend urna. Curabitur non pretium urna. Duis convallis pharetra nisi, in malesuada massa tincidunt sit amet. Phasellus at diam malesuada, luctus nibh eu, laoreet odio. Proin quis enim ac nisi rhoncus sodales a vel sem.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>

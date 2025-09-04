@@ -90,10 +90,10 @@
                     <img src="/assets/images/musi-1.jpeg" alt="Foto Lintasan Musi" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
                 </div>
                 <div style="height: 240px;">
-                    <img src="/assets/images/eksternal-2.jpg" alt="Foto Lintasan Musi" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
+                    <img src="/assets/images/musi-2.png" alt="Foto Lintasan Musi" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
                 </div>
                 <div style="height: 240px;">
-                    <img src="/assets/images/eksternal-3.jpg" alt="Foto Lintasan Musi" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
+                    <img src="/assets/images/musi-3.png" alt="Foto Lintasan Musi" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
                 </div>
             </div>
         </div>
