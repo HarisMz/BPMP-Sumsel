@@ -35,7 +35,7 @@
         </div>
     </section>
     <section class="container py-14 surface-subdued">
-        <div class="wrapper flex column gap-11">
+        <div class="wrapper flex column gap-12">
             <div class="grid grid-2 grid-1-tablet gap-12">
                 <span class="headline-xs">Standar Pelayanan pada 6 Layanan Utama BPMP Provinsi Sumatera Selatan</span>
                 <span class="body">BPMP Provinsi Sumatera Selatan berkomitmen dalam mewujudkan pelayanan publik yang transparan, akuntabel, dan berkualitas kepada seluruh ekosistem dengan menetapkan Standar dan Maklumat Pelayanan Publik sebagai pedoman utama dalam setiap proses fasilitasi layanan. Hal ini merupakan aksi nyata kami agar dapat memberikan pelayanan yang prima, cepat, mudah, terjangkau, dan terukur.</span>

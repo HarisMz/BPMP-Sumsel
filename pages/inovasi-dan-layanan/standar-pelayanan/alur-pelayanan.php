@@ -25,7 +25,7 @@
                         </a>
                     </li>
                     <li class="item">
-                        <a href="/inovasi-dan-pelayanan/standar-pelayanan">
+                        <a href="/inovasi-dan-layanan/standar-pelayanan">
                             Standar Pelayanan
                         </a>
                     </li>
